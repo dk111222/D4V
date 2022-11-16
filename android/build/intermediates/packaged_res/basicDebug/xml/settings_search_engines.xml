@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+ * Created by Angel Leon (@gubatron), Alden Torres (aldenml)
+ * Copyright (c) 2011-2020, FrostWire(R). All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.preference_category.select_all"
+        android:layout="@layout/view_preference_search_select_all"
+        android:title="@string/select_all" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_archiveorg"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_archiveorg" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_eztv"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_eztv" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_glotorrents"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_glotorrents" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_frostclick"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_frostclick" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_soundcloud"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_soundcloud" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_tpb"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_tpb" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_torlock"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_torlock" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_torrentdownloads"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_torrentdownloads" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_torrentz2"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_torrentz2" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_limetorrents"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_limetorrents" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_magnetdl"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_magnetdl" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_nyaa"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_nyaa" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_yify"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_yify" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_one337x"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_one337x" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_idope"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_idope" />
+    <CheckBoxPreference
+        android:key="frostwire.prefs.search.use_zooqle"
+        android:layout="@layout/view_preference_search_engine"
+        android:title="@string/use_zooqle" />
+</PreferenceScreen>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Avançar %d segundo</item>
+    <item quantity="other">Avançar %d segundos</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Voltar %d segundo</item>
+    <item quantity="other">Voltar %d segundos</item>
+  </plurals>
+    <string msgid="2659752099246305694" name="MediaControlView_audio_track_none_text">"Nenhuma"</string>
+    <string msgid="4263103361854223806" name="MediaControlView_audio_track_number_text">"Faixa <ns1:g id="AUDIO_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="3309135445007366582" name="MediaControlView_audio_track_text">"Faixa de áudio"</string>
+    <string msgid="2029510260288453183" name="MediaControlView_playback_speed_normal">"Normal"</string>
+    <string msgid="1481072528142380025" name="MediaControlView_playback_speed_text">"Velocidade da reprodução"</string>
+    <string msgid="3464220590351304587" name="MediaControlView_subtitle_off_text">"Desativada"</string>
+    <string msgid="2268860463481696609" name="MediaControlView_subtitle_track_number_and_lang_text">"Faixa <ns1:g id="TRACK_NUMBER">%1$d</ns1:g>: <ns1:g id="LANG">%2$s</ns1:g>"</string>
+    <string msgid="2241078077382492349" name="MediaControlView_subtitle_track_number_text">"Faixa <ns1:g id="TRACK_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="6734584158942500617" name="MediaControlView_time_placeholder">"00:00:00"</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="about">Sobre</string>
+    <string name="accept">"Aceitar"</string>
+    <string name="accept_intent">Eu não irei usar o FrostWire para violar os direitos autorais</string>
+    <string name="according_to_settings_i_cant_seed_due_to_data_savings">De acordo com suas configurações, não consigo iniciar a semente a menos que você esteja no Wi-Fi devido à economia de dados móveis. O arquivo estará pronto para serrar automaticamente quando você voltar para uma rede Wi-Fi habilitada para internet.</string>
+    <string name="according_to_settings_i_cant_seed_unless_wifi">De acordo com suas configurações eu não posso começar a semeadura, a menos que você estiver em Wi-Fi. O arquivo estará pronto para semear automaticamente quando você voltar para uma internet habilitado rede Wi-Fi.</string>
+    <string name="active_time">Tempo ativo</string>
+    <string name="activity_VPN">Conexão</string>
+    <string name="activity_preferences_name">Configurações</string>
+    <string name="ad_free">Livre de anúncios</string>
+    <string name="add">Adicionar</string>
+    <string name="add_tracker">Adicionar rastreador</string>
+    <string name="add_trackers">Adicionar rastreadores</string>
+    <string name="add_transfer">Adicionar transferência</string>
+    <string name="add_transfer_label">Cole um magnet ou URL do torrent</string>
+    <string name="advertisement">propaganda</string>
+    <string name="all_free_downloads">Todos os downloads gratuitos</string>
+    <string name="android_will_erase_files_if_frostwire_is_uninstalled">Android vai deletar arquivos baixados se FrostWire é desinstalado.</string>
+    <string name="app_shutdown_dlg_message">Isto vai fechar todas as transferências e serviços em segundo plano. Você tem certeza?</string>
+    <string name="app_shutdown_dlg_title">Desligar</string>
+    <string name="applications">Aplicativos</string>
+    <string name="are_you_sure_delete_files">Você tem certeza que deseja deletar os arquivos selecionados?</string>
+    <string name="are_you_sure_delete_playlist">Tem certeza de que deseja deletar a lista de reprodução %s?</string>
+    <string name="are_you_sure_you_wanna_leave">Você tem certeza que deseja voltar para a tela de início?</string>
+    <string name="are_you_sure_you_want_to_download_the_following">Você tem certeza que deseja fazer o download do seguinte %1$s (%2$s)?</string>
+    <string name="audio">Audio</string>
+    <string name="automatic_renewal">Renovação automática</string>
+    <string name="available">disponível</string>
+    <string name="azureus_manager_item_downloading">Baixando</string>
+    <string name="azureus_manager_item_error">Erro</string>
+    <string name="azureus_manager_item_paused">Pausado</string>
+    <string name="azureus_manager_item_seeding">Sementeando</string>
+    <string name="azureus_manager_item_stopped">Parou</string>
+    <string name="azureus_peer_manager_status_finished">Acabou</string>
+    <string name="bandwidth_usage_settings">Uso da largura de banda</string>
+    <string name="best_value">Melhor oferta!</string>
+    <string name="bittorrent_is_currently_disconnected_would_you_like_me_to_start_it_for_you">Bittorrent é desconectado. Você gostaria que eu iniciá-lo para você?</string>
+    <string name="bittorrent_network_summary">Status da conexão BitTorrent</string>
+    <string name="bittorrent_off">BitTorrent off</string>
+    <string name="bittorrent_off_data_saver_on">"BitTorrent off (Data Saver On)"</string>
+    <string name="build">build</string>
+    <string name="buy_uppercase">COMPRAR</string>
+    <string name="cancel_delete_menu_action">Parar e Deletar Dados</string>
+    <string name="cancel_menu_action">Parar Transferência</string>
+    <string name="cancel_transfer">Cancelar Transferência</string>
+    <string name="canceling">Cancelar</string>
+    <string name="cannot_start_engine_without_vpn">O BitTorrent não será iniciado a menos que uma VPN esteja disponível. (Verifique suas Configurações)</string>
+    <string name="cant_open_file">Desculpe, não sei como abrir esse arquivo.</string>
+    <string name="cant_open_file_does_not_exist">Eu não posso abrir %1$s, o arquivo não existe.</string>
+    <string name="cant_resume_torrent_transfers"> "Conectividade"</string>
+    <string name="changelog">Registro de alterações</string>
+    <string name="cheaper_than_beer">Mais barato do que cerveja</string>
+    <string name="cheaper_than_cigarettes">Mais barato do que cigarros</string>
+    <string name="cheaper_than_drinks">Mais barato do que bebidas</string>
+    <string name="cheaper_than_gas">Mais barato do que gasolina</string>
+    <string name="cheaper_than_lattes">Mais barato do que café com leite</string>
+    <string name="cheaper_than_parking">Mais barato do que um estacionamento</string>
+    <string name="check_internet_connection">Verifique a conexão de Internet</string>
+    <string name="checking_ellipsis">Verificando…</string>
+    <string name="choose_email_app">Escolha um aplicativo de e-mail…</string>
+    <string name="clear">Limpar</string>
+    <string name="clear_all">Limpar tudo</string>
+    <string name="clear_complete">Limpar os Completos</string>
+    <string name="clear_search_cache">"Apagar a busca de cache"</string>
+    <string name="clear_search_cache_summary">"Apagar a busca das entradas cache"</string>
+    <string name="cloud_download_aborted_on_mobile_data">Configuração atual evita o download quando não estiver na rede Wifi</string>
+    <string name="cloud_downloads_coming">Desculpe: a partir de downloads nuvem daqui estará disponível em mais atualizações.</string>
+    <string name="comment">Comente</string>
+    <string name="community">Comunidade</string>
+    <string name="completed">Concluído</string>
+    <string name="confirm_download">Confirme Download</string>
+    <string name="connection_header_title">Estado da ligação do VPN:</string>
+    <string name="contact_us">Contate-nos</string>
+    <string msgid="6083905920877235314" name="copy">"Copiar"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Link copiado para a área de transferência"</string>
+    <string name="could_not_open_transfer_detail_invalid_infohash">Não foi possível abrir Detalhes de Transferência, InfoHash inválido</string>
+    <string name="crawl_cache_size">Crawl Cache %1$.2fMB</string>
+    <string name="created_on">Criado em</string>
+    <string name="current_plan">Serviço ou plan atual</string>
+    <string name="data_saving_kill_http_warning">Isto irá parar todas as transferências inacabadas em curso</string>
+    <string name="data_saving_kill_http_warning_title">Aviso: transferências HTTP em andamento</string>
+    <string name="data_saving_turn_off_transfers">Não Wifi disponível, todas as transferências foram paradas</string>
+    <string name="date">Data</string>
+    <string name="days_left">dias restantes</string>
+    <string msgid="7213672915724563695" name="default_notification_channel_name">"Tocando agora"</string>
+    <string name="delete">Deletar</string>
+    <string name="delete_file_menu_action">Deletar</string>
+    <string name="delete_file_menu_action_count">Deletar (%s)</string>
+    <string name="delete_files">Deletar arquivos</string>
+    <string name="delete_started_torrents">Excluir arquivos .torrent</string>
+    <string name="delete_started_torrents_summary">Excluir arquivos .torrent depois de iniciar o download</string>
+    <string name="deleted_crawl_cache">"Excluír crawl cache"</string>
+    <string name="deselect_all">Desmarcar todos</string>
+    <string name="details">Detalhes</string>
+    <string name="device_storage">Armazenamento do dispositivo</string>
+    <string name="dht_contacts">DHT contatos</string>
+    <string name="dialog_new_transfer_check_text">Mostre isso na próxima vez</string>
+    <string name="dialog_new_transfer_text_text">Você tem certeza que deseja baixar %1$s (%2$s)</string>
+    <string name="disabled">desativado</string>
+    <string name="dismiss">Refutar</string>
+    <string name="distraction_free_search_results">Pesquisa Livre de Distração (beta)</string>
+    <string name="distraction_free_search_results_summary">Ocultar componentes de interface do usuário para mostrar mais resultados. Necessita de reiniciar o aplicativo para ter efeito.</string>
+    <string name="documents">Documentos</string>
+    <string name="donate_your_time">Doe seu tempo</string>
+    <string name="download">Download</string>
+    <string name="download_added_to_queue">1 arquivo irá começar a baixar</string>
+    <string name="download_finished">Download terminado</string>
+    <string name="download_type_not_supported">Tipo de Download não permitido</string>
+    <string name="downloaded">Baixado</string>
+    <string name="downloaded_n">Baixado %1$s / </string>
+    <string name="downloading_metadata">Baixar metadados</string>
+    <string name="downloading_promotion">Baixando %s</string>
+    <string name="downloads">Baixados</string>
+    <string name="drawer_close">Fechar gaveta navegação</string>
+    <string name="drawer_open">Abrir Gaveta de navegação</string>
+    <string name="dummy_price">$ 99.99</string>
+    <string name="dummy_title_bold">[Título em negrito]</string>
+    <string name="edit">Editar</string>
+    <string name="edit_tracker">Editar rastreador</string>
+    <string name="enable_dht">Ativar DHT</string>
+    <string name="enable_dht_summary">Use a Tabela Hash Distribuída para conectar/localizar pares compartilhando o mesmo torrent</string>
+    <string name="enable_seeding">Ativar Semeadura</string>
+    <string name="enter_valid_tracker_url_here">Digite o URL do rastreador válido aqui</string>
+    <string name="error_connection_timed_out">Erro: conexão expirou/caiu. Tente novamente.</string>
+    <string name="error_moving_incomplete">Erro: Transferência Incompleta</string>
+    <string name="error_no_internet_connection">Erro: Verifique a conexão de Internet</string>
+    <string name="error_no_space_left_on_device">Erro: Não há espaço para salvar o arquivo</string>
+    <string name="error_not_enough_peers">Tente novamente, pares insuficientes</string>
+    <string name="error_wrong_md5_hash">Erro: Hash MD5 errado</string>
+    <string name="error_wrong_signature">Erro: Assinatura errada</string>
+    <string name="exclude">Excluir</string>
+    <string name="exit">Sair</string>
+    <string name="exo_controls_cc_disabled_description">Ativar legendas</string>
+    <string name="exo_controls_cc_enabled_description">Desativar legendas</string>
+    <string name="exo_controls_fastforward_description">Avançar</string>
+    <string name="exo_controls_fullscreen_enter_description">Entrar no modo de tela cheia</string>
+    <string name="exo_controls_fullscreen_exit_description">Sair do modo de tela cheia</string>
+    <string name="exo_controls_hide">Ocultar controles do player</string>
+    <string name="exo_controls_next_description">Próxima</string>
+    <string name="exo_controls_overflow_hide_description">Ocultar configurações extras</string>
+    <string name="exo_controls_overflow_show_description">Exibir configurações extras</string>
+    <string name="exo_controls_pause_description">Pausar</string>
+    <string name="exo_controls_play_description">Reproduzir</string>
+    <string name="exo_controls_playback_speed">Velocidade</string>
+    <string name="exo_controls_playback_speed_normal">Normal</string>
+    <string name="exo_controls_previous_description">Anterior</string>
+    <string name="exo_controls_repeat_all_description">Repetir tudo</string>
+    <string name="exo_controls_repeat_off_description">Não repetir</string>
+    <string name="exo_controls_repeat_one_description">Repetir uma</string>
+    <string name="exo_controls_rewind_description">Voltar</string>
+    <string name="exo_controls_seek_bar_description">Andamento da reprodução</string>
+    <string name="exo_controls_settings_description">Configurações</string>
+    <string name="exo_controls_show">Mostrar controles do player</string>
+    <string name="exo_controls_shuffle_off_description">Ordem aleatória desativada</string>
+    <string name="exo_controls_shuffle_on_description">Ordem aleatória ativada</string>
+    <string name="exo_controls_stop_description">Parar</string>
+    <string name="exo_controls_vr_description">Modo RV</string>
+    <string name="exo_download_completed">Download concluído</string>
+    <string name="exo_download_description">Fazer o download</string>
+    <string name="exo_download_downloading">Fazendo o download</string>
+    <string name="exo_download_failed">Falha no download</string>
+    <string name="exo_download_notification_channel_name">Downloads</string>
+    <string name="exo_download_removing">Removendo downloads</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Alternativa</string>
+    <string name="exo_track_role_closed_captions">CC</string>
+    <string name="exo_track_role_commentary">Comentários</string>
+    <string name="exo_track_role_supplementary">Complementar</string>
+    <string name="exo_track_selection_auto">Automática</string>
+    <string name="exo_track_selection_none">Nenhuma</string>
+    <string name="exo_track_selection_title_audio">Áudio</string>
+    <string name="exo_track_selection_title_text">Texto</string>
+    <string name="exo_track_selection_title_video">Vídeo</string>
+    <string name="exo_track_stereo">Estéreo</string>
+    <string name="exo_track_surround">Sistema surround</string>
+    <string name="exo_track_surround_5_point_1">Sistema surround 5.1</string>
+    <string name="exo_track_surround_7_point_1">Sistema surround 7.1</string>
+    <string name="exo_track_unknown">Desconhecido</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Avançado"</string>
+    <string name="failed_to_set_wallpaper">Falha ao definir Papel de Parede</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Copiar link"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Abrir no navegador"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Compartilhar link"</string>
+    <string name="fetching_torrent_ellipsis">Buscando torrent…</string>
+    <string name="file_descriptor_sd_mounted">Este arquivo foi excluído do cartão SD ou o cartão SD que você inseriu é um diferente.</string>
+    <string name="file_descriptor_sd_unmounted">Esta imagem pertence a um cartão SD, insira-o em seu dispositivo.</string>
+    <string name="file_extensions">Extensões de arquivo</string>
+    <string name="file_information">Informações sobre o arquivo</string>
+    <string name="file_names">Nomes do arquivo</string>
+    <string name="files">arquivos</string>
+    <string name="filter">Filtro</string>
+    <string name="filter_by_keyword">Filtrar por palavra-chave…</string>
+    <string name="filter_ellipsis">Filtra…</string>
+    <string name="finishing">Acabamento</string>
+    <string name="free">Livre</string>
+    <string name="frostwire_features">FROSTWIRE APRESENTA</string>
+    <string name="frostwire_is_running">FrostWire está em execução</string>
+    <string name="frostwire_start_engine_service_security_exception">FrostWire não pôde iniciar corretamente devido à falta de permissões. Por favor, conceda as permissões necessárias e reinicie o aplicativo</string>
+    <string name="fullscreen">tela cheia</string>
+    <string name="general_settings">Geral</string>
+    <string name="haptic_feedback">Feedback Táctil</string>
+    <string name="help_translate_or_proofread_frostwire">Ajude a traduzir ou corrigir FrostWire</string>
+    <string name="http_download_status_save_dir_error">Salvar diretório não existe ou não pode ser criado</string>
+    <string name="http_download_status_temp_dir_error">Diretório temporário não existe ou não pode ser criado, </string>
+    <string name="http_download_status_uncompressing">"Descompactando"</string>
+    <string name="i_have_read_and_agree_to_the">Eu li e concordo com o</string>
+    <string name="include">Incluir</string>
+    <string name="includes_3_day_free_trial">Inclui três dias de teste gratuito. Recomendado</string>
+    <string name="information">Em formação</string>
+    <string name="intent_text">FrostWire é um programa amigável somente para compartilhar arquivos autorizados. Instalar e utilizar o programa não constitui uma licença para a obtenção ou distribuição de conteúdo não autorizado.</string>
+    <string name="invalid_filename">Nome de arquivo inválido</string>
+    <string name="invalid_tracker_url">URL do rastreador inválido</string>
+    <string name="issue_with_tip_donation_uri">Há algo de errado com o endereço da web da Gorjeta/Doação</string>
+    <string name="keep_in_touch">Mantenha contato!</string>
+    <string name="keep_the_project_alive">Manter vivo o Projeto</string>
+    <string name="learn_how_to_get_more_results">Tente FrostWire Plus para mais resultados</string>
+    <string name="loading">"Carregando"</string>
+    <string name="love_frostwire">Ame FrostWire</string>
+    <string name="m_of_n_decimals">%1$d de %2$d</string>
+    <string name="magnet_url_added">Magnet URL adicionado a transferências. (Magnet funcionam melhor em Wi-Fi)</string>
+    <string msgid="1540894858499118373" name="mcv2_back_button_desc">"Voltar"</string>
+    <string msgid="2380791179816122456" name="mcv2_cc_is_off">"As legendas estão desativadas. Clique para exibi-las."</string>
+    <string msgid="5427119422911561783" name="mcv2_cc_is_on">"As legendas estão ativadas. Clique para ocultá-las."</string>
+    <string msgid="5940167897992933850" name="mcv2_error_dialog_button">"OK"</string>
+    <string msgid="611689280746097673" name="mcv2_ffwd_button_desc">"Avançar 30 segundos"</string>
+    <string msgid="1609817079594941003" name="mcv2_full_screen_button_desc">"Tela cheia"</string>
+    <string msgid="5393558204040775454" name="mcv2_music_artist_unknown_text">"Artista desconhecido"</string>
+    <string msgid="6037645626002038645" name="mcv2_music_title_unknown_text">"Título da música desconhecido"</string>
+    <string msgid="1204572886248099893" name="mcv2_next_button_desc">"Próxima mídia"</string>
+    <string msgid="2032814146738922144" name="mcv2_non_music_title_unknown_text">"Título do vídeo desconhecido"</string>
+    <string msgid="2749567167276435888" name="mcv2_overflow_left_button_desc">"Voltar à lista de botões anterior"</string>
+    <string msgid="7388732945289831383" name="mcv2_overflow_right_button_desc">"Ver mais botões"</string>
+    <string msgid="7391720675120766278" name="mcv2_pause_button_desc">"Pausar"</string>
+    <string msgid="4881308324856085359" name="mcv2_play_button_desc">"Iniciar"</string>
+    <string msgid="6061787693725630293" name="mcv2_playback_error_text">"Não foi possível abrir o item solicitado"</string>
+    <string msgid="3080315055670437389" name="mcv2_previous_button_desc">"Mídia anterior"</string>
+    <string msgid="3128622733570179596" name="mcv2_replay_button_desc">"Repetir"</string>
+    <string msgid="578809901971186362" name="mcv2_rewind_button_desc">"Voltar 10 segundos"</string>
+    <string msgid="24915699029009384" name="mcv2_seek_bar_desc">"Andamento da reprodução"</string>
+    <string msgid="811917224044739656" name="mcv2_settings_button_desc">"Configurações"</string>
+    <string name="media_player_failed">Media player falhou</string>
+    <string name="media_preview">%s visualização</string>
+    <string name="media_type_applications">Aplicativos</string>
+    <string name="media_type_audio">Áudio</string>
+    <string name="media_type_documents">Livros/Docs</string>
+    <string name="media_type_images">Imagens</string>
+    <string name="media_type_torrents">Torrents</string>
+    <string name="media_type_video">Vídeo</string>
+    <string name="minimize_frostwire">Minimizar FrostWire</string>
+    <string name="mobile_data_saving">Economia de dados móveis</string>
+    <string name="my_filetype">Meu %s</string>
+    <string name="my_music">Minha Música</string>
+    <string name="n_files">%1$d ARQUIVOS</string>
+    <string name="n_peers">%1$d PARES</string>
+    <string name="name">Nome</string>
+    <string name="no_data_check_internet_connection">Rede indisponível, verifique sua conexão com a Internet.</string>
+    <string name="no_results_feedback">"Nenhum resultado foi encontrado.\n\nVerifique sua conexão com a internet ou\ntente termos de pesquisa diferentes".</string>
+    <string name="no_trial_period_included">No período experimental incluiu</string>
+    <string msgid="6573031135582639649" name="not_set">"Não definido"</string>
+    <string name="nothing_is_currently_seeding">Nada atualmente está sendo semeado</string>
+    <string name="notification_other_header">Notificações e outros</string>
+    <string name="notify_frostwire_is_running">Informe-se FrostWire está em execução</string>
+    <string name="notify_frostwire_is_running_summary">Mostrar uma notificação Android permanente com estatuto de transferências</string>
+    <string name="number_of_files">Número de arquivos</string>
+    <string name="ok">OK</string>
+    <string name="one_time_purchase">Compra de uma só vez</string>
+    <string name="one_year">1 ano</string>
+    <string name="open">Abrir</string>
+    <string name="open_menu_action">Abrir %s</string>
+    <string name="or">ou</string>
+    <string name="or_enter_url">ou digite a URL</string>
+    <string name="other_settings">Outras configurações</string>
+    <string msgid="3510124037191104584" name="pause_button_content_description">"Pausar"</string>
+    <string name="pause_torrent_menu_action">Pausar</string>
+    <string name="pausing">Pausa</string>
+    <string name="peer_http_download_status_complete">Completo</string>
+    <string name="peer_http_upload_status_uploading">Uploading</string>
+    <string name="peers">Colegas</string>
+    <string name="peers_n">Colegas: %s</string>
+    <string name="pick_the_files_you_want_to_download_from_this_torrent">Escolha os arquivos que você deseja baixar deste torrent</string>
+    <string name="picture">Foto</string>
+    <string name="pictures">Fotos</string>
+    <string name="piece_size_header">Tamanho da peça:</string>
+    <string name="pieces">Peças</string>
+    <string name="pieces_header">Peças:</string>
+    <string msgid="963503759453979404" name="play_button_content_description">"Iniciar"</string>
+    <string name="playing">Tocando</string>
+    <string name="playlist">lista</string>
+    <string name="please_check_connection_status_before_resuming_download">Por favor, verifique o estado da sua conexão com a internet antes de retomar.</string>
+    <string name="please_enter_valid_url">Por favor, digite uma URL válida</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" copiado para a área de transferência."</string>
+    <string name="processing_payment">O pagamento está sendo processado, refrescar em poucos segundos</string>
+    <string name="protected_connection">VPN-protegido</string>
+    <string name="protected_connections_visibility_bullet_html"><![CDATA[ Você está conectado à Internet usando uma VPN. <br><br> Se você ainda não estiver, recomendamos o uso de um dos serviços abaixo para criptografar sua conexão e <b>salvaguardar a sua privacidade</b>. ]]></string>
+    <string name="rate_our_app">Classifique o nosso Aplicação</string>
+    <string name="rating_reminder_description">Se você ama FrostWire por favor tome um momento para nos avaliar.</string>
+    <string name="remove_ads">Remova os anúncios</string>
+    <string name="remove_ads_description">Aproveite a experiência livre de anúncios, apoiar a FrostWire</string>
+    <string name="remove_torrent_and_data">Remover Torrent e Dados</string>
+    <string name="remove_tracker">Remover rastreador</string>
+    <string name="rename">Renomear</string>
+    <string name="request_again">Solicitação novamente</string>
+    <string name="resume_torrent_menu_action">Resumir</string>
+    <string name="retry">"Tentar novamente"</string>
+    <string name="ringtone_not_set">Toque não pôde ser definido</string>
+    <string name="ringtones">Toques</string>
+    <string name="save_bandwidth">Economizar largura de banda</string>
+    <string name="saving_to_internal_memory">Salvando para a memória interna</string>
+    <string name="saving_to_internal_memory_description">Você também tem um cartão SD (%1$s disponível)</string>
+    <string name="saving_to_sd_card">Salvando para o cartão SD.</string>
+    <string name="scanning">Acabamento - Scanning</string>
+    <string name="sd_permission_no_accessible_path">O caminho que seleccionou no SD não é mais acessível. Pressione OK para selecionar novamente.</string>
+    <string name="sdcard_storage">SD de armazenamento</string>
+    <string name="search">Pesquisar</string>
+    <string name="search_header">Pesquisa</string>
+    <string name="search_label">Pesquisar</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="search_preferences_one_engine_checked_always">Por padrão, um motor de busca precisa ser ativado em todos os momentos</string>
+    <string name="search_torrent_settings">Configurações de pesquisa/Torrent</string>
+    <string name="seed">Semente</string>
+    <string name="seed_all_finished">Semente tudo acabado</string>
+    <string name="seed_finished_torrents">Sementei Torrents Terminados</string>
+    <string name="seed_finished_torrents_summary">Compartilhe pedaços dos downloads torrent com qualquer pessoa na internet via BitTorrent</string>
+    <string name="seed_finished_torrents_wifi_only">Sementei somente no WiFi</string>
+    <string name="seed_finished_torrents_wifi_only_summary">Sementei somente quando conectado WiFi para salvar a largura de banda no seu plano de dados</string>
+    <string name="seed_stop">Pare de semear</string>
+    <string name="seeding_has_been_turned_off">A Semeadura foi desligada</string>
+    <string name="seeding_is_currently_disabled">A sementeira está desativada no momento</string>
+    <string name="seeding_is_currently_disabled_in_settings">Semeadura está atualmente desativado em suas configurações. Você gostaria que eu para permitir semeadura para você compartilhar este arquivo?</string>
+    <string name="seeding_keeps_the_network_healthy">Semear ajuda a manter a rede saudável</string>
+    <string name="seeding_settings">Sementeando Configurações</string>
+    <string name="seeding_settings_explanation">Usuários BitTorrent online poderão baixar pedaços de arquivos dos dados da sua semente torrents.</string>
+    <string name="seeding_time">Tempo de semeadura</string>
+    <string name="seeding_wifi_settings_explanation">Sementei somente quando usando uma conexão WiFi. Evite tarifas extras.</string>
+    <string name="seeds">Sementes</string>
+    <string name="seeds_n">Sementes: %s</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="select_option_below">Selecione a opção:</string>
+    <string name="selected">selecionado</string>
+    <string name="send_bitcoin_tip">Enviar Gorjeta em Bitcoin</string>
+    <string name="send_feedback">Enviar comentários</string>
+    <string name="send_file_using">Enviar arquivo utilizando</string>
+    <string name="send_tip_donation">Enviar Gorjeta/Doação</string>
+    <string name="sequential_download">Download sequencial</string>
+    <string name="set_as_wallpaper">Definir como Papel de Parede</string>
+    <string name="settings">Preferências</string>
+    <string name="share">Compartilhar</string>
+    <string name="share_ratio">Proporção da ação</string>
+    <string name="sharing_privacy_settings">Compartilhamento e privacidade</string>
+    <string name="show_new_transfer_dialog">Mostre o diálogo da Nova Tranferência</string>
+    <string name="show_torrent_details">Mostrar detalhes do torrent</string>
+    <string name="show_transfers_on_download_start">Mostre as Transferências no Início do Download</string>
+    <string name="six_months">6 meses</string>
+    <string name="size">Tamanho</string>
+    <string name="size_unknown">tamanho desconhecido</string>
+    <string msgid="6034072145387511457" name="skip_to_next_item_button_content_description">"Pular para o próximo item"</string>
+    <string msgid="4352480799561670760" name="skip_to_previous_item_button_content_description">"Voltar para o item anterior"</string>
+    <string name="source_type">Fonte: %1$s</string>
+    <string name="sources_channels">Fontes / Canais</string>
+    <string name="speed_limits">Limites de velocidade</string>
+    <string name="status">Estado</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">"Parar"</string>
+    <string name="storage_path">Caminho de armazenamento</string>
+    <string name="storage_picker_treeuri_cant_write">FrostWire não pode escrever no caminho de armazenamento selecionado</string>
+    <string name="storage_picker_treeuri_error">Erro inesperado selecionando destino de armazenamento</string>
+    <string name="storage_picker_treeuri_not_directory">O caminho selecionado não é um diretório</string>
+    <string name="storage_picker_treeuri_null">No foi selecionado nenhum caminho de armazenamento</string>
+    <string name="storage_preference_summary">O local de armazenamento padrão onde os arquivos serão salvos.</string>
+    <string name="storage_preference_title">Selecione um local de armazenamento</string>
+    <string name="storage_setting_confirm_dialog_text">Eu entendo que todos os arquivos baixados para o cartão SD por FrostWire será deletado por ANDROID o momento da aplicação FrostWire é desinstalado a partir deste dispositivo e não vou segurar FrostWire LLC responsável por quaisquer arquivos perdidos.</string>
+    <string name="storage_setting_confirm_dialog_title">SD CARD</string>
+    <string name="storage_setting_warning">ATENÇÃO: Todos os arquivos baixados por FrostWire para o cartão SD será deletado por ANDROID se desinstalar FrostWire.</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="support_free_software">Software com Suporte Gratuito</string>
+    <string name="support_frostwire">Apoiar FrostWire</string>
+    <string name="switch_off_engine_without_vpn">A VPN está inativa, interrompendo o mecanismo BitTorrent.</string>
+    <string name="terms_of_use">Termos de uso</string>
+    <string name="thank_you">Obrigado!</string>
+    <string name="the_file_could_not_be_seeded_bittorrent_will_remain_disconnected">O arquivo não pôde ser semeado. BitTorrent permanecerá desligado.</string>
+    <string name="the_file_could_not_be_seeded_enable_seeding">O arquivo não pôde ser semeado. Ativar semeadura nas configurações.</string>
+    <string name="the_more_you_give_the_more_you_receive">Quanto mais você dá, mais você recebe</string>
+    <string name="thirty_days">30 dias</string>
+    <string name="time_left">Tempo restante</string>
+    <string name="tip_touch_tags_to"><![CDATA[ <b>TIP:</b> Toque etiquetas aplicadas para]]></string>
+    <string name="title_activity_transfer_detail">Detalhe de transferência</string>
+    <string name="toast_on_disconnect">Desconectado do BitTorrent. Todas as transferências BitTorrent irão parar.</string>
+    <string name="torrent_fetcher_download_status_canceled">Cancelado</string>
+    <string name="torrent_fetcher_download_status_downloading_torrent">Baixando Torrent</string>
+    <string name="torrent_max_download_speed">Velocidade Máxima do Download</string>
+    <string name="torrent_max_download_speed_summary">Velocidade Máxima do Download</string>
+    <string name="torrent_max_downloads">Downloads Máximos</string>
+    <string name="torrent_max_downloads_summary">Downloads Máximos</string>
+    <string name="torrent_max_peers">Max Pares</string>
+    <string name="torrent_max_peers_summary">Max Pares</string>
+    <string name="torrent_max_total_connections">Máximo Total de Conexões</string>
+    <string name="torrent_max_total_connections_summary">Máximo Total de Conexões</string>
+    <string name="torrent_max_upload_speed">Velocidade Máxima do Upload</string>
+    <string name="torrent_max_upload_speed_summary">Velocidade Máxima do Upload</string>
+    <string name="torrent_max_uploads">Uploads Máximos</string>
+    <string name="torrent_max_uploads_summary">Uploads Máximos</string>
+    <string name="torrent_preferences_header">Preferências do Torrent</string>
+    <string name="torrent_scheme_download_not_supported">"O download não é suportado"</string>
+    <string name="torrent_transfer_aborted_on_mobile_data">As transferências de torrent não será iniciado até que você se conectar a uma rede Wi-Fi. (verificar suas configurações de rede em matéria de uso de dados 3G/4G)</string>
+    <string name="torrent_transfer_consuming_mobile_data">Aviso: Esta transferência torrente está usando seus dados 3G/4G. (Verifique as preferências de rede se que você deseja usar BitTorrent somente em WiFi)</string>
+    <string name="torrent_transfer_enqueued_on_mobile_data">A transferência torrente irá iniciar o download automaticamente quando você se conectar a uma rede Wi-Fi rede. (Verifique as Preferências de rede em relação ao uso de dados 3G/4G)</string>
+    <string name="torrent_url_added">Torrent URL adicionado a transferências.</string>
+    <string name="total_size">Tamanho total</string>
+    <string name="track">canção</string>
+    <string name="trackers">Rastreadores</string>
+    <string name="transfer_detail_storage_header">Caminho de armazenamento:</string>
+    <string name="transfer_status_demuxing">Demuxeando</string>
+    <string name="transfers">Transferências</string>
+    <string name="transfers_context_menu_clear_finished">Desmarque todas as Transferências acabados</string>
+    <string name="transfers_context_menu_copy_infohash">Copiar InfoHash</string>
+    <string name="transfers_context_menu_copy_infohash_copied">Infohash copiado para o clipboard</string>
+    <string name="transfers_context_menu_copy_magnet">Copiar Magnet</string>
+    <string name="transfers_context_menu_copy_magnet_copied">Magnet copiado para o clipboard</string>
+    <string name="transfers_context_menu_pause_stop_all_transfers">Pausa/Parar todas as Transferências</string>
+    <string name="transfers_context_resume_all_torrent_transfers">Retomar todos Transferências torrent</string>
+    <string name="transfers_context_seed_all_transfers">Semente todas as transferências acabados</string>
+    <string name="transfers_context_stop_seeding_all_transfers">Pare de semear todas as transferências</string>
+    <string name="transfers_select_all">tudo</string>
+    <string name="transfers_select_completed">concluído</string>
+    <string name="transfers_select_downloading">baixando</string>
+    <string name="transfers_select_seeding">semeadura</string>
+    <string name="try_changing_applied_filters">Tente alterar filtros aplicados</string>
+    <string name="try_other_keywords">Tente outras palavras-chave</string>
+    <string name="type_to_filter_results">Digite para filtrar resultados.</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="unlimited">Ilimitado</string>
+    <string name="unprotected_connection">desprotegido</string>
+    <string name="unprotected_connections_visibility_bullet_html"><![CDATA[ <b>Sua privacidade é um direito humano fundamental</b>. Uma conexão desprotegida significa que tudo que você faz online <b>buscas, mensagens e downloads</b>, pode ser monitorado e interceptado por qualquer pessoa em sua rede, por exemplo, provedores de serviços de Internet, hackers, governos.<br><br><b>Recomendamos ALTAMENTE o uso de um serviço VPN</b> especialmente ao baixar ou trocar informações confidenciais (por exemplo, bancos) e ao usar Wi-Fi público ou dados móveis. <br><br> Aqui estão algumas opções que fornecem um serviço confiável e funcionam bem com o FrostWire:]]></string>
+    <string name="update_message">O FrostWire baixou uma nova ATUALIZAÇÃO DE DESEMPENHO para você, por favor, clique no botão OK se você deseja instalar.</string>
+    <string name="update_title">Atualizar Hora!</string>
+    <string name="uploaded">Carregado</string>
+    <string name="uploaded_n">Carregado %1$s</string>
+    <string name="use_archiveorg">"Usat Archive.org</string>
+    <string name="use_eztv">Use Eztv</string>
+    <string name="use_frostclick">"Usar FrostClick"</string>
+    <string name="use_glotorrents">Use GloTorrents</string>
+    <string name="use_limetorrents">Use Limetorrents</string>
+    <string name="use_magnet_summary">Baseado em links magnéticos, funciona apenas em Wifi</string>
+    <string name="use_magnetdl">Use MagnetDL</string>
+    <string name="use_nyaa">Usar Nyaa</string>
+    <string name="use_soundcloud">"Usar Soundcloud.com"</string>
+    <string name="use_torlock">Use TorLock</string>
+    <string name="use_torrentdownloads">Use TorrentDownloads</string>
+    <string name="use_torrentz2">Usar Torrentz2</string>
+    <string name="use_tpb">Utilize ThePirateBay.org</string>
+    <string name="use_yify">Use Yify</string>
+    <string name="use_zooqle">Utilize Zooqle.com</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DESATIVADO"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ATIVADO"</string>
+    <string name="vibrate_on_finished_download">Vibre quando o download terminar</string>
+    <string name="video">Vídeo</string>
+    <string name="vpn_drop_protection_summary">Proteja sua privacidade. Desativar automaticamente as transferências BitTorrent a menos que uma conexão VPN criptografada esteja ativa</string>
+    <string name="vpn_drop_protection_title">Proteção VPN-desligado</string>
+    <string name="vpn_find_out_more">Descubra mais</string>
+    <string name="vpn_off_toast_notification">Sua conexão não pode ser privado.</string>
+    <string name="vpn_suggestion_nordvpn">NORDVPN \n Julgamento gratuito de 7 dias</string>
+    <string name="waiting">Esperando…</string>
+    <string name="welcome_to_frostwire">Bem-vindo ao FrostWire %s</string>
+    <string name="why_we_need_storage_permissions">Por que precisamos de permissões de armazenamento.</string>
+    <string name="why_we_need_storage_permissions_summary">FrostWire é um navegador de arquivos e aplicativo downloader, portanto, ele precisa ser capaz de acessar seu disco.\n\n Sem suas permissões FrostWire não pode trabalhar.\n\nDeseja tentar novamente?</string>
+    <string name="wifi_network_unavailable">Rede Wifi não está disponível</string>
+    <string name="wifi_networks_only">Somente as redes Wi-Fi</string>
+    <string name="wifi_networks_only_summary">Guardar dados. Faça o download somente se a conexão Wi-Fi for estabelecida. </string>
+    <string name="wifi_seeding_has_been_turned_off">Sem Wi-Fi disponível, Semeadura foi desactivado</string>
+    <string name="wizard_finish">Terminar</string>
+    <string name="wizard_next">Próximo</string>
+    <string name="wizard_previous">Anterior</string>
+    <string name="working">Funcionando</string>
+    <string name="would_you_like_to_seed_your_finished_torrent_transfers">Gostaria de semear suas transferências terminadas de torrent?</string>
+    <string name="yes_no_cancel_delete_transfer_question">Você tem certeza que quer cancelar este download (Dados baixados serão apagados)?</string>
+    <string name="yes_no_cancel_transfer_question">Você tem certeza que deseja parar e deletar este download da lista (Nenhum dado será apagado)?</string>
+    <string name="yes_no_cancel_transfer_question_cloud">Tem certeza que deseja parar e remover este download da lista?</string>
+    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[Divulgação: Apesar de recomendado para seus downloads, <b>você não precisa de uma VPN para usar FrostWire. </b>]]></string>
+    <string name="you_need_a_bitcoin_wallet_app">Você precisa de uma carteira Bitcoin instalado em seu aparelho para enviar uma doação BTC.</string>
+    <string name="your_android_wall_paper_will_change">O seu papel de parede Android mudará em alguns segundos</string>
+    <string name="your_installation_is_complete">A instalação está completa.</string>
+    <string name="yt_not_supported_on_basic">Os downloads do YouTube não são permitidos com o FrostWire Basic devido às regras do Google Play.\n\nPara obter uma cópia gratuita do FrostWire Plus, visite nosso site oficial frostwire.com</string>
+</resources>

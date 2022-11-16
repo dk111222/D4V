@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string-array name="page_titles" translatable="false">
+        <item>@string/page_last_added</item>
+        <item>@string/page_playlists</item>
+        <item>@string/page_recent</item>
+        <item>@string/page_artists</item>
+        <item>@string/page_songs</item>
+        <item>@string/page_albums</item>
+        <item>@string/page_genres</item>
+    </string-array>
+    <bool name="isTablet">false</bool>
+    <color name="action_bar">@color/action_bar_color</color>
+    <color name="action_bar_color">#ff0d0d0d</color>
+    <color name="action_bar_title">@color/white</color>
+    <color name="alert">#CC0000</color>
+    <color name="app_approval_green">@color/basic_green_dark</color>
+    <color name="app_background">@color/basic_blue</color>
+    <color name="app_background_body_dark">@color/basic_gray_medium</color>
+    <color name="app_background_body_light">@color/basic_gray_light</color>
+    <color name="app_background_dark">@color/basic_blue_dark</color>
+    <color name="app_background_dark_highlight">@color/basic_blue_dark_highlight</color>
+    <color name="app_background_white">@color/basic_white</color>
+    <color name="app_browse_thumbnail_background">@color/basic_gray_medium</color>
+    <color name="app_divider">@color/basic_gray_medium</color>
+    <color name="app_divider_dark">@color/basic_blue_dark</color>
+    <color name="app_grid_selected_background">@color/basic_blue_transparent</color>
+    <color name="app_rich_notification_background">@color/basic_yellow</color>
+    <color name="app_selection_background">@color/basic_gray_light</color>
+    <color name="app_text_disabled">@color/basic_gray_text_light</color>
+    <color name="app_text_highlight">@color/basic_blue_highlight_dark</color>
+    <color name="app_text_light">@color/basic_gray_text_light</color>
+    <color name="app_text_primary">@color/basic_gray_text_dark</color>
+    <color name="app_text_secondary">@color/basic_gray_text_medium</color>
+    <color name="app_text_white">@color/basic_white</color>
+    <color name="app_text_wizard">#abb3bc</color>
+    <color name="app_text_wizard_dark">#ff6f7d88</color>
+    <color name="app_toolbar_background">@color/basic_blue</color>
+    <color name="app_toolbar_background_bottom">@color/basic_blue_dark_highlight</color>
+    <color name="app_warning_red">@color/basic_red</color>
+    <color name="audio_player_current_time">#ff000000</color>
+    <color name="audio_player_line_one">#ff000000</color>
+    <color name="audio_player_line_two">#ff000000</color>
+    <color name="audio_player_total_time">#ff000000</color>
+    <color name="bab_line_one">@color/white</color>
+    <color name="bab_line_two">@color/transparent_white</color>
+    <color name="basic_blue">#38536a</color>
+    <color name="basic_blue_dark">#264053</color>
+    <color name="basic_blue_dark_highlight">#21313f</color>
+    <color name="basic_blue_highlight">#33b5e5</color>
+    <color name="basic_blue_highlight_dark">#2e9ec7</color>
+    <color name="basic_blue_transparent">#642889AC</color>
+    <color name="basic_gray_dark">#b5b5b5</color>
+    <color name="basic_gray_light">#F2F2F2</color>
+    <color name="basic_gray_medium">#e7e7e7</color>
+    <color name="basic_gray_text_dark">#2b2b2b</color>
+    <color name="basic_gray_text_light">#b5b5b5</color>
+    <color name="basic_gray_text_medium">#686868</color>
+    <color name="basic_green">#0FC486</color>
+    <color name="basic_green_dark">#05a751</color>
+    <color name="basic_red">#ff0000</color>
+    <color name="basic_white">@android:color/white</color>
+    <color name="basic_yellow">#ffe16a</color>
+    <color name="black">#ff000000</color>
+    <color name="bottom_action_bar">@color/app_background_dark_highlight</color>
+    <color name="confirm">#FF8800</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_light_transparent">#9933b5e5</color>
+    <color name="line_one">@color/app_text_primary</color>
+    <color name="list_item_background">@color/transparent</color>
+    <color name="my_files_listview_item_inactive_background">#ffeff0f1</color>
+    <color name="my_files_listview_item_inactive_foreground">@color/app_text_secondary</color>
+    <color name="tip_tag_blue">#5195ae</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="transparent_white">#ffcccccc</color>
+    <color name="white">#ffffffff</color>
+    <dimen name="audio_player_controls_end_button_height">50.0dp</dimen>
+    <dimen name="audio_player_controls_end_button_width">50.0dp</dimen>
+    <dimen name="audio_player_controls_main_button_height">58.0dp</dimen>
+    <dimen name="audio_player_controls_main_button_width">58.0dp</dimen>
+    <dimen name="audio_player_header_height">60.0dp</dimen>
+    <dimen name="audio_player_header_padding_left">16.0dp</dimen>
+    <dimen name="audio_player_header_padding_right">16.0dp</dimen>
+    <dimen name="audio_player_seek_bar_margin_bottom">2.0dp</dimen>
+    <dimen name="audio_player_switch_padding">10.0dp</dimen>
+    <dimen name="audio_player_time_width">56.0dp</dimen>
+    <dimen name="body_text">14sp</dimen>
+    <dimen name="bottom_action_bar_button_container_width">165.0dp</dimen>
+    <dimen name="bottom_action_bar_height">48.0dp</dimen>
+    <dimen name="bottom_action_bar_info_padding_left">5.0dp</dimen>
+    <dimen name="bottom_action_bar_item_padding_left">12.0dp</dimen>
+    <dimen name="bottom_action_bar_item_padding_right">12.0dp</dimen>
+    <dimen name="colorstrip_height">0.0dp</dimen>
+    <dimen name="default_circleStrokeWidth">2dp</dimen>
+    <dimen name="dialog_min_width_major">200dp</dimen>
+    <dimen name="dialog_min_width_minor">300dp</dimen>
+    <dimen name="drag_and_drop_handle">26.0dp</dimen>
+    <dimen name="fast_scroll_padding_left">0dp</dimen>
+    <dimen name="fast_scroll_padding_right">0dp</dimen>
+    <dimen name="grid_item_padding_left">8.0dp</dimen>
+    <dimen name="grid_item_spacing">1dp</dimen>
+    <dimen name="item_normal_height">64.0dp</dimen>
+    <dimen name="list_item_detailed_height">120.0dp</dimen>
+    <dimen name="list_item_line_two_margin_top">2.0dp</dimen>
+    <dimen name="list_preferred_item_padding">0dp</dimen>
+    <dimen name="list_simple_horizontal_padding">12.0dp</dimen>
+    <dimen name="list_simple_vertical_padding">10.0dp</dimen>
+    <dimen name="notification_action_height">48.0dp</dimen>
+    <dimen name="notification_action_padding">8.0dp</dimen>
+    <dimen name="notification_action_width">48.0dp</dimen>
+    <dimen name="notification_big_icon_height">64.0dp</dimen>
+    <dimen name="notification_big_icon_width">64.0dp</dimen>
+    <dimen name="notification_expanded_button_height">48.0dp</dimen>
+    <dimen name="notification_expanded_button_padding">10.0dp</dimen>
+    <dimen name="notification_expanded_buttons_divider_padding">12.0dp</dimen>
+    <dimen name="notification_expanded_collapse_padding">8.0dp</dimen>
+    <dimen name="notification_expanded_content_padding_top">8.0dp</dimen>
+    <dimen name="notification_expanded_height">128.0dp</dimen>
+    <dimen name="notification_info_container_padding_bottom">4.0dp</dimen>
+    <dimen name="notification_info_container_padding_left">8.0dp</dimen>
+    <dimen name="profile_carousel_label_height">45.0dp</dimen>
+    <dimen name="profile_indicator_height">5.0dp</dimen>
+    <dimen name="profile_label_padding">16.0dp</dimen>
+    <dimen name="settings_list_item_inner_horizontal_padding">16dp</dimen>
+    <dimen name="subtitle_text">16sp</dimen>
+    <dimen name="text_extra_micro">10.0sp</dimen>
+    <dimen name="text_large">18.0sp</dimen>
+    <dimen name="text_medium">16.0sp</dimen>
+    <dimen name="text_micro">11.0sp</dimen>
+    <dimen name="text_size_extra_micro">10.0sp</dimen>
+    <dimen name="text_size_large">18.0sp</dimen>
+    <dimen name="text_size_medium">16.0sp</dimen>
+    <dimen name="text_size_micro">12.0sp</dimen>
+    <dimen name="text_size_small">14.0sp</dimen>
+    <dimen name="text_size_x_large">20.0sp</dimen>
+    <dimen name="text_small">14.0sp</dimen>
+    <dimen name="text_x_large">20.0sp</dimen>
+    <dimen name="text_x_medium">15.0sp</dimen>
+    <dimen name="text_x_small">12.0sp</dimen>
+    <dimen name="text_xx_large">24.0sp</dimen>
+    <dimen name="title_text">20sp</dimen>
+    <dimen name="transfers_detail_page_padding_horizontal">18dp</dimen>
+    <dimen name="transfers_detail_page_padding_vertical">14dp</dimen>
+    <dimen name="transfers_detail_page_padding_vertical_small">10dp</dimen>
+    <dimen name="transfers_seeding_notification_top_padding">0dp</dimen>
+    <dimen name="view_transfer_list_item_title_left_drawable">20dp</dimen>
+    <item name="tab_height_screen_percentage" type="fraction">42.0%</item>
+    <item name="tab_width_screen_percentage" type="fraction">75.0%</item>
+    <item name="abstract_list_adapter_holder_tag_id" type="id"/>
+    <item name="activity_base_header_banner" type="id"/>
+    <item name="inapp_product_tag_id" type="id"/>
+    <item name="menu_downloads" type="id"/>
+    <item name="menu_main_my_music" type="id"/>
+    <item name="menu_main_search" type="id"/>
+    <item name="menu_main_settings" type="id"/>
+    <item name="menu_main_shutdown" type="id"/>
+    <item name="menu_main_support" type="id"/>
+    <item name="menu_main_transfers" type="id"/>
+    <item name="reward_product_tag_id" type="id"/>
+    <item name="subs_product_tag_id" type="id"/>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one"><ns1:g example="1" id="songs_to_delete">%d</ns1:g> song was deleted.</item>
+        <item quantity="other"><ns1:g id="songs_to_delete">%d</ns1:g> songs were deleted.</item>
+    </plurals>
+    <plurals name="NNNtracksfromplaylist">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> song removed from playlist.</item>
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> songs removed from playlist.</item>
+    </plurals>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> song added to playlist.</item>
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> songs added to playlist.</item>
+    </plurals>
+    <plurals name="NNNtrackstoqueue">
+        <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> song added to the queue.</item>
+        <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> songs added to the queue.</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> album</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> albums</item>
+    </plurals>
+    <plurals name="Nsongs">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> song</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> songs</item>
+    </plurals>
+    <plurals name="count_seeds_source">
+        <item quantity="one">%d source</item>
+        <item quantity="other">%d sources</item>
+    </plurals>
+    <plurals name="unit_connections">
+        <item quantity="one">%d connection</item>
+        <item quantity="other">%d connections</item>
+    </plurals>
+    <plurals name="unit_downloads">
+        <item quantity="one">%d download</item>
+        <item quantity="other">%d downloads</item>
+    </plurals>
+    <plurals name="unit_peers">
+        <item quantity="one">%d peer</item>
+        <item quantity="other">%d peers</item>
+    </plurals>
+    <plurals name="unit_uploads">
+        <item quantity="one">%d upload</item>
+        <item quantity="other">%d uploads</item>
+    </plurals>
+    <string name="about">About</string>
+    <string name="accept">Accept</string>
+    <string name="accept_intent">I will not use FrostWire for copyright infringement</string>
+    <string name="accessibility_next">Next</string>
+    <string name="accessibility_pause">Pause</string>
+    <string name="accessibility_play">Play</string>
+    <string name="accessibility_prev">Previous</string>
+    <string name="accessibility_repeat">Repeat</string>
+    <string name="accessibility_repeat_all">Repeat all</string>
+    <string name="accessibility_repeat_one">Repeat one</string>
+    <string name="accessibility_shuffle">Shuffle</string>
+    <string name="accessibility_shuffle_all">Shuffle all</string>
+    <string name="according_to_settings_i_cant_seed_due_to_data_savings">According to your settings I can\'t start seeding unless you are on Wi-Fi due to data savings. The file will be ready for seeding automatically when you get back to an internet enabled Wi-Fi network.</string>
+    <string name="according_to_settings_i_cant_seed_unless_wifi">According to your settings I can\'t start seeding unless you are on Wi-Fi. The file will be ready for seeding automatically when you get back to an internet enabled Wi-Fi network.</string>
+    <string name="active_time">Active time</string>
+    <string name="activity_VPN">Connection</string>
+    <string name="activity_preferences_name">Settings</string>
+    <string name="ad_free">Ad-free</string>
+    <string name="add">Add</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="add_tracker">Add tracker</string>
+    <string name="add_trackers">Add trackers</string>
+    <string name="add_transfer">Add transfer</string>
+    <string name="add_transfer_label">Paste a magnet or torrent URL</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="all_free_downloads">All free downloads</string>
+    <string name="android_will_erase_files_if_frostwire_is_uninstalled">Android will erase downloaded files if FrostWire is uninstalled.</string>
+    <string name="app_shutdown_dlg_message">This will shutdown all transfers and background services. Are you sure?</string>
+    <string name="app_shutdown_dlg_title">Shutdown</string>
+    <string name="application_label" translatable="false">FrostWire</string>
+    <string name="applications">Apps</string>
+    <string name="are_you_sure_delete_files">Are you sure you want to PERMANENTLY DELETE the selected files from your device?</string>
+    <string name="are_you_sure_delete_files_text">Are you sure you want to PERMANENTLY DELETE the selected files from your device?</string>
+    <string name="are_you_sure_delete_playlist">Are you sure you want to delete the %s playlist</string>
+    <string name="are_you_sure_you_wanna_leave">Are you sure you want to go back to the home screen?</string>
+    <string name="are_you_sure_you_want_to_download_the_following">Are you sure you want to download the following %1$s (%2$s)?</string>
+    <string name="audio">Audio</string>
+    <string name="automatic_renewal">Automatic Renewal</string>
+    <string name="available">available</string>
+    <string name="azureus_manager_item_downloading">Downloading</string>
+    <string name="azureus_manager_item_error">Error</string>
+    <string name="azureus_manager_item_paused">Paused</string>
+    <string name="azureus_manager_item_seeding">Seeding</string>
+    <string name="azureus_manager_item_stopped">Stopped</string>
+    <string name="azureus_peer_manager_status_finished">Finished</string>
+    <string name="bandwidth_usage_settings">Bandwidth Usage</string>
+    <string name="basic" translatable="false">Basic</string>
+    <string name="best_value">Best Value</string>
+    <string name="bittorrent" translatable="false">BitTorrent</string>
+    <string name="bittorrent_is_currently_disconnected_would_you_like_me_to_start_it_for_you">Can\'t perform selected action as BitTorrent is currently disconnected. Would you like me to start it for you?</string>
+    <string name="bittorrent_network_summary">Connection status</string>
+    <string name="bittorrent_off">BitTorrent off</string>
+    <string name="bittorrent_off_data_saver_on">"BitTorrent off (Data Saver On)"</string>
+    <string name="build">build</string>
+    <string name="buy_uppercase">BUY</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_delete_menu_action">Stop and Delete Data</string>
+    <string name="cancel_menu_action">Stop Transfer</string>
+    <string name="cancel_transfer">Cancel Transfer</string>
+    <string name="canceling">Canceling</string>
+    <string name="cannot_start_engine_without_vpn">BitTorrent can\'t start unless a VPN is available. (Check your settings)</string>
+    <string name="cant_open_file">Sorry, don\'t know how to open this file.</string>
+    <string name="cant_open_file_does_not_exist">I can\'t open %1$s, the file does not exist.</string>
+    <string name="cant_resume_torrent_transfers">Cannot resume torrent transfers. Check status of "Settings" > "BitTorrent Connection Status"</string>
+    <string name="changelog">Changelog</string>
+    <string name="cheaper_than_beer">Cheaper than Beer</string>
+    <string name="cheaper_than_cigarettes">Cheaper than Cigarettes</string>
+    <string name="cheaper_than_drinks">Cheaper than Drinks</string>
+    <string name="cheaper_than_gas">Cheaper than Gas</string>
+    <string name="cheaper_than_lattes">Cheaper than Lattes</string>
+    <string name="cheaper_than_parking">Cheaper than Parking</string>
+    <string name="check_internet_connection">Check Internet connection</string>
+    <string name="checking_ellipsis">Checking…</string>
+    <string name="choose_email_app">Choose an Email App…</string>
+    <string name="clear">Clear</string>
+    <string name="clear_all">Clear All</string>
+    <string name="clear_complete">Clear Complete</string>
+    <string name="clear_search_cache">Clear search cache</string>
+    <string name="clear_search_cache_summary">Clear search cache entries</string>
+    <string name="cloud_download_aborted_on_mobile_data">Current setting prevents downloading when not on Wi-Fi network</string>
+    <string name="cloud_downloads_coming">Sorry: Starting cloud downloads from here will be available on further updates.</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">4924c64f829b447890bf116e5b25c347</string>
+    <string name="comma">,</string>
+    <string name="comment">Comment</string>
+    <string name="community">Community</string>
+    <string name="completed">Completed</string>
+    <string name="confirm_download">Confirm Download</string>
+    <string name="connection_header_title">VPN Connection status:</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_more_by_artist">More by artist</string>
+    <string name="context_menu_play_next">Play next</string>
+    <string name="context_menu_play_selection">Play</string>
+    <string name="context_menu_remove_from_playlist">Remove from playlist</string>
+    <string name="context_menu_remove_from_recent">Remove from recent</string>
+    <string name="context_menu_rename_playlist">Rename</string>
+    <string name="context_menu_use_as_ringtone">Use as ringtone</string>
+    <string name="could_not_be_pinned_to_home_screen"><ns1:g id="name">%s</ns1:g> could not be pinned to your home screen</string>
+    <string name="could_not_open_transfer_detail_invalid_infohash">Could not open Transfer Details, invalid InfoHash</string>
+    <string name="crawl_cache_size">Crawl cache %1$.2fMB</string>
+    <string name="create_playlist_prompt">Playlist name</string>
+    <string name="created_on">Created on</string>
+    <string name="current_plan">Current plan</string>
+    <string name="data_saving_kill_http_warning">This will stop all unfinished transfers in progress</string>
+    <string name="data_saving_kill_http_warning_title">Warning: Http transfers in progress</string>
+    <string name="data_saving_turn_off_transfers">No Wi-fi available, all transfers have been stopped</string>
+    <string name="date">Date</string>
+    <string name="days_left">days left</string>
+    <string name="default_web_client_id" translatable="false">903585601803-5a8d0oiu9ihnddbjjsulqdlff8erksi8.apps.googleusercontent.com</string>
+    <string name="delete">Delete</string>
+    <string name="delete_dialog_title">Delete <ns1:g example="album" id="item">%s</ns1:g>?</string>
+    <string name="delete_file_menu_action">Delete</string>
+    <string name="delete_file_menu_action_count">Delete (%s)</string>
+    <string name="delete_files">Delete files</string>
+    <string name="delete_files_title">Delete files</string>
+    <string name="delete_started_torrents">Delete .torrent files</string>
+    <string name="delete_started_torrents_summary">Delete .torrent files after beginning downloading</string>
+    <string name="deleted_crawl_cache">Deleted crawl cache</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="details">Details</string>
+    <string name="device_storage">Device\'s Storage</string>
+    <string name="dht" translatable="false">DHT</string>
+    <string name="dht_contacts">DHT contacts</string>
+    <string name="dialog_new_transfer_check_text">Show this next time</string>
+    <string name="dialog_new_transfer_text_text">Are you sure you want to download %1$s (%2$s)</string>
+    <string name="disabled">disabled</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="distraction_free_search_results">Distraction Free Search (beta)</string>
+    <string name="distraction_free_search_results_summary">Hide UI components to show more results. Needs app restart to take effect.</string>
+    <string name="documents">Documents</string>
+    <string name="donate_your_time">Donate your time</string>
+    <string name="download">Download</string>
+    <string name="download_added_to_queue">1 file will start downloading</string>
+    <string name="download_finished">Download Finished</string>
+    <string name="download_type_not_supported">Download Type not supported</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="downloaded_n">Downloaded %1$s / </string>
+    <string name="downloading_metadata">Downloading metadata</string>
+    <string name="downloading_promotion">Downloading %s</string>
+    <string name="downloads">Downloads</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="dummy_action" translatable="false">[Action]</string>
+    <string name="dummy_ad">Ad</string>
+    <string name="dummy_age_ago">2 days ago</string>
+    <string name="dummy_author" translatable="false">[Author]</string>
+    <string name="dummy_build" translatable="false">[build number]</string>
+    <string name="dummy_content_description" translatable="false">[dummy description]</string>
+    <string name="dummy_date" translatable="false">[Date]</string>
+    <string name="dummy_downloads_indicator" translatable="false">0 @ 0 KB/s</string>
+    <string name="dummy_engine" translatable="false">[Engine]</string>
+    <string name="dummy_extra" translatable="false">[Extra]</string>
+    <string name="dummy_hint" translatable="false">[Hint]</string>
+    <string name="dummy_path" translatable="false">[Path]</string>
+    <string name="dummy_peers" translatable="false">[Peers]</string>
+    <string name="dummy_period">/period</string>
+    <string name="dummy_price">$ 99.99</string>
+    <string name="dummy_seeds" translatable="false">[Seeds]</string>
+    <string name="dummy_size" translatable="false">[Size]</string>
+    <string name="dummy_sources" translatable="false">[Sources]</string>
+    <string name="dummy_speed" translatable="false">[Speed]</string>
+    <string name="dummy_status" translatable="false">[Status]</string>
+    <string name="dummy_subtitle" translatable="false">[Subtitle]</string>
+    <string name="dummy_summary" translatable="false">[Summary]</string>
+    <string name="dummy_title" translatable="false">[Title]</string>
+    <string name="dummy_title_bold">[Bold Title]</string>
+    <string name="dummy_uploads_indicator" translatable="false">0 @ 0 KB/s</string>
+    <string name="durationformatlong" translatable="false"><ns1:g id="format">%1$d:%2$02d:%3$02d</ns1:g></string>
+    <string name="durationformatshort" translatable="false"><ns1:g id="format">%2$d:%3$02d</ns1:g></string>
+    <string name="edit">Edit</string>
+    <string name="edit_tracker">Edit tracker</string>
+    <string name="empty_last_added">Songs you have added over the last month will be shown here.</string>
+    <string name="empty_music">No songs available yet. Try downloading some content</string>
+    <string name="empty_playlist">This playlist is empty.\n\nClick here to learn how to add songs.</string>
+    <string name="empty_recent">Songs you have listened to will show up here. Try playing some music.</string>
+    <string name="empty_search">No search results found</string>
+    <string name="empty_string" translatable="false"/>
+    <string name="enable_dht">Enable DHT</string>
+    <string name="enable_dht_summary">Use the Distributed Hash Table to announce/search torrent peers</string>
+    <string name="enable_seeding">Enable Seeding</string>
+    <string name="enable_sequential_download_summary">Pieces are downloaded in order. Not recommended for network health</string>
+    <string name="enter_valid_tracker_url_here">Enter valid tracker url here</string>
+    <string name="error_connection_timed_out">Error: connection timed out/dropped. Try again.</string>
+    <string name="error_moving_incomplete">Error: Moving Incomplete</string>
+    <string name="error_no_internet_connection">Error: Check Internet connection</string>
+    <string name="error_no_space_left_on_device">Error: No space left to save file</string>
+    <string name="error_not_enough_peers">Try again, not enough peers</string>
+    <string name="error_wrong_md5_hash">Error: Wrong MD5 hash</string>
+    <string name="error_wrong_signature">Error: Wrong signature</string>
+    <string name="exclude">Exclude</string>
+    <string name="exit">Exit</string>
+    <string name="failed_to_set_wallpaper">Failed to set Wallpaper</string>
+    <string name="fetching_torrent_ellipsis">Fetching torrent…</string>
+    <string name="file_descriptor_sd_mounted">This file was deleted from the SD card, or the SD card you have inserted is a different one.</string>
+    <string name="file_descriptor_sd_unmounted">This file belongs to an SD card, please insert it on your device.</string>
+    <string name="file_extensions">File extensions</string>
+    <string name="file_information">File information</string>
+    <string name="file_names">File names</string>
+    <string name="files">files</string>
+    <string name="filter">Filter</string>
+    <string name="filter_by_keyword">Filter by keyword…</string>
+    <string name="filter_ellipsis">Filter…</string>
+    <string name="finishing">Finishing</string>
+    <string name="firebase_database_url" translatable="false">https://frostwire-android-233c6.firebaseio.com</string>
+    <string name="free">Free</string>
+    <string name="frostwire_features">FROSTWIRE CREATIVE COMMONS FEATURES</string>
+    <string name="frostwire_is_running">FrostWire is running</string>
+    <string name="frostwire_player">FrostWire Player</string>
+    <string name="frostwire_start_engine_service_security_exception">FrostWire could not start properly due to lack of permissions. Please grant the required permissions and restart the application</string>
+    <string name="fullscreen">fullscreen</string>
+    <string name="gcm_defaultSenderId" translatable="false">903585601803</string>
+    <string name="general_settings">General</string>
+    <string name="google_api_key" translatable="false">AIzaSyAR4A2SbWTAYeU9oT-XveYSVshbryYDYH4</string>
+    <string name="google_app_id" translatable="false">1:903585601803:android:f503c249a0f32eb9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAR4A2SbWTAYeU9oT-XveYSVshbryYDYH4</string>
+    <string name="google_storage_bucket" translatable="false">frostwire-android-233c6.appspot.com</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="hash" translatable="false">Hash</string>
+    <string name="help_translate_or_proofread_frostwire">Help translate or proofread FrostWire</string>
+    <string name="http_download_status_save_dir_error">Save directory does not exist or can\'t be created</string>
+    <string name="http_download_status_temp_dir_error">Temporary directory does not exist or can\'t be created</string>
+    <string name="http_download_status_uncompressing">Uncompressing</string>
+    <string name="i_have_read_and_agree_to_the">I have read and agree to the</string>
+    <string name="include">Include</string>
+    <string name="includes_3_day_free_trial">Includes 3 day free-trial. Recommended</string>
+    <string name="infinity" translatable="false">∞</string>
+    <string name="information">Information</string>
+    <string name="intent_text">FrostWire is a peer-to-peer program for sharing authorized files only. Installing and using the program does not constitute a license for obtaining or distributing unauthorized content.</string>
+    <string name="invalid_filename">Invalid file name</string>
+    <string name="invalid_tracker_url">Invalid Tracker URL</string>
+    <string name="issue_with_tip_donation_uri">There\'s something wrong with the Tip/Donation web address</string>
+    <string name="keep_in_touch">Keep in touch!</string>
+    <string name="keep_the_project_alive">Keep the Project Alive</string>
+    <string name="learn_how_to_get_more_results">Learn how to get more results</string>
+    <string name="loading">Loading</string>
+    <string name="looking_For_rewarded_video">Looking for a rewarded video...</string>
+    <string name="love_frostwire">Love FrostWire</string>
+    <string name="lsd" translatable="false">LSD</string>
+    <string name="m_of_n_decimals">%1$d of %2$d</string>
+    <string name="m_of_n_strings" translatable="false">%1$s/%2$s</string>
+    <string name="magnet" translatable="false">Magnet</string>
+    <string name="magnet_url_added">Magnet URL added to transfers. (Magnets work best on Wi-Fi)</string>
+    <string name="media_player_failed">Media player failed</string>
+    <string name="media_preview">%s preview</string>
+    <string name="media_type_applications">Applications</string>
+    <string name="media_type_audio">Audio</string>
+    <string name="media_type_documents">Books/Docs</string>
+    <string name="media_type_images">Images</string>
+    <string name="media_type_torrents">Torrents</string>
+    <string name="media_type_video">Video</string>
+    <string name="menu_add_to_homescreen">Pin to home screen</string>
+    <string name="menu_clear_queue">Clear queue</string>
+    <string name="menu_detailed">Detailed</string>
+    <string name="menu_equalizer">Equalizer</string>
+    <string name="menu_grid">Grid</string>
+    <string name="menu_play_all">Play all</string>
+    <string name="menu_save_queue">Save queue</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_shuffle">Shuffle all</string>
+    <string name="menu_simple">Simple</string>
+    <string name="menu_sort_by">Sort by</string>
+    <string name="menu_view_as">View as</string>
+    <string name="minimize_frostwire">Minimize FrostWire</string>
+    <string name="minute_left_ad_free">One minute left Ad-free</string>
+    <string name="minutes_left_ad_free">%d minutes left Ad-free</string>
+    <string name="mobile_data_saving">Mobile Data Saving</string>
+    <string name="my_filetype">My %s</string>
+    <string name="my_music">My Music</string>
+    <string name="n_days">%s days</string>
+    <string name="n_files">%1$d FILES</string>
+    <string name="n_hours">%s hours</string>
+    <string name="n_minutes">%s minutes</string>
+    <string name="n_months">%s months</string>
+    <string name="n_peers">%1$d PEERS</string>
+    <string name="n_seconds">%s seconds</string>
+    <string name="n_years">%s years</string>
+    <string name="name">Name</string>
+    <string name="new_empty_playlist">New empty playlist</string>
+    <string name="new_playlist_name_template">Playlist <ns1:g id="number">%d</ns1:g></string>
+    <string name="no_data_check_internet_connection">Network unavailable, please check your Internet connection.</string>
+    <string name="no_effects_for_you">The equalizer could not be opened.</string>
+    <string name="no_results_feedback">No results were found.</string>
+    <string name="no_reward_videos_available">Couldn\'t fetch a rewarded video. Please try again</string>
+    <string name="no_trial_period_included">No trial period included</string>
+    <string name="nothing_is_currently_seeding">Nothing is currently seeding</string>
+    <string name="notification_other_header">Notifications and Other</string>
+    <string name="notify_frostwire_is_running">Notify if FrostWire is running</string>
+    <string name="notify_frostwire_is_running_summary">Show a permanent Android notification with status of transfers</string>
+    <string name="now_listening_to">#NowPlaying \"<ns1:g id="title">%1$s</ns1:g>\" by <ns1:g id="artist">%2$s</ns1:g> on #FrostWire</string>
+    <string name="now_listening_to_no_artist_available">#NowPlaying \"<ns1:g id="title">%1$s</ns1:g>\" on #FrostWire</string>
+    <string name="number_of_files">Number of files</string>
+    <string name="ok">OK</string>
+    <string name="one_day">1 day</string>
+    <string name="one_hour">1 hour</string>
+    <string name="one_minute">1 minute</string>
+    <string name="one_month">1 month</string>
+    <string name="one_second">1 second</string>
+    <string name="one_time_purchase">One Time Purchase</string>
+    <string name="one_year">1 year</string>
+    <string name="open">Open</string>
+    <string name="open_file_explorer">Open File Explorer</string>
+    <string name="open_menu_action">Open %s</string>
+    <string name="or">or</string>
+    <string name="or_enter_url">or enter URL (video, torrent, magnet)</string>
+    <string name="other_settings">Other Settings</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="page_albums">Albums</string>
+    <string name="page_artists">Artists</string>
+    <string name="page_genres">Genres</string>
+    <string name="page_last_added">Last Added</string>
+    <string name="page_playlists">Playlists</string>
+    <string name="page_recent">Recent</string>
+    <string name="page_songs">Songs</string>
+    <string name="pause_torrent_menu_action">Pause</string>
+    <string name="pausing">Pausing</string>
+    <string name="peer_http_download_status_complete">Complete</string>
+    <string name="peer_http_upload_status_uploading">Uploading</string>
+    <string name="peers">Peers</string>
+    <string name="peers_n">Peers: %s</string>
+    <string name="period_monthly">monthly</string>
+    <string name="period_yearly">yearly</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="pex" translatable="false">PeX</string>
+    <string name="pick_the_files_you_want_to_download_from_this_torrent">Pick the files you want to download from this torrent</string>
+    <string name="picture">Picture</string>
+    <string name="pictures">Pictures</string>
+    <string name="piece_size_header">Piece Size:</string>
+    <string name="pieces">Pieces</string>
+    <string name="pieces_header">Pieces:</string>
+    <string name="pinned_to_home_screen"><ns1:g id="name">%s</ns1:g> pinned to your home screen</string>
+    <string name="play_uppercase">PLAY</string>
+    <string name="playing">Playing</string>
+    <string name="playlist">playlist</string>
+    <string name="playlist_favorite">Favorite</string>
+    <string name="playlist_favorites">Favorites</string>
+    <string name="playlist_last_added">Last added</string>
+    <string name="please_check_connection_status_before_resuming_download">Please check the status of your internet connection before resuming.</string>
+    <string name="please_enter_valid_url">Please enter a valid URL</string>
+    <string name="plus" translatable="false">Plus</string>
+    <string name="pro" translatable="false">PRO</string>
+    <string name="processing_payment">Processing payment, refresh in a few seconds</string>
+    <string name="project_id" translatable="false">frostwire-android-233c6</string>
+    <string name="protected_connection">VPN-protected</string>
+    <string name="protected_connections_visibility_bullet_html"><![CDATA[ You\'re connected to the Internet using a VPN. <br><br> If you are not already, we recommend using one of the services below to encrypt your connection and <b>safeguard your privacy</b>. ]]></string>
+    <string name="rate_our_app">Rate our App</string>
+    <string name="rating_reminder_description">If you love FrostWire please take a moment to rate us.</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="remove_ads_description">Enjoy the ad-free experience, support FrostWire</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="remove_torrent_and_data">Remove Torrent and Data</string>
+    <string name="remove_tracker">Remove tracker</string>
+    <string name="rename">Rename</string>
+    <string name="request_again">Request Again</string>
+    <string name="resume_torrent_menu_action">Resume</string>
+    <string name="retry">Retry</string>
+    <string name="reward_product_price">Free, Play 1 Video Ad</string>
+    <string name="reward_product_title">%d minutes</string>
+    <string name="ringtone_not_set">Ringtone could not be set</string>
+    <string name="ringtones">Ringtones</string>
+    <string name="save">Save</string>
+    <string name="save_bandwidth">Save Bandwidth</string>
+    <string name="saving_to_internal_memory">Saving to Internal Memory</string>
+    <string name="saving_to_internal_memory_description">You also have an SD card (%1$s free)</string>
+    <string name="saving_to_sd_card">Saving to SD card.</string>
+    <string name="scanning">Finishing - Scanning</string>
+    <string name="sd_permission_no_accessible_path">The path you selected in the SD is not accessible anymore. Press OK to select again.</string>
+    <string name="sdcard_storage">SD\'s Storage</string>
+    <string name="search">Search</string>
+    <string name="search_header">Search</string>
+    <string name="search_label">Search</string>
+    <string name="search_preferences_one_engine_checked_always">By default, one search engine needs to be checked at all times</string>
+    <string name="search_torrent_settings">Search/Torrent Settings</string>
+    <string name="seed">Seed</string>
+    <string name="seed_all_finished">Seed All Finished</string>
+    <string name="seed_finished_torrents">Seed Finished Torrents</string>
+    <string name="seed_finished_torrents_summary">Share pieces of torrent downloads with anybody on the internet via BitTorrent</string>
+    <string name="seed_finished_torrents_wifi_only">Seed only on Wi-Fi</string>
+    <string name="seed_finished_torrents_wifi_only_summary">Seeds only when connected via Wi-Fi to save bandwidth on your data plan</string>
+    <string name="seed_stop">Stop seeding</string>
+    <string name="seeding_has_been_turned_off">Seeding has been turned off</string>
+    <string name="seeding_is_currently_disabled">Seeding is currently disabled</string>
+    <string name="seeding_is_currently_disabled_in_settings">Seeding is currently disabled in your settings. Would you like me to enable seeding for you to share this file?</string>
+    <string name="seeding_keeps_the_network_healthy">Seeding helps keeps the network healthy</string>
+    <string name="seeding_settings">Seeding Settings</string>
+    <string name="seeding_settings_explanation">BitTorrent users on the internet will be able to download file chunks of the data your torrents seed.</string>
+    <string name="seeding_time">Seeding time</string>
+    <string name="seeding_wifi_settings_explanation">Seed only when using a Wi-Fi connection. Avoid extra charges from your carrier.</string>
+    <string name="seeds">Seeds</string>
+    <string name="seeds_n">Seeds: %s</string>
+    <string name="select_all">Select All</string>
+    <string name="select_option_below">Select option below:</string>
+    <string name="selected">selected</string>
+    <string name="send_bitcoin_tip">Send Bitcoin Tip</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="send_file_using">Send file using</string>
+    <string name="send_tip_donation">Send Tip/Donation</string>
+    <string name="sequential_download">Sequential download</string>
+    <string name="set_as_ringtone">\'<ns1:g example="Alarm Bell" id="name">%s</ns1:g>\' set as ringtone</string>
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="share_ratio">Share ratio</string>
+    <string name="share_track_using">Share track using:</string>
+    <string name="sharing_privacy_settings">Sharing and Privacy</string>
+    <string name="show_new_transfer_dialog">Show New Transfer dialog</string>
+    <string name="show_torrent_details">Show Torrent Details</string>
+    <string name="show_transfers_on_download_start">Show Transfers On Download Start</string>
+    <string name="six_months">6 months</string>
+    <string name="size">Size</string>
+    <string name="size_unknown">size unknown</string>
+    <string name="sorry_could_not_find_valid_download_location_at">Sorry, Couldn\'t find a valid download location at %s</string>
+    <string name="sort_order_entry_album">Album</string>
+    <string name="sort_order_entry_artist">Artist</string>
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_date_added">Date added</string>
+    <string name="sort_order_entry_duration">Duration</string>
+    <string name="sort_order_entry_filename">Filename</string>
+    <string name="sort_order_entry_number_of_albums">Number of albums</string>
+    <string name="sort_order_entry_number_of_songs">Number of songs</string>
+    <string name="sort_order_entry_track_list">Track list</string>
+    <string name="sort_order_entry_year">Year</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string name="source_type">Source: %1$s</string>
+    <string name="sources_channels">Sources / Channels</string>
+    <string name="speed_limits">Speed limits</string>
+    <string name="status">Status</string>
+    <string name="stop">Stop</string>
+    <string name="storage_path">Storage Path</string>
+    <string name="storage_picker_treeuri_cant_write">FrostWire can\'t write on the selected storage path</string>
+    <string name="storage_picker_treeuri_error">Unexpected error picking storage path</string>
+    <string name="storage_picker_treeuri_not_directory">The selected path is not a directory</string>
+    <string name="storage_picker_treeuri_null">No storage path was selected</string>
+    <string name="storage_preference_summary">The default storage location where files will be saved.</string>
+    <string name="storage_preference_title">Select Storage Location</string>
+    <string name="storage_setting_confirm_dialog_text">I understand that all files downloaded to the SD Card by FrostWire will be deleted BY ANDROID the moment the FrostWire application is uninstalled from this device and I will not hold FrostWire LLC liable for any files lost.</string>
+    <string name="storage_setting_confirm_dialog_title">SD CARD</string>
+    <string name="storage_setting_warning">WARNING: All files saved by FrostWire onto the SD card will be deleted BY ANDROID, not FrostWire, if you uninstall the app.</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="support_free_software">Support Free Software</string>
+    <string name="support_frostwire">Support FrostWire</string>
+    <string name="switch_off_engine_without_vpn">VPN is inactive, stopping the BitTorrent engine.</string>
+    <string name="temporary_ad_removal">Temporary Ad Removal</string>
+    <string name="temporary_ad_removal_description">No ads for %d minutes after playing a video</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="the_file_could_not_be_seeded_bittorrent_will_remain_disconnected">The file could not be seeded. BitTorrent will remain disconnected.</string>
+    <string name="the_file_could_not_be_seeded_enable_seeding">The file could not be seeded. Enable seeding on settings.</string>
+    <string name="the_more_you_give_the_more_you_receive">The more you give the more you receive</string>
+    <string name="thirty_days">30 days</string>
+    <string name="time_left">Time left</string>
+    <string name="tip_touch_tags_to"><![CDATA[ <b>TIP:</b> Touch applied tags to]]></string>
+    <string name="title_activity_transfer_detail">Transfer Detail</string>
+    <string name="toast_on_disconnect">Disconnected from BitTorrent. All BitTorrent transfers have stopped.</string>
+    <string name="torrent_fetcher_download_status_canceled">Canceled</string>
+    <string name="torrent_fetcher_download_status_downloading_torrent">Downloading torrent</string>
+    <string name="torrent_max_download_speed">Max Download Speed</string>
+    <string name="torrent_max_download_speed_summary">Max Download Speed (0 means unlimited)</string>
+    <string name="torrent_max_downloads">Max Downloads</string>
+    <string name="torrent_max_downloads_summary">Max Downloads</string>
+    <string name="torrent_max_peers">Max Peers</string>
+    <string name="torrent_max_peers_summary">Max Peers</string>
+    <string name="torrent_max_total_connections">Max Total Connections</string>
+    <string name="torrent_max_total_connections_summary">Max Total Connections</string>
+    <string name="torrent_max_upload_speed">Max Upload Speed</string>
+    <string name="torrent_max_upload_speed_summary">Max Upload Speed (0 means unlimited)</string>
+    <string name="torrent_max_uploads">Max Uploads</string>
+    <string name="torrent_max_uploads_summary">Max Uploads</string>
+    <string name="torrent_preferences_header">Torrent Preferences</string>
+    <string name="torrent_scheme_download_not_supported">Download not supported</string>
+    <string name="torrent_transfer_aborted_on_mobile_data">Torrent transfers will not start until you connect to a Wi-Fi network.(Check your Network Settings regarding 3G/4G data usage)</string>
+    <string name="torrent_transfer_consuming_mobile_data">Warning: This torrent transfer is using your 3G/4G data. (Check your Network Settings if you wish to use BitTorrent only on WiFi)</string>
+    <string name="torrent_transfer_enqueued_on_mobile_data">The torrent transfer will start downloading automatically when you connect to a Wi-Fi network.(Check your Network Settings regarding 3G/4G data usage)</string>
+    <string name="torrent_url_added">Torrent URL added to transfers.</string>
+    <string name="total_size">Total size</string>
+    <string name="track">track</string>
+    <string name="tracker" translatable="false">Tracker</string>
+    <string name="trackers">Trackers</string>
+    <string name="transfer_detail_comment_dummy" translatable="false">Torrent file created with FrostWire http://www.frostwire.com</string>
+    <string name="transfer_detail_date_dummy" translatable="false">Sept. 2, 2017</string>
+    <string name="transfer_detail_download_size_dummy" translatable="false">14MB/14MB</string>
+    <string name="transfer_detail_file_dummy" translatable="false">01_Wildlight_Twirl_Me_Hers_Was_As_Thunder_FROSTWIRE_FROSTCLICK_CREATIVE_COMMONS.mp3</string>
+    <string name="transfer_detail_files_number_dummy" translatable="false">12</string>
+    <string name="transfer_detail_hash_dummy" translatable="false">d882dd01gh00ccefc1e4defee52e76f8</string>
+    <string name="transfer_detail_number_dummy" translatable="false">0</string>
+    <string name="transfer_detail_number_of_files_dummy" translatable="false">12 Files</string>
+    <string name="transfer_detail_number_of_number_dummy" translatable="false">0 of 54</string>
+    <string name="transfer_detail_peers_address_dummy" translatable="false">BT://198.50.174.100:51413</string>
+    <string name="transfer_detail_peers_address_source_dummy" translatable="false">FrostWire 2.0</string>
+    <string name="transfer_detail_percentage_dummy" translatable="false">100%</string>
+    <string name="transfer_detail_piece_size_dummy" translatable="false">1001/1190</string>
+    <string name="transfer_detail_size_dummy" translatable="false">56MB</string>
+    <string name="transfer_detail_speed_dummy" translatable="false">0.0 Kb/s</string>
+    <string name="transfer_detail_speed_small_dummy" translatable="false">56Kb</string>
+    <string name="transfer_detail_status_dummy" translatable="false">Seeding</string>
+    <string name="transfer_detail_storage_dummy" translatable="false">/storage/emulated/0/FrostWire/Downloads</string>
+    <string name="transfer_detail_storage_header">Storage Path:</string>
+    <string name="transfer_detail_time_dummy" translatable="false">1 min</string>
+    <string name="transfer_detail_title_dummy" translatable="false">Title_Dummy_collection_FrostWire_FrostClick.com_MP3_320k_Mar_9_2014</string>
+    <string name="transfer_detail_trackers_address_dummy" translatable="false">udp://9.rarbg.com:2710/announce</string>
+    <string name="transfer_detail_upload_size_dummy" translatable="false">1.7 MB</string>
+    <string name="transfer_status_demuxing">Demuxing</string>
+    <string name="transfers">Transfers</string>
+    <string name="transfers_context_menu_clear_finished">Clear all finished transfers</string>
+    <string name="transfers_context_menu_copy_infohash">Copy InfoHash</string>
+    <string name="transfers_context_menu_copy_infohash_copied">Infohash copied to clipboard</string>
+    <string name="transfers_context_menu_copy_magnet">Copy Magnet</string>
+    <string name="transfers_context_menu_copy_magnet_copied">Magnet copied to clipboard</string>
+    <string name="transfers_context_menu_pause_stop_all_transfers">Pause/Stop all transfers</string>
+    <string name="transfers_context_resume_all_torrent_transfers">Resume all torrent transfers</string>
+    <string name="transfers_context_seed_all_transfers">Seed all finished transfers</string>
+    <string name="transfers_context_stop_seeding_all_transfers">Stop seeding all transfers</string>
+    <string name="transfers_select_all">all</string>
+    <string name="transfers_select_completed">completed</string>
+    <string name="transfers_select_downloading">downloading</string>
+    <string name="transfers_select_seeding">seeding</string>
+    <string name="try_changing_applied_filters">Try changing applied filters</string>
+    <string name="try_it_free_for_a_half_hour">Try it free for a half hour</string>
+    <string name="try_other_keywords">Try fewer/different keywords</string>
+    <string name="type_to_filter_results">Type to filter results.</string>
+    <string name="unknown">Unknown</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="unprotected_connection">unprotected</string>
+    <string name="unprotected_connections_visibility_bullet_html"><![CDATA[ <b>Your privacy is a fundamental human right</b>. An unprotected connection means everything you do online including <b>downloads, searches, messaging</b>, can be monitored and intercepted by anyone on your network, e.g. Internet Service Providers, hackers, governments.<br><br><b>We STRONGLY recommend using a VPN service</b>. <br> Here are some options that provide reliable service and work well with FrostWire:]]></string>
+    <string name="update_message">FrostWire has downloaded a new PERFORMANCE UPDATE for you, please go ahead and touch the OK button if you want to install it now.</string>
+    <string name="update_title">Update time!</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="uploaded_n">Uploaded %1$s</string>
+    <string name="use_archiveorg">Use Archive.org</string>
+    <string name="use_eztv">Use Eztv</string>
+    <string name="use_frostclick">Use FrostClick</string>
+    <string name="use_glotorrents">Use GloTorrents</string>
+    <string name="use_idope">Use Idope</string>
+    <string name="use_limetorrents">Use Limetorrents</string>
+    <string name="use_magnet_summary">Magnet based, works only on Wi-Fi</string>
+    <string name="use_magnetdl">Use MagnetDL</string>
+    <string name="use_nyaa">Use Nyaa</string>
+    <string name="use_one337x">Use 1337x</string>
+    <string name="use_soundcloud">Use Soundcloud.com</string>
+    <string name="use_torlock">Use TorLock</string>
+    <string name="use_torrentdownloads">Use TorrentDownloads</string>
+    <string name="use_torrentz2">Use Torrentz2</string>
+    <string name="use_tpb">Use TPB</string>
+    <string name="use_yify">Use Yify</string>
+    <string name="use_zooqle">Use Zooqle.com</string>
+    <string name="vibrate_on_finished_download">Vibrate when download finishes</string>
+    <string name="video">Video</string>
+    <string name="vpn_drop_protection_summary">Protect your privacy. Automatically disable BitTorrent transfers unless an encrypted VPN connection is active</string>
+    <string name="vpn_drop_protection_title">VPN-Drop Protection</string>
+    <string name="vpn_find_out_more">Find out more</string>
+    <string name="vpn_off_toast_notification">Your connection may not be private.</string>
+    <string name="vpn_suggestion_expressvpn" translatable="false">ExpressVPN</string>
+    <string name="vpn_suggestion_nordvpn">NORDVPN \n Free 7-day trial</string>
+    <string name="waiting">Waiting…</string>
+    <string name="welcome_to_frostwire">Welcome to FrostWire %s</string>
+    <string name="why_we_need_storage_permissions">Why we need storage permissions.</string>
+    <string name="why_we_need_storage_permissions_summary">FrostWire is a file browser and downloader app, therefore it needs to be able to access your disk.\n\nWithout your permissions FrostWire cannot work.\n\nWant to try again?</string>
+    <string name="wifi_network_unavailable">Wi-fi Network Unavailable</string>
+    <string name="wifi_networks_only">Wi-Fi networks only</string>
+    <string name="wifi_networks_only_summary">Save data. Download only if Wi-Fi connection is established. </string>
+    <string name="wifi_seeding_has_been_turned_off">No Wi-fi available, Seeding has been turned off</string>
+    <string name="wizard_finish">Finish</string>
+    <string name="wizard_next">Next</string>
+    <string name="wizard_previous">Previous</string>
+    <string name="working">Working</string>
+    <string name="would_you_like_to_seed_your_finished_torrent_transfers">Would you like to seed your finished torrent transfers?</string>
+    <string name="yes_no_cancel_delete_transfer_question">Are you sure you want to cancel this download (downloaded data so far will be erased)?</string>
+    <string name="yes_no_cancel_transfer_question">Are you sure you want to stop and remove this download from the list (no data will be erased)?</string>
+    <string name="yes_no_cancel_transfer_question_cloud">Are you sure you want to stop and remove this download from the list?</string>
+    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[<b>Disclosure:</b> Although recommended for your downloads, especially whenever downloading or exchanging sensitive information (e.g. banking) and while using public Wi-Fi or mobile data, <b>you don\'t need a VPN to use FrostWire. </b>]]></string>
+    <string name="you_need_a_bitcoin_wallet_app">You need a Bitcoin wallet installed on your device to submit a BTC donation.</string>
+    <string name="your_android_wall_paper_will_change">Your Android wallpaper will change in a few seconds</string>
+    <string name="your_installation_is_complete">Your installation is complete.</string>
+    <string name="yt_not_supported_on_basic">YouTube downloads are not supported by FrostWire Basic due to Google Play rules.\n\nFor a free copy of FrostWire Plus go to our official website frostwire.com</string>
+    <style name="ActionModeStyle" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">@color/app_toolbar_background</item>
+        <item name="titleTextStyle">@style/ActionModeStyle.Title</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+    <style name="ActionModeStyle.Title">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/app_text_white</item>
+    </style>
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@drawable/tab_background_color_selector</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/app_text_white</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/app_text_white</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="BlueButton">
+        <item name="android:background">@drawable/blue_light_button_background_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">17dp</item>
+        <item name="android:paddingRight">17dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="BodyListSubtitleText">
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="BodyListTitleText">
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BottomActionBarItem">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:paddingLeft">@dimen/bottom_action_bar_item_padding_left</item>
+        <item name="android:paddingRight">@dimen/bottom_action_bar_item_padding_right</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="BottomActionBarItem.Next" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_next</item>
+    </style>
+    <style name="BottomActionBarItem.Play" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_play</item>
+    </style>
+    <style name="BottomActionBarItem.Previous" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_prev</item>
+    </style>
+    <style name="BottomActionBarItem.Repeat" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_repeat</item>
+    </style>
+    <style name="BottomActionBarItem.Shuffle" parent="@style/BottomActionBarItem">
+        <item name="android:contentDescription">@string/accessibility_shuffle</item>
+    </style>
+    <style name="BottomActionBarLineOne" parent="@style/BottomActionBarText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BottomActionBarLineTwo" parent="@style/BottomActionBarText"/>
+    <style name="BottomActionBarText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_size_extra_micro</item>
+    </style>
+    <style name="Button" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="colorButtonNormal">@color/basic_gray_dark</item>
+        <item name="colorAccent">@color/basic_gray_medium</item>
+    </style>
+    <style name="BuyNoAdsAdText">
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textSize">@dimen/text_xx_large</item>
+    </style>
+    <style name="BuyNoAdsAdText.AdFree">
+        <item name="android:textSize">@dimen/text_x_large</item>
+        <item name="android:textColor">@color/basic_blue_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+    </style>
+    <style name="BuyNoAdsAdText.Project">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_x_large</item>
+    </style>
+    <style name="BuyNoAdsAdText.Remove">
+        <item name="android:textColor">@color/basic_white</item>
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BuyNoAdsAdText.Support">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BuyNoAdsBuyButton" parent="BuyNoAdsCardHint">
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+
+    </style>
+    <style name="BuyNoAdsCardDescription">
+        <item name="android:textColor">@color/app_text_secondary</item>
+        <item name="android:textSize">@dimen/text_x_medium</item>
+    </style>
+    <style name="BuyNoAdsCardHint">
+        <item name="android:textColor">@color/basic_white</item>
+        <item name="android:background">@drawable/product_card_hint_button_background</item>
+        <item name="android:textSize">@dimen/text_x_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="BuyNoAdsCardPrice">
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+    <style name="BuyNoAdsCardTitle">
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+    <style name="BuyNoAdsCardTitle.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BuyNoAdsCardTitle.Purchase">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="BuyNoAdsSelectOptionBelowTitle" parent="BuyNoAdsCardTitle.Bold">
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+    <style name="DefaultDialogTheme">
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_min_width_minor</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:buttonStyle">@style/DefaultDialogTheme.Buttons</item>
+    </style>
+    <style name="DefaultDialogTheme.Buttons" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:text">@color/app_text_highlight</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minLines">1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DefaultDialogTheme.MainText">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/app_text_secondary</item>
+    </style>
+    <style name="DefaultDialogTheme.SmallText">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="DefaultDialogTheme.SmallTextMedium">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DefaultDialogTheme.TitleBar">
+        <item name="android:background">@drawable/default_dialog_title_background</item>
+        <item name="android:textColor">@color/app_text_white</item>
+        <item name="android:textSize">@dimen/text_x_large</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="GetVPNToastNotification">
+        <item name="android:textColor">@color/basic_white</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+    <style name="GridThumbnailText">
+        <item name="android:background">#642b2b2b</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textSize">@dimen/text_extra_micro</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/app_text_white</item>
+    </style>
+    <style name="ListItemAd">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_x_small</item>
+        <item name="android:textColor">@color/basic_white</item>
+        <item name="android:background">#ffedb802</item>
+        <item name="android:padding">2sp</item>
+    </style>
+    <style name="ListItemExt" parent="ListItemSecondaryLine">
+        <item name="android:textColor">@color/app_text_secondary</item>
+    </style>
+    <style name="ListItemExtra">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/app_text_secondary</item>
+    </style>
+    <style name="ListItemSecondaryLine">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="ListItemSecondaryLine.TwoLines" parent="ListItemSecondaryLine">
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="ListItemSize">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="ListItemSize.browsePeerList">
+        <item name="android:textSize">@dimen/text_x_small</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="ListItemTime" parent="ListItemSize.browsePeerList"/>
+    <style name="ListItemTitle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_x_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="ListItemTitle.TwoLines" parent="ListItemTitle">
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="MediumText">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="NoSearchResultsLink">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="NotificationAction">
+        <item name="android:layout_width">@dimen/notification_action_width</item>
+        <item name="android:layout_height">@dimen/notification_action_height</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">@dimen/notification_action_padding</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+    <style name="NotificationAction.Collapse" parent="@style/NotificationAction">
+        <item name="android:src">@drawable/btn_notification_collapse</item>
+    </style>
+    <style name="NotificationAction.Next" parent="@style/NotificationAction">
+        <item name="android:src">@drawable/btn_notification_playback_next</item>
+        <item name="android:contentDescription">@string/accessibility_next</item>
+    </style>
+    <style name="NotificationAction.Play" parent="@style/NotificationAction">
+        <item name="android:src">@drawable/btn_notification_playback_play</item>
+        <item name="android:contentDescription">@string/accessibility_play</item>
+    </style>
+    <style name="NotificationAction.Previous" parent="@style/NotificationAction">
+        <item name="android:src">@drawable/btn_notification_playback_previous</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:contentDescription">@string/accessibility_prev</item>
+    </style>
+    <style name="NotificationText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Preference.Category.Material" ns2:ignore="PrivateResource">
+        <item name="android:layout">@layout/view_preference_category_material</item>
+        <item name="android:textColor">@color/basic_blue_highlight_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="PreferenceThemeOverlay" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="preferenceCategoryStyle">@style/Preference.Category.Material</item>
+    </style>
+    <style name="Preference_TextAppearanceMaterialBody2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="Preference_TextAppearanceMaterialSubhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="PreferencesBlueButton">
+        <item name="android:background">@drawable/blue_light_button_background_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">42dp</item>
+        <item name="android:paddingRight">42dp</item>
+        <item name="android:textSize">@dimen/text_x_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ProgressBarHolo.Horizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">
+            @drawable/progress_indeterminate_horizontal_holo
+        </item>
+        <item name="android:background">@color/basic_blue</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+    <style name="RichNotificationDescription">
+        <item name="android:textSize">@dimen/text_x_small</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="RichNotificationTitle">
+        <item name="android:textSize">@dimen/text_x_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="SearchResultListItemSource">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/basic_blue</item>
+    </style>
+    <style name="SelectDeselectAllText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SlideMenuAdHeader">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_x_small</item>
+    </style>
+    <style name="SlideMenuAdSubtitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/frostwire_splash_screen</item>
+        <item name="colorPrimaryDark">@color/basic_blue_highlight_dark</item>
+    </style>
+    <style name="Theme.FrostWire" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/basic_blue</item>
+        <item name="colorPrimaryDark">@color/basic_blue_dark</item>
+        <item name="colorAccent">@color/basic_blue_highlight_dark</item>
+        <item name="android:textColorPrimary">@color/app_text_primary</item>
+        <item name="android:textColorSecondary">@color/app_text_secondary</item>
+        <item name="toolbarNavigationButtonStyle">@style/ToolbarNavigationButtonStyle</item>
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:listPreferredItemPaddingLeft">16dp</item>
+        <item name="android:listPreferredItemPaddingRight">16dp</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+    <style name="Theme.Transparent" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="ToolbarMainHeaderCounter">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ToolbarMainHeaderTitle">
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="ToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="subtitleTextAppearance">@android:style/TextAppearance.Small</item>
+        <item name="titleMargin">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+    <style name="TransfersIndicator">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/app_text_white</item>
+        <item name="android:textSize">@dimen/text_size_extra_micro</item>
+    </style>
+    <style name="TransfersList"/>
+    <style name="TransfersList.Item">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/text_micro</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="TransfersList.Item.Title">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="TransfersNotificationSub">
+        <item name="android:textColor">@color/app_text_secondary</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="TransfersNotificationTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+    <style name="VPNText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/app_text_secondary</item>
+    </style>
+    <style name="VPNTitle">
+        <item name="android:textSize">@dimen/text_size_x_large</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+        <item name="android:layout_marginTop">-5dp</item>
+    </style>
+    <style name="WizardActivity" parent="Theme.FrostWire">
+        <item name="android:textColorSecondary">@color/app_text_wizard</item>
+        <item name="android:windowBackground">@color/app_background</item>
+    </style>
+    <style name="WizardDivider">
+        <item name="android:background">@color/basic_blue_dark</item>
+        <item name="android:height">1dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+    <style name="WizardDivider.Bottom">
+        <item name="android:height">1dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="WizardSubTitle">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/subtitle_text</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WizardText">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/body_text</item>
+    </style>
+    <style name="WizardText.Header">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WizardText.Sub">
+        <item name="android:textColor">@color/app_text_wizard</item>
+    </style>
+    <style name="WizardText.Terms">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+    <style name="WizardTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/title_text</item>
+    </style>
+    <style name="divider_line">
+        <item name="android:background">@color/app_divider</item>
+        <item name="android:height">1dp</item>
+    </style>
+    <style name="divider_line_dark">
+        <item name="android:background">@color/app_divider_dark</item>
+        <item name="android:height">1dp</item>
+    </style>
+    <style name="filterTipTagText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_extra_micro</item>
+        <item name="android:textColor">@color/app_text_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">4dp</item>
+    </style>
+    <style name="keywordFilterSectionTitle">
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/app_text_secondary</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:drawablePadding">15dp</item>
+    </style>
+    <style name="keywordTagCount">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_extra_micro</item>
+    </style>
+    <style name="keywordTagText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_x_small</item>
+    </style>
+    <style name="scrollbar_default_style" parent="Theme.FrostWire">
+        <item name="android:overScrollHeader">@null</item>
+        <item name="android:overScrollFooter">@null</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarFadeDuration">0</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">0</item>
+    </style>
+    <style name="transferDetailText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/body_text</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+    </style>
+    <style name="transferDetailTitle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/body_text</item>
+        <item name="android:textColor">@color/app_text_primary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="transferDetailTitleHeader">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/body_text</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+    <declare-styleable name="ButtonActionPreference">
+        <attr format="string" name="button_text"/>
+    </declare-styleable>
+    <declare-styleable name="ClearableEditTextView">
+        <attr format="string" name="clearable_hint"/>
+    </declare-styleable>
+    <declare-styleable name="FWBannerView">
+        <attr format="string" name="adUnitId"/>
+        <attr format="boolean" name="showRemoveAdsTextView"/>
+    </declare-styleable>
+    <declare-styleable name="HexHiveView">
+        <attr format="color" name="hexhive_hexBorderColor"/>
+        <attr format="color" name="hexhive_emptyColor"/>
+        <attr format="color" name="hexhive_fullColor"/>
+    </declare-styleable>
+    <declare-styleable name="KeywordTagView">
+        <attr format="boolean" name="keyword_tag_inclusive"/>
+        <attr format="string" name="keyword_tag_keyword"/>
+        <attr format="integer" name="keyword_tag_count"/>
+        <attr format="boolean" name="keyword_tag_dismissable"/>
+    </declare-styleable>
+    <declare-styleable name="MediaPlaybackStatusOverlayView">
+        <attr format="dimension" name="circleStrokeWidth"/>
+    </declare-styleable>
+    <declare-styleable name="ProductCardView">
+        <attr format="string" name="product_card_title_bold"/>
+        <attr format="string" name="product_card_title_normal"/>
+        <attr format="string" name="product_card_price"/>
+        <attr format="string" name="product_card_description"/>
+        <attr format="string" name="product_card_hint_button_caption"/>
+        <attr format="boolean" name="product_card_hint_button_visible"/>
+        <attr format="boolean" name="product_card_selected"/>
+    </declare-styleable>
+    <declare-styleable name="RichNotification">
+        <attr format="reference" name="rich_notification_icon"/>
+        <attr format="string" name="rich_notification_title"/>
+        <attr format="boolean" name="rich_notification_title_underlined"/>
+        <attr format="string" name="rich_notification_description"/>
+        <attr format="integer" name="rich_notification_number_of_action_links"/>
+        <attr format="integer" name="rich_notification_action_links_horizontal_margin"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr format="reference" name="viewAbove"/>
+        <attr format="reference" name="viewBehind"/>
+        <attr format="dimension" name="behindOffset"/>
+        <attr format="dimension" name="behindWidth"/>
+        <attr format="float" name="behindScrollScale"/>
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+        </attr>
+        <attr format="reference" name="shadowDrawable"/>
+        <attr format="dimension" name="shadowWidth"/>
+        <attr format="boolean" name="fadeEnabled"/>
+        <attr format="float" name="fadeDegree"/>
+        <attr format="boolean" name="selectorEnabled"/>
+        <attr format="reference" name="selectorDrawable"/>
+    </declare-styleable>
+    <declare-styleable name="fwPickerPreference">
+        <attr format="integer" name="picker_startRange"/>
+        <attr format="integer" name="picker_endRange"/>
+        <attr format="integer" name="picker_defaultValue"/>
+    </declare-styleable>
+    <declare-styleable name="fwSeekbarPreference">
+        <attr format="integer" name="seekbar_startRange"/>
+        <attr format="integer" name="seekbar_endRange"/>
+        <attr format="integer" name="seekbar_defaultValue"/>
+        <attr format="integer" name="seekbar_maxValue"/>
+        <attr format="boolean" name="seekbar_wrap"/>
+        <attr format="boolean" name="seekbar_isByteRate"/>
+        <attr format="reference" name="seekbar_pluralUnitResourceId"/>
+        <attr format="boolean" name="seekbar_hasUnlimited"/>
+        <attr format="integer" name="seekbar_unlimitedValue"/>
+    </declare-styleable>
+</resources>

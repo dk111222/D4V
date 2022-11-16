@@ -1,0 +1,2670 @@
+[
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_torrent_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_torrent_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_sd_card_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/sd_card_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_internal_memory_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/internal_memory_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_transfer_menuitem_plus.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/transfer_menuitem_plus.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_search_select_all.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_search_select_all.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_clearable_edittext_search_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/clearable_edittext_search_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_default_dialog_title_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/default_dialog_title_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_torrent_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_torrent_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_sd_icon_inactive.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_sd_icon_inactive.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_toolbar_title_subtitle_header.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_toolbar_title_subtitle_header.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_menu_icon_exit.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/menu_icon_exit.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_about_social_reddit.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/about_social_reddit.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_list_item_simple.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/list_item_simple.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_about_social_facebook.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/about_social_facebook.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_clearable_edittext.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_clearable_edittext.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_internal_memory_notification_dark_bg.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/internal_memory_notification_dark_bg.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_grid_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/grid_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_action_bar_search_filter.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/action_bar_search_filter.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_send.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_send.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_nav_view_menu.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/nav_view_menu.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_menu_icon_exit.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/menu_icon_exit.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_queue_clear.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_queue_clear.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_repeat.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_repeat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_list_item_picture_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/list_item_picture_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ic_action_favorite_selected.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/ic_action_favorite_selected.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_about.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_selectable_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_selectable_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_activity_preview_player.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/activity_preview_player.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo2.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo2.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_ic_action_pinn_to_home.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/ic_action_pinn_to_home.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_view_as.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_view_as.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_product_payment_options.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_product_payment_options.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_donation_fiat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_donation_fiat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_vpn_icon_on_info.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/vpn_icon_on_info.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ic_ab_close_clear_cancel.png.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/ic_ab_close_clear_cancel.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_torrent_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_torrent_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_filter_tip_add.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_filter_tip_add.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_about_social_facebook.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/about_social_facebook.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_view_as_simple.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_view_as_simple.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_queue.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_queue.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_repeat_one.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_repeat_one.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_vpn_icon_off_info.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/vpn_icon_off_info.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__320x50_ad_free_2.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_320x50_ad_free_2.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_nav_view_header.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/nav_view_header.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_repeat.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_repeat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_add_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/add_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_add_to_existing_playlist_dark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_add_to_existing_playlist_dark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/raw_about.html.flat",
+        "source": "com.frostwire.d4v-android-40:/raw/about.html"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_application_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_application_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_notification_playback_previous.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_notification_playback_previous.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_track_list.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_track_list.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_product_card.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_product_card.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_play_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_play_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_time.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_time.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_notification_background_circle.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/notification_background_circle.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_notification_playback_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_notification_playback_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_next_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_next_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_video_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_video_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_details_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_details_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_action_bar_search_filter.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/action_bar_search_filter.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_activity_player_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout-land/activity_player_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_list_item_picture_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/list_item_picture_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_play_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_play_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_menu_icon_search.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/menu_icon_search.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_notification_playback_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_notification_playback_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_action_bar_pause.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/action_bar_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_shuffle.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_shuffle.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ad_cancel.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/ad_cancel.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_artist.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_artist.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_blue_light_button_background_selector_on.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/blue_light_button_background_selector_on.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_notification_collapse.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_notification_collapse.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_action_bar_seed.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/action_bar_seed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_next_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_next_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_progress_horizontal_holo_light.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/progress_horizontal_holo_light.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_notification_playback_pause.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_notification_playback_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_notification_playback_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_notification_playback_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_picture_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_picture_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_next_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_next_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_clearable_edittext_add_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/clearable_edittext_add_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo7.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo7.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_view_as_grid.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_view_as_grid.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_default_checkbox.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_default_checkbox.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_donation_bitcoin.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_donation_bitcoin.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_play_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_play_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_torrent_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_torrent_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_blue_dark_button_background_selector_on.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/blue_dark_button_background_selector_on.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_folder_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/folder_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/activity_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_add_to_homescreen.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_add_to_homescreen.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_tab_background_color_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/tab_background_color_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_notification_collapse.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_notification_collapse.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/xml_settings_torrent.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/xml/settings_torrent.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_filter_expand.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/filter_expand.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_vpn_suggestion_button_background_selector_off.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/vpn_suggestion_button_background_selector_off.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_divider_line.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/divider_line.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_filter_add.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_filter_add.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_previous_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_previous_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_ringtone_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_ringtone_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_transfers_triangle_downward.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/transfers_triangle_downward.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_about_social_twitter.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/about_social_twitter.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_blue_light_button_background_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/blue_light_button_background_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_stop_playback.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_stop_playback.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_vpn_suggestion_button_background_selector_on.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/vpn_suggestion_button_background_selector_on.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_action_bar_resume.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/action_bar_resume.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_app_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/app_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_list_item_audio_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/list_item_audio_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_open.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_open.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_btn_notification_playback_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/btn_notification_playback_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_default_dialog_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/default_dialog_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_add_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/add_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_ic_action_search.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/ic_action_search.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ad_remove_speaker_white.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/ad_remove_speaker_white.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_seed.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_seed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_promo_read_more_button.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/promo_read_more_button.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_notification_vpn_off.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/notification_vpn_off.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_list_item_detailed_no_background.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/list_item_detailed_no_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_clearable_edittext_clear_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/clearable_edittext_clear_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_sd_card_notification_dark_bg.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/sd_card_notification_dark_bg.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_image_viewer.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_image_viewer.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_folder_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/folder_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_repeat_all.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_repeat_all.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_remove_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_remove_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_notification_collapse.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_notification_collapse.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_track_list.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_track_list.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_application_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_application_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_date.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_date.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_edit_track_list_item.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/edit_track_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_new_playlist.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_new_playlist.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_question_mark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/question_mark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_stop_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_stop_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/color_text_secondary_disabled_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/color/text_secondary_disabled_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_playlist_add_dark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_playlist_add_dark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_about_social_github.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/about_social_github.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ic_action_favorite.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/ic_action_favorite.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_ic_action_pinn_to_home.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/ic_action_pinn_to_home.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_confirmation_dialog_no_selection_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/confirmation_dialog_no_selection_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_sort_down.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_sort_down.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_full_screen_close.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/full_screen_close.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_seed.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_seed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_scrubber_primary_holo.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_action_bar_resume.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/action_bar_resume.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_about_social_slack.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/about_social_slack.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_action_bar_seed.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/action_bar_seed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_clearable_edittext_filter_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/clearable_edittext_filter_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_artist_song_sort_by.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_artist_song_sort_by.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_notification_shutdown.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/notification_shutdown.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_search_engine.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_search_engine.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_checkbox.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_checkbox.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_about_social_twitter.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/about_social_twitter.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_switch_queue.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_switch_queue.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_about_social_discord.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/about_social_discord.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_clearable_edittext_search_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/clearable_edittext_search_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_album.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_album.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__300x250_donate_1.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_300x250_donate_1.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_search.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_search.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_favorite.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_favorite.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_audio_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_audio_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_repeat_one.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_repeat_one.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_blue_light_button_background_selector_off.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/blue_light_button_background_selector_off.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_promo_preview.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/promo_preview.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_menu_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_menu_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_grid_check.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_grid_check.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_transfer_menuitem_plus.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/transfer_menuitem_plus.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_vpn_icon_off_info.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/vpn_icon_off_info.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_equalizer.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_equalizer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_buy_products.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_buy_products.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_social_wizard_check.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/social_wizard_check.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_new_playlist_list_item.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/new_playlist_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_ic_action_favorite_selected.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/ic_action_favorite_selected.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_ad_remove_speaker_white.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/ad_remove_speaker_white.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-v16_notification_template_expanded_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout-v16/notification_template_expanded_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_menu_icon_exit.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/menu_icon_exit.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/xml_searchable.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/xml/searchable.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_nav_main_background_color_shape.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/nav_main_background_color_shape.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__320x50_frostclick_2.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_320x50_frostclick_2.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_blue_dark_button_background_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/blue_dark_button_background_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_community_buttons.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_community_buttons.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_favorite.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_favorite.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ic_ab_close_clear_cancel.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/ic_ab_close_clear_cancel.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_question_mark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/question_mark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_time.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_time.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ad_cancel.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/ad_cancel.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_clearable_edittext_add_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/clearable_edittext_add_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_rich_notification.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_rich_notification.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_audio_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_audio_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_picture_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_picture_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_stop_playback.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_stop_playback.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_view_searchinput_tablayout.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/view_searchinput_tablayout.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_header_banner.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_header_banner.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_menu_icon_settings.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/menu_icon_settings.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_song.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_song.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_filter_minimize.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/filter_minimize.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_audio_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_audio_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_update_bullet.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_update_bullet.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_action_bar_pause.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/action_bar_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_queue_add.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_queue_add.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_sort_up.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_sort_up.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_view_as_detailed.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_view_as_detailed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__300x250_ad_free_1.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_300x250_ad_free_1.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_default_input.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_default_input.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__320x50_frostclick_1.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_320x50_frostclick_1.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_promo_preview.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/promo_preview.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_my_files_listview_item_inactive_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/my_files_listview_item_inactive_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_download_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/download_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/xml_settings_search_engines.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/xml/settings_search_engines.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_sort_down.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_sort_down.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_scrubber_secondary_holo.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_menu_icon_settings.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/menu_icon_settings.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_about_social_discord.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/about_social_discord.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_shuffle_all.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_shuffle_all.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_square_image_view.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/square_image_view.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_frostwire_banner.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_frostwire_banner.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_stop_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_stop_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_list_item_question_mark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/list_item_question_mark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_date.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_date.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_list_item_application_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/list_item_application_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_social_wizard_reddit.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/social_wizard_reddit.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_ringtone.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_ringtone.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_add_to_existing_playlist_dark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_add_to_existing_playlist_dark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_activity_buy_interstitial_ad_free_button_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/activity_buy_interstitial_ad_free_button_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_application_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_application_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_ic_action_search.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/ic_action_search.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_miniplayer.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_miniplayer.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_grid_check.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_grid_check.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_open.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_open.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_notification_shutdown.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/notification_shutdown.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_activity_buy.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/activity_buy.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_transfers_triangle_upward.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/transfers_triangle_upward.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ad_menu_speaker.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/ad_menu_speaker.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_transfers_triangle_downward.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/transfers_triangle_downward.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_menu_icon_library.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/menu_icon_library.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_scrubber_primary_holo.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_preference_kitkat_storage.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_preference_kitkat_storage.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_view_as_detailed.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_view_as_detailed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_ic_ab_close_clear_cancel.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/ic_ab_close_clear_cancel.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo4.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo4.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-ja-hdpi_contextmenu_icon_donation_fiat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-ja-hdpi/contextmenu_icon_donation_fiat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_folder_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/folder_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_details_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_details_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_scrubber_secondary_holo.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ic_action_favorite_selected.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/ic_action_favorite_selected.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_send.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_send.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__320x50_donate_1.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_320x50_donate_1.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_question_mark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/question_mark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_sort_up.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_sort_up.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_menu_icon_transfers.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/menu_icon_transfers.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_notification_playback_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_notification_playback_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_list_item_document_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/list_item_document_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_list_item_question_mark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/list_item_question_mark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_switch_queue.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_switch_queue.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_scrubber_track_holo_dark.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/scrubber_track_holo_dark.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_picture_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_picture_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_internal_memory_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/internal_memory_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfers.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfers.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_picture_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_picture_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_audio_player.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_audio_player.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_filter_minimize.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/filter_minimize.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_splash_logo.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/splash_logo.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_list_item_document_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/list_item_document_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_music_browser_phone.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/fragment_music_browser_phone.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_my_files_thumbnail_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_my_files_thumbnail_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_transfer_progress_horizontal.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/transfer_progress_horizontal.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__300x250_ad_free_2.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_300x250_ad_free_2.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_ad_menu_speaker.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/ad_menu_speaker.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_playlist_tile_normal.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/playlist_tile_normal.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_document_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_document_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_stop_playback.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_stop_playback.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_blue_dark_button_background_selector_off.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/blue_dark_button_background_selector_off.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_about_social_facebook.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/about_social_facebook.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_button_action.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_button_action.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_song.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_song.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_pause_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_pause_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_year.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_year.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_splash_logo.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/splash_logo.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_frostwire_notification_flat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/frostwire_notification_flat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_about_social_reddit.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/about_social_reddit.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_video_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_video_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_filter_tip_minus.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_filter_tip_minus.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_scrubber_secondary_holo.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_play_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_play_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo8.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo8.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_seed.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_seed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_view_as_simple.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_view_as_simple.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail_files_recyclerview_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail_files_recyclerview_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_buy_ads.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_buy_ads.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_social_wizard_facebook.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/social_wizard_facebook.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_audio_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_audio_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_menu_icon_my_music.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/menu_icon_my_music.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_searchinput_tablayout_custom_tab.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_searchinput_tablayout_custom_tab.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_switch_queue.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_switch_queue.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_frostwire_notification_flat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/frostwire_notification_flat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_shuffle_all.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_shuffle_all.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_scrubber_track_holo_dark.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/scrubber_track_holo_dark.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_sort_up.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_sort_up.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ic_action_pinn_to_home.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/ic_action_pinn_to_home.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_video_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_video_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_player_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/activity_player_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/xml_settings_other.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/xml/settings_other.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_document_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_document_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_action_bar_delete.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/action_bar_delete.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_notification_template_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/notification_template_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_sort.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_sort.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_view_frostwire_features_all_downloads.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/view_frostwire_features_all_downloads.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_about_social_slack.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/about_social_slack.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_torrent_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_torrent_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_ringtone.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_ringtone.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_shuffle_all.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_shuffle_all.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_product_card_hint_button_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/product_card_hint_button_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_document_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_document_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_pause.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_previous_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_previous_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_storage_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_storage_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_filter_minus.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_filter_minus.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_pause.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_magnet.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_magnet.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_btn_notification_playback_pause.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/btn_notification_playback_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_audio_player_pager_container.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable/audio_player_pager_container.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_searchinput.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_searchinput.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_add_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/add_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_picture_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_picture_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_playlist_tile_normal.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/playlist_tile_normal.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_action_bar_stop_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/action_bar_stop_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_trash.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_trash.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_file.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_file.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_shuffle.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_shuffle.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_album.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_album.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_transfer_detail_progress.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_transfer_detail_progress.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_pause_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_pause_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ad_remove_speaker_white.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/ad_remove_speaker_white.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_main.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_full_screen_close.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/full_screen_close.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_magnet.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_magnet.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_faux_carousel.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/faux_carousel.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_previous.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_previous.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_pause_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_pause_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_artist_sort_by.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_artist_sort_by.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_btn_switch_queue.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/btn_switch_queue.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_rate_app_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/rate_app_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_social_wizard_twitter.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/social_wizard_twitter.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_ic_action_favorite.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/ic_action_favorite.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_nav_view_background_color_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/nav_view_background_color_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_confirm_list.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_confirm_list.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_my_files_header.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_my_files_header.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_view_as_grid.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_view_as_grid.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_resume.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_resume.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_promo_download_arrow_button.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/promo_download_arrow_button.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_menu_update.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/menu_update.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_previous_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_previous_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_splash_logo.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/splash_logo.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_repeat_all.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_repeat_all.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_menu_icon_my_music.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/menu_icon_my_music.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_picture.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_picture.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_profile_tab.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/profile_tab.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_copy.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_copy.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_search_header.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_search_header.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_previous.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_previous.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_background_tip_active.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_background_tip_active.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_donation_bitcoin.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_donation_bitcoin.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_play_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_play_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_filter_minimize.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/filter_minimize.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_app_msg.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/app_msg.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_default_artwork.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/default_artwork.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_about_social_discord.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/about_social_discord.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_application_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_application_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_application_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_application_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ic_action_search.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/ic_action_search.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_menu_icon_my_music.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/menu_icon_my_music.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_queue_clear.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_queue_clear.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_details_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_details_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_checkbox_seeding.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_checkbox_seeding.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_rename.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_rename.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_equalizer.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_equalizer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_playlist_add_dark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_playlist_add_dark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_shuffle.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_shuffle.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_intent_wizard_page.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_intent_wizard_page.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_vpn_status_detail.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_vpn_status_detail.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_ic_action_favorite.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/ic_action_favorite.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progress_secondary_holo_light.9.png.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progress_secondary_holo_light.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_about_social_slack.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/about_social_slack.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_list_item_normal.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/list_item_normal.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_notification_playback_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_notification_playback_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ad_menu_speaker.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/ad_menu_speaker.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_internal_memory_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/internal_memory_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_rate_app_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/rate_app_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_year.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_year.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ic_action_favorite.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/ic_action_favorite.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_profile_tab_carousel.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/profile_tab_carousel.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_profile_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/activity_profile_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_album_song_sort_by.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_album_song_sort_by.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_btn_notification_collapse.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/btn_notification_collapse.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_playback_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_playback_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_bittorrent_search_result_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_bittorrent_search_result_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_stop_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_stop_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_transfers_no_seeds.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_transfers_no_seeds.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_product_card_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/product_card_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_confirmation_dialog_multiple_selection_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/confirmation_dialog_multiple_selection_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo1.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo1.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_wizard.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_wizard.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-nodpi_holo_background_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-nodpi/holo_background_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_album_sort_by.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_album_sort_by.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/xml_settings_application.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/xml/settings_application.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_artist.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_artist.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_clearable_edittext_search_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/clearable_edittext_search_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_audio_player_controls.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/audio_player_controls.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_product_card_background_selected.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/product_card_background_selected.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_seed.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_seed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_list_item_question_mark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/list_item_question_mark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_listview_item_background_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/listview_item_background_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_queue_clear.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_queue_clear.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_default_artwork.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/default_artwork.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_track_list.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_track_list.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_playlist_add_dark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_playlist_add_dark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_default_artwork.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/default_artwork.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_frostwire_features_all_downloads.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_frostwire_features_all_downloads.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_transfers_indicators_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/transfers_indicators_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_notification_vpn_off.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/notification_vpn_off.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_song_sort_by.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_song_sort_by.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_view_promotions.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/view_promotions.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_notification_shutdown.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/notification_shutdown.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_bottom_action_bar.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/bottom_action_bar.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_sd_card_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/sd_card_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_list_item_document_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/list_item_document_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail_peers.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail_peers.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_application_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_application_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_ad_menuitem.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_ad_menuitem.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_vpn_icon_on_info.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/vpn_icon_on_info.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_grid_items_normal.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/grid_items_normal.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_view_searchinput_tablayout_custom_tab.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/view_searchinput_tablayout_custom_tab.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_colorstrip.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/colorstrip.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_about_social_github.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/about_social_github.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_download_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/download_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_favorite.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_favorite.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_menu_icon_search.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/menu_icon_search.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_clearable_edittext_add_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/clearable_edittext_add_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_transfer_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_transfer_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_file.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_file.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_promotions_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_promotions_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_about_social_reddit.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/about_social_reddit.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_list_item_torrent_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/list_item_torrent_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_view_as_simple.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_view_as_simple.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_list_item_picture_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/list_item_picture_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_document_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_document_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-sw360dp-port_nav_view_header.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-sw360dp-port/nav_view_header.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_nordvpn.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/nordvpn.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_sort_down.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_sort_down.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_default_artwork.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/default_artwork.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_social_buttons.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_social_buttons.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_play_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_play_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_menu_icon_settings.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/menu_icon_settings.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_ringtone_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_ringtone_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/anim_pulse.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/anim/pulse.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_transfers_triangle_upward.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/transfers_triangle_upward.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_queue_add.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_queue_add.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/color_nav_view_icon_color_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/color/nav_view_icon_color_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo3.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo3.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_shuffle.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_shuffle.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_notification_playback_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_notification_playback_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_preview_player.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_preview_player.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_menu_update.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/menu_update.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_remove_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_remove_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_file_information.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_file_information.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_menu_icon_transfers.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/menu_icon_transfers.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_apollo_activity_search.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/apollo_activity_search.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_promo_preview.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/promo_preview.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_list_item_simple_image.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/list_item_simple_image.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_audio_player_seekbar.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable/audio_player_seekbar.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_torrent_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_torrent_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_promo_read_more_button.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/promo_read_more_button.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_rename.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_rename.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_transfers_triangle_downward.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/transfers_triangle_downward.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail_files.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail_files.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_frostwire_splash_screen.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/frostwire_splash_screen.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_buy.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_buy.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_stop_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_stop_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_equalizer.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_equalizer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_artist.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_artist.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/color_text_primary_disabled_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/color/text_primary_disabled_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_fragment_transfers_menu.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/fragment_transfers_menu.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-nodpi_header_temp.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-nodpi/header_temp.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_default.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_default.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_clearable_edittext_clear_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/clearable_edittext_clear_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo5.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo5.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_action_bar_checkbox.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/action_bar_checkbox.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__320x50_ad_free_1.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_320x50_ad_free_1.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_video_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_video_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_action_bar_stop_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/action_bar_stop_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__300x250_donate_2.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_300x250_donate_2.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_donation_fiat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_donation_fiat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail_trackers.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail_trackers.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_list_item_application_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/list_item_application_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_fragment_transfer_detail_menu.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/fragment_transfer_detail_menu.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_sd_card_notification_dark_bg.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/sd_card_notification_dark_bg.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_scrubber_primary_holo.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_trash.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_trash.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_magnet.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_magnet.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_invisible_promo.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_invisible_promo.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_list_item_application_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/list_item_application_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_repeat_all.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_repeat_all.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_video_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_video_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_previous.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_previous.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progress_primary_holo_light.9.png.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progress_primary_holo_light.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_settings.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_vpn_icon_on_info.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/vpn_icon_on_info.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_song.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_song.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_sort.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_sort.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_search_progress.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_search_progress.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_nav_view_header.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/nav_view_header.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_suggestion_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_suggestion_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_pause_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_pause_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_promo_read_more_button.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/promo_read_more_button.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_clearable_edittext_clear_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/clearable_edittext_clear_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_playlist_tile_normal.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/playlist_tile_normal.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_ringtone_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_ringtone_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_pause.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progress_bg_holo_light.9.png.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progress_bg_holo_light.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_player_artist_album_sort_by.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/player_artist_album_sort_by.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_copy.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_copy.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_playlist_tile_normal.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/playlist_tile_normal.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_menu_icon_search.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/menu_icon_search.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_transfer_menuitem_plus.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/transfer_menuitem_plus.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_menu_update.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/menu_update.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_notification_playback_pause.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_notification_playback_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_ic_action_search.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/ic_action_search.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_download.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_download.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_queue_add.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_queue_add.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_ic_action_pinn_to_home.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/ic_action_pinn_to_home.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_clearable_edittext_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/clearable_edittext_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_my_files_thumbnail_grid_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_my_files_thumbnail_grid_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_menu_icon_library.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/menu_icon_library.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_repeat_one.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_repeat_one.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_list_base.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/list_base.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_trash.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_trash.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_remove_ads_notification.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_remove_ads_notification.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_default_info.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_default_info.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_menu_icon_transfers.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/menu_icon_transfers.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_picture_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_picture_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_ad_menu_item_background_filled.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/ad_menu_item_background_filled.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_shuffle.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_shuffle.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_ringtone.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_ringtone.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_internal_memory_notification_dark_bg.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/internal_memory_notification_dark_bg.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_notification_vpn_on.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/notification_vpn_on.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_next.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_next.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_btn_notification_playback_previous.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/btn_notification_playback_previous.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/menu_activity_preview_player_menu.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/menu/activity_preview_player_menu.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_rate_app_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/rate_app_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_document_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_document_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail_details.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail_details.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_rename.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_rename.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_notification_vpn_on.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/notification_vpn_on.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_send.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_send.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_add_to_existing_playlist_dark.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_add_to_existing_playlist_dark.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_transfer_detail.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_transfer_detail.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_transfers_triangle_upward.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/transfers_triangle_upward.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_sd_card_notification.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/sd_card_notification.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_view_remove_ads_notification.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout-land/view_remove_ads_notification.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_notification_vpn_on.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/notification_vpn_on.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_grid_check.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_grid_check.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_app_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/app_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_copy.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_copy.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_fullscreen.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_fullscreen.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_permanent_status_notification.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_permanent_status_notification.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_product_payment_options_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/product_payment_options_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_transfer_detail_peer_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_transfer_detail_peer_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_ad_menu_item_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/ad_menu_item_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_full_screen_close.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/full_screen_close.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_vpn_suggestion_button_background_selector.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/vpn_suggestion_button_background_selector.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_shuffle.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_shuffle.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_delete.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_delete.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_list_item_video_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/list_item_video_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_view_remove_ads_notification_background.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/view_remove_ads_notification_background.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_video_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_video_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_frostwire_notification_flat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/frostwire_notification_flat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_donation_fiat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_donation_fiat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/xml_file_paths.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_frostwire_features_title.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_frostwire_features_title.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_expressvpn.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/expressvpn.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_list_item_torrent_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/list_item_torrent_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_about_social_twitter.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/about_social_twitter.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_download_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/download_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_date.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_date.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-zh-hdpi_contextmenu_icon_donation_fiat.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-zh-hdpi/contextmenu_icon_donation_fiat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_promo_download_arrow_button.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/promo_download_arrow_button.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_preference_category_material.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_preference_category_material.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_notification_playback_previous.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_notification_playback_previous.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_year.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_year.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_general_wizard_page.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_general_wizard_page.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_open.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_open.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_time.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_time.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_favorite.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_favorite.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_notification_playback_pause.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_notification_playback_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_filter_expand.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/filter_expand.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_confirmation_dialog_single_selection_list_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/confirmation_dialog_single_selection_list_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_pause_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_pause_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_btn_notification_playback_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/btn_notification_playback_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_btn_notification_playback_previous.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/btn_notification_playback_previous.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_close_clear_cancel_full.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_close_clear_cancel_full.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_repeat.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_repeat.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_sd_card_notification_dark_bg.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/sd_card_notification_dark_bg.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__320x50_ad_free_3.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_320x50_ad_free_3.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_file.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_file.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_progress_indeterminate_horizontal_holo.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/progress_indeterminate_horizontal_holo.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_remove_transfer.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_remove_transfer.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_action_bar_delete.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/action_bar_delete.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_pause.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_pause.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_scrubber_track_holo_dark.9.png.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/scrubber_track_holo_dark.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_list_item_torrent_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/list_item_torrent_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__300x250_frostclick_2.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_300x250_frostclick_2.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_shuffle.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_shuffle.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_activity_about.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-nodpi_picture_placeholder.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-nodpi/picture_placeholder.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_ic_action_favorite_selected.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/ic_action_favorite_selected.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_image_viewer.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_image_viewer.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_filter_expand.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/filter_expand.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_bottom_action_bar.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable/bottom_action_bar.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_transfer_detail_tracker_item.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_transfer_detail_tracker_item.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_about_social_github.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/about_social_github.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable_keyword_tag_background_active.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable/keyword_tag_background_active.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-mdpi_btn_playback_pause_bottom.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_pause_bottom.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_preference_seekbar_with_checkbox.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_preference_seekbar_with_checkbox.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_list_item_audio_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/list_item_audio_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_transfers_header.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_transfers_header.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_my_files_audio_icon_selector_menu.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/my_files_audio_icon_selector_menu.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_default_update.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/dialog_default_update.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_picture.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/contextmenu_icon_picture.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_toolbar_main.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/toolbar_main.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_view_as_grid.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_view_as_grid.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_my_files_audio_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/my_files_audio_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_sort.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_sort.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_view_as_detailed.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/contextmenu_icon_view_as_detailed.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_donation_bitcoin.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_donation_bitcoin.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_vpn_icon_off_info.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/vpn_icon_off_info.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi__300x250_frostclick_1.jpg.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/_300x250_frostclick_1.jpg"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail_status.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail_status.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_my_files_document_icon_tab_selector.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/my_files_document_icon_tab_selector.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_play.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_play.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-nodpi_toast_vpn_status_bgd.9.png.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-nodpi/toast_vpn_status_bgd.9.png"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_progressbar_indeterminate_holo6.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/progressbar_indeterminate_holo6.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_action_bar_search_filter.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/action_bar_search_filter.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_contextmenu_icon_picture.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/contextmenu_icon_picture.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_searchinput_tablayout.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_searchinput_tablayout.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_transfer_detail_pieces.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_transfer_detail_pieces.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_notification_vpn_off.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/notification_vpn_off.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_search.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_custom_actionbar.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_custom_actionbar.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_list_item_audio_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/list_item_audio_icon.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_action_bar_checkbox.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-hdpi/action_bar_checkbox.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_promotions.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/view_promotions.xml"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_album.webp.flat",
+        "source": "com.frostwire.d4v-apollo-31:/drawable-xhdpi/contextmenu_icon_album.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_promo_download_arrow_button.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/promo_download_arrow_button.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_menu_icon_library.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/menu_icon_library.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_internal_memory_notification_dark_bg.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/internal_memory_notification_dark_bg.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_app_icon.webp.flat",
+        "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/app_icon.webp"
+    }
+]

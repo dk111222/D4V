@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="NNNtracksdeleted">
+    <item quantity="one"><ns1:g example="1" id="songs_to_delete">%d</ns1:g> Lidd gouf geläscht.</item>
+    <item quantity="other"><ns1:g id="songs_to_delete">%d</ns1:g> Lidder goufe geläscht.</item>
+  </plurals>
+    <plurals name="NNNtracksfromplaylist">
+    <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> Lidd aus der Ofspilllëscht erausgeholl.</item>
+    <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> Lidder aus der Ofspilllëscht erausgeholl.</item>
+  </plurals>
+    <plurals name="NNNtrackstoplaylist">
+    <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> Lidd gouf an d\'Ofspilllëscht gesat.</item>
+    <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> Lidder goufen an d\'Ofspilllëscht gesat.</item>
+  </plurals>
+    <plurals name="NNNtrackstoqueue">
+    <item quantity="one"><ns1:g example="1" id="number">%d</ns1:g> Lidd gouf an d\'Waardeschläif gesat.</item>
+    <item quantity="other"><ns1:g example="1" id="number">%d</ns1:g> Lidder goufen an d\'Waardeschläif gesat.</item>
+  </plurals>
+    <plurals name="Nalbums">
+    <item quantity="one"><ns1:g id="count">%d</ns1:g> Album</item>
+    <item quantity="other"><ns1:g id="count">%d</ns1:g> Albumen</item>
+  </plurals>
+    <plurals name="Nsongs">
+    <item quantity="one"><ns1:g id="count">%d</ns1:g> Lidd</item>
+    <item quantity="other"><ns1:g id="count">%d</ns1:g> Lidder</item>
+  </plurals>
+    <string name="accessibility_next">Weider</string>
+    <string name="accessibility_pause">Paus</string>
+    <string name="accessibility_play">Ofspillen</string>
+    <string name="accessibility_prev">Virdrun</string>
+    <string name="accessibility_repeat">Widderhuelen</string>
+    <string name="accessibility_repeat_all">Alles erëm</string>
+    <string name="accessibility_repeat_one">Wieder Wieder</string>
+    <string name="accessibility_shuffle">Mëschen</string>
+    <string name="accessibility_shuffle_all">All mëschen</string>
+    <string name="add_to_favorites">Fannen op Favoritten</string>
+    <string name="add_to_playlist">Zu der Lëscht vun de Lidder ze spillen</string>
+    <string name="add_to_queue">Fichier mat der Warteschléif</string>
+    <string name="are_you_sure_delete_files_text">Sidd Dir sécher datt Dir déi gewielte Fichier vu Ärem Apparat unzehuelen?</string>
+    <string name="cancel">Ofbriechen</string>
+    <string name="context_menu_delete">Läschen</string>
+    <string name="context_menu_more_by_artist">Méi vun der Kënschtlerin</string>
+    <string name="context_menu_play_next">Als nächst ofspillen</string>
+    <string name="context_menu_play_selection">Ofspillen</string>
+    <string name="context_menu_remove_from_playlist">Aus vun der Lëscht vun de Songs ze spillen</string>
+    <string name="context_menu_remove_from_recent">Entferne vun de läschten</string>
+    <string name="context_menu_rename_playlist">Ëmbenennen</string>
+    <string name="context_menu_use_as_ringtone">Benotzt als Klingelton</string>
+    <string name="could_not_be_pinned_to_home_screen"><ns1:g id="name">%s</ns1:g> konnt net op Ärer Heemechtsplaz gestach ginn</string>
+    <string name="create_playlist_prompt">Numm vun der Ofspilllëscht</string>
+    <string name="delete_dialog_title">Läschen <ns1:g example="album" id="item">%s</ns1:g>?</string>
+    <string name="delete_files_title">Läschen Dateien</string>
+    <string name="empty_last_added">Lieder déi Dir am Laaf vum leschten Mount huet, ginn hei gewisen.</string>
+    <string name="empty_music">Nach keng Songs. Versucht e puer Inhalt ze lueden</string>
+    <string name="empty_playlist">Dës Playlist ass eidel.\n\nKlickt hei fir ze léieren wéi Dir Lidder u kënnt.</string>
+    <string name="empty_recent">Lidder déi Dir héieren hutt wäert et hei weisen. Probéiert eng Musek ze spillen.</string>
+    <string name="empty_search">Keng Sichresultater fonnt</string>
+    <string name="frostwire_player">FrostWire Player</string>
+    <string name="menu_add_to_homescreen">Pin op home screen</string>
+    <string name="menu_clear_queue">Klore Sequenz</string>
+    <string name="menu_detailed">Detailléiert</string>
+    <string name="menu_equalizer">Ausgläich</string>
+    <string name="menu_grid">Grid</string>
+    <string name="menu_play_all">All ofspillen</string>
+    <string name="menu_save_queue">Waardeschlaang späicheren</string>
+    <string name="menu_search">Sichen</string>
+    <string name="menu_share">Deelen</string>
+    <string name="menu_shuffle">All kuscheleg</string>
+    <string name="menu_simple">Einfach</string>
+    <string name="menu_sort_by">Zortéieren no</string>
+    <string name="menu_view_as">Uweisen als</string>
+    <string name="new_empty_playlist">Nei Ofspilllëscht</string>
+    <string name="new_playlist_name_template">Ofspilllëscht <ns1:g id="number">%d</ns1:g></string>
+    <string name="no_effects_for_you">Den Equalizer konnt net opgemaach ginn.</string>
+    <string name="now_listening_to">#NowPlaying \"<ns1:g id="title">%1$s</ns1:g>\" vum <ns1:g id="artist">%2$s</ns1:g> op #FrostWire</string>
+    <string name="now_listening_to_no_artist_available">#NowPlaying \"<ns1:g id="title">%1$s</ns1:g>\" op #FrostWire</string>
+    <string name="overwrite">Iwwerschreiwen</string>
+    <string name="page_albums">Alben</string>
+    <string name="page_artists">Kënschtler</string>
+    <string name="page_genres">Genren</string>
+    <string name="page_last_added">Lescht geäntwert</string>
+    <string name="page_playlists">Ofspilllëschten</string>
+    <string name="page_recent">Rezent</string>
+    <string name="page_songs">Lidder</string>
+    <string name="pinned_to_home_screen"><ns1:g id="name">%s</ns1:g> op Ärer Heemechtsplaz gestréckt</string>
+    <string name="playlist_favorite">Favorit</string>
+    <string name="playlist_favorites">Favoritten</string>
+    <string name="playlist_last_added">Fir d\'lescht dobäigesat</string>
+    <string name="remove_from_favorites">Fuert aus Favoritten</string>
+    <string name="save">Späicheren</string>
+    <string name="set_as_ringtone">\'<ns1:g example="Alarm Bell" id="name">%s</ns1:g>\' als Klingong</string>
+    <string name="share_track_using">Bäisetze weg mat:</string>
+    <string name="sort_order_entry_album">Album</string>
+    <string name="sort_order_entry_artist">Kënschtler</string>
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_date_added">Datum hinzugefügt</string>
+    <string name="sort_order_entry_duration">Dauer</string>
+    <string name="sort_order_entry_filename">Fichiersnumm</string>
+    <string name="sort_order_entry_number_of_albums">Zuel vu Alben</string>
+    <string name="sort_order_entry_number_of_songs">Zuel vu Lidder</string>
+    <string name="sort_order_entry_track_list">Track Lëscht</string>
+    <string name="sort_order_entry_year">Joer</string>
+    <string name="sort_order_entry_za">Z-A</string>
+</resources>

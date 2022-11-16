@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="NNNtracksdeleted">
+    <item quantity="one"><ns1:g id="songs_to_delete">%d</ns1:g> трек удалён</item>
+    <item quantity="few"><ns1:g id="songs_to_delete">%d</ns1:g> трека удалено</item>
+    <item quantity="other"><ns1:g id="songs_to_delete">%d</ns1:g> треков удалено</item>
+  </plurals>
+    <plurals name="NNNtracksfromplaylist">
+    <item quantity="one"><ns1:g example="27" id="number">%d</ns1:g> трек удалён из плейлиста</item>
+    <item quantity="few"><ns1:g example="27" id="number">%d</ns1:g> трека удалено из плейлиста</item>
+    <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> треков удалено из плейлиста</item>
+  </plurals>
+    <plurals name="NNNtrackstoplaylist">
+    <item quantity="one"><ns1:g example="27" id="number">%d</ns1:g> трек добавлен в плейлист</item>
+    <item quantity="few"><ns1:g example="27" id="number">%d</ns1:g> трека добавлено в плейлист</item>
+    <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> треков добавлено в плейлист</item>
+  </plurals>
+    <plurals name="NNNtrackstoqueue">
+    <item quantity="one"><ns1:g example="27" id="number">%d</ns1:g> трек добавлен в очередь</item>
+    <item quantity="few"><ns1:g example="27" id="number">%d</ns1:g> трека добавлено в очередь</item>
+    <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> треков добавлено в очередь</item>
+  </plurals>
+    <plurals name="Nalbums">
+    <item quantity="one"><ns1:g id="count">%d</ns1:g> альбом</item>
+    <item quantity="few"><ns1:g id="count">%d</ns1:g> альбома</item>
+    <item quantity="other"><ns1:g id="count">%d</ns1:g> альбомов</item>
+  </plurals>
+    <plurals name="Nsongs">
+    <item quantity="one"><ns1:g id="count">%d</ns1:g> трек</item>
+    <item quantity="few"><ns1:g id="count">%d</ns1:g> трека</item>
+    <item quantity="other"><ns1:g id="count">%d</ns1:g> треков</item>
+  </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Перемотать на %d секунду вперед</item>
+    <item quantity="few">Перемотать на %d секунды вперед</item>
+    <item quantity="many">Перемотать на %d секунд вперед</item>
+    <item quantity="other">Перемотать на %d секунды вперед</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Перемотать на %d секунду назад</item>
+    <item quantity="few">Перемотать на %d секунды назад</item>
+    <item quantity="many">Перемотать на %d секунд назад</item>
+    <item quantity="other">Перемотать на %d секунды назад</item>
+  </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <string msgid="2659752099246305694" name="MediaControlView_audio_track_none_text">"Нет"</string>
+    <string msgid="4263103361854223806" name="MediaControlView_audio_track_number_text">"Звуковая дорожка <ns1:g id="AUDIO_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="3309135445007366582" name="MediaControlView_audio_track_text">"Звуковая дорожка"</string>
+    <string msgid="2029510260288453183" name="MediaControlView_playback_speed_normal">"Обычная"</string>
+    <string msgid="1481072528142380025" name="MediaControlView_playback_speed_text">"Скорость воспроизведения"</string>
+    <string msgid="3464220590351304587" name="MediaControlView_subtitle_off_text">"Отключено"</string>
+    <string msgid="2268860463481696609" name="MediaControlView_subtitle_track_number_and_lang_text">"Дорожка с субтитрами <ns1:g id="TRACK_NUMBER">%1$d</ns1:g>. Язык: <ns1:g id="LANG">%2$s</ns1:g>."</string>
+    <string msgid="2241078077382492349" name="MediaControlView_subtitle_track_number_text">"Дорожка с субтитрами <ns1:g id="TRACK_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="6734584158942500617" name="MediaControlView_time_placeholder">"00:00:00"</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="about">О приложении</string>
+    <string name="accept">Принять</string>
+    <string name="accept_intent">Я не буду использовать FrostWire с целью нарушения авторских прав</string>
+    <string name="accessibility_next">След. трек</string>
+    <string name="accessibility_pause">Пауза</string>
+    <string name="accessibility_play">Воспроизведение</string>
+    <string name="accessibility_prev">Пред. трек</string>
+    <string name="accessibility_repeat">Повтор</string>
+    <string name="accessibility_repeat_all">Повтор всех</string>
+    <string name="accessibility_repeat_one">Повтор трека</string>
+    <string name="accessibility_shuffle">Перемешать</string>
+    <string name="accessibility_shuffle_all">Перемешать все</string>
+    <string name="according_to_settings_i_cant_seed_due_to_data_savings">В соответствии с вашими настройками я не могу начать раздачу, если вы не на Wi-Fi за счет экономии данных. Файл будет готов к высева автоматически, когда вы вернетесь к Интернету включен сеть Wi-Fi.</string>
+    <string name="according_to_settings_i_cant_seed_unless_wifi">В соответствии с вашими настройками я не могу начать раздачу, если вы не на Wi-Fi. Файл будет готов к высева автоматически, когда вы вернетесь к Интернету включен сеть Wi-Fi.</string>
+    <string name="active_time">Активное время</string>
+    <string name="activity_VPN">Cоединение</string>
+    <string name="activity_preferences_name">Настройки</string>
+    <string name="ad_free">Свободный от рекламы</string>
+    <string name="add">Добавь</string>
+    <string name="add_to_favorites">Добавить в избранное</string>
+    <string name="add_to_playlist">Добавить в плейлист</string>
+    <string name="add_to_queue">Добавить в очередь</string>
+    <string name="add_tracker">Добавить трекер</string>
+    <string name="add_trackers">Добавить трекеры</string>
+    <string name="add_transfer">Добавить перевод</string>
+    <string name="add_transfer_label">Вставьте magnet или торрент ссылку</string>
+    <string name="advertisement">Реклама</string>
+    <string name="all_free_downloads">Все свободные скачивания</string>
+    <string name="android_will_erase_files_if_frostwire_is_uninstalled">Android сотрёт загруженные файлы, если они были удалены из FrostWire.</string>
+    <string name="app_shutdown_dlg_message">Будет завершена работа всех загрузок и фоновых служб. Вы уверены?</string>
+    <string name="app_shutdown_dlg_title">Выключение</string>
+    <string name="applications">Приложения</string>
+    <string name="are_you_sure_delete_files">Вы уверены, что хотите удалить выбранные файлы?</string>
+    <string name="are_you_sure_delete_files_text">Вы уверены, что хотите ПОСТОЯННО УДАЛИТЬ выбранные файлы с вашего устройства?</string>
+    <string name="are_you_sure_delete_playlist">Вы уверены, что хотите удалить список воспроизведения %s</string>
+    <string name="are_you_sure_you_wanna_leave">Вы уверены, что хотите вернуться к экрану заставки?</string>
+    <string name="are_you_sure_you_want_to_download_the_following">Вы уверены, что хотите загрузить %1$s (%2$s)?</string>
+    <string name="audio">Аудио</string>
+    <string name="automatic_renewal">Автоматическое продление</string>
+    <string name="available">доступно</string>
+    <string name="azureus_manager_item_downloading">Идет скачивание</string>
+    <string name="azureus_manager_item_error">Ошибка</string>
+    <string name="azureus_manager_item_paused">Приостановлено</string>
+    <string name="azureus_manager_item_seeding">Раздача</string>
+    <string name="azureus_manager_item_stopped">Остановлено</string>
+    <string name="azureus_peer_manager_status_finished">Завершено</string>
+    <string name="bandwidth_usage_settings">использования пропускной</string>
+    <string name="best_value">Лучшее значение</string>
+    <string name="bittorrent_is_currently_disconnected_would_you_like_me_to_start_it_for_you">Bittorrent отключен. Вы хотите, чтобы я начал это для вас?</string>
+    <string name="bittorrent_network_summary">Статус соединения</string>
+    <string name="bittorrent_off">БитТоррента выкл</string>
+    <string name="bittorrent_off_data_saver_on">"BitTorrent выключен (Data Saver On)"</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="build">build</string>
+    <string name="buy_uppercase">КУПИТЬ</string>
+    <string name="cancel">Отмена</string>
+    <string name="cancel_delete_menu_action">Остановить и удалить файлы</string>
+    <string name="cancel_menu_action">Остановить передачу</string>
+    <string name="cancel_transfer">Отменить передачу</string>
+    <string name="canceling">Отмена</string>
+    <string name="cannot_start_engine_without_vpn">BitTorrent не запустится, если только VPN не доступен. (Проверьте настройки)</string>
+    <string name="cant_open_file">Извините, не знаем, чем открыть этот файл.</string>
+    <string name="cant_open_file_does_not_exist">Невозможно открыть %1$s, файл не существует.</string>
+    <string name="cant_resume_torrent_transfers">Не удается возобновить торрент-передачу, проверьте статус сети в "Настройки" > "Связь"</string>
+    <string name="changelog">изменений</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="cheaper_than_beer">Дешевле, чем пиво</string>
+    <string name="cheaper_than_cigarettes">Дешевле, чем газ…</string>
+    <string name="cheaper_than_drinks">Дешевле, чем напитки</string>
+    <string name="cheaper_than_gas">Дешевле, чем газ</string>
+    <string name="cheaper_than_lattes">Дешевле, чем Латте</string>
+    <string name="cheaper_than_parking">Дешевле, чем парковка</string>
+    <string name="check_internet_connection">Проверьте подключение к Интернету</string>
+    <string name="checking_ellipsis">Проверка…</string>
+    <string name="choose_email_app">Выберите приложение эл.почты…</string>
+    <string name="clear">Очистить</string>
+    <string name="clear_all">Очистить все</string>
+    <string name="clear_complete">Удалить завершенные</string>
+    <string name="clear_search_cache">Очистить кэш поиска</string>
+    <string name="clear_search_cache_summary">Очистить кэш поиска</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="cloud_download_aborted_on_mobile_data">Текущая настройка предотвращает загрузку, если не на Wi-Fi сети</string>
+    <string name="cloud_downloads_coming">К сожалению, возможность загрузки в облако, пока ещё в разработке.</string>
+    <string name="comment">Комментарий</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="completed">Завершенный</string>
+    <string name="confirm_download">Подтвердите загрузку</string>
+    <string name="connection_header_title">Состояние подключения VPN:</string>
+    <string name="contact_us">Свяжитесь с нами</string>
+    <string name="context_menu_delete">Удалить</string>
+    <string name="context_menu_more_by_artist">Все треки исполнителя</string>
+    <string name="context_menu_play_next">Воспроизвести следующим</string>
+    <string name="context_menu_play_selection">Воспроизвести</string>
+    <string name="context_menu_remove_from_playlist">Удалить из плейлиста</string>
+    <string name="context_menu_remove_from_recent">Удалить из недавних</string>
+    <string name="context_menu_rename_playlist">Переименовать</string>
+    <string name="context_menu_use_as_ringtone">Использовать как рингтон</string>
+    <string msgid="6083905920877235314" name="copy">"Копировать"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Ссылка скопирована в буфер обмена."</string>
+    <string name="could_not_be_pinned_to_home_screen">Невозможно добавить «<ns1:g id="name">%s</ns1:g>» на главный экран.</string>
+    <string name="could_not_open_transfer_detail_invalid_infohash">Не удалось открыть сведения о передаче, недействительный InfoHash</string>
+    <string name="crawl_cache_size">Кэш индекса %1$.2fМБ</string>
+    <string name="create_playlist_prompt">Имя плейлиста</string>
+    <string name="created_on">Создано на</string>
+    <string name="current_plan">Текущий план</string>
+    <string name="data_saving_kill_http_warning">Это остановит все незавершенные переводы в прогрессе</string>
+    <string name="data_saving_kill_http_warning_title">Предупреждение: Http переводы в прогрессе</string>
+    <string name="data_saving_turn_off_transfers">Нет Wi-Fi доступен, все трансферы не были остановлены</string>
+    <string name="date">дата</string>
+    <string name="days_left">дней осталось</string>
+    <string msgid="7213672915724563695" name="default_notification_channel_name">"Текущий медиафайл"</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_dialog_title">Удалить «<ns1:g example="album" id="item">%s</ns1:g>»?</string>
+    <string name="delete_file_menu_action">Удалить</string>
+    <string name="delete_file_menu_action_count">Удалить (%s)</string>
+    <string name="delete_files">Удалить файлы</string>
+    <string name="delete_files_title">Удалить файлы</string>
+    <string name="delete_started_torrents">Удалить файлы .torrent</string>
+    <string name="delete_started_torrents_summary">Удалить файлы .torrent после начала загрузки</string>
+    <string name="deleted_crawl_cache">Очистить кэш индекса</string>
+    <string name="deselect_all">Убрать выделение со всего</string>
+    <string name="details">Детали</string>
+    <string name="device_storage">Места на устройстве</string>
+    <string name="dht_contacts">DHT контакты</string>
+    <string name="dialog_new_transfer_check_text">Спрашивать каждый раз</string>
+    <string name="dialog_new_transfer_text_text">Вы уверены, что хотите скачать %1$s (%2$s)</string>
+    <string name="disabled">отключено</string>
+    <string name="dismiss">Увольте</string>
+    <string name="distraction_free_search_results">Отвлечение Бесплатный поиск (бета-версия)</string>
+    <string name="distraction_free_search_results_summary">Скрыть компоненты пользовательского интерфейса для того чтобы показать больше результатов. Требуется перезагрузка приложения вступили в силу.</string>
+    <string name="documents">Документы</string>
+    <string name="donate_your_time">Пожертвование времени</string>
+    <string name="download">Скачать</string>
+    <string name="download_added_to_queue">1 файл будет загружен</string>
+    <string name="download_finished">Скачивание завершено</string>
+    <string name="download_type_not_supported">Скачиваемый тип не поддерживается</string>
+    <string name="downloaded">загруженный</string>
+    <string name="downloaded_n">загруженный %1$s / </string>
+    <string name="downloading_metadata">Загрузка метаданных</string>
+    <string name="downloading_promotion">Скачивается %s</string>
+    <string name="downloads">Загрузки</string>
+    <string name="drawer_close">Закрыть панель навигации</string>
+    <string name="drawer_open">Показать панель навигацию</string>
+    <string name="dummy_price">$ 99.99</string>
+    <string name="dummy_title_bold">[Жирный Название]</string>
+    <string name="edit">Редактировать</string>
+    <string name="edit_tracker">Изменить трекер</string>
+    <string name="empty_last_added">Треки, добавленные за последний месяц, будут показаны здесь.</string>
+    <string name="empty_music">Чтобы скопировать музыку с ПК, используйте USB-кабель.</string>
+    <string name="empty_playlist">Этот плейлист пуст.\n\nНажмите здесь, чтобы узнать, как добавлять песни.</string>
+    <string name="empty_recent">Прослушанные альбомы будут показаны здесь.</string>
+    <string name="empty_search">Поиск не дал результатов.</string>
+    <string name="enable_dht">Включить DHT</string>
+    <string name="enable_dht_summary">Включите использование "распределённой хеш-таблицы" для объявления/поиска торрент-пиров</string>
+    <string name="enable_seeding">Включить Посев</string>
+    <string name="enter_valid_tracker_url_here">Введите правильный URL-адрес трекера здесь</string>
+    <string name="error_connection_timed_out">Ошибка: тайм-аут подключения/упал. Попробуй еще раз.</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="error_moving_incomplete">Ошибка: Перемещение не завершено</string>
+    <string name="error_no_internet_connection">Ошибка: Проверьте подключение к Интернету</string>
+    <string name="error_no_space_left_on_device">Ошибка: Не хватает свободного места для сохранения файла</string>
+    <string name="error_not_enough_peers">Попробуйте еще раз, не хватает пиров</string>
+    <string name="error_wrong_md5_hash">Ошибка: Неправильный MD5 хэш</string>
+    <string name="error_wrong_signature">Ошибка: Неправильная подпись</string>
+    <string name="exclude">исключать</string>
+    <string name="exit">Выйти</string>
+    <string name="exo_controls_cc_disabled_description">Включить субтитры</string>
+    <string name="exo_controls_cc_enabled_description">Выключить субтитры</string>
+    <string name="exo_controls_fastforward_description">Перемотать вперед</string>
+    <string name="exo_controls_fullscreen_enter_description">Полноэкранный режим</string>
+    <string name="exo_controls_fullscreen_exit_description">Выйти из полноэкранного режима</string>
+    <string name="exo_controls_hide">Скрыть панель управления</string>
+    <string name="exo_controls_next_description">Следующий трек</string>
+    <string name="exo_controls_overflow_hide_description">Скрыть дополнительные настройки</string>
+    <string name="exo_controls_overflow_show_description">Показать дополнительные настройки</string>
+    <string name="exo_controls_pause_description">Приостановить</string>
+    <string name="exo_controls_play_description">Воспроизвести</string>
+    <string name="exo_controls_playback_speed">Скорость</string>
+    <string name="exo_controls_playback_speed_normal">Стандартная</string>
+    <string name="exo_controls_previous_description">Предыдущий трек</string>
+    <string name="exo_controls_repeat_all_description">Повторять все</string>
+    <string name="exo_controls_repeat_off_description">Не повторять</string>
+    <string name="exo_controls_repeat_one_description">Повторять трек</string>
+    <string name="exo_controls_rewind_description">Перемотать назад</string>
+    <string name="exo_controls_seek_bar_description">Полоса прокрутки воспроизведения</string>
+    <string name="exo_controls_settings_description">Настройки</string>
+    <string name="exo_controls_show">Показать панель управления</string>
+    <string name="exo_controls_shuffle_off_description">Перемешивание отключено</string>
+    <string name="exo_controls_shuffle_on_description">Перемешивание включено</string>
+    <string name="exo_controls_stop_description">Остановить</string>
+    <string name="exo_controls_vr_description">VR-режим</string>
+    <string name="exo_download_completed">Скачивание завершено</string>
+    <string name="exo_download_description">Скачать</string>
+    <string name="exo_download_downloading">Скачивание…</string>
+    <string name="exo_download_failed">Ошибка скачивания</string>
+    <string name="exo_download_notification_channel_name">Скачивания</string>
+    <string name="exo_download_removing">Удаление скачанных файлов…</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мбит/сек</string>
+    <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Другая запись</string>
+    <string name="exo_track_role_closed_captions">Субтитры</string>
+    <string name="exo_track_role_commentary">Комментарии</string>
+    <string name="exo_track_role_supplementary">Дополнительные материалы</string>
+    <string name="exo_track_selection_auto">Авто</string>
+    <string name="exo_track_selection_none">Нет</string>
+    <string name="exo_track_selection_title_audio">Аудио</string>
+    <string name="exo_track_selection_title_text">Текст</string>
+    <string name="exo_track_selection_title_video">Видео</string>
+    <string name="exo_track_stereo">Стерео</string>
+    <string name="exo_track_surround">Объемный звук</string>
+    <string name="exo_track_surround_5_point_1">Система объемного звука 5.1</string>
+    <string name="exo_track_surround_7_point_1">Система объемного звука 7.1</string>
+    <string name="exo_track_unknown">Неизвестный трек</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Дополнительно"</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="failed_to_set_wallpaper">Не удалось установить в качестве обоев</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Копировать ссылку"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Открыть в браузере"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Отправить ссылку"</string>
+    <string name="fetching_torrent_ellipsis">Fetching торрент…</string>
+    <string name="file_descriptor_sd_mounted">Этот файл был удален с SD-карты, или вы вставили другую SD-карту.</string>
+    <string name="file_descriptor_sd_unmounted">Этот файл находиться на SD-карте, пожалуйста вставьте её.</string>
+    <string name="file_extensions">Расширения файлов</string>
+    <string name="file_information">Информация о файле</string>
+    <string name="file_names">Имена файлов</string>
+    <string name="files">файлов</string>
+    <string name="filter">фильтровать</string>
+    <string name="filter_by_keyword">Фильтровать по ключевому слову…</string>
+    <string name="filter_ellipsis">фильтровать…</string>
+    <string name="finishing">Отделочные</string>
+    <string name="frostwire_features">FROSTWIRE ОСОБЕННОСТИ</string>
+    <string name="frostwire_is_running">FrostWire запущен</string>
+    <string name="frostwire_player">Медиаплеер FrostWire</string>
+    <string name="frostwire_start_engine_service_security_exception">FrostWire не смог запустить должным образом из-за отсутствия разрешений. Предоставьте необходимые разрешения и перезапустите приложение.</string>
+    <string name="fullscreen">полноэкранный</string>
+    <string name="general_settings">Генеральная</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="help_translate_or_proofread_frostwire">Помогите перевести или вычитать FrostWire</string>
+    <string name="http_download_status_save_dir_error">Директория для сохранения не существует или не может быть создана</string>
+    <string name="http_download_status_temp_dir_error">Временный каталог не существует или не может быть создан</string>
+    <string name="http_download_status_uncompressing">Разархивирование</string>
+    <string name="i_have_read_and_agree_to_the">Я прочитал и согласен с</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="include">Включают</string>
+    <string name="includes_3_day_free_trial">Включает в себя 3-дневную бесплатную пробную версию. рекомендуемые</string>
+    <string name="intent_text">FrostWire - это пиринговая программа для обмена только разрешенными файлами. Установка и использование программы не дает право на получение или несанкционированное распространение контента.</string>
+    <string name="invalid_filename">Неверное имя файла</string>
+    <string name="invalid_tracker_url">Недопустимый URL-адрес трекера</string>
+    <string name="issue_with_tip_donation_uri">Что-то не так с веб-адресом для Чаевых/Пожертвований</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="keep_in_touch">Оставайся на связи!</string>
+    <string name="keep_the_project_alive">Держите проект жив</string>
+    <string name="learn_how_to_get_more_results">Попробуйте FrostWire Plus с большим количеством результатов</string>
+    <string name="loading">Загрузка</string>
+    <string name="love_frostwire">Люблю FrostWire</string>
+    <string name="m_of_n_decimals">%1$d из %2$d</string>
+    <string name="magnet_url_added">Magnet-ссылка добавлена для передачи. (лучше всего работают через Wi-Fi)</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string msgid="1540894858499118373" name="mcv2_back_button_desc">"Назад"</string>
+    <string msgid="2380791179816122456" name="mcv2_cc_is_off">"Субтитры отключены. Нажмите, чтобы включить их."</string>
+    <string msgid="5427119422911561783" name="mcv2_cc_is_on">"Субтитры включены. Нажмите, чтобы скрыть их."</string>
+    <string msgid="5940167897992933850" name="mcv2_error_dialog_button">"ОК"</string>
+    <string msgid="611689280746097673" name="mcv2_ffwd_button_desc">"Перемотать на 30 секунд вперед"</string>
+    <string msgid="1609817079594941003" name="mcv2_full_screen_button_desc">"Полноэкранный режим"</string>
+    <string msgid="5393558204040775454" name="mcv2_music_artist_unknown_text">"Неизвестный исполнитель"</string>
+    <string msgid="6037645626002038645" name="mcv2_music_title_unknown_text">"Без названия"</string>
+    <string msgid="1204572886248099893" name="mcv2_next_button_desc">"Перейти к следующему медиафайлу"</string>
+    <string msgid="2032814146738922144" name="mcv2_non_music_title_unknown_text">"Без названия"</string>
+    <string msgid="2749567167276435888" name="mcv2_overflow_left_button_desc">"Вернуться к предыдущему списку кнопок"</string>
+    <string msgid="7388732945289831383" name="mcv2_overflow_right_button_desc">"Открыть список других кнопок"</string>
+    <string msgid="7391720675120766278" name="mcv2_pause_button_desc">"Приостановить"</string>
+    <string msgid="4881308324856085359" name="mcv2_play_button_desc">"Воспроизвести"</string>
+    <string msgid="6061787693725630293" name="mcv2_playback_error_text">"Не удалось воспроизвести выбранное видео."</string>
+    <string msgid="3080315055670437389" name="mcv2_previous_button_desc">"Перейти к предыдущему медиафайлу"</string>
+    <string msgid="3128622733570179596" name="mcv2_replay_button_desc">"Повторить"</string>
+    <string msgid="578809901971186362" name="mcv2_rewind_button_desc">"Перемотать на 10 секунд назад"</string>
+    <string msgid="24915699029009384" name="mcv2_seek_bar_desc">"Панель перемотки воспроизведения"</string>
+    <string msgid="811917224044739656" name="mcv2_settings_button_desc">"Настройки"</string>
+    <string name="media_player_failed">Не удалось запустить медиаплеер</string>
+    <string name="media_preview">%s превью</string>
+    <string name="media_type_applications">Приложения</string>
+    <string name="media_type_audio">Аудио</string>
+    <string name="media_type_documents">Книги/Документы</string>
+    <string name="media_type_images">Изображения</string>
+    <string name="media_type_torrents">Торренты</string>
+    <string name="media_type_video">Видео</string>
+    <string name="menu_add_to_homescreen">Поместить на главный экран</string>
+    <string name="menu_clear_queue">Очистить очередь</string>
+    <string name="menu_detailed">Подробный список</string>
+    <string name="menu_equalizer">Эквалайзер</string>
+    <string name="menu_grid">Сетка</string>
+    <string name="menu_play_all">Воспроизвести все</string>
+    <string name="menu_save_queue">Сохранить очередь</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_share">Опубликовать сведения</string>
+    <string name="menu_shuffle">Перемешать все</string>
+    <string name="menu_simple">Простой список</string>
+    <string name="menu_sort_by">Сортировать по</string>
+    <string name="menu_view_as">Вид объектов</string>
+    <string name="minimize_frostwire">Свернуть FrostWire</string>
+    <string name="mobile_data_saving">Мобильных данных на летнее</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="my_filetype">Мои %s</string>
+    <string name="my_music">Моя музыка</string>
+    <string name="n_files">%1$d ФАЙЛЫ</string>
+    <string name="n_peers">%1$d СВЕРСТНИКИ</string>
+    <string name="name">Название</string>
+    <string name="new_empty_playlist">Новый плейлист</string>
+    <string name="new_playlist_name_template">Плейлист <ns1:g id="number">%d</ns1:g></string>
+    <string name="no_data_check_internet_connection">Сеть недоступна, проверьте подключение к Интернету.</string>
+    <string name="no_effects_for_you">Эквалайзер не может быть открыт</string>
+    <string name="no_results_feedback">Ничего не найдено.\n\nПроверьте интернет соединение или\nпопробуйте другие ключевые слова.</string>
+    <string name="no_trial_period_included">Нет испытательного срока включен</string>
+    <string msgid="6573031135582639649" name="not_set">"Не указано"</string>
+    <string name="nothing_is_currently_seeding">Ничто в настоящее время не делится</string>
+    <string name="notification_other_header">Уведомления и другое</string>
+    <string name="notify_frostwire_is_running">Сообщите, если FrostWire работает</string>
+    <string name="notify_frostwire_is_running_summary">Показать постоянный Android уведомления со статусом передач</string>
+    <string name="now_listening_to">#NowPlaying <ns1:g id="title">%1$s</ns1:g> от <ns1:g id="artist">%2$s</ns1:g> #FrostWire</string>
+    <string name="now_listening_to_no_artist_available">#NowPlaying \"<ns1:g id="title">%1$s</ns1:g>\" в #FrostWire</string>
+    <string name="number_of_files">Количество файлов</string>
+    <string name="one_time_purchase">Один раз Покупка</string>
+    <string name="one_year">1 год</string>
+    <string name="open">Открыть</string>
+    <string name="open_menu_action">Открыть %s</string>
+    <string name="or">или</string>
+    <string name="or_enter_url">или введите URL</string>
+    <string name="other_settings">Другие настройки</string>
+    <string name="overwrite">Заменить</string>
+    <string name="page_albums">Альбомы</string>
+    <string name="page_artists">Исполнители</string>
+    <string name="page_genres">Жанры</string>
+    <string name="page_last_added">Недавно доб.</string>
+    <string name="page_playlists">Плейлисты</string>
+    <string name="page_recent">Недавние</string>
+    <string name="page_songs">Треки</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string msgid="3510124037191104584" name="pause_button_content_description">"Приостановить"</string>
+    <string name="pause_torrent_menu_action">Пауза</string>
+    <string name="pausing">Приостановка</string>
+    <string name="peer_http_download_status_complete">Завершено</string>
+    <string name="peer_http_upload_status_uploading">Идет загрузка</string>
+    <string name="peers">Пиры</string>
+    <string name="peers_n">Пиры: %s</string>
+    <string name="pick_the_files_you_want_to_download_from_this_torrent">Выберите файлы, которые вы хотите загрузить с этого торрент</string>
+    <string name="picture">Изображение</string>
+    <string name="pictures">Изображения</string>
+    <string name="piece_size_header">Размер части:</string>
+    <string name="pieces">Куски</string>
+    <string name="pieces_header">Куски:</string>
+    <string name="pinned_to_home_screen">Ярлык «<ns1:g id="name">%s</ns1:g>» добавлен на главный экран.</string>
+    <string msgid="963503759453979404" name="play_button_content_description">"Воспроизвести"</string>
+    <string name="playing">Проигрывается</string>
+    <string name="playlist">плейлист</string>
+    <string name="playlist_favorite">Избранное</string>
+    <string name="playlist_favorites">Избранное</string>
+    <string name="playlist_last_added">Недавно добавленные</string>
+    <string name="please_check_connection_status_before_resuming_download">Пожалуйста, проверьте ваше интернет-соединение, прежде чем возобновить.</string>
+    <string name="please_enter_valid_url">Пожалуйста, введите правильный URL</string>
+    <string msgid="6685851473431805375" name="preference_copied">"Текст \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" скопирован в буфер обмена"</string>
+    <string name="processing_payment">Обработка платежей, обновить в течение нескольких секунд</string>
+    <string name="protected_connection">Защищенное соединение</string>
+    <string name="protected_connections_visibility_bullet_html"><![CDATA[ Вы подключены к Интернету с помощью VPN. <br><br> Если вы еще этого не сделали, мы рекомендуем использовать одну из приведенных ниже служб для шифрования вашего соединения и <b>защитить вашу конфиденциальность</b>. ]]></string>
+    <string name="rate_our_app">Оцените наше приложение</string>
+    <string name="rating_reminder_description">Если вы любите FrostWire, пожалуйста, уделите минуту, чтобы оценить нас.</string>
+    <string name="remove_ads">Убрать рекламу</string>
+    <string name="remove_ads_description">Наслаждайтесь опыт без рекламы, поддержки FrostWire</string>
+    <string name="remove_from_favorites">Удалить из избранного</string>
+    <string name="remove_torrent_and_data">Удалить торрент и данные</string>
+    <string name="remove_tracker">Удалить трекер</string>
+    <string name="rename">Переименовать</string>
+    <string name="request_again">Повторить запрос</string>
+    <string name="resume_torrent_menu_action">Возобновить</string>
+    <string name="retry">Повторить поиск</string>
+    <string name="ringtone_not_set">Рингтон не может быть установлен</string>
+    <string name="ringtones">Рингтоны</string>
+    <string name="save">Сохранить</string>
+    <string name="save_bandwidth">Сохранить Полоса пропускания</string>
+    <string name="saving_to_internal_memory">Сохранение во внутреннюю память</string>
+    <string name="saving_to_internal_memory_description">У вас также есть SD-карта (%1$s доступно)</string>
+    <string name="saving_to_sd_card">Сохранение на SD-карту.</string>
+    <string name="scanning">Отделка - Сканирование</string>
+    <string name="sd_permission_no_accessible_path">Вы выбрали в SD путь не доступен больше. Нажмите кнопку OK, чтобы выбрать снова.</string>
+    <string name="sdcard_storage">Места на SD-карте</string>
+    <string name="search">Поиск</string>
+    <string name="search_header">Поиск</string>
+    <string name="search_label">Поиск</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string name="search_preferences_one_engine_checked_always">По умолчанию, один поисковик должен быть проверен в любое время</string>
+    <string name="search_torrent_settings">Поиск и Настройки Торрент</string>
+    <string name="seed">Сид</string>
+    <string name="seed_all_finished">Поделиться всем</string>
+    <string name="seed_finished_torrents">Раздавать завершенные торренты</string>
+    <string name="seed_finished_torrents_summary">Раздавать части скаченных торрентов кому-либо в Интернете с помощью BitTorrent</string>
+    <string name="seed_finished_torrents_wifi_only">Раздавать только по Wi-Fi</string>
+    <string name="seed_finished_torrents_wifi_only_summary">Раздавать только когда подключено через Wi-Fi, для того, чтобы сэкономить трафик через мобильные сети</string>
+    <string name="seed_stop">Остановить посев</string>
+    <string name="seeding_has_been_turned_off">Раздача была отключена</string>
+    <string name="seeding_is_currently_disabled">В настоящее время общий доступ отключен</string>
+    <string name="seeding_is_currently_disabled_in_settings">Посев в настоящее время отключена в настройках. Вы хотите, чтобы я включить затравку для вас разделить этот файл?</string>
+    <string name="seeding_keeps_the_network_healthy">Совместное использование помогает поддерживать работоспособность сети</string>
+    <string name="seeding_settings">Настройки раздачи</string>
+    <string name="seeding_settings_explanation">Пользователи BitTorrent в сети смогут скачивать части файла, который раздает ваш торрент.</string>
+    <string name="seeding_time">Время высева</string>
+    <string name="seeding_wifi_settings_explanation">Раздавайте только при Wi-Fi подключении. Избегайте дополнительных расходов у своего сотового оператора.</string>
+    <string name="seeds">Сиды</string>
+    <string name="seeds_n">Сиды: %s</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="select_option_below">Выберите вариант ниже:</string>
+    <string name="selected">выбранный</string>
+    <string name="send_bitcoin_tip">Отправить Bitcoin чаевые</string>
+    <string name="send_feedback">Оставить отзыв</string>
+    <string name="send_file_using">Отправить файл с помощью</string>
+    <string name="send_tip_donation">Отправить Чаевые/Пожертвование</string>
+    <string name="sequential_download">Последовательная загрузка</string>
+    <string name="set_as_ringtone">Трек «<ns1:g example="Alarm Bell" id="name">%s</ns1:g>» установлен как рингтон.</string>
+    <string name="set_as_wallpaper">Установить в качестве обоев</string>
+    <string name="settings">Настройки</string>
+    <string name="share">Раздавать</string>
+    <string name="share_ratio">Коэффициент доли</string>
+    <string name="share_track_using">Опубликовать сведения в:</string>
+    <string name="sharing_privacy_settings">Общий доступ к и конфиденциальность</string>
+    <string name="show_new_transfer_dialog">Показывать окно новой передачи данных</string>
+    <string name="show_torrent_details">Показать торрент-данные</string>
+    <string name="show_transfers_on_download_start">Показывать передачи данных при старте скачивания</string>
+    <string name="six_months">6 месяцев</string>
+    <string name="size">Размер</string>
+    <string name="size_unknown">размер не известен</string>
+    <string msgid="6034072145387511457" name="skip_to_next_item_button_content_description">"Перейти к следующему файлу"</string>
+    <string msgid="4352480799561670760" name="skip_to_previous_item_button_content_description">"Перейти к предыдущему файлу"</string>
+    <string name="sort_order_entry_album">Альбому</string>
+    <string name="sort_order_entry_artist">Исполнителю</string>
+    <string name="sort_order_entry_az">Алфавиту</string>
+    <string name="sort_order_entry_date_added">Дате добавления</string>
+    <string name="sort_order_entry_duration">Длительности</string>
+    <string name="sort_order_entry_filename">Имени файла</string>
+    <string name="sort_order_entry_number_of_albums">Количеству альбомов</string>
+    <string name="sort_order_entry_number_of_songs">Количеству треков</string>
+    <string name="sort_order_entry_track_list">Трек-листу</string>
+    <string name="sort_order_entry_year">Году</string>
+    <string name="sort_order_entry_za">Алфавиту в обр. порядке</string>
+    <string name="source_type">Источник: %1$s</string>
+    <string name="sources_channels">Источники / каналы</string>
+    <string name="speed_limits">Ограничение скорости</string>
+    <string name="status">Положение дел</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="stop">Остановить</string>
+    <string name="storage_path">Путь хранения</string>
+    <string name="storage_picker_treeuri_cant_write">FrostWire не может писать на выбранном пути хранения</string>
+    <string name="storage_picker_treeuri_error">Неожиданная ошибка путь хранения грибов</string>
+    <string name="storage_picker_treeuri_not_directory">Выбранный путь не является каталогом</string>
+    <string name="storage_picker_treeuri_null">Ни один путь хранения не был выбран</string>
+    <string name="storage_preference_summary">Место хранения по умолчанию, где будут сохранены файлы.</string>
+    <string name="storage_preference_title">Выбор места хранения</string>
+    <string name="storage_setting_confirm_dialog_text">Я понимаю, что все файлы, загруженные через FrostWire на SD-карту, будет удалены ANDROID\'ом. Приложение FrostWire, будет удалено с вашего устройства. Мы напоминаем, что FrostWire LLC не несёт ответственности за любые потерянные файлы.</string>
+    <string name="storage_setting_confirm_dialog_title">SD-КАРТА</string>
+    <string name="storage_setting_warning">Внимание: Все файлы загруженные через FrostWire на SD-карту, будут удалены ANDROID\'ом, если вы удалите FrostWire.</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="support_free_software">Поддержать свободное ПО</string>
+    <string name="support_frostwire">Поддержка FrostWire</string>
+    <string name="switch_off_engine_without_vpn">VPN неактивна, остановка двигателя BitTorrent.</string>
+    <string name="terms_of_use">Условия эксплуатации</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="the_file_could_not_be_seeded_bittorrent_will_remain_disconnected">Файл не может быть посеяны. BitTorrent будет отключен по-прежнему.</string>
+    <string name="the_file_could_not_be_seeded_enable_seeding">Файл не может быть посеяны. Включение высев о настройках.</string>
+    <string name="the_more_you_give_the_more_you_receive">Чем больше вы даете, тем больше вы получаете</string>
+    <string name="thirty_days">30 дней</string>
+    <string name="time_left">Время вышло</string>
+    <string name="tip_touch_tags_to"><![CDATA[ <b>Информация:</b> Прикоснитесь к приложенным тегам к]]></string>
+    <string name="title_activity_transfer_detail">Сведения о передаче</string>
+    <string name="toast_on_disconnect">Разъединено от BitTorrent. Все передачи на BitTorrent были остановлены.</string>
+    <string name="torrent_fetcher_download_status_canceled">Отменено</string>
+    <string name="torrent_fetcher_download_status_downloading_torrent">Скачиваемый торрент</string>
+    <string name="torrent_max_download_speed">Максимальная скорость загрузки</string>
+    <string name="torrent_max_download_speed_summary">Максимальная скорость загрузки</string>
+    <string name="torrent_max_downloads">Максимум загрузок</string>
+    <string name="torrent_max_downloads_summary">Максимум загрузок</string>
+    <string name="torrent_max_peers">Максимум пиров</string>
+    <string name="torrent_max_peers_summary">Максимум пиров</string>
+    <string name="torrent_max_total_connections">Максимальное количество подключений</string>
+    <string name="torrent_max_total_connections_summary">Максимальное количество подключений</string>
+    <string name="torrent_max_upload_speed">Максимальная скорость раздачи</string>
+    <string name="torrent_max_upload_speed_summary">Максимальная скорость раздачи</string>
+    <string name="torrent_max_uploads">Максимум раздач</string>
+    <string name="torrent_max_uploads_summary">Максимум раздач</string>
+    <string name="torrent_preferences_header">Торрент Предпочтения</string>
+    <string name="torrent_scheme_download_not_supported">Загрузка не поддерживается</string>
+    <string name="torrent_transfer_aborted_on_mobile_data">Раздача торрентов не начнётся, пока вы не подключитесь к Wi-Fi сети. (Проверьте настройки сети относительно использования 3G/4G данных)</string>
+    <string name="torrent_transfer_consuming_mobile_data">Внимание: Эта торрент загрузка использует 3G/LTE сеть. (В настройках, можно настроить использование BitTorrent только через Wi-Fi)</string>
+    <string name="torrent_transfer_enqueued_on_mobile_data">Торрент начнет загрузку автоматически, при подключении к сети Wi-Fi. (Проверьте настройки, касающиеся использования 3G/LTE)</string>
+    <string name="torrent_url_added">Torrent-ссылка добавлена для передачи.</string>
+    <string name="total_size">Общий размер</string>
+    <string name="track">трек</string>
+    <string name="trackers">трекеры</string>
+    <string name="transfer_detail_storage_header">Путь хранения:</string>
+    <string name="transfer_status_demuxing">Демультиплексирование</string>
+    <string name="transfers">Загрузки</string>
+    <string name="transfers_context_menu_clear_finished">Очистить список завершённых передач</string>
+    <string name="transfers_context_menu_copy_infohash">Копировать ИнфоХеш</string>
+    <string name="transfers_context_menu_copy_infohash_copied">ИнфоХеш скопирован в буфер обмена</string>
+    <string name="transfers_context_menu_copy_magnet">Копировать Магнет-ссылку</string>
+    <string name="transfers_context_menu_copy_magnet_copied">Магнет-ссылка скопирована в буфер обмена</string>
+    <string name="transfers_context_menu_pause_stop_all_transfers">Приостановить/Остановить все передачи</string>
+    <string name="transfers_context_resume_all_torrent_transfers">Возобновить все раздачи</string>
+    <string name="transfers_context_seed_all_transfers">Семя все готовые передачи</string>
+    <string name="transfers_context_stop_seeding_all_transfers">Стоп высева все трансферы</string>
+    <string name="transfers_select_all">все</string>
+    <string name="transfers_select_completed">завершённые</string>
+    <string name="transfers_select_downloading">загружаемые</string>
+    <string name="transfers_select_seeding">засеивание</string>
+    <string name="try_changing_applied_filters">Попробуйте изменить применяемые фильтры</string>
+    <string name="try_other_keywords">Попробуйте другие ключевые слова</string>
+    <string name="type_to_filter_results">Введите слово, для фильтрации результатов.</string>
+    <string name="unknown">Неизвестный</string>
+    <string name="unlimited">неограниченный</string>
+    <string name="unprotected_connection">Незащищенное соединение</string>
+    <string name="unprotected_connections_visibility_bullet_html"><![CDATA[ <b>Ваша конфиденциальность является основополагающим правом человека</b>. Незащищенное соединение означает все, что вы делаете в сети, в том числе <b>загрузка, поиск, обмен сообщениями</b>, может контролироваться и перехватываться кем-либо из вашей сети, например. Интернет-провайдеры, хакеры, правительства.<br><br><b>Мы настоятельно рекомендуем использовать службу VPN</b>. <br> Вот некоторые варианты, которые обеспечивают надежное обслуживание и хорошо работают с FrostWire:]]></string>
+    <string name="update_message">FrostWire скачал новое ПОЛЕЗНОЕ ОБНОВЛЕНИЕ. Пожалуйста, нажмите кнопку ОК, если Вы хотите установить его прямо сейчас.</string>
+    <string name="update_title">Время обновлений!</string>
+    <string name="uploaded">Загружено</string>
+    <string name="uploaded_n">Загружено %1$s</string>
+    <string name="use_archiveorg">Использовать Archive.org</string>
+    <string name="use_eztv">Использовать Eztv</string>
+    <string name="use_frostclick">Использовать FrostClick</string>
+    <string name="use_limetorrents">Используйте Limetorrents</string>
+    <string name="use_magnet_summary">На основе магнитных ссылок, работает только на Wi-Fi</string>
+    <string name="use_nyaa">Использовать Nyaa</string>
+    <string name="use_soundcloud">Использовать SoundCloud</string>
+    <string name="use_torlock">Использовать TorLock</string>
+    <string name="use_torrentdownloads">Использовать TorrentDownloads</string>
+    <string name="use_torrentz2">Использовать Torrentz2</string>
+    <string name="use_tpb">Использовать ThePirateBay.org</string>
+    <string name="use_yify">Использовать Yify</string>
+    <string name="use_zooqle">Использовать Zooqle.com</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ВЫКЛ."</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ВКЛ."</string>
+    <string name="vibrate_on_finished_download">Вибрировать при завершении загрузки</string>
+    <string name="video">Видео</string>
+    <string name="vpn_drop_protection_summary">Защитите вашу частную жизнь. Автоматически отключить переводы BitTorrent, если шифрованное подключение VPN не активен</string>
+    <string name="vpn_drop_protection_title">VPN Защита неактивна</string>
+    <string name="vpn_find_out_more">Узнать больше</string>
+    <string name="vpn_off_toast_notification">Ваше соединение не может быть частным.</string>
+    <string name="vpn_suggestion_nordvpn">NORDVPN \n Бесплатная 7-дневная пробная версия</string>
+    <string name="waiting">Подождите…</string>
+    <string name="welcome_to_frostwire">Добро пожаловать в FrostWire %s</string>
+    <string name="why_we_need_storage_permissions">Зачем нам нужен доступ для хранения данных.</string>
+    <string name="why_we_need_storage_permissions_summary">FrostWire является файл-браузером и загрузчиком, поэтому он должен получить возможность сохранять файлы на диск.\n\nБез предоставленных прав FrostWire не может работать.\n\nХотите попробовать снова?</string>
+    <string name="wifi_network_unavailable">Wi-Fi сеть не доступна</string>
+    <string name="wifi_networks_only">Только Wi-Fi сети</string>
+    <string name="wifi_networks_only_summary">Сохранить данные. Скачать только если Wi-Fi соединение установлено. </string>
+    <string name="wifi_seeding_has_been_turned_off">Wi-Fi недоступен, раздача была прекращена</string>
+    <string name="wizard_finish">Завершить</string>
+    <string name="wizard_next">Продолжить</string>
+    <string name="wizard_previous">Вернуться</string>
+    <string name="working">Работает</string>
+    <string name="would_you_like_to_seed_your_finished_torrent_transfers">Вы хотите поделиться своими готовыми передачами торрентов?</string>
+    <string name="yes_no_cancel_delete_transfer_question">Вы уверены, что хотите отменить это скачивание (Скаченная информация будет удалена)?</string>
+    <string name="yes_no_cancel_transfer_question">Вы уверены, что хотите остановить и удалить из списка это скачивание (Данные не будут удалены)?</string>
+    <string name="yes_no_cancel_transfer_question_cloud">Вы уверены, что хотите остановить и удалить эту загрузку из списка?</string>
+    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[<b>Раскрытие информации:</b> Хотя для ваших загрузок рекомендуется использовать, особенно при загрузке или обмене конфиденциальной информацией (например, банковской) и при использовании общедоступных Wi-Fi или мобильных данных, <b>, вам не нужна VPN для использования FrostWire.</b>]]></string>
+    <string name="you_need_a_bitcoin_wallet_app">На вашем устройстве должен быть Bitcoin кошелёк, чтобы отправить BTC для пожертвования.</string>
+    <string name="your_android_wall_paper_will_change">Ваши обои для Android будут изменены за несколько секунд</string>
+    <string name="your_installation_is_complete">Установка завершена.</string>
+</resources>

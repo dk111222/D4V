@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="NNNtracksdeleted">
+    <item quantity="one">1 kappale poistettiin.</item>
+    <item quantity="other"><ns1:g id="songs_to_delete">%d</ns1:g> kappaletta poistettiin.</item>
+  </plurals>
+    <plurals name="NNNtracksfromplaylist">
+    <item quantity="one">1 kappale poistettu soittolistalta.</item>
+    <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> kappaletta poistettu soittolistalta.</item>
+  </plurals>
+    <plurals name="NNNtrackstoplaylist">
+    <item quantity="one">1 kappale lisätty soittolistalle.</item>
+    <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> kappaletta lisätty soittolistalle.</item>
+  </plurals>
+    <plurals name="NNNtrackstoqueue">
+    <item quantity="one">1 kappale lisätty jonoon.</item>
+    <item quantity="other"><ns1:g example="27" id="number">%d</ns1:g> kappaletta lisätty jonoon.</item>
+  </plurals>
+    <plurals name="Nalbums">
+    <item quantity="one">1 albumi</item>
+    <item quantity="other"><ns1:g id="count">%d</ns1:g> albumia</item>
+  </plurals>
+    <plurals name="Nsongs">
+    <item quantity="one">1 kappale</item>
+    <item quantity="other"><ns1:g id="count">%d</ns1:g> kappaletta</item>
+  </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Siirry taaksepäin %d sekunti</item>
+    <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+  </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d uusi ilmoitus</item>
+    <item quantity="other">%d uutta ilmoitusta</item>
+  </plurals>
+    <string msgid="2659752099246305694" name="MediaControlView_audio_track_none_text">"Ei mitään"</string>
+    <string msgid="4263103361854223806" name="MediaControlView_audio_track_number_text">"Raita <ns1:g id="AUDIO_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="3309135445007366582" name="MediaControlView_audio_track_text">"Ääniraita"</string>
+    <string msgid="2029510260288453183" name="MediaControlView_playback_speed_normal">"Normaali"</string>
+    <string msgid="1481072528142380025" name="MediaControlView_playback_speed_text">"Toistonopeus"</string>
+    <string msgid="3464220590351304587" name="MediaControlView_subtitle_off_text">"Pois päältä"</string>
+    <string msgid="2268860463481696609" name="MediaControlView_subtitle_track_number_and_lang_text">"Raita <ns1:g id="TRACK_NUMBER">%1$d</ns1:g> – <ns1:g id="LANG">%2$s</ns1:g>"</string>
+    <string msgid="2241078077382492349" name="MediaControlView_subtitle_track_number_text">"Raita <ns1:g id="TRACK_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="6734584158942500617" name="MediaControlView_time_placeholder">"00:00:00"</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Lisäasetukset"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"POIS PÄÄLTÄ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÄÄLLÄ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Vaihto+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"välilyönti"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Valikko+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Haku…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Hakukysely"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Jaa…"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Jaa: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Tiivistä"</string>
+    <string name="about">Tietoja</string>
+    <string name="accept">Hyväksy</string>
+    <string name="accept_intent">En käytä FrostWire tekijänoikeusrikkomuksesta</string>
+    <string name="accessibility_next">Seuraava</string>
+    <string name="accessibility_pause">Pysäytä</string>
+    <string name="accessibility_play">Toista</string>
+    <string name="accessibility_prev">Edellinen</string>
+    <string name="accessibility_repeat">Uudelleentoisto</string>
+    <string name="accessibility_repeat_all">Uudelleentoista kaikki</string>
+    <string name="accessibility_repeat_one">Uudelleentoista yksi</string>
+    <string name="accessibility_shuffle">Sekoita</string>
+    <string name="accessibility_shuffle_all">Sekoita kaikki</string>
+    <string name="according_to_settings_i_cant_seed_due_to_data_savings">Mukaan asetukset En voi aloittaa kylvö ellet ovat Wi-Fi vuoksi tietojen säästöjä. Tiedosto on valmis kylvö automaattisesti kun saat takaisin internet käytössä Wi-Fi-verkkoon.</string>
+    <string name="according_to_settings_i_cant_seed_unless_wifi">Mukaan asetukset En voi aloittaa kylvö ellet ovat Wi-Fi. Tiedosto on valmis kylvö automaattisesti kun saat takaisin internet käytössä Wi-Fi-verkkoon.</string>
+    <string name="active_time">Aktiivinen aika</string>
+    <string name="activity_VPN">Liitäntä</string>
+    <string name="activity_preferences_name">Asetukset</string>
+    <string name="ad_free">Ilman Mainoksia</string>
+    <string name="add">Lisätä</string>
+    <string name="add_to_favorites">Lisää suosikkeihin</string>
+    <string name="add_to_playlist">Lisää soittolistalle</string>
+    <string name="add_to_queue">Lisää jonoon</string>
+    <string name="add_tracker">Lisää seuranta</string>
+    <string name="add_trackers">Lisätä trackers</string>
+    <string name="add_transfer">Lisää siirto</string>
+    <string name="add_transfer_label">Liitä magneetti tai torrent URL</string>
+    <string name="advertisement">mainos</string>
+    <string name="all_free_downloads">Kaikki ilmaiseksi ladattavia</string>
+    <string name="android_will_erase_files_if_frostwire_is_uninstalled">Android poistaa ladattuja tiedostoja, jos FrostWire on poistettu.</string>
+    <string name="app_shutdown_dlg_message">Tämä aiotaan sulkea kaikki siirrot ja taustan palveluja. Oletko varma?</string>
+    <string name="app_shutdown_dlg_title">Sammuttaa</string>
+    <string name="applications">Hakemukset ohjelmistojen</string>
+    <string name="are_you_sure_delete_files">Oletko varma, että haluat poistaa pysyvästi valitut tiedostot laitteesta?</string>
+    <string name="are_you_sure_delete_files_text">Haluatko varmasti poistaa valitut tiedostot pysyvästi laitteestasi?</string>
+    <string name="are_you_sure_delete_playlist">Oletko varma, että haluat poistaa %s soittolistan</string>
+    <string name="are_you_sure_you_wanna_leave">Oletko varma, että haluat palata aloitusnäyttöön?</string>
+    <string name="are_you_sure_you_want_to_download_the_following">Oletko varma, että haluat ladata seuraavan %1$s (%2$s)?</string>
+    <string name="audio">Audio</string>
+    <string name="automatic_renewal">Automaattinen uusiminen</string>
+    <string name="available">saatavissa</string>
+    <string name="azureus_manager_item_downloading">Lataaminen</string>
+    <string name="azureus_manager_item_error">Virhe</string>
+    <string name="azureus_manager_item_paused">Keskeytetty</string>
+    <string name="azureus_manager_item_seeding">Seeding</string>
+    <string name="azureus_manager_item_stopped">Pysäytetty</string>
+    <string name="azureus_peer_manager_status_finished">Valmiit</string>
+    <string name="bandwidth_usage_settings">Kaistanleveyden käyttö</string>
+    <string name="best_value">Paras arvo</string>
+    <string name="bittorrent_is_currently_disconnected_would_you_like_me_to_start_it_for_you">Bittorrent on irrotettu. Haluatko minun aloittaa sen sinulle?</string>
+    <string name="bittorrent_network_summary">Yhteyden tila</string>
+    <string name="bittorrent_off">BitTorrent off</string>
+    <string name="bittorrent_off_data_saver_on">"BitTorrent off (Data Saver On)"</string>
+    <string name="bottomsheet_action_expand_halfway">Laajenna puoliväliin</string>
+    <string name="build">build</string>
+    <string name="buy_uppercase">OSTAA</string>
+    <string name="cancel">Peruuta</string>
+    <string name="cancel_delete_menu_action">Lopeta ja poista data</string>
+    <string name="cancel_menu_action">Pysäytä Siirto</string>
+    <string name="cancel_transfer">Peruuta siirto</string>
+    <string name="canceling">Peruuttaminen</string>
+    <string name="cannot_start_engine_without_vpn">BitTorrent ei käynnisty, ellei VPN on saatavilla. (Tarkista asetukset)</string>
+    <string name="cant_open_file">Valitettavasti en tiedä miten avata tiedoston.</string>
+    <string name="cant_open_file_does_not_exist">En voi avata %1$s, tiedostoa ei ole olemassa.</string>
+    <string name="cant_resume_torrent_transfers">Voi jatkaa torrent siirtoja. Tarkista tila "Asetukset"> "BitTorrent Connection Status"</string>
+    <string name="changelog">Changelog</string>
+    <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
+    <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
+    <string name="cheaper_than_beer">Halvempi kuin olut</string>
+    <string name="cheaper_than_cigarettes">Halvempi kuin savukkeet</string>
+    <string name="cheaper_than_drinks">Halvempi kuin Juomat</string>
+    <string name="cheaper_than_gas">Halvempi kuin kaasua</string>
+    <string name="cheaper_than_lattes">Halvempi kuin lattes</string>
+    <string name="cheaper_than_parking">Halvempi kuin pysäköinti</string>
+    <string name="check_internet_connection">Tarkista Internet-yhteys</string>
+    <string name="checking_ellipsis">Tarkistetaan…</string>
+    <string name="choose_email_app">Valitse sähköpostisovellus…</string>
+    <string name="clear">Tyhjentää</string>
+    <string name="clear_all">Poista kaikki</string>
+    <string name="clear_complete">Tyhjennä valmis</string>
+    <string name="clear_search_cache">Tyhjennä haku välimuisti</string>
+    <string name="clear_search_cache_summary">Tyhjennä haku välimuistimerkintöjä</string>
+    <string name="clear_text_end_icon_content_description">Tyhjennä teksti</string>
+    <string name="cloud_download_aborted_on_mobile_data">Nykyinen asetus estää lataaminen kun ei WiFi-verkossa</string>
+    <string name="cloud_downloads_coming">Valitettavasti: Alkaen pilvi lataukset täältä on saatavilla uusia päivityksiä.</string>
+    <string name="comment">Kommentti</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
+    <string name="completed">Valmistunut</string>
+    <string name="confirm_download">Vahvista Lataa</string>
+    <string name="connection_header_title">VPN-yhteyden tila:</string>
+    <string name="contact_us">Ota meihin yhteyttä</string>
+    <string name="context_menu_delete">Poista</string>
+    <string name="context_menu_more_by_artist">Lisää esittäjältä</string>
+    <string name="context_menu_play_next">Toista seuraava</string>
+    <string name="context_menu_play_selection">Toista</string>
+    <string name="context_menu_remove_from_playlist">Poista soittolistalta</string>
+    <string name="context_menu_remove_from_recent">Poista äskettäin kuunnelluista</string>
+    <string name="context_menu_rename_playlist">Nimeä uudelleen</string>
+    <string name="context_menu_use_as_ringtone">Käytä soittoäänenä</string>
+    <string msgid="6083905920877235314" name="copy">"Kopioi"</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"Linkki kopioitu leikepöydälle"</string>
+    <string name="could_not_be_pinned_to_home_screen"><ns1:g id="name">%s</ns1:g> - ei voitu lisätä kotinäytölle</string>
+    <string name="could_not_open_transfer_detail_invalid_infohash">Tiedonsiirto-tietoja ei voi avata, virheellinen InfoHash</string>
+    <string name="crawl_cache_size">Crawl cache %1$.2fMB</string>
+    <string name="create_playlist_prompt">Soittolistan nimi</string>
+    <string name="created_on">Luotu</string>
+    <string name="current_plan">Nykyinen suunnitelma</string>
+    <string name="data_saving_kill_http_warning">Tämä pysäyttää kaikki keskeneräiset siirrot käynnissä</string>
+    <string name="data_saving_kill_http_warning_title">Varoitus: Http siirrot käynnissä</string>
+    <string name="data_saving_turn_off_transfers">Ei WiFi, kaikki siirrot on lopetettu</string>
+    <string name="date">Treffi</string>
+    <string name="days_left">päiviä jäljellä</string>
+    <string msgid="7213672915724563695" name="default_notification_channel_name">"Nyt toistetaan"</string>
+    <string name="delete">Poistaa</string>
+    <string name="delete_dialog_title">Poistetaanko <ns1:g example="album" id="item">%s</ns1:g>?</string>
+    <string name="delete_file_menu_action">Poistaa</string>
+    <string name="delete_file_menu_action_count">Poista (%s)</string>
+    <string name="delete_files">Poista tiedostot</string>
+    <string name="delete_files_title">Poista tiedostot</string>
+    <string name="delete_started_torrents">Poista .torrent-tiedostoja</string>
+    <string name="delete_started_torrents_summary">Poista .torrent-tiedostoja jälkeen alkaa lataamisen</string>
+    <string name="deleted_crawl_cache">Poistettu ryömiä välimuisti</string>
+    <string name="deselect_all">Poista kaikki valinnat</string>
+    <string name="details">Yksityiskohdat</string>
+    <string name="device_storage">Laitteen varastointi</string>
+    <string name="dht_contacts">DHT yhteystiedot</string>
+    <string name="dialog_new_transfer_check_text">Näytä tämä seuraavalla kerralla</string>
+    <string name="dialog_new_transfer_text_text">Oletko varma, että haluat ladata %1$s (%2$s)</string>
+    <string name="disabled">pois käytöstä</string>
+    <string name="dismiss">Hylkää</string>
+    <string name="distraction_free_search_results">Häiriötekijä Free Search (beta)</string>
+    <string name="distraction_free_search_results_summary">Piilota käyttöliittymäkomponentit näyttää enemmän tuloksia. Tarvitsee sovellus uudelleenkäynnistys voimaan.</string>
+    <string name="documents">Dokumentit</string>
+    <string name="donate_your_time">Lahjoita aikaasi</string>
+    <string name="download">Lataa</string>
+    <string name="download_added_to_queue">1 tiedosto lataa</string>
+    <string name="download_finished">Lataa Valmiit</string>
+    <string name="download_type_not_supported">Lataustyyppi ei tueta</string>
+    <string name="downloaded">Ladattua</string>
+    <string name="downloaded_n">Ladattua %1$s / </string>
+    <string name="downloading_metadata">Lataaminen metadata</string>
+    <string name="downloading_promotion">Lataaminen %s</string>
+    <string name="downloads">Lataukset</string>
+    <string name="drawer_close">Sulje navigointipaneeli</string>
+    <string name="drawer_open">Avaa navigointipaneeli</string>
+    <string name="dummy_price">$ 99.99</string>
+    <string name="dummy_title_bold">[Bold Title]</string>
+    <string name="edit">Muokata</string>
+    <string name="edit_tracker">Muokata tracker</string>
+    <string name="empty_last_added">Viime kuussa lisäämäsi kappaleet näkyvät tässä.</string>
+    <string name="empty_music">Kopioi musiikkia tietokoneelta laitteeseen käyttämällä USB-kaapelia.</string>
+    <string name="empty_playlist">Tämä soittolista on tyhjä.\n\nNapsauta tästä saadaksesi lisätietoja kappaleiden lisäämisestä.</string>
+    <string name="empty_recent">Kuuntelemasi albumit näkyvät tässä.</string>
+    <string name="empty_search">Hakutuloksia ei löytynyt</string>
+    <string name="enable_dht">Ota DHT</string>
+    <string name="enable_dht_summary">Käytä Distributed Hash Table ilmoittaa/haku torrent ikäisensä</string>
+    <string name="enable_seeding">Ota Seeding</string>
+    <string name="enter_valid_tracker_url_here">Anna kelvollinen tracker-URL-osoite tähän</string>
+    <string name="error_connection_timed_out">Virhe: yhteyden aikakatkaisu/laski. Yritä uudelleen.</string>
+    <string name="error_icon_content_description">Virhe</string>
+    <string name="error_moving_incomplete">Virhe: Liukuvien Keskeneräinen</string>
+    <string name="error_no_internet_connection">Virhe: Tarkista Internet-yhteys</string>
+    <string name="error_no_space_left_on_device">Virhe: tilaa jäljellä tallenna tiedosto</string>
+    <string name="error_not_enough_peers">Yritä uudelleen, ei riitä ikäisensä</string>
+    <string name="error_wrong_md5_hash">Virhe: Väärä MD5</string>
+    <string name="error_wrong_signature">Virhe: Väärä allekirjoitus</string>
+    <string name="exclude">Sulkea</string>
+    <string name="exit">Exit</string>
+    <string name="exo_controls_cc_disabled_description">Ota tekstitykset käyttöön</string>
+    <string name="exo_controls_cc_enabled_description">Poista tekstitykset käytöstä</string>
+    <string name="exo_controls_fastforward_description">Kelaa eteenpäin</string>
+    <string name="exo_controls_fullscreen_enter_description">Siirry koko näytön tilaan</string>
+    <string name="exo_controls_fullscreen_exit_description">Sulje koko näytön tila</string>
+    <string name="exo_controls_hide">Näytä soittimen säätimet</string>
+    <string name="exo_controls_next_description">Seuraava</string>
+    <string name="exo_controls_overflow_hide_description">Piilota lisäasetukset</string>
+    <string name="exo_controls_overflow_show_description">Näytä lisäasetukset</string>
+    <string name="exo_controls_pause_description">Keskeytä</string>
+    <string name="exo_controls_play_description">Toista</string>
+    <string name="exo_controls_playback_speed">Nopeus</string>
+    <string name="exo_controls_playback_speed_normal">Normaali</string>
+    <string name="exo_controls_previous_description">Edellinen</string>
+    <string name="exo_controls_repeat_all_description">Toista kaikki uudelleen</string>
+    <string name="exo_controls_repeat_off_description">Ei uudelleentoistoa</string>
+    <string name="exo_controls_repeat_one_description">Toista yksi uudelleen</string>
+    <string name="exo_controls_rewind_description">Kelaa taaksepäin</string>
+    <string name="exo_controls_seek_bar_description">Toiston edistyminen</string>
+    <string name="exo_controls_settings_description">Asetukset</string>
+    <string name="exo_controls_show">Näytä soittimen säätimet</string>
+    <string name="exo_controls_shuffle_off_description">Satunnaistoisto ei käytössä</string>
+    <string name="exo_controls_shuffle_on_description">Satunnaistoisto käytössä</string>
+    <string name="exo_controls_stop_description">Lopeta</string>
+    <string name="exo_controls_vr_description">VR-tila</string>
+    <string name="exo_download_completed">Lataus valmis</string>
+    <string name="exo_download_description">Lataa</string>
+    <string name="exo_download_downloading">Ladataan</string>
+    <string name="exo_download_failed">Lataus epäonnistui</string>
+    <string name="exo_download_notification_channel_name">Lataukset</string>
+    <string name="exo_download_removing">Poistetaan latauksia</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/s</string>
+    <string name="exo_track_mono">Mono</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Vaihtoehtoinen</string>
+    <string name="exo_track_role_closed_captions">Tekstitykset</string>
+    <string name="exo_track_role_commentary">Kommenttiraita</string>
+    <string name="exo_track_role_supplementary">Lisämateriaali</string>
+    <string name="exo_track_selection_auto">Automaattinen</string>
+    <string name="exo_track_selection_none">–</string>
+    <string name="exo_track_selection_title_audio">Ääni</string>
+    <string name="exo_track_selection_title_text">Teksti</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Stereo</string>
+    <string name="exo_track_surround">Surround-ääni</string>
+    <string name="exo_track_surround_5_point_1">5.1-surround-ääni</string>
+    <string name="exo_track_surround_7_point_1">7.1-surround-ääni</string>
+    <string name="exo_track_unknown">Tuntematon</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Lisäasetukset"</string>
+    <string name="exposed_dropdown_menu_content_description">Näytä avattava valikko</string>
+    <string name="failed_to_set_wallpaper">Epäonnistui asettaa Taustakuva</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"Kopioi linkki"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"Avaa selaimessa"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"Jaa linkki"</string>
+    <string name="fetching_torrent_ellipsis">Haetaan torrent…</string>
+    <string name="file_descriptor_sd_mounted">Tämä tiedosto poistetaan SD-kortti, tai SD-kortti olet asettanut on toisenlainen.</string>
+    <string name="file_descriptor_sd_unmounted">Tämä tiedosto kuuluu SD-kortille, laita sen laitteeseen.</string>
+    <string name="file_extensions">Tiedostopäätteet</string>
+    <string name="file_information">Tiedoston tiedot</string>
+    <string name="file_names">Tiedostonimet</string>
+    <string name="files">tiedostot</string>
+    <string name="filter">Suodattaa</string>
+    <string name="filter_by_keyword">Suodata avainsanan mukaan…</string>
+    <string name="filter_ellipsis">Suodattaa…</string>
+    <string name="finishing">Viimeistely</string>
+    <string name="frostwire_features">FROSTWIRE ESITTELEE</string>
+    <string name="frostwire_is_running">FrostWire on käynnissä</string>
+    <string name="frostwire_player">FrostWire-mediasoitin</string>
+    <string name="frostwire_start_engine_service_security_exception">FrostWire ei voinut käynnistää kunnolla oikeuksien puutteen takia. Anna tarvittavat käyttöoikeudet ja käynnistä sovellus uudelleen</string>
+    <string name="fullscreen">koko näyttö</string>
+    <string name="general_settings">Yleinen</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="help_translate_or_proofread_frostwire">Auttaa kääntää tai oikolukea FrostWire</string>
+    <string name="http_download_status_save_dir_error">Tallenna hakemistoon ei ole tai ei voida luoda</string>
+    <string name="http_download_status_temp_dir_error">Väliaikaiset hakemistoa ei ole olemassa tai ei voida luoda</string>
+    <string name="http_download_status_uncompressing">Uncompressing</string>
+    <string name="i_have_read_and_agree_to_the">Olen lukenut ja hyväksyn</string>
+    <string name="icon_content_description">Valintaikkunan kuvake</string>
+    <string name="include">Sisältää</string>
+    <string name="includes_3_day_free_trial">Sisältää 3 päivän maksuton oikeudenkäyntiä. Suositeltava</string>
+    <string name="intent_text">FrostWire on peer-to-peer ohjelma jakaa valtuutettujen vain tiedostot. Asennuksesta ja käytöstä ohjelma ei muodosta lisenssiä saamiseksi tai jakelevat luvatonta sisältöä.</string>
+    <string name="invalid_filename">Virheellinen tiedostonimi</string>
+    <string name="invalid_tracker_url">Virheellinen Tracker URL-osoite</string>
+    <string name="issue_with_tip_donation_uri">Siinä on jotain vikaa lahjoitus verkko-osoite</string>
+    <string name="item_view_role_description">Välilehti</string>
+    <string name="keep_in_touch">Olla yhteydessä!</string>
+    <string name="keep_the_project_alive">Pidä projekti elossa</string>
+    <string name="learn_how_to_get_more_results">Kokeile FrostWire Plus lisää tuloksia</string>
+    <string name="loading">Ladataan</string>
+    <string name="love_frostwire">Rakkaus FrostWire</string>
+    <string name="m_of_n_decimals">%1$d / %2$d</string>
+    <string name="magnet_url_added">Magnet URL lisätään siirtoja. (Magneetit toimivat parhaiten Wi-Fi)</string>
+    <string name="material_clock_toggle_content_description">Valitse AP tai IP</string>
+    <string name="material_hour_selection">Valitse tunti</string>
+    <string name="material_hour_suffix">klo %1$s</string>
+    <string name="material_minute_selection">Valitse minuutit</string>
+    <string name="material_minute_suffix">%1$s minuuttia</string>
+    <string name="material_timepicker_am">ap</string>
+    <string name="material_timepicker_clock_mode_description">Vaihda ajan syöttämiseen kellotilassa.</string>
+    <string name="material_timepicker_hour">Tunnit</string>
+    <string name="material_timepicker_minute">Minuutti</string>
+    <string name="material_timepicker_pm">ip</string>
+    <string name="material_timepicker_select_time">Valitse aika</string>
+    <string name="material_timepicker_text_input_mode_description">Vaihda ajan syöttämiseen tekstitilassa.</string>
+    <string msgid="1540894858499118373" name="mcv2_back_button_desc">"Takaisin"</string>
+    <string msgid="2380791179816122456" name="mcv2_cc_is_off">"Tekstitys ei päällä. Näytä klikkaamalla."</string>
+    <string msgid="5427119422911561783" name="mcv2_cc_is_on">"Tekstitys päällä. Piilota klikkaamalla."</string>
+    <string msgid="5940167897992933850" name="mcv2_error_dialog_button">"OK"</string>
+    <string msgid="611689280746097673" name="mcv2_ffwd_button_desc">"Siirry 30 sekuntia eteenpäin"</string>
+    <string msgid="1609817079594941003" name="mcv2_full_screen_button_desc">"Koko näyttö"</string>
+    <string msgid="5393558204040775454" name="mcv2_music_artist_unknown_text">"Artisti tuntematon"</string>
+    <string msgid="6037645626002038645" name="mcv2_music_title_unknown_text">"Kappaleen nimi tuntematon"</string>
+    <string msgid="1204572886248099893" name="mcv2_next_button_desc">"Seuraava mediatiedosto"</string>
+    <string msgid="2032814146738922144" name="mcv2_non_music_title_unknown_text">"Videon nimi tuntematon"</string>
+    <string msgid="2749567167276435888" name="mcv2_overflow_left_button_desc">"Palaa edellisiin painikkeisiin"</string>
+    <string msgid="7388732945289831383" name="mcv2_overflow_right_button_desc">"Näytä lisää painikkeita"</string>
+    <string msgid="7391720675120766278" name="mcv2_pause_button_desc">"Keskeytä"</string>
+    <string msgid="4881308324856085359" name="mcv2_play_button_desc">"Toista"</string>
+    <string msgid="6061787693725630293" name="mcv2_playback_error_text">"Valitsemaasi kohdetta ei voitu toistaa"</string>
+    <string msgid="3080315055670437389" name="mcv2_previous_button_desc">"Edellinen mediatiedosto"</string>
+    <string msgid="3128622733570179596" name="mcv2_replay_button_desc">"Toista uudelleen"</string>
+    <string msgid="578809901971186362" name="mcv2_rewind_button_desc">"Kelaa 10 sekuntia taaksepäin"</string>
+    <string msgid="24915699029009384" name="mcv2_seek_bar_desc">"Toiston edistyminen"</string>
+    <string msgid="811917224044739656" name="mcv2_settings_button_desc">"Asetukset"</string>
+    <string name="media_player_failed">Mediasoitin epäonnistui</string>
+    <string name="media_preview">%s esikatselu</string>
+    <string name="media_type_applications">Hakemukset ohjelmistojen</string>
+    <string name="media_type_audio">Audio</string>
+    <string name="media_type_documents">Kirjat/Dokumentii</string>
+    <string name="media_type_images">Kuvat</string>
+    <string name="media_type_torrents">Torrents</string>
+    <string name="media_type_video">Video</string>
+    <string name="menu_add_to_homescreen">Lisää kotinäytölle</string>
+    <string name="menu_clear_queue">Tyhjennä jono</string>
+    <string name="menu_detailed">Yksityiskohtainen</string>
+    <string name="menu_equalizer">Taajuuskorjain</string>
+    <string name="menu_grid">Ruudukko</string>
+    <string name="menu_play_all">Toista kaikki</string>
+    <string name="menu_save_queue">Tallenna jono</string>
+    <string name="menu_search">Haku</string>
+    <string name="menu_share">Jaa</string>
+    <string name="menu_shuffle">Sekoita kaikki</string>
+    <string name="menu_simple">Yksinkertainen</string>
+    <string name="menu_sort_by">Lajittelujärjestys</string>
+    <string name="menu_view_as">Näytä</string>
+    <string name="minimize_frostwire">Minimoi FrostWire</string>
+    <string name="mobile_data_saving">Mobiilitiedonsiirto säästö</string>
+    <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
+    <string name="mtrl_chip_close_icon_content_description">Poista %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Yli %1$d uutta ilmoitusta</string>
+    <string name="mtrl_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
+    <string name="mtrl_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
+    <string name="mtrl_picker_announce_current_selection">Nykyinen valinta: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Valitse päivämäärä</string>
+    <string name="mtrl_picker_date_header_unselected">Valittu päivämäärä</string>
+    <string name="mtrl_picker_day_of_week_column_header">Päiväsarake: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Virheellinen muoto</string>
+    <string name="mtrl_picker_invalid_format_example">Esimerkki: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Käytä muotoa %1$s</string>
+    <string name="mtrl_picker_invalid_range">Virheellinen alue</string>
+    <string name="mtrl_picker_navigate_to_year_description">Siirry vuoteen %1$s</string>
+    <string name="mtrl_picker_out_of_range">Aikavälin ulkop.: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Alkamispäivä – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – päättymispäivä</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Valitse jakso</string>
+    <string name="mtrl_picker_range_header_unselected">Alkamispäivä – päättymispäivä</string>
+    <string name="mtrl_picker_save">Tallenna</string>
+    <string name="mtrl_picker_text_input_date_hint">Päivämäärä</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Päättymispäivä</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Alkamispäivä</string>
+    <string name="mtrl_picker_text_input_day_abbr">p</string>
+    <string name="mtrl_picker_text_input_month_abbr">k</string>
+    <string name="mtrl_picker_text_input_year_abbr">v</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Vaihda syöttötavaksi kalenteri</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Siirry päivän valintaan napauttamalla</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Valitse syöttötavaksi teksti</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Siirry vuoden valintaan napauttamalla</string>
+    <string name="my_filetype">Minun %s</string>
+    <string name="my_music">Musiikkini</string>
+    <string name="n_files">%1$d TIEDOSTOT</string>
+    <string name="n_peers">%1$d peeriä</string>
+    <string name="name">Nimi</string>
+    <string name="new_empty_playlist">Uusi soittolista</string>
+    <string name="new_playlist_name_template">Soittolista <ns1:g id="number">%d</ns1:g></string>
+    <string name="no_data_check_internet_connection">Verkko ei ole käytettävissä, tarkista Internet-yhteys.</string>
+    <string name="no_effects_for_you">Taajuuskorjainta ei voitu avata.</string>
+    <string name="no_results_feedback">Tuloksia ei löytynyt.</string>
+    <string name="no_trial_period_included">Ei koeaika mukana</string>
+    <string msgid="6573031135582639649" name="not_set">"Ei asetettu"</string>
+    <string name="nothing_is_currently_seeding">Mikään parhaillaan kylvö</string>
+    <string name="notification_other_header">Ilmoitukset ja muut</string>
+    <string name="notify_frostwire_is_running">Ilmoita, jos FrostWire on käynnissä</string>
+    <string name="notify_frostwire_is_running_summary">Näytä pysyvä Android ilmoitusta asema siirtoja</string>
+    <string name="now_listening_to">#NowPlaying <ns1:g id="title">%1$s</ns1:g> esittäjältä <ns1:g id="artist">%2$s</ns1:g> #FrostWire</string>
+    <string name="now_listening_to_no_artist_available">#NowPlaying \"<ns1:g id="title">%1$s</ns1:g>\" #FrostWire</string>
+    <string name="number_of_files">Tiedostojen määrä</string>
+    <string name="one_time_purchase">Osta nyt</string>
+    <string name="one_year">1 vuosi</string>
+    <string name="open">Avata</string>
+    <string name="open_menu_action">Avata %s</string>
+    <string name="or">tai</string>
+    <string name="or_enter_url">tai anna URL</string>
+    <string name="other_settings">Muut asetukset</string>
+    <string name="overwrite">Korvaa</string>
+    <string name="page_albums">Albumit</string>
+    <string name="page_artists">Esittäjät</string>
+    <string name="page_genres">Tyylilajit</string>
+    <string name="page_last_added">Viimeksi lisätty</string>
+    <string name="page_playlists">Soittolistat</string>
+    <string name="page_recent">Äskettäin kuunnellut</string>
+    <string name="page_songs">Kappaleet</string>
+    <string name="password_toggle_content_description">Näytä salasana</string>
+    <string msgid="3510124037191104584" name="pause_button_content_description">"Keskeytä"</string>
+    <string name="pause_torrent_menu_action">Paussi</string>
+    <string name="pausing">Keskeytät</string>
+    <string name="peer_http_download_status_complete">Täydellinen</string>
+    <string name="peer_http_upload_status_uploading">Lataaminen</string>
+    <string name="peers">Peers</string>
+    <string name="peers_n">Peers: %s</string>
+    <string name="pick_the_files_you_want_to_download_from_this_torrent">Nouto tiedostot haluat ladata tästä torrent</string>
+    <string name="picture">Kuva</string>
+    <string name="pictures">Kuvat</string>
+    <string name="piece_size_header">Piece Koko:</string>
+    <string name="pieces">Kappaletta</string>
+    <string name="pieces_header">Kappaletta:</string>
+    <string name="pinned_to_home_screen"><ns1:g id="name">%s</ns1:g> lisätty kotinäytölle</string>
+    <string msgid="963503759453979404" name="play_button_content_description">"Toista"</string>
+    <string name="playing">Soivan</string>
+    <string name="playlist">soittolistan</string>
+    <string name="playlist_favorite">Suosikki</string>
+    <string name="playlist_favorites">Suosikit</string>
+    <string name="playlist_last_added">Viimeksi lisätyt</string>
+    <string name="please_check_connection_status_before_resuming_download">Tarkista tilan Internet-yhteys ennen jatkamista.</string>
+    <string name="please_enter_valid_url">Anna kelvollinen URL</string>
+    <string msgid="6685851473431805375" name="preference_copied">"<ns1:g id="SUMMARY">%1$s</ns1:g> kopioitiin leikepöydälle."</string>
+    <string name="processing_payment">Käsittely maksu, virkistää muutamassa sekunnissa</string>
+    <string name="protected_connection">VPN-suojattu</string>
+    <string name="protected_connections_visibility_bullet_html"><![CDATA[ Olet yhteydessä Internetiin VPN-yhteyden kautta. <br><br> Jos et vielä ole, suosittelemme käyttämään jotain alla olevista palveluista salaamaan yhteytesi ja <b>suojelemaan yksityisyytesi</b>. ]]></string>
+    <string name="rate_our_app">Arvioi sovellus ohjelmiston</string>
+    <string name="rating_reminder_description">Jos rakastat FrostWire Käytä hetki rate meille.</string>
+    <string name="remove_ads">Poista mainokset</string>
+    <string name="remove_ads_description">Nauti ilman mainoksia kokemus, tukemaan FrostWire</string>
+    <string name="remove_from_favorites">Poista suosikeista</string>
+    <string name="remove_torrent_and_data">Poista Torrent ja Data</string>
+    <string name="remove_tracker">Poista tracker</string>
+    <string name="rename">Nimeä uudelleen</string>
+    <string name="request_again">Pyydä Jälleen</string>
+    <string name="resume_torrent_menu_action">Jatkaa</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="ringtone_not_set">Ringtone ei voitu asettaa</string>
+    <string name="ringtones">Ringtones</string>
+    <string name="save">Tallenna</string>
+    <string name="save_bandwidth">Tallenna kaistanleveys</string>
+    <string name="saving_to_internal_memory">Tallennus Sisäinen muisti</string>
+    <string name="saving_to_internal_memory_description">Sinulla on myös SD-kortti (%1$s saatavissa)</string>
+    <string name="saving_to_sd_card">Tallentaminen SD-kortille.</string>
+    <string name="scanning">Viimeistely - Skannaus</string>
+    <string name="sd_permission_no_accessible_path">Polku valitsemasi SD-kortti ei ole käytettävissä enää. Paina OK valitaksesi uudelleen.</string>
+    <string name="sdcard_storage">SD-kortti varastointi</string>
+    <string name="search">Haku</string>
+    <string name="search_header">Haku</string>
+    <string name="search_label">Haku</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Haku"</string>
+    <string name="search_preferences_one_engine_checked_always">Oletuksena yksi hakukone on tarkistettava aina</string>
+    <string name="search_torrent_settings">Haku/Torrent Asetukset</string>
+    <string name="seed">Seed</string>
+    <string name="seed_all_finished">Siemen kaikki valmiiksi</string>
+    <string name="seed_finished_torrents">Seed Valmiit torrenteja</string>
+    <string name="seed_finished_torrents_summary">Jaa kappaletta torrent lataukset ketään internetiin BitTorrent</string>
+    <string name="seed_finished_torrents_wifi_only">Seed vain Wifi</string>
+    <string name="seed_finished_torrents_wifi_only_summary">Siemenet vain, kun kytketty WiFi säästää kaistanleveyttä Datasopimuksestasi</string>
+    <string name="seed_stop">Lopeta kylväminen</string>
+    <string name="seeding_has_been_turned_off">Kylvö on katkaistu virta.</string>
+    <string name="seeding_is_currently_disabled">Kylvö on tällä hetkellä poissa käytöstä</string>
+    <string name="seeding_is_currently_disabled_in_settings">Kylvö on tällä hetkellä käytössä asetuksista. Haluatko minut mahdollistaa kylvö voit jakaa tämän tiedoston?</string>
+    <string name="seeding_keeps_the_network_healthy">Kylvö auttaa pitämään verkon terveinä</string>
+    <string name="seeding_settings">Kylvö Asetukset</string>
+    <string name="seeding_settings_explanation">BitTorrent käyttäjiä Internetissä voi ladata tiedoston paloina tietojen torrentien siemen.</string>
+    <string name="seeding_time">Kylvöaika</string>
+    <string name="seeding_wifi_settings_explanation">Seed vain käytettäessä WiFi-yhteys. Vältä ylimääräisiä kuluja operaattorisi.</string>
+    <string name="seeds">Seeds</string>
+    <string name="seeds_n">Seeds: %s</string>
+    <string name="select_all">Valitse kaikki</string>
+    <string name="select_option_below">Valitse vaihtoehto alla:</string>
+    <string name="selected">valittu</string>
+    <string name="send_bitcoin_tip">Lähetä Bitcoin lahjoitus</string>
+    <string name="send_feedback">Lähetä palautetta</string>
+    <string name="send_file_using">Lähetä tiedosto</string>
+    <string name="send_tip_donation">Lähetä lahjoitus</string>
+    <string name="sequential_download">Jaksottainen lataus</string>
+    <string name="set_as_ringtone">\'<ns1:g example="Alarm Bell" id="name">%s</ns1:g>\' asetettu soittoääneksi</string>
+    <string name="set_as_wallpaper">Aseta taustakuvaksi</string>
+    <string name="settings">Asetukset</string>
+    <string name="share">Jakaa</string>
+    <string name="share_ratio">Osuusuhde</string>
+    <string name="share_track_using">Jaa kappale palvelussa:</string>
+    <string name="sharing_privacy_settings">Jakaminen ja yksityisyys</string>
+    <string name="show_new_transfer_dialog">Näytä uudet siirto dialogi</string>
+    <string name="show_torrent_details">Näytä torrent-tiedot</string>
+    <string name="show_transfers_on_download_start">Näytä Siirrot download alku</string>
+    <string name="six_months">6 kuukautta</string>
+    <string name="size">Koko</string>
+    <string name="size_unknown">koko tuntematon</string>
+    <string msgid="6034072145387511457" name="skip_to_next_item_button_content_description">"Siirry seuraavaan"</string>
+    <string msgid="4352480799561670760" name="skip_to_previous_item_button_content_description">"Siirry edelliseen"</string>
+    <string name="sort_order_entry_album">Albumi</string>
+    <string name="sort_order_entry_artist">Esittäjä</string>
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_date_added">Lisäyspäivämäärä</string>
+    <string name="sort_order_entry_duration">Pituus</string>
+    <string name="sort_order_entry_filename">Tiedostonimi</string>
+    <string name="sort_order_entry_number_of_albums">Albumeiden määrä</string>
+    <string name="sort_order_entry_number_of_songs">Kappaleiden määrä</string>
+    <string name="sort_order_entry_track_list">Kappalelista</string>
+    <string name="sort_order_entry_year">Vuosi</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string name="source_type">Lähde: %1$s</string>
+    <string name="sources_channels">Lähteet / kanavat</string>
+    <string name="speed_limits">Nopeusrajat</string>
+    <string name="status">Status</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">Stop</string>
+    <string name="storage_path">Tallennuspolun</string>
+    <string name="storage_picker_treeuri_cant_write">FrostWire voi kirjoittaa valitun tallennuspolun</string>
+    <string name="storage_picker_treeuri_error">Odottamaton virhe poiminta tallennuspolun</string>
+    <string name="storage_picker_treeuri_not_directory">Valittu reitti ei ole hakemisto</string>
+    <string name="storage_picker_treeuri_null">Ei tallennuspolun valittiin</string>
+    <string name="storage_preference_summary">Oletuksena tallennuspaikka jossa tiedostot tallennetaan.</string>
+    <string name="storage_preference_title">Valitse tallennuspaikka</string>
+    <string name="storage_setting_confirm_dialog_text">Ymmärrän, että kaikki ladatut tiedostot SD-kortille FrostWire poistetaan Android hetkellä FrostWire sovellus on poistettu tästä laitteesta ja minä pidä FrostWire LLC mistään tiedostoja menetetty.</string>
+    <string name="storage_setting_confirm_dialog_title">SD KORTTI</string>
+    <string name="storage_setting_warning">VAROITUS: Kaikki tiedostot tallennetaan FrostWire SD-kortin tiedot poistetaan Android, ei FrostWire, jos poistaa sovelluksen.</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="support_free_software">Tukea ilmainen ohjelmisto</string>
+    <string name="support_frostwire">Tuki FrostWire</string>
+    <string name="switch_off_engine_without_vpn">VPN on aktiivinen, pysäytetään BitTorrent moottori.</string>
+    <string name="terms_of_use">Käyttöehdot</string>
+    <string name="thank_you">Kiitos!</string>
+    <string name="the_file_could_not_be_seeded_bittorrent_will_remain_disconnected">Tiedostoa ei kylvetään. BitTorrent pysyy irti.</string>
+    <string name="the_file_could_not_be_seeded_enable_seeding">Tiedostoa ei kylvetään. Ota kylvö asetuksista.</string>
+    <string name="the_more_you_give_the_more_you_receive">Mitä enemmän annat enemmän saitte</string>
+    <string name="thirty_days">30 päivää</string>
+    <string name="time_left">Aikaa jäljellä</string>
+    <string name="tip_touch_tags_to"><![CDATA[ <b>TIP:</b> Kosketa sovellettuja tunnisteita ]]></string>
+    <string name="title_activity_transfer_detail">Yksityiskohtainen siirto</string>
+    <string name="toast_on_disconnect">Irrotettu BitTorrent. Kaikki BitTorrent siirrot ovat pysähtyneet.</string>
+    <string name="torrent_fetcher_download_status_canceled">Peruutettu</string>
+    <string name="torrent_fetcher_download_status_downloading_torrent">Lataaminen torrent</string>
+    <string name="torrent_max_download_speed">Suurin Latausnopeus</string>
+    <string name="torrent_max_download_speed_summary">Enimmäismäärä Latausnopeus (0 tarkoittaa rajoittamatonta)</string>
+    <string name="torrent_max_downloads">Enimmäismäärä lataukset</string>
+    <string name="torrent_max_downloads_summary">Maksimi Lataukset</string>
+    <string name="torrent_max_peers">Max Peers</string>
+    <string name="torrent_max_peers_summary">Maksimi Peers</string>
+    <string name="torrent_max_total_connections">Suurin Yhteensä Liitännät</string>
+    <string name="torrent_max_total_connections_summary">Maksimiteho Liitännät</string>
+    <string name="torrent_max_upload_speed">Maksimi Lähetysnopeus</string>
+    <string name="torrent_max_upload_speed_summary">Maksimi Lähetysnopeus (0 tarkoittaa rajoittamatonta)</string>
+    <string name="torrent_max_uploads">Enimmäismäärä Lähetysten</string>
+    <string name="torrent_max_uploads_summary">Maksimi Lähetysten</string>
+    <string name="torrent_preferences_header">Torrent Asetukset</string>
+    <string name="torrent_scheme_download_not_supported">Lataa ei tueta</string>
+    <string name="torrent_transfer_aborted_on_mobile_data">Torrent siirtoja ei käynnisty ennen kuin yhdistää Wi-Fi-verkkoon. (Tarkista verkon asetukset koskien 3G/4G datamäärää)</string>
+    <string name="torrent_transfer_consuming_mobile_data">Varoitus: Tämä torrent siirto käyttää 3G/4G tiedot. (Tarkista verkon asetukset, jos haluat käyttää BitTorrent vain WiFi)</string>
+    <string name="torrent_transfer_enqueued_on_mobile_data">Torrent siirto käynnistyy lataamisen automaattisesti, kun yhdistää Wi-Fi-verkkoon. (Tarkista verkon asetukset koskien 3G/4G datamäärää)</string>
+    <string name="torrent_url_added">Torrent URL lisätään siirtoja.</string>
+    <string name="total_size">Kokonaiskoko</string>
+    <string name="track">kappale</string>
+    <string name="trackers">Trackers</string>
+    <string name="transfer_detail_storage_header">Tallennuspolku:</string>
+    <string name="transfer_status_demuxing">Demuxing</string>
+    <string name="transfers">Siirrot</string>
+    <string name="transfers_context_menu_clear_finished">Tyhjennä kaikki valmiit siirrot</string>
+    <string name="transfers_context_menu_copy_infohash">Kopioi InfoHash</string>
+    <string name="transfers_context_menu_copy_infohash_copied">Infohash kopioitu leikepöydälle</string>
+    <string name="transfers_context_menu_copy_magnet">Kopioi Magnet</string>
+    <string name="transfers_context_menu_copy_magnet_copied">Magnet kopioitu leikepöydälle</string>
+    <string name="transfers_context_menu_pause_stop_all_transfers">Tauko/Lopeta kaikki siirrot</string>
+    <string name="transfers_context_resume_all_torrent_transfers">Jatka kaikki torrent siirrot</string>
+    <string name="transfers_context_seed_all_transfers">Siemen nyt kaikki valmiit lataukset ja lataukset</string>
+    <string name="transfers_context_stop_seeding_all_transfers">Lopeta kaikkien siirtojen kylvetys</string>
+    <string name="transfers_select_all">kaikki</string>
+    <string name="transfers_select_completed">valmistunut</string>
+    <string name="transfers_select_downloading">lataaminen</string>
+    <string name="transfers_select_seeding">kylvö</string>
+    <string name="try_changing_applied_filters">Yritä vaihtaa käytetyt suodattimet</string>
+    <string name="try_other_keywords">Kokeile vähemmän/eri avainsanoja</string>
+    <string name="type_to_filter_results">Kirjoita suodattaa tuloksia.</string>
+    <string name="unknown">Tuntematon</string>
+    <string name="unlimited">Rajoittamaton</string>
+    <string name="unprotected_connection">suojaamaton</string>
+    <string name="unprotected_connections_visibility_bullet_html"><![CDATA[ <b>Tietosuoja on ihmisen perusoikeus</b>. Vahvistamattomalla yhteydellä tarkoitetaan mitä tahansa, mitä teet verkossa, mukaan lukien <b>lataukset, haut, viestit</b>. Internet-palveluntarjoajat, hakkerit, hallitukset.<br><br><b>Suosittelemme voimakkaasti VPN-palvelun käyttöä</b>. <br> Seuraavassa on joitain vaihtoehtoja, jotka tarjoavat luotettavaa palvelua ja toimivat hyvin FrostWiren kanssa:]]></string>
+    <string name="update_message">FrostWire on ladannut uuden tehokkuuspäivitys sinulle, mene eteenpäin ja kosketa OK-painiketta, jos haluat asentaa sen nyt.</string>
+    <string name="update_title">Päivitä aika!</string>
+    <string name="uploaded">Lähettänyt</string>
+    <string name="uploaded_n">Latasi %1$s</string>
+    <string name="use_archiveorg">Käytä Archive.org</string>
+    <string name="use_eztv">Käytä Eztv</string>
+    <string name="use_frostclick">Käytä FrostClick</string>
+    <string name="use_limetorrents">Käytä Limetorrents</string>
+    <string name="use_magnet_summary">Magnet pohjainen, toimii vain Wifi</string>
+    <string name="use_nyaa">Käytä Nyaa</string>
+    <string name="use_soundcloud">Käytä Soundcloud.com</string>
+    <string name="use_torlock">Käytä TorLock</string>
+    <string name="use_torrentdownloads">Käytä TorrentDownloads</string>
+    <string name="use_torrentz2">Käytä Torrentz2</string>
+    <string name="use_tpb">Käytä TPB</string>
+    <string name="use_yify">Käytä Yify</string>
+    <string name="use_zooqle">Käytä Zooqle.com</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"POIS KÄYTÖSTÄ"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"KÄYTÖSSÄ"</string>
+    <string name="vibrate_on_finished_download">Värinä lataus on valmis</string>
+    <string name="video">Video</string>
+    <string name="vpn_drop_protection_summary">Yksityisyyden suojaamiseksi. Automaattisesti poistaa BitTorrent siirtoja ellei salatun VPN-yhteys on aktiivinen</string>
+    <string name="vpn_drop_protection_title">VPN Valvontatoiminto ei ole käytössä</string>
+    <string name="vpn_find_out_more">Lue lisää</string>
+    <string name="vpn_off_toast_notification">Yhteys ei ehkä yksityisiä.</string>
+    <string name="vpn_suggestion_nordvpn">NORDVPN \n Ilmainen 7 päivän kokeilu</string>
+    <string name="waiting">Odotus…</string>
+    <string name="welcome_to_frostwire">Tervetuloa FrostWire %s</string>
+    <string name="why_we_need_storage_permissions">Siksi tarvitaan varastointi käyttöoikeudet.</string>
+    <string name="why_we_need_storage_permissions_summary">FrostWire on tiedostoselain ja downloader app, joten se on voitava käyttää levyn.\n\nIlman käyttöoikeudet FrostWire ei voi toimia.\n\nHaluatko yrittää uudelleen?</string>
+    <string name="wifi_network_unavailable">Wifi Verkko ei ole käytettävissä</string>
+    <string name="wifi_networks_only">Wi-Fi-verkkoihin</string>
+    <string name="wifi_networks_only_summary">Tallenna. Lataa vain jos Wi-Fi-yhteys on muodostettu. </string>
+    <string name="wifi_seeding_has_been_turned_off">Ei WiFi, Seeding on sammutettu</string>
+    <string name="wizard_finish">Suorittaa loppuun</string>
+    <string name="wizard_next">Seuraava</string>
+    <string name="wizard_previous">Edellinen</string>
+    <string name="working">Työskentely</string>
+    <string name="would_you_like_to_seed_your_finished_torrent_transfers">Haluatko siemata valmiit torrent -siirrot?</string>
+    <string name="yes_no_cancel_delete_transfer_question">Oletko varma, että haluat peruuttaa tämän latauksen (ladatut tiedot toistaiseksi poistetaan)?</string>
+    <string name="yes_no_cancel_transfer_question">Oletko varma, että haluat lopettaa ja poistaa tämän ladattavan listasta (ei tiedot poistetaan)?</string>
+    <string name="yes_no_cancel_transfer_question_cloud">Oletko varma, että haluat lopettaa ja poistaa tämän ladattavan listasta?</string>
+    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[<b>Julkaiseminen:</b> Vaikka suosittelemme latauksillemme, varsinkin kun lataat tai vaihdat arkaluonteisia tietoja (esim. pankkitoimintaa) ja käyttäessäsi julkisia Wi-Fi- tai mobiilitietoja, <b>sinun ei tarvitse käyttää VPN: tä FrostWire.</b>]]></string>
+    <string name="you_need_a_bitcoin_wallet_app">Tarvitset Bitcoin lompakko asentaa laitteeseen esittämään BTC lahjoitus.</string>
+    <string name="your_android_wall_paper_will_change">Android-taustakuva muuttuu muutamassa sekunnissa</string>
+    <string name="your_installation_is_complete">Asennus on valmis.</string>
+</resources>

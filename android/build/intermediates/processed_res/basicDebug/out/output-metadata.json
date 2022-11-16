@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.frostwire.d4v",
+  "variantName": "basicDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 9060708,
+      "versionName": "2.6.2",
+      "outputFile": "resources-basicDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}
