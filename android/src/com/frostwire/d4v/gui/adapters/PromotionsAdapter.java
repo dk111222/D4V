@@ -201,15 +201,10 @@ public class PromotionsAdapter extends AbstractAdapter<Slide> {
     private View getFWBasicPortraitView(int position, View convertView, ViewGroup parent) {
         // if you paid for ads we show no special layout (NO_SPECIAL_OFFER)
         int specialOfferLayout = pickSpecialOfferLayout();
-        boolean adsAreOn = specialOfferLayout == R.layout.view_remove_ads_notification;
 
         // Show special offer or banner, Google play logic included in pickSpecialOfferLayout()
         if (position == 0 && specialOfferLayout == NO_SPECIAL_OFFER) {
             return View.inflate(getContext(), R.layout.view_invisible_promo, null);
-        } else if (position == 0 && adsAreOn) {
-            return setupRemoveAdsOfferView();
-        } else if (position == 1 && adsAreOn && (Constants.IS_GOOGLE_PLAY_DISTRIBUTION || Constants.IS_BASIC_AND_DEBUG)) {
-            return getFwBannerView();
         } else if (position > 1) { // everything after the "FROSTWIRE FEATURES" title view.
             return super.getView(position - 2, null, parent);
         }
@@ -245,28 +240,12 @@ public class PromotionsAdapter extends AbstractAdapter<Slide> {
         }
     }
 
-    @Nullable
-    private View setupRemoveAdsOfferView() {
-        String pitch = getContext().getString(UIUtils.randomPitchResId(true));
-        View specialOfferView = View.inflate(getContext(), R.layout.view_remove_ads_notification, null);
-        TextView pitchTitle = specialOfferView.findViewById(R.id.view_remove_ads_notification_title);
-        if (pitchTitle != null) {
-            pitchTitle.setText(pitch);
-            return specialOfferView;
-        }
-        return null;
-    }
-
     /**
      * Decide what the special offer layout we should use.
      */
     private int pickSpecialOfferLayout() {
         // Optimistic: If we're plus, we can't offer ad removal yet.
         specialOfferLayout = NO_SPECIAL_OFFER;
-
-        if (Offers.removeAdsOffersEnabled()) {
-            specialOfferLayout = R.layout.view_remove_ads_notification;
-        }
 
         return specialOfferLayout;
     }
@@ -276,12 +255,6 @@ public class PromotionsAdapter extends AbstractAdapter<Slide> {
     }
 
     public void onSpecialOfferClick() {
-        if (specialOfferLayout == R.layout.view_remove_ads_notification) {
-            // take to buy remove ads screen
-            MainActivity mainActivity = (MainActivity) getContext();
-            Intent i = new Intent(getContext(), BuyActivity.class);
-            mainActivity.startActivityForResult(i, BuyActivity.PURCHASE_SUCCESSFUL_RESULT_CODE);
-        }
     }
 
     public void onDestroyView() {

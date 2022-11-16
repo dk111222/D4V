@@ -2180,10 +2180,6 @@
         "source": "com.frostwire.d4v-android-40:/drawable-xhdpi/contextmenu_icon_trash.webp"
     },
     {
-        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_remove_ads_notification.xml.flat",
-        "source": "com.frostwire.d4v-android-40:/layout/view_remove_ads_notification.xml"
-    },
-    {
         "merged": "com.frostwire.d4v-merged_res-39:/layout_dialog_default_info.xml.flat",
         "source": "com.frostwire.d4v-android-40:/layout/dialog_default_info.xml"
     },
@@ -2266,10 +2262,6 @@
     {
         "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_sd_card_notification.webp.flat",
         "source": "com.frostwire.d4v-android-40:/drawable-xxhdpi/sd_card_notification.webp"
-    },
-    {
-        "merged": "com.frostwire.d4v-merged_res-39:/layout-land_view_remove_ads_notification.xml.flat",
-        "source": "com.frostwire.d4v-android-40:/layout-land/view_remove_ads_notification.xml"
     },
     {
         "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_notification_vpn_on.webp.flat",

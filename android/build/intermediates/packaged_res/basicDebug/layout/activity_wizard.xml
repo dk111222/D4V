@@ -30,9 +30,9 @@
         android:layout_marginBottom="5dp"
         android:layout_weight="1.0">
 
-        <com.frostwire.d4v.gui.views.GeneralWizardPage
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+<!--        <com.frostwire.d4v.gui.views.GeneralWizardPage-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
 
         <com.frostwire.d4v.gui.views.IntentWizardPage
             android:layout_width="match_parent"

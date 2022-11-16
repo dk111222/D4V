@@ -155,9 +155,9 @@
                 <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.torrent" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.frostwire.d4v.gui.activities.WizardActivity"
-            android:theme="@style/WizardActivity" />
+        <!-- <activity -->
+        <!-- android:name="com.frostwire.d4v.gui.activities.WizardActivity" -->
+        <!-- android:theme="@style/WizardActivity" /> -->
         <activity
             android:name="com.frostwire.d4v.gui.activities.SettingsActivity"
             android:label="@string/activity_preferences_name" />

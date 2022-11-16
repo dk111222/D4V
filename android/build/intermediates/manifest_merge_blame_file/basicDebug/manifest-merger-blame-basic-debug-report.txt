@@ -304,12 +304,9 @@
 155-->/Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:124:23-57
 156            </intent-filter>
 157        </activity>
-158        <activity
-158-->/Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:135:9-137:57
-159            android:name="com.frostwire.d4v.gui.activities.WizardActivity"
-159-->/Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:136:17-79
-160            android:theme="@style/WizardActivity" />
-160-->/Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:137:17-54
+158        <!-- <activity -->
+159        <!-- android:name="com.frostwire.d4v.gui.activities.WizardActivity" -->
+160        <!-- android:theme="@style/WizardActivity" /> -->
 161        <activity
 161-->/Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:138:9-140:69
 162            android:name="com.frostwire.d4v.gui.activities.SettingsActivity"

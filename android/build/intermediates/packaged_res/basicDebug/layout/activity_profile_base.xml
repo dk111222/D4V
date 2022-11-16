@@ -26,12 +26,6 @@
 
     <include layout="@layout/toolbar_main" />
 
-    <com.frostwire.d4v.offers.HeaderBanner
-            android:id="@+id/activity_base_header_banner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="visible"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

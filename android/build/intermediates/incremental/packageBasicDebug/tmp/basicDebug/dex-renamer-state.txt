@@ -1,4 +1,4 @@
-#Wed Nov 16 23:35:11 CST 2022
+#Thu Nov 17 00:20:23 CST 2022
 base.1=/Users/developer/Desktop/and_workspace/D4V/android/build/intermediates/dex/basicDebug/minifyBasicDebugWithR8/classes2.dex
 path.1=classes2.dex
 base.0=/Users/developer/Desktop/and_workspace/D4V/android/build/intermediates/dex/basicDebug/minifyBasicDebugWithR8/classes.dex

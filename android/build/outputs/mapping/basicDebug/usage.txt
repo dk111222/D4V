@@ -23690,7 +23690,6 @@ com.frostwire.d4v.R$id:
     public static final int fragment_about_title
     public static final int fragment_about_translate
     public static final int fragment_about_twitter_button
-    public static final int fragment_header_banner
     public static final int fragment_home_phone_pager
     public static final int fragment_image_viewer
     public static final int fragment_image_viewer_container_layout
@@ -23871,7 +23870,6 @@ com.frostwire.d4v.R$id:
     public static final int subs_product_tag_id
     public static final int toolbar_main
     public static final int toolbar_main_placeholder
-    public static final int transfer_detail_header_banner
     public static final int transfer_detail_tab_layout
     public static final int transfer_detail_trackers_dht_title
     public static final int transfer_detail_trackers_lsd_title
@@ -23962,8 +23960,6 @@ com.frostwire.d4v.R$id:
     public static final int view_promotions_item_image
     public static final int view_promotions_item_preview_imageview
     public static final int view_promotions_item_readmore_imageview
-    public static final int view_remove_ads_notification_subtitle
-    public static final int view_remove_ads_notification_title
     public static final int view_rich_notification_action_links
     public static final int view_rich_notification_close_button
     public static final int view_rich_notification_description
@@ -24125,7 +24121,6 @@ com.frostwire.d4v.R$layout:
     public static final int view_product_payment_options
     public static final int view_promotions
     public static final int view_promotions_item
-    public static final int view_remove_ads_notification
     public static final int view_rich_notification
     public static final int view_search_header
     public static final int view_search_progress
@@ -24698,7 +24693,6 @@ com.frostwire.d4v.R$string:
     public static final int transfers_select_downloading
     public static final int transfers_select_seeding
     public static final int try_changing_applied_filters
-    public static final int try_it_free_for_a_half_hour
     public static final int try_other_keywords
     public static final int type_to_filter_results
     public static final int unknown
@@ -24919,6 +24913,7 @@ com.frostwire.d4v.R$xml:
     public static final int settings_torrent
 com.frostwire.d4v.core.ConfigurationManager:
     public java.lang.String getUUIDString()
+    public void resetToDefaults()
 com.frostwire.d4v.core.Constants:
     public static final java.lang.String ACTION_MEDIA_PLAYER_PAUSED
     public static final java.lang.String ACTION_MEDIA_PLAYER_PLAY
@@ -25168,6 +25163,8 @@ com.frostwire.d4v.gui.activities.TransferDetailActivity:
 com.frostwire.d4v.gui.adapters.PromotionsAdapter:
     private static final int NO_SPECIAL_OFFER
     private static final double PROMO_HEIGHT_TO_WIDTH_RATIO
+    private com.frostwire.d4v.offers.FWBannerView getFwBannerView()
+    private synthetic void lambda$getFwBannerView$3()
 com.frostwire.d4v.gui.adapters.SearchResultListAdapter:
     private static final int NO_FILE_TYPE
 com.frostwire.d4v.gui.adapters.menu.ResumeDownloadMenuAction:
@@ -25342,8 +25339,6 @@ com.frostwire.d4v.gui.views.FWAutoCompleteTextView:
 com.frostwire.d4v.gui.views.FragmentPagerAdapter:
     private static final boolean DEBUG
     private static final java.lang.String TAG
-com.frostwire.d4v.gui.views.GeneralWizardPage:
-    public void updateStoragePathTextView(java.lang.String)
 com.frostwire.d4v.gui.views.HexHiveView:
     public boolean ready()
 com.frostwire.d4v.gui.views.MenuAdapter:

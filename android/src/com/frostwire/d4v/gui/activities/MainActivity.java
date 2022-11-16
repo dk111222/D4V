@@ -349,13 +349,13 @@ public class MainActivity extends AbstractActivity implements
         localBroadcastReceiver.register(this);
         setupDrawer();
         ConfigurationManager CM = ConfigurationManager.instance();
-        if (CM.getBoolean(Constants.PREF_KEY_GUI_INITIAL_SETTINGS_COMPLETE)) {
+//        if (CM.getBoolean(Constants.PREF_KEY_GUI_INITIAL_SETTINGS_COMPLETE)) {
             mainResume();
             Offers.initAdNetworks(this);
             Offers.initDataPrivacy();
-        } else if (!isShutdown()) {
-            controller.startWizardActivity();
-        }
+//        } else if (!isShutdown()) {
+//            controller.startWizardActivity();
+//        }
         checkLastSeenVersionBuild();
         syncNavigationMenu();
         updateNavigationMenu();

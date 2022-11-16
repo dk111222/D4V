@@ -111,7 +111,6 @@ public final class UIUtils {
             R.string.cheaper_than_beer, //8
             R.string.cheaper_than_cigarettes, //9
             R.string.cheaper_than_gas, //10
-            R.string.try_it_free_for_a_half_hour,
             R.string.keep_the_project_alive
     };
 
@@ -507,14 +506,14 @@ public final class UIUtils {
     }
 
     public static int randomPitchResId(boolean avoidSupportPitches) {
-        if ((!Constants.IS_GOOGLE_PLAY_DISTRIBUTION || Constants.IS_BASIC_AND_DEBUG) && PITCHES[5] != R.string.try_it_free_for_a_half_hour) {
-            PITCHES[5] = R.string.try_it_free_for_a_half_hour;
-            PITCHES[6] = R.string.try_it_free_for_a_half_hour;
-            PITCHES[7] = R.string.try_it_free_for_a_half_hour;
-            PITCHES[8] = R.string.try_it_free_for_a_half_hour;
-            PITCHES[9] = R.string.try_it_free_for_a_half_hour;
-            PITCHES[10] = R.string.try_it_free_for_a_half_hour;
-        }
+//        if ((!Constants.IS_GOOGLE_PLAY_DISTRIBUTION || Constants.IS_BASIC_AND_DEBUG) && PITCHES[5] != R.string.try_it_free_for_a_half_hour) {
+//            PITCHES[5] = R.string.try_it_free_for_a_half_hour;
+//            PITCHES[6] = R.string.try_it_free_for_a_half_hour;
+//            PITCHES[7] = R.string.try_it_free_for_a_half_hour;
+//            PITCHES[8] = R.string.try_it_free_for_a_half_hour;
+//            PITCHES[9] = R.string.try_it_free_for_a_half_hour;
+//            PITCHES[10] = R.string.try_it_free_for_a_half_hour;
+//        }
         int offsetRemoveAds = 4;
         int offset = !avoidSupportPitches ? 0 : offsetRemoveAds;
         return PITCHES[offset + new Random().nextInt(PITCHES.length - offset)];

@@ -27,7 +27,6 @@
 -keep class com.frostwire.d4v.gui.activities.SettingsActivity { <init>(); }
 -keep class com.frostwire.d4v.gui.activities.TransferDetailActivity { <init>(); }
 -keep class com.frostwire.d4v.gui.activities.VPNStatusDetailActivity { <init>(); }
--keep class com.frostwire.d4v.gui.activities.WizardActivity { <init>(); }
 -keep class com.frostwire.d4v.gui.services.EngineBroadcastReceiver { <init>(); }
 -keep class com.frostwire.d4v.gui.services.EngineService { <init>(); }
 -keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
@@ -150,8 +149,6 @@
 
 -keep class com.frostwire.d4v.gui.views.FWAutoCompleteTextView { <init>(android.content.Context, android.util.AttributeSet); }
 
--keep class com.frostwire.d4v.gui.views.GeneralWizardPage { <init>(android.content.Context, android.util.AttributeSet); }
-
 -keep class com.frostwire.d4v.gui.views.HexHiveView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.frostwire.d4v.gui.views.IntentWizardPage { <init>(android.content.Context, android.util.AttributeSet); }
@@ -189,8 +186,6 @@
 -keep class com.frostwire.d4v.gui.views.preference.CustomSeekBarPreference { <init>(...); }
 
 -keep class com.frostwire.d4v.offers.FWBannerView { <init>(android.content.Context, android.util.AttributeSet); }
-
--keep class com.frostwire.d4v.offers.HeaderBanner { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.google.android.exoplayer2.ui.AspectRatioFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
 

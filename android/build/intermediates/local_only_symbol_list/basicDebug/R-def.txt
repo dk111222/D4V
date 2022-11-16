@@ -557,7 +557,6 @@ id fragment_about_support_frostwire_divider
 id fragment_about_title
 id fragment_about_translate
 id fragment_about_twitter_button
-id fragment_header_banner
 id fragment_home_phone_pager
 id fragment_image_viewer
 id fragment_image_viewer_container_layout
@@ -738,7 +737,6 @@ id slidermenu_ad_menuitem
 id subs_product_tag_id
 id toolbar_main
 id toolbar_main_placeholder
-id transfer_detail_header_banner
 id transfer_detail_tab_layout
 id transfer_detail_trackers_dht_title
 id transfer_detail_trackers_lsd_title
@@ -829,8 +827,6 @@ id view_promotions_item_download_textview
 id view_promotions_item_image
 id view_promotions_item_preview_imageview
 id view_promotions_item_readmore_imageview
-id view_remove_ads_notification_subtitle
-id view_remove_ads_notification_title
 id view_rich_notification_action_links
 id view_rich_notification_close_button
 id view_rich_notification_description
@@ -991,7 +987,6 @@ layout view_product_card
 layout view_product_payment_options
 layout view_promotions
 layout view_promotions_item
-layout view_remove_ads_notification
 layout view_rich_notification
 layout view_search_header
 layout view_search_progress
@@ -1559,7 +1554,6 @@ string transfers_select_completed
 string transfers_select_downloading
 string transfers_select_seeding
 string try_changing_applied_filters
-string try_it_free_for_a_half_hour
 string try_other_keywords
 string type_to_filter_results
 string unknown

@@ -45,26 +45,26 @@ public class AdMenuItemView extends RelativeLayout {
     protected void onFinishInflate() {
         super.onFinishInflate();
 
-        View.inflate(getContext(), R.layout.view_ad_menuitem, this);
-        TextView textHeadline = findViewById(R.id.view_ad_menu_item_headline);
-        TextView textSubtitle = findViewById(R.id.view_ad_menu_item_subtitle);
-        TextView textThumbnail = findViewById(R.id.view_ad_menu_item_thumbnail);
-        ImageView imageThumbnail = findViewById(R.id.view_ad_menu_item_thumbnail_image);
-
-        textHeadline.setText(R.string.support_frostwire);
-
-        Random myRand = new Random();
-        boolean isEven = (myRand.nextInt() % 2) == 0;
-
-        if (isEven) {
-            textSubtitle.setText(R.string.save_bandwidth);
-            textThumbnail.setVisibility(VISIBLE);
-            textThumbnail.setText(R.string.ad_free);
-        } else {
-            textSubtitle.setText(R.string.remove_ads);
-            imageThumbnail.setVisibility(VISIBLE);
-            imageThumbnail.setImageResource(R.drawable.ad_menu_speaker);
-        }
+//        View.inflate(getContext(), R.layout.view_ad_menuitem, this);
+//        TextView textHeadline = findViewById(R.id.view_ad_menu_item_headline);
+//        TextView textSubtitle = findViewById(R.id.view_ad_menu_item_subtitle);
+//        TextView textThumbnail = findViewById(R.id.view_ad_menu_item_thumbnail);
+//        ImageView imageThumbnail = findViewById(R.id.view_ad_menu_item_thumbnail_image);
+//
+//        textHeadline.setText(R.string.support_frostwire);
+//
+//        Random myRand = new Random();
+//        boolean isEven = (myRand.nextInt() % 2) == 0;
+//
+//        if (isEven) {
+//            textSubtitle.setText(R.string.save_bandwidth);
+//            textThumbnail.setVisibility(VISIBLE);
+//            textThumbnail.setText(R.string.ad_free);
+//        } else {
+//            textSubtitle.setText(R.string.remove_ads);
+//            imageThumbnail.setVisibility(VISIBLE);
+//            imageThumbnail.setImageResource(R.drawable.ad_menu_speaker);
+//        }
     }
 }
 

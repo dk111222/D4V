@@ -26,7 +26,7 @@ import com.frostwire.d4v.R;
 import com.frostwire.d4v.core.ConfigurationManager;
 import com.frostwire.d4v.gui.activities.MainActivity;
 import com.frostwire.d4v.gui.activities.SettingsActivity;
-import com.frostwire.d4v.gui.activities.WizardActivity;
+//import com.frostwire.d4v.gui.activities.WizardActivity;
 import com.frostwire.d4v.gui.fragments.TransfersFragment;
 import com.frostwire.d4v.gui.fragments.TransfersFragment.TransferStatus;
 import com.frostwire.util.Logger;
@@ -116,16 +116,16 @@ public final class MainController {
         activityRef.get().startActivity(intent);
     }
 
-    public void startWizardActivity() {
-        if (!Ref.alive(activityRef)) {
-            return;
-        }
-        MainActivity activity = activityRef.get();
-        ConfigurationManager.instance().resetToDefaults();
-        Intent i = new Intent(activity, WizardActivity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        activity.startActivity(i);
-    }
+//    public void startWizardActivity() {
+//        if (!Ref.alive(activityRef)) {
+//            return;
+//        }
+//        MainActivity activity = activityRef.get();
+//        ConfigurationManager.instance().resetToDefaults();
+//        Intent i = new Intent(activity, WizardActivity.class);
+//        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//        activity.startActivity(i);
+//    }
 
     void showShutdownDialog() {
         if (!Ref.alive(activityRef)) {

@@ -28,11 +28,11 @@
 
     <include layout="@layout/toolbar_main" />
 
-    <com.frostwire.d4v.offers.HeaderBanner
-            android:id="@+id/transfer_detail_header_banner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="visible"/>
+<!--    <com.frostwire.d4v.offers.HeaderBanner-->
+<!--            android:id="@+id/transfer_detail_header_banner"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:visibility="visible"/>-->
 
     <View
         style="@style/divider_line_dark"

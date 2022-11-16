@@ -37,11 +37,9 @@ import com.frostwire.d4v.R;
 import com.frostwire.d4v.core.Constants;
 import com.frostwire.d4v.gui.SoftwareUpdater;
 import com.frostwire.d4v.gui.activities.AboutActivity;
-import com.frostwire.d4v.gui.activities.BuyActivity;
 import com.frostwire.d4v.gui.activities.MainActivity;
 import com.frostwire.d4v.gui.fragments.TransfersFragment;
 import com.frostwire.d4v.gui.util.UIUtils;
-import com.frostwire.d4v.gui.views.AdMenuItemView;
 import com.frostwire.d4v.offers.Offers;
 import com.frostwire.d4v.offers.PlayStore;
 import com.frostwire.d4v.util.SystemUtils;
@@ -62,7 +60,7 @@ public final class NavigationMenu {
     private final NavigationView navView;
     private final DrawerLayout drawerLayout;
     private final ActionBarDrawerToggle drawerToggle;
-    private final AdMenuItemView menuRemoveAdsItem;
+//    private final AdMenuItemView menuRemoveAdsItem;
     private int checkedNavViewMenuItemId = -1;
 
     public NavigationMenu(MainController controller, DrawerLayout drawerLayout, Toolbar toolbar) {
@@ -72,7 +70,7 @@ public final class NavigationMenu {
         drawerToggle = new MenuDrawerToggle(controller, drawerLayout, toolbar);
         this.drawerLayout.addDrawerListener(drawerToggle);
         navView = initNavigationView(mainActivity);
-        menuRemoveAdsItem = initAdRemovalMenuItemListener(mainActivity);
+//        menuRemoveAdsItem = initAdRemovalMenuItemListener(mainActivity);
         refreshMenuRemoveAdsItem();
     }
 
@@ -179,31 +177,31 @@ public final class NavigationMenu {
         SoftwareUpdater.getInstance().notifyUserAboutUpdate(mainActivity);
     }
 
-    private AdMenuItemView initAdRemovalMenuItemListener(final Activity activity) {
-        AdMenuItemView adMenuItemView = activity.findViewById(R.id.slidermenu_ad_menuitem);
-        RelativeLayout menuAd = activity.findViewById(R.id.view_ad_menu_item_ad);
-        menuAd.setOnClickListener(v -> {
-            Intent intent = new Intent(activity, BuyActivity.class);
-            activity.startActivity(intent);
-        });
-        return adMenuItemView;
-    }
+//    private AdMenuItemView initAdRemovalMenuItemListener(final Activity activity) {
+//        AdMenuItemView adMenuItemView = activity.findViewById(R.id.slidermenu_ad_menuitem);
+//        RelativeLayout menuAd = activity.findViewById(R.id.view_ad_menu_item_ad);
+//        menuAd.setOnClickListener(v -> {
+//            Intent intent = new Intent(activity, BuyActivity.class);
+//            activity.startActivity(intent);
+//        });
+//        return adMenuItemView;
+//    }
 
     private void refreshMenuRemoveAdsItem() {
         // only visible for basic or debug build and if ads have not been disabled.
-        int visibility = ((Constants.IS_GOOGLE_PLAY_DISTRIBUTION || Constants.IS_BASIC_AND_DEBUG || PlayStore.available()) && !Offers.disabledAds()) ?
-                View.VISIBLE :
-                View.GONE;
-        SystemUtils.postToUIThread(() -> {
-            try {
-                menuRemoveAdsItem.setVisibility(visibility);
-            } catch (Throwable t) {
-                if (BuildConfig.DEBUG) {
-                    throw t;
-                }
-                LOG.error("NavigationMenu::refreshMenuRemoveAdsItem() error posting menuRemoveAdsItem.setVisibility(...) to main looper: " + t.getMessage(), t);
-            }
-        });
+//        int visibility = ((Constants.IS_GOOGLE_PLAY_DISTRIBUTION || Constants.IS_BASIC_AND_DEBUG || PlayStore.available()) && !Offers.disabledAds()) ?
+//                View.VISIBLE :
+//                View.GONE;
+//        SystemUtils.postToUIThread(() -> {
+//            try {
+//                menuRemoveAdsItem.setVisibility(visibility);
+//            } catch (Throwable t) {
+//                if (BuildConfig.DEBUG) {
+//                    throw t;
+//                }
+//                LOG.error("NavigationMenu::refreshMenuRemoveAdsItem() error posting menuRemoveAdsItem.setVisibility(...) to main looper: " + t.getMessage(), t);
+//            }
+//        });
     }
 
     public void onUpdateAvailable() {

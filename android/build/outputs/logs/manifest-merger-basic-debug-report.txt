@@ -391,12 +391,6 @@ intent-filter#action:name:android.intent.action.VIEW+category:name:android.inten
 ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:99:13-111:29
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.torrent+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.torrent+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\..*\\.torrent+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\.torrent+data:pathPattern:.*\\..*\\..*\\..*\\..*\\.torrent+data:pathPattern:.*\\..*\\..*\\..*\\.torrent+data:pathPattern:.*\\..*\\..*\\.torrent+data:pathPattern:.*\\..*\\.torrent+data:pathPattern:.*\\.torrent+data:scheme:content+data:scheme:file+data:scheme:http+data:scheme:https
 ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:112:13-133:29
-activity#com.frostwire.d4v.gui.activities.WizardActivity
-ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:135:9-137:57
-	android:theme
-		ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:137:17-54
-	android:name
-		ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:136:17-79
 activity#com.frostwire.d4v.gui.activities.SettingsActivity
 ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:138:9-140:69
 	android:label
