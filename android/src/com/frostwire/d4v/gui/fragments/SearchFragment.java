@@ -89,6 +89,8 @@ import com.frostwire.util.Logger;
 import com.frostwire.util.Ref;
 import com.frostwire.util.http.HttpClient;
 
+import java.io.FileDescriptor;
+import java.io.PrintWriter;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
@@ -109,7 +111,7 @@ public final class SearchFragment extends AbstractFragment implements
     private List<Slide> slides;
     private SearchInputView searchInput;
     private ProgressBar deepSearchProgress;
-    private PromotionsView promotions;
+//    private PromotionsView promotions;
     private SearchProgressView searchProgress;
     private ListView list;
     private String currentQuery;
@@ -137,11 +139,11 @@ public final class SearchFragment extends AbstractFragment implements
     }
 
     private void setupPromoSlides() {
-        if (slides != null) {
-            promotions.setSlides(slides);
-        } else {
-            async(this, SearchFragment::loadSlidesInBackground, SearchFragment::onSlidesLoaded);
-        }
+//        if (slides != null) {
+//            promotions.setSlides(slides);
+//        } else {
+//            async(this, SearchFragment::loadSlidesInBackground, SearchFragment::onSlidesLoaded);
+//        }
     }
 
     private List<Slide> loadSlidesInBackground() {
@@ -164,8 +166,8 @@ public final class SearchFragment extends AbstractFragment implements
         } else {
             slides = new ArrayList<>(0);
         }
-        promotions.setSlides(slides);
-        promotions.invalidate();
+//        promotions.setSlides(slides);
+//        promotions.invalidate();
     }
 
     @Override
@@ -237,9 +239,9 @@ public final class SearchFragment extends AbstractFragment implements
     }
 
     public void destroyPromotionsBanner() {
-        if (promotions != null) {
-            promotions.destroyPromotionsBanner();
-        }
+//        if (promotions != null) {
+//            promotions.destroyPromotionsBanner();
+//        }
     }
 
     @Override
@@ -253,10 +255,10 @@ public final class SearchFragment extends AbstractFragment implements
         searchInput.setOnSearchListener(new SearchInputOnSearchListener((LinearLayout) view, this));
         deepSearchProgress = findView(view, R.id.fragment_search_deepsearch_progress);
         deepSearchProgress.setVisibility(View.GONE);
-        promotions = findView(view, R.id.fragment_search_promos);
+//        promotions = findView(view, R.id.fragment_search_promos);
         // Click Listeners of the inner promos need this reference because there's too much logic
         // on starting a download already here. See PromotionsView.setupView()
-        promotions.setPromotionDownloader(this);
+//        promotions.setPromotionDownloader(this);
         searchProgress = findView(view, R.id.fragment_search_search_progress);
         searchProgress.setCurrentQueryReporter(this);
         searchProgress.setCancelOnClickListener(new OnCancelSearchListener(Ref.weak(this)));
@@ -273,7 +275,7 @@ public final class SearchFragment extends AbstractFragment implements
                 switchToThe(false);
             }
         });
-        switchView(view, R.id.fragment_search_promos);
+//        switchView(view, R.id.fragment_search_promos);
     }
 
     public static class NotAvailableDialog extends AbstractDialog {
@@ -449,7 +451,7 @@ public final class SearchFragment extends AbstractFragment implements
         } catch (Throwable ignore) {
         }
         if (LocalSearchEngine.instance() == null) {
-            switchView(view, R.id.fragment_search_promos);
+//            switchView(view, R.id.fragment_search_promos);
             LOG.info("SearchFragment::showSearchView no search instance available, going back to promos.");
             return;
         }
@@ -463,7 +465,7 @@ public final class SearchFragment extends AbstractFragment implements
         deepSearchProgress.setVisibility((!searchFinished || !searchStopped || !searchCancelled) ? View.VISIBLE : View.GONE);
 
         if (searchCancelled) {
-            switchView(view, R.id.fragment_search_promos);
+//            switchView(view, R.id.fragment_search_promos);
             return;
         }
 
@@ -514,6 +516,11 @@ public final class SearchFragment extends AbstractFragment implements
                 LocalSearchEngine.instance().markOpened(NewTransferDialog.srRef.get(), adapter);
             }
         }
+    }
+
+    @Override
+    public void dump(String prefix, FileDescriptor fd, PrintWriter writer, String[] args) {
+        super.dump(prefix, fd, writer, args);
     }
 
     private void startTransfer(final SearchResult sr, final String toastMessage) {

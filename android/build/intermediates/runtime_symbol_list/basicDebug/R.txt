@@ -3660,7 +3660,6 @@ int id fragment_search_deepsearch_progress 0x7f0b01a1
 int id fragment_search_framelayout 0x7f0b01a2
 int id fragment_search_input 0x7f0b01a3
 int id fragment_search_list 0x7f0b01a4
-int id fragment_search_promos 0x7f0b01a5
 int id fragment_search_rating_reminder_notification 0x7f0b01a6
 int id fragment_search_search_progress 0x7f0b01a7
 int id fragment_search_swipe 0x7f0b01a8

@@ -3661,7 +3661,6 @@ id fragment_search_deepsearch_progress
 id fragment_search_framelayout
 id fragment_search_input
 id fragment_search_list
-id fragment_search_promos
 id fragment_search_rating_reminder_notification
 id fragment_search_search_progress
 id fragment_search_swipe

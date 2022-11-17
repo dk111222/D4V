@@ -23700,7 +23700,6 @@ com.frostwire.d4v.R$id:
     public static final int fragment_search_framelayout
     public static final int fragment_search_input
     public static final int fragment_search_list
-    public static final int fragment_search_promos
     public static final int fragment_search_rating_reminder_notification
     public static final int fragment_search_search_progress
     public static final int fragment_search_swipe
@@ -25209,6 +25208,10 @@ com.frostwire.d4v.gui.dialogs.YesNoDialog:
     private static final java.lang.String TITLE_KEY
     private static final java.lang.String YES_NO_DIALOG_FLAGS
     public static com.frostwire.d4v.gui.dialogs.YesNoDialog newInstance(java.lang.String,int,int)
+com.frostwire.d4v.gui.fragments.SearchFragment:
+    private java.util.List slides
+    private java.util.List loadSlidesInBackground()
+    private void onSlidesLoaded(java.util.List)
 com.frostwire.d4v.gui.fragments.TransferDetailDetailsFragment$SpeedLimitDialog:
     private static final java.lang.String CURRENT_VALUE
     private static final java.lang.String DEFAULT_VALUE
@@ -25526,6 +25529,8 @@ com.frostwire.frostclick.Slide:
     public boolean uncompress
     public java.lang.String uri
     public java.lang.String youtube
+com.frostwire.frostclick.SlideList:
+    public java.util.List slides
 com.frostwire.frostclick.TorrentPromotionSearchResult:
     private static final java.lang.String FROSTCLICK_VENDOR
 com.frostwire.jlibtorrent.AddTorrentParams:
