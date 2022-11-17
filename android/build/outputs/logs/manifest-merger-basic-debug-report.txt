@@ -35,6 +35,8 @@ MERGED from [androidx.media2:media2-session:1.2.1] /Users/developer/.gradle/cach
 MERGED from [androidx.media2:media2-player:1.2.1] /Users/developer/.gradle/caches/transforms-3/d939d036ae069db8383d069a7c6ce8f3/transformed/jetified-media2-player-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.applovin:applovin-sdk:11.4.2] /Users/developer/.gradle/caches/transforms-3/7bf7988abc4d4602884f935708df001e/transformed/jetified-applovin-sdk-11.4.2/AndroidManifest.xml:2:1-70:12
 MERGED from [com.applovin.mediation:unityads-adapter:4.3.0.0] /Users/developer/.gradle/caches/transforms-3/f22918131e7803c942629f178ccf0970/transformed/jetified-unityads-adapter-4.3.0.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton:butterknife:10.0.0] /Users/developer/.gradle/caches/transforms-3/78e226ca2d193dd6fb9a01f3356f499d/transformed/jetified-butterknife-10.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/developer/.gradle/caches/transforms-3/894fa38bd5f8a0d3d7a6427c3627060c/transformed/jetified-rxandroid-2.0.2/AndroidManifest.xml:15:1-21:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/developer/.gradle/caches/transforms-3/48a12863d4d8cbde5868a56f980aed6a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/developer/.gradle/caches/transforms-3/d2b2105f0cc5c056ba27eec5da76f9e4/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/developer/.gradle/caches/transforms-3/f41c353592be74f0a21be07594c33c34/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
@@ -59,6 +61,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/developer/.gradle/
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/developer/.gradle/caches/transforms-3/e8bb865ab418d12f241d6942974595e8/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/developer/.gradle/caches/transforms-3/41a5787be3fb3c928a57ea1683802791/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.palette:palette:1.0.0] /Users/developer/.gradle/caches/transforms-3/f155f5da6ee041dda10a2cf24f82b29d/transformed/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /Users/developer/.gradle/caches/transforms-3/2e4c777a5f941dc10cb8d609955b4926/transformed/jetified-butterknife-runtime-10.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/developer/.gradle/caches/transforms-3/e76921e6ef753fe28fdf46baba723c6c/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/developer/.gradle/caches/transforms-3/7bd3a14b89cf45016d97396f3dcf2bb7/transformed/jetified-play-services-measurement-sdk-20.1.2/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/developer/.gradle/caches/transforms-3/7358130ba727ab95958277fa13139247/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
@@ -627,6 +630,10 @@ MERGED from [com.applovin:applovin-sdk:11.4.2] /Users/developer/.gradle/caches/t
 MERGED from [com.applovin:applovin-sdk:11.4.2] /Users/developer/.gradle/caches/transforms-3/7bf7988abc4d4602884f935708df001e/transformed/jetified-applovin-sdk-11.4.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.applovin.mediation:unityads-adapter:4.3.0.0] /Users/developer/.gradle/caches/transforms-3/f22918131e7803c942629f178ccf0970/transformed/jetified-unityads-adapter-4.3.0.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.applovin.mediation:unityads-adapter:4.3.0.0] /Users/developer/.gradle/caches/transforms-3/f22918131e7803c942629f178ccf0970/transformed/jetified-unityads-adapter-4.3.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton:butterknife:10.0.0] /Users/developer/.gradle/caches/transforms-3/78e226ca2d193dd6fb9a01f3356f499d/transformed/jetified-butterknife-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] /Users/developer/.gradle/caches/transforms-3/78e226ca2d193dd6fb9a01f3356f499d/transformed/jetified-butterknife-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/developer/.gradle/caches/transforms-3/894fa38bd5f8a0d3d7a6427c3627060c/transformed/jetified-rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/developer/.gradle/caches/transforms-3/894fa38bd5f8a0d3d7a6427c3627060c/transformed/jetified-rxandroid-2.0.2/AndroidManifest.xml:19:5-43
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/developer/.gradle/caches/transforms-3/48a12863d4d8cbde5868a56f980aed6a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/developer/.gradle/caches/transforms-3/48a12863d4d8cbde5868a56f980aed6a/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.2] /Users/developer/.gradle/caches/transforms-3/d2b2105f0cc5c056ba27eec5da76f9e4/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:18:5-20:41
@@ -675,6 +682,8 @@ MERGED from [androidx.media2:media2-common:1.2.1] /Users/developer/.gradle/cache
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/developer/.gradle/caches/transforms-3/41a5787be3fb3c928a57ea1683802791/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.palette:palette:1.0.0] /Users/developer/.gradle/caches/transforms-3/f155f5da6ee041dda10a2cf24f82b29d/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.palette:palette:1.0.0] /Users/developer/.gradle/caches/transforms-3/f155f5da6ee041dda10a2cf24f82b29d/transformed/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /Users/developer/.gradle/caches/transforms-3/2e4c777a5f941dc10cb8d609955b4926/transformed/jetified-butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /Users/developer/.gradle/caches/transforms-3/2e4c777a5f941dc10cb8d609955b4926/transformed/jetified-butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/developer/.gradle/caches/transforms-3/e76921e6ef753fe28fdf46baba723c6c/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] /Users/developer/.gradle/caches/transforms-3/e76921e6ef753fe28fdf46baba723c6c/transformed/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] /Users/developer/.gradle/caches/transforms-3/7bd3a14b89cf45016d97396f3dcf2bb7/transformed/jetified-play-services-measurement-sdk-20.1.2/AndroidManifest.xml:20:5-44

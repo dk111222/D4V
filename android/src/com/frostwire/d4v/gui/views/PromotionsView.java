@@ -29,12 +29,14 @@ import android.widget.LinearLayout;
 
 import com.frostwire.d4v.R;
 import com.frostwire.d4v.core.Constants;
+import com.frostwire.d4v.gui.adapters.DhtPromotionsAdapter;
 import com.frostwire.d4v.gui.adapters.PromotionDownloader;
 import com.frostwire.d4v.gui.adapters.PromotionsAdapter;
 import com.frostwire.d4v.offers.Offers;
 import com.frostwire.d4v.offers.PlayStore;
 import com.frostwire.frostclick.Slide;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
@@ -44,7 +46,7 @@ import java.util.List;
  */
 public class PromotionsView extends LinearLayout {
     private GridView gridview;
-    private List<Slide> slides;
+    private List<Slide> slides= new ArrayList<>();
     private PromotionDownloader promotionDownloader;
 
     public PromotionsView(Context context, AttributeSet attrs) {
@@ -55,9 +57,16 @@ public class PromotionsView extends LinearLayout {
         return slides;
     }
 
-    public void setSlides(List<Slide> slides) {
+//    public void setSlides(List<Slide> slides) {
+//        if (gridview != null && slides != null) {
+//            this.slides = slides;
+//            updateAdapter();
+//        }
+//    }
+
+    public void addSlides(List<Slide> slides) {
         if (gridview != null && slides != null) {
-            this.slides = slides;
+            this.slides.addAll(slides);
             updateAdapter();
         }
     }
@@ -70,7 +79,7 @@ public class PromotionsView extends LinearLayout {
                 removeAds(slides);
             }
             destroyPromotionsBanner();
-            gridview.setAdapter(new PromotionsAdapter(gridview.getContext(), slides, promotionDownloader));
+            gridview.setAdapter(new DhtPromotionsAdapter(gridview.getContext(), slides, promotionDownloader));
             gridview.invalidate();
         }
     }

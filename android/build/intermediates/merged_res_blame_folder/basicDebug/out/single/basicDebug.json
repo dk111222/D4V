@@ -1340,6 +1340,10 @@
         "source": "com.frostwire.d4v-apollo-31:/drawable-mdpi/btn_playback_next.webp"
     },
     {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_fragment_search2.xml.flat",
+        "source": "com.frostwire.d4v-android-40:/layout/fragment_search2.xml"
+    },
+    {
         "merged": "com.frostwire.d4v-merged_res-39:/drawable-hdpi_btn_playback_shuffle.webp.flat",
         "source": "com.frostwire.d4v-apollo-31:/drawable-hdpi/btn_playback_shuffle.webp"
     },
@@ -1686,6 +1690,10 @@
     {
         "merged": "com.frostwire.d4v-merged_res-39:/drawable-xxhdpi_contextmenu_icon_track_list.webp.flat",
         "source": "com.frostwire.d4v-apollo-31:/drawable-xxhdpi/contextmenu_icon_track_list.webp"
+    },
+    {
+        "merged": "com.frostwire.d4v-merged_res-39:/layout_view_dht_promotions_item.xml.flat",
+        "source": "com.frostwire.d4v-apollo-31:/layout/view_dht_promotions_item.xml"
     },
     {
         "merged": "com.frostwire.d4v-merged_res-39:/drawable-xhdpi_contextmenu_icon_playlist_add_dark.webp.flat",

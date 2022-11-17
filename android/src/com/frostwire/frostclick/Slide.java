@@ -17,11 +17,35 @@
 
 package com.frostwire.frostclick;
 
+import com.tvc.network.response.DhtData;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author gubatron
  * @author aldenml
  */
 public class Slide {
+
+    public static List<Slide> toSlides(List<DhtData> dhtsData) {
+        List<Slide> slides = new ArrayList<>();
+        if (dhtsData == null || dhtsData.isEmpty()) {
+            return slides;
+        }
+
+        for (DhtData dht : dhtsData) {
+            slides.add(toSlide(dht));
+        }
+        return slides;
+    }
+
+    public static Slide toSlide(DhtData dhtData) {
+        Slide slide = new Slide();
+        slide.method = slide.DOWNLOAD_METHOD_DHT_TORRENT;
+        slide.dhtData = dhtData;
+        return slide;
+    }
 
     /**
      * Open the URL if available, don't download
@@ -37,6 +61,11 @@ public class Slide {
      * Download the file via HTTP
      */
     public static final int DOWNLOAD_METHOD_HTTP = 2;
+
+    /**
+     * Download the torrent file
+     */
+    public static final int DOWNLOAD_METHOD_DHT_TORRENT = 3;
 
     // FLAGS
     public static final int POST_DOWNLOAD_UNZIP = 1;
@@ -137,4 +166,6 @@ public class Slide {
      * Total size in bytes
      */
     public long size;
+
+    public DhtData dhtData;
 }

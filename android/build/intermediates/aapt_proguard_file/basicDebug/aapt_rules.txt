@@ -63,6 +63,8 @@
 
 -keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
+-keep class androidx.appcompat.widget.AppCompatTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
 -keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
@@ -162,6 +164,8 @@
 -keep class com.frostwire.d4v.gui.views.ProductCardView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.frostwire.d4v.gui.views.ProductPaymentOptionsView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.frostwire.d4v.gui.views.PromotionsView { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.frostwire.d4v.gui.views.RichNotification { <init>(android.content.Context, android.util.AttributeSet); }
 

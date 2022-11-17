@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 演员信息 -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dht_info_container"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:padding="12dp"
+        app:layout_constraintDimensionRatio="1080:246"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/name"
+            style="@style/TextViewStyle.white15sp"
+            android:singleLine="true"
+            android:text="She-Hulk.Attorney.at.Law.S01E06.WEB.x264-TORRENTGALAXY[TGx]"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/time"
+            style="@style/TextViewStyle.white12sp60"
+            android:maxWidth="180dp"
+            android:singleLine="true"
+            android:text="2022-10-25T12:01:55.573Z"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/reqs"
+            style="@style/TextViewStyle.white12sp60"
+            android:layout_marginStart="12dp"
+            android:text="热度：12"
+            app:layout_constraintStart_toEndOf="@+id/time"
+            app:layout_constraintTop_toTopOf="@+id/time" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/size"
+            style="@style/TextViewStyle.white12sp60"
+            android:layout_marginStart="12dp"
+            android:text="10G"
+            app:layout_constraintStart_toEndOf="@+id/reqs"
+            app:layout_constraintTop_toTopOf="@+id/reqs" />
+
+
+        <TextView
+            android:id="@+id/view_promotions_item_download_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/basic_blue_highlight"
+            android:clickable="false"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            android:text="@string/download"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_x_medium"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/promo_download_arrow_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="#21FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

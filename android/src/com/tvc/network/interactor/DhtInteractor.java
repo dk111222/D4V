@@ -11,6 +11,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import io.reactivex.Observable;
+import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.disposables.Disposable;
 import okhttp3.MediaType;
 import okhttp3.RequestBody;
 
@@ -29,7 +31,29 @@ public class DhtInteractor {
 
     private DhtService appService = ServiceGenerator.createDhtService(DhtService.class);
 
+    /**
+     * 管理RxJava请求
+     */
+    protected CompositeDisposable compositeDisposable;
+
     private DhtInteractor() {
+    }
+
+    /**
+     * 添加 rxJava 发出的请求
+     */
+    public void addDisposable(Disposable disposable) {
+        if (compositeDisposable == null || compositeDisposable.isDisposed()) {
+            compositeDisposable = new CompositeDisposable();
+        }
+        compositeDisposable.add(disposable);
+    }
+
+    public void clearDisposable() {
+        if (compositeDisposable != null) {
+            compositeDisposable.dispose();
+            compositeDisposable = null;
+        }
     }
 
     public void resetService() {

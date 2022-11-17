@@ -41,6 +41,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.frostwire.d4v.BuildConfig;
 import com.frostwire.d4v.R;
@@ -75,6 +76,7 @@ import com.frostwire.d4v.gui.views.SearchProgressView;
 import com.frostwire.d4v.gui.views.SwipeLayout;
 import com.frostwire.d4v.offers.Offers;
 import com.frostwire.d4v.util.SystemUtils;
+import com.frostwire.frostclick.DhtTorrentPromotionSearchResult;
 import com.frostwire.frostclick.Slide;
 import com.frostwire.frostclick.SlideList;
 import com.frostwire.frostclick.TorrentPromotionSearchResult;
@@ -88,6 +90,9 @@ import com.frostwire.util.JsonUtils;
 import com.frostwire.util.Logger;
 import com.frostwire.util.Ref;
 import com.frostwire.util.http.HttpClient;
+import com.tvc.network.interactor.DhtInteractor;
+import com.tvc.network.response.DhtData;
+import com.tvc.network.response.DhtListResponse;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -95,6 +100,11 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
 
 /**
  * @author gubatron
@@ -108,10 +118,10 @@ public final class SearchFragment extends AbstractFragment implements
     @SuppressLint("StaticFieldLeak")
     private static SearchFragment lastInstance = null;
     private SearchResultListAdapter adapter;
-    private List<Slide> slides;
+//    private List<Slide> slides = new ArrayList<>(0);
     private SearchInputView searchInput;
     private ProgressBar deepSearchProgress;
-//    private PromotionsView promotions;
+    private PromotionsView promotions;
     private SearchProgressView searchProgress;
     private ListView list;
     private String currentQuery;
@@ -143,7 +153,9 @@ public final class SearchFragment extends AbstractFragment implements
 //            promotions.setSlides(slides);
 //        } else {
 //            async(this, SearchFragment::loadSlidesInBackground, SearchFragment::onSlidesLoaded);
+//
 //        }
+        loadDhtSlidesInBackground(0);
     }
 
     private List<Slide> loadSlidesInBackground() {
@@ -160,15 +172,70 @@ public final class SearchFragment extends AbstractFragment implements
         return null;
     }
 
-    private void onSlidesLoaded(List<Slide> result) {
-        if (result != null && !result.isEmpty()) {
-            slides = result;
-        } else {
-            slides = new ArrayList<>(0);
+    private List<Slide> loadDhtSlidesInBackground(int page) {
+        List<Slide> sildes = new ArrayList<>();
+        try {
+            DhtInteractor dhtInteractor = DhtInteractor.getInstance();
+            Disposable disposable = dhtInteractor.btHashList( page, 500)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(result -> {
+                        List<DhtData> dhtsData =  result.getData();
+                        List<Slide> slides = Slide.toSlides(dhtsData);
+                        onDhtSlidesLoaded(slides);
+
+                    }, throwable -> {
+                        Toast.makeText(SearchFragment.this.getContext(), "加载失败", Toast.LENGTH_SHORT).show();
+                    });
+
+            dhtInteractor.addDisposable(disposable);
+            // yes, these requests are done only once per session.
+        } catch (Throwable e) {
+            LOG.error("Error loading slides from url", e);
         }
+        return sildes;
+    }
+
+
+    private List<Slide> searchDhtSlidesInBackground(int page) {
+        List<Slide> sildes = new ArrayList<>();
+        try {
+            DhtInteractor dhtInteractor = DhtInteractor.getInstance();
+            Disposable disposable = dhtInteractor.btHashList( page, 50)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(result -> {
+                        List<DhtData> dhtsData =  result.getData();
+                        List<Slide> slides = Slide.toSlides(dhtsData);
+                        onDhtSlidesLoaded(slides);
+                    }, throwable -> {
+                        Toast.makeText(SearchFragment.this.getContext(), "加载失败", Toast.LENGTH_SHORT).show();
+                    });
+
+            dhtInteractor.addDisposable(disposable);
+            // yes, these requests are done only once per session.
+        } catch (Throwable e) {
+            LOG.error("Error loading slides from url", e);
+        }
+        return sildes;
+    }
+
+    private void onDhtSlidesLoaded(List<Slide> result) {
+        promotions.addSlides(result);
+        promotions.invalidate();
+    }
+
+//
+//    private void onSlidesLoaded(List<Slide> result) {
+//        if (result != null && !result.isEmpty()) {
+//            slides = result;
+//        } else {
+//            slides = new ArrayList<>(0);
+//        }
 //        promotions.setSlides(slides);
 //        promotions.invalidate();
-    }
+//    }
+
 
     @Override
     public View getHeader(Activity activity) {
@@ -239,9 +306,9 @@ public final class SearchFragment extends AbstractFragment implements
     }
 
     public void destroyPromotionsBanner() {
-//        if (promotions != null) {
-//            promotions.destroyPromotionsBanner();
-//        }
+        if (promotions != null) {
+            promotions.destroyPromotionsBanner();
+        }
     }
 
     @Override
@@ -255,10 +322,10 @@ public final class SearchFragment extends AbstractFragment implements
         searchInput.setOnSearchListener(new SearchInputOnSearchListener((LinearLayout) view, this));
         deepSearchProgress = findView(view, R.id.fragment_search_deepsearch_progress);
         deepSearchProgress.setVisibility(View.GONE);
-//        promotions = findView(view, R.id.fragment_search_promos);
+        promotions = findView(view, R.id.fragment_search_promos);
         // Click Listeners of the inner promos need this reference because there's too much logic
         // on starting a download already here. See PromotionsView.setupView()
-//        promotions.setPromotionDownloader(this);
+        promotions.setPromotionDownloader(this);
         searchProgress = findView(view, R.id.fragment_search_search_progress);
         searchProgress.setCurrentQueryReporter(this);
         searchProgress.setCancelOnClickListener(new OnCancelSearchListener(Ref.weak(this)));
@@ -275,7 +342,7 @@ public final class SearchFragment extends AbstractFragment implements
                 switchToThe(false);
             }
         });
-//        switchView(view, R.id.fragment_search_promos);
+        switchView(view, R.id.fragment_search_promos);
     }
 
     public static class NotAvailableDialog extends AbstractDialog {
@@ -451,7 +518,7 @@ public final class SearchFragment extends AbstractFragment implements
         } catch (Throwable ignore) {
         }
         if (LocalSearchEngine.instance() == null) {
-//            switchView(view, R.id.fragment_search_promos);
+            switchView(view, R.id.fragment_search_promos);
             LOG.info("SearchFragment::showSearchView no search instance available, going back to promos.");
             return;
         }
@@ -465,7 +532,7 @@ public final class SearchFragment extends AbstractFragment implements
         deepSearchProgress.setVisibility((!searchFinished || !searchStopped || !searchCancelled) ? View.VISIBLE : View.GONE);
 
         if (searchCancelled) {
-//            switchView(view, R.id.fragment_search_promos);
+            switchView(view, R.id.fragment_search_promos);
             return;
         }
 
@@ -588,6 +655,8 @@ public final class SearchFragment extends AbstractFragment implements
             case Slide.DOWNLOAD_METHOD_HTTP:
                 sr = new HttpSlideSearchResult(slide);
                 break;
+            case Slide.DOWNLOAD_METHOD_DHT_TORRENT:
+                sr = new DhtTorrentPromotionSearchResult(slide);
             default:
                 sr = null;
                 break;
@@ -671,7 +740,7 @@ public final class SearchFragment extends AbstractFragment implements
                             Context context = searchFragment.getContext();
                             if (context != null) {
                                 UIUtils.showLongMessage(context, R.string.no_results_feedback);
-                                //searchFragment.switchView(searchFragment.getView(), R.id.fragment_search_promos);
+                                searchFragment.switchView(searchFragment.getView(), R.id.fragment_search_promos);
                                 searchFragment.cancelSearch();
                                 searchFragment.searchInput.setText("");
                             }

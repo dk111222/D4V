@@ -286,7 +286,7 @@
     <string name="clear_search_cache_summary">Clear search cache entries</string>
     <string name="cloud_download_aborted_on_mobile_data">Current setting prevents downloading when not on Wi-Fi network</string>
     <string name="cloud_downloads_coming">Sorry: Starting cloud downloads from here will be available on further updates.</string>
-    <string name="com.google.firebase.crashlytics.mapping_file_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">ec16cdb0a98b406489c44943d41ed9fd</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">75b793cce61f43edaaab7034233de423</string>
     <string name="comma">,</string>
     <string name="comment">Comment</string>
     <string name="community">Community</string>
@@ -1155,6 +1155,155 @@
         <item name="android:windowBackground">@drawable/frostwire_splash_screen</item>
         <item name="colorPrimaryDark">@color/basic_blue_highlight_dark</item>
     </style>
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+    </style>
+    <style name="TextViewStyle.25white" parent="TextViewStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.actionbar_title" parent="TextViewStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextViewStyle.artist_title" parent="TextViewStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.header" parent="TextViewStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextViewStyle.hot_action" parent="TextViewStyle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.login" parent="TextViewStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+    <style name="TextViewStyle.simple1_title" parent="TextViewStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.simple2_title" parent="TextViewStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.summary11sp45" parent="TextViewStyle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.summary8sp80" parent="TextViewStyle">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.summary9sp45" parent="TextViewStyle">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.summary9sp80" parent="TextViewStyle">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.summary9sp85" parent="TextViewStyle">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.white10sp60" parent="TextViewStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.white10sp80" parent="TextViewStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.white11" parent="TextViewStyle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.white12sp" parent="TextViewStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.white12sp60" parent="TextViewStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white12sp80" parent="TextViewStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextViewStyle.white13sp" parent="TextViewStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.white13sp60" parent="TextViewStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white13sp85" parent="TextViewStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white13sp95" parent="TextViewStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white15sp" parent="TextViewStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.white15sp95" parent="TextViewStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white16sp" parent="TextViewStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.white16sp95" parent="TextViewStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white18sp" parent="TextViewStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.white18sp95" parent="TextViewStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white19sp" parent="TextViewStyle">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextViewStyle.white25sp95" parent="TextViewStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+    </style>
+    <style name="TextViewStyle.white9sp80" parent="TextViewStyle">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
     <style name="Theme.FrostWire" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/basic_blue</item>
         <item name="colorPrimaryDark">@color/basic_blue_dark</item>
@@ -1238,6 +1387,10 @@
         <item name="android:textSize">@dimen/text_size_x_large</item>
         <item name="android:fontFamily">sans-serif-regular</item>
         <item name="android:layout_marginTop">-5dp</item>
+    </style>
+    <style name="VideoItemTagStyle" parent="TextViewStyle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
     </style>
     <style name="WizardActivity" parent="Theme.FrostWire">
         <item name="android:textColorSecondary">@color/app_text_wizard</item>
