@@ -109,7 +109,7 @@
     <!--观看页面标题-->
     <style name="TextViewStyle.white15sp" parent="TextViewStyle">
         <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
     </style>
     <style name="TextViewStyle.white15sp95" parent="TextViewStyle">
         <item name="android:textSize">15sp</item>

@@ -32,6 +32,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -102,7 +103,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
@@ -114,6 +114,7 @@ public final class SearchFragment extends AbstractFragment implements
         MainFragment,
         OnDialogClickListener,
         SearchProgressView.CurrentQueryReporter, PromotionDownloader {
+    private static final String TAG = "SearchFragment XXX";
     private static final Logger LOG = Logger.getLogger(SearchFragment.class);
     @SuppressLint("StaticFieldLeak")
     private static SearchFragment lastInstance = null;
@@ -155,7 +156,7 @@ public final class SearchFragment extends AbstractFragment implements
 //            async(this, SearchFragment::loadSlidesInBackground, SearchFragment::onSlidesLoaded);
 //
 //        }
-        loadDhtSlidesInBackground(0);
+        loadDhtSlidesInBackground(1);
     }
 
     private List<Slide> loadSlidesInBackground() {
@@ -173,18 +174,20 @@ public final class SearchFragment extends AbstractFragment implements
     }
 
     private List<Slide> loadDhtSlidesInBackground(int page) {
+        Log.w(TAG, "loadDhtSlidesInBackground: ");
         List<Slide> sildes = new ArrayList<>();
         try {
             DhtInteractor dhtInteractor = DhtInteractor.getInstance();
-            Disposable disposable = dhtInteractor.btHashList( page, 500)
+            Disposable disposable = dhtInteractor.btHashList( page, 800)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(result -> {
                         List<DhtData> dhtsData =  result.getData();
                         List<Slide> slides = Slide.toSlides(dhtsData);
+                        Log.w(TAG, "loadDhtSlidesInBackground: result" + slides.size() );
                         onDhtSlidesLoaded(slides);
-
                     }, throwable -> {
+                        Log.w(TAG, "loadDhtSlidesInBackground: load failed" );
                         Toast.makeText(SearchFragment.this.getContext(), "加载失败", Toast.LENGTH_SHORT).show();
                     });
 
@@ -197,11 +200,11 @@ public final class SearchFragment extends AbstractFragment implements
     }
 
 
-    private List<Slide> searchDhtSlidesInBackground(int page) {
+    private List<Slide> searchDhtSlidesInBackground(String key) {
         List<Slide> sildes = new ArrayList<>();
         try {
             DhtInteractor dhtInteractor = DhtInteractor.getInstance();
-            Disposable disposable = dhtInteractor.btHashList( page, 50)
+            Disposable disposable = dhtInteractor.search(key, 1, 500)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(result -> {
@@ -591,6 +594,7 @@ public final class SearchFragment extends AbstractFragment implements
     }
 
     private void startTransfer(final SearchResult sr, final String toastMessage) {
+        Log.w(TAG, "startTransfer: " + sr.getDetailsUrl() +" " + sr.getDisplayName());
         if (!(sr instanceof AbstractTorrentSearchResult || sr instanceof TorrentPromotionSearchResult) &&
                 ConfigurationManager.instance().getBoolean(Constants.PREF_KEY_GUI_SHOW_NEW_TRANSFER_DIALOG)) {
             if (sr instanceof FileSearchResult) {
@@ -601,6 +605,7 @@ public final class SearchFragment extends AbstractFragment implements
                     // android.app.FragmentManagerImpl.checkStateLoss:1323 -> java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
                     // just start the download then if the dialog crapped out.
                     onDialogClick(NewTransferDialog.TAG, Dialog.BUTTON_POSITIVE);
+                    Log.w(TAG, "startTransfer: ", e);
                 }
             }
         } else {

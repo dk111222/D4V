@@ -2154,7 +2154,7 @@
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="cloud_download_aborted_on_mobile_data">Current setting prevents downloading when not on Wi-Fi network</string>
     <string name="cloud_downloads_coming">Sorry: Starting cloud downloads from here will be available on further updates.</string>
-    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">75b793cce61f43edaaab7034233de423</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">7a7d20facd7f44ea8ab4168a6c4c8f02</string>
     <string name="comma">,</string>
     <string name="comment">Comment</string>
     <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
@@ -7695,7 +7695,7 @@
     </style>
     <style name="TextViewStyle.white15sp" parent="TextViewStyle">
         <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/app_text_highlight</item>
     </style>
     <style name="TextViewStyle.white15sp95" parent="TextViewStyle">
         <item name="android:textSize">15sp</item>

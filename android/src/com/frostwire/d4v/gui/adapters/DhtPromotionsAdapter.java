@@ -78,7 +78,7 @@ public class DhtPromotionsAdapter extends AbstractAdapter<Slide> {
         TextView size = findView(convertView, R.id.size);
         name.setText(viewItem.dhtData.getName());
         time.setText(viewItem.dhtData.getAtime());
-        reqs.setText(viewItem.dhtData.getRegs());
+        reqs.setText("Hot:" +viewItem.dhtData.getRegs());
         size.setText(AppUtils.toConvertSize(viewItem.dhtData.getSize()));
 
         TextView download = findView(convertView, R.id.view_promotions_item_download_textview);

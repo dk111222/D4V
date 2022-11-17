@@ -53,26 +53,26 @@
             app:layout_constraintStart_toEndOf="@+id/reqs"
             app:layout_constraintTop_toTopOf="@+id/reqs" />
 
-
-        <TextView
-            android:id="@+id/view_promotions_item_download_textview"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@color/basic_blue_highlight"
-            android:clickable="false"
-            android:drawablePadding="10dp"
-            android:gravity="center_vertical"
-            android:paddingStart="10dp"
-            android:paddingEnd="15dp"
-            android:text="@string/download"
-            android:textColor="@color/white"
-            android:textSize="@dimen/text_x_medium"
-            android:textStyle="bold"
-            app:drawableStartCompat="@drawable/promo_download_arrow_button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/time" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/view_promotions_item_download_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/basic_blue_highlight"
+        android:clickable="false"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="15dp"
+        android:text="@string/download"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_x_medium"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/promo_download_arrow_button"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dht_info_container" />
 
     <View
         android:id="@+id/divider"
@@ -80,8 +80,10 @@
         android:layout_height="1dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:background="#21FFFFFF"
+        android:layout_marginTop="4dp"
+        android:background="#21000000"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_promotions_item_download_textview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
