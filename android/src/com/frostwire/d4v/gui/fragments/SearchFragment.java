@@ -324,7 +324,7 @@ public final class SearchFragment extends AbstractFragment implements
 
         postToHandler(
                 SEARCH_PERFORMER,
-                () -> LocalSearchEngine.instance().performTellurideSearch(pageUrl, adapter, this));
+                () -> LocalSearchEngine.instance().performTellurideSearch(pageUrl, adapter));
         searchInput.setText(" "); // an empty space so the 'x' button is shown.
         switchView(view, R.id.fragment_search_list);
     }

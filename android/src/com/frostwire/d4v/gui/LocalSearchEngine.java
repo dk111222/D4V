@@ -135,7 +135,8 @@ public final class LocalSearchEngine {
         }
     }
 
-    public void performTellurideSearch(String pageUrl, SearchResultListAdapter adapter, SearchFragment searchFragment) {
+    //    public void performTellurideSearch(String pageUrl, SearchResultListAdapter adapter, SearchFragment searchFragment) {
+    public void performTellurideSearch(String pageUrl, SearchResultListAdapter adapter) {
         SystemUtils.ensureBackgroundThreadOrCrash("LocalSearchEngine::performTellurideSearch(pageUrl=" + pageUrl + ")");
         if (StringUtils.isNullOrEmpty(pageUrl, true)) {
             return;
