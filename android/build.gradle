@@ -74,6 +74,7 @@ def changeApkOutput(variant) {
 //    } else if (variant.productFlavors[0].name == "plus1") {
 //        flavor = 'plus'
 //    }
+    // dht.keystore - dht123456
     def suffix = project.ext.versionName + '-b' + project.ext.versionCode
     def name = "Dht" + variant.buildType.name + '-' + suffix
 
