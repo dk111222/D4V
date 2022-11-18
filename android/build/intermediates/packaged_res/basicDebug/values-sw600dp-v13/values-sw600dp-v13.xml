@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="isTablet">true</bool>
-    <dimen name="list_item_detailed_height">164.0dip</dimen>
-</resources>
