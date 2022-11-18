@@ -68,14 +68,14 @@ def manifestVersionName() {
 }
 
 def changeApkOutput(variant) {
-    def flavor = 'unknown'
-    if (variant.productFlavors[0].name == "basic") {
-        flavor = 'basic'
-    } else if (variant.productFlavors[0].name == "plus1") {
-        flavor = 'plus'
-    }
-    def suffix = project.ext.versionName + '-b' + project.ext.versionCode + '-' + flavor
-    def name = "frostwire-android-" + variant.buildType.name + '-' + suffix
+//    def flavor = 'unknown'
+//    if (variant.productFlavors[0].name == "basic") {
+//        flavor = 'basic'
+//    } else if (variant.productFlavors[0].name == "plus1") {
+//        flavor = 'plus'
+//    }
+    def suffix = project.ext.versionName + '-b' + project.ext.versionCode
+    def name = "Dht" + variant.buildType.name + '-' + suffix
 
     variant.outputs.all { output ->
         outputFileName = name + '.apk'

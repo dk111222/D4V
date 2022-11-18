@@ -127,7 +127,7 @@ INJECTED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest
 	xmlns:android
 		ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:4:11-69
 	android:versionCode
-		ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:8:9-34
+		ADDED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml:8:9-32
 		INJECTED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml
 		INJECTED from /Users/developer/Desktop/and_workspace/D4V/android/AndroidManifest.xml
 	android:installLocation

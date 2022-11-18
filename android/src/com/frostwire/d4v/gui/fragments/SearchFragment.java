@@ -662,6 +662,7 @@ public final class SearchFragment extends AbstractFragment implements
                 break;
             case Slide.DOWNLOAD_METHOD_DHT_TORRENT:
                 sr = new DhtTorrentPromotionSearchResult(slide);
+                break;
             default:
                 sr = null;
                 break;

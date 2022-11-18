@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.frostwire.d4v"
     android:installLocation="auto"
-    android:versionCode="9060708"
-    android:versionName="2.6.2" >
+    android:versionCode="9060001"
+    android:versionName="1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="24"

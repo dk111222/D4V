@@ -79,12 +79,12 @@
             app:itemTextColor="@color/app_text_primary"
             app:menu="@menu/nav_view_menu">
 
-            <com.frostwire.d4v.gui.views.AdMenuItemView
-                android:id="@+id/slidermenu_ad_menuitem"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:visibility="gone" />
+<!--            <com.frostwire.d4v.gui.views.AdMenuItemView-->
+<!--                android:id="@+id/slidermenu_ad_menuitem"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="bottom"-->
+<!--                android:visibility="gone" />-->
         </com.google.android.material.navigation.NavigationView>
     </androidx.drawerlayout.widget.DrawerLayout>
 </LinearLayout>

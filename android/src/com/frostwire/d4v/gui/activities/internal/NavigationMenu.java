@@ -115,27 +115,22 @@ public final class NavigationMenu {
             // Prep title and version
             TextView title = navViewHeader.findViewById(R.id.nav_view_header_main_title);
             TextView version = navViewHeader.findViewById(R.id.nav_view_header_main_version);
-            String basicOrPlus = (String) activity.getText(Constants.IS_GOOGLE_PLAY_DISTRIBUTION ? R.string.basic : R.string.plus);
-            boolean isDevelopment = Constants.IS_BASIC_AND_DEBUG;
-            if (isDevelopment) {
-                basicOrPlus = "Developer";
-            }
-            title.setText("FrostWire " + basicOrPlus);
-            version.setText(" v" + Constants.FROSTWIRE_VERSION_STRING);
-            TextView build = navViewHeader.findViewById(R.id.nav_view_header_main_build);
-            build.setText(activity.getText(R.string.build) + " " + BuildConfig.VERSION_CODE);
+            title.setText("D4Link ");
+            version.setText("V" + Constants.FROSTWIRE_VERSION_STRING);
+//            TextView build = navViewHeader.findViewById(R.id.nav_view_header_main_build);
+//            build.setText(activity.getText(R.string.build) + " " + BuildConfig.VERSION_CODE);
             View.OnClickListener aboutActivityLauncher = v -> {
                 Intent intent = new Intent(v.getContext(), AboutActivity.class);
                 v.getContext().startActivity(intent);
             };
-            title.setOnClickListener(aboutActivityLauncher);
-            version.setOnClickListener(aboutActivityLauncher);
-            build.setOnClickListener(aboutActivityLauncher);
+//            title.setOnClickListener(aboutActivityLauncher);
+//            version.setOnClickListener(aboutActivityLauncher);
+//            build.setOnClickListener(aboutActivityLauncher);
 
             // Prep update button
-            ImageView updateButton = navViewHeader.findViewById(R.id.nav_view_header_main_update);
-            updateButton.setVisibility(View.GONE);
-            updateButton.setOnClickListener(v -> onUpdateButtonClicked(activity));
+//            ImageView updateButton = navViewHeader.findViewById(R.id.nav_view_header_main_update);
+//            updateButton.setVisibility(View.GONE);
+//            updateButton.setOnClickListener(v -> onUpdateButtonClicked(activity));
         }
         return resultNavView;
     }
@@ -205,9 +200,9 @@ public final class NavigationMenu {
     }
 
     public void onUpdateAvailable() {
-        View navViewHeader = navView.getHeaderView(0);
-        ImageView updateButton = navViewHeader.findViewById(R.id.nav_view_header_main_update);
-        updateButton.setVisibility(View.VISIBLE);
+//        View navViewHeader = navView.getHeaderView(0);
+//        ImageView updateButton = navViewHeader.findViewById(R.id.nav_view_header_main_update);
+//        updateButton.setVisibility(View.VISIBLE);
     }
 
     public MenuItem getCheckedItem() {

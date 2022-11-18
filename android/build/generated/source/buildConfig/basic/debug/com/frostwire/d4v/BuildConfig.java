@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.frostwire.d4v";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "basic";
-  public static final int VERSION_CODE = 9060708;
-  public static final String VERSION_NAME = "2.6.2";
+  public static final int VERSION_CODE = 9060001;
+  public static final String VERSION_NAME = "1.0.0";
 }

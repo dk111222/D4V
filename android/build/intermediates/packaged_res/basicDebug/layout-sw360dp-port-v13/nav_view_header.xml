@@ -32,7 +32,6 @@
         android:id="@+id/nav_view_header_main_app_logo"
         android:layout_width="54dp"
         android:layout_height="54dp"
-        android:layout_gravity="center_horizontal"
         android:layout_marginBottom="12dp"
         android:src="@drawable/app_icon" />
 
@@ -56,34 +55,34 @@
             android:id="@+id/nav_view_header_main_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/nav_view_header_main_title"
+            android:layout_below="@+id/nav_view_header_main_title"
             android:text="@string/dummy_title"
             android:textColor="@color/basic_white"
             android:textSize="@dimen/text_size_small"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/nav_view_header_main_build"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/nav_view_header_main_title"
-            android:text="@string/dummy_build"
-            android:textColor="@color/basic_gray_medium"
-            android:textSize="@dimen/text_size_micro" />
-
-        <ImageView
-            android:id="@+id/nav_view_header_main_update"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="10dp"
-            android:background="@color/transparent"
-            android:clickable="true"
-            android:elevation="1dp"
-            android:gravity="end"
-            android:src="@drawable/menu_update"
-            app:tint="@color/basic_green"
-            android:focusable="true" />
+<!--        <TextView-->
+<!--            android:id="@+id/nav_view_header_main_build"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/nav_view_header_main_title"-->
+<!--            android:text="@string/dummy_build"-->
+<!--            android:textColor="@color/basic_gray_medium"-->
+<!--            android:textSize="@dimen/text_size_micro" />-->
+<!---->
+<!--        <ImageView-->
+<!--            android:id="@+id/nav_view_header_main_update"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@color/transparent"-->
+<!--            android:clickable="true"-->
+<!--            android:elevation="1dp"-->
+<!--            android:gravity="end"-->
+<!--            android:src="@drawable/menu_update"-->
+<!--            app:tint="@color/basic_green"-->
+<!--            android:focusable="true" />-->
 
 
     </RelativeLayout>

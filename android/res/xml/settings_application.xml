@@ -21,16 +21,16 @@
     <PreferenceCategory
         android:key="frostwire.prefs.general"
         android:title="@string/general_settings">
-        <Preference
-            android:key="frostwire.prefs.offers.buy_no_ads"
-            android:layout="@layout/view_preference_buy_ads"
-            android:summary="@string/remove_ads_description"
-            android:title="@string/remove_ads">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:targetClass="com.frostwire.d4v.gui.activities.BuyActivity"
-                android:targetPackage="com.frostwire.d4v" />
-        </Preference>
+<!--        <Preference-->
+<!--            android:key="frostwire.prefs.offers.buy_no_ads"-->
+<!--            android:layout="@layout/view_preference_buy_ads"-->
+<!--            android:summary="@string/remove_ads_description"-->
+<!--            android:title="@string/remove_ads">-->
+<!--            <intent-->
+<!--                android:action="android.intent.action.VIEW"-->
+<!--                android:targetClass="com.frostwire.d4v.gui.activities.BuyActivity"-->
+<!--                android:targetPackage="com.frostwire.d4v" />-->
+<!--        </Preference>-->
         <SwitchPreference
             android:key="frostwire.prefs.internal.connect_disconnect"
             android:summary="@string/bittorrent_network_summary"
@@ -54,13 +54,13 @@
             android:title="@string/torrent_preferences_header" />
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:key="frostwire.prefs.community_buttons_category"
-        android:title="@string/community">
-        <com.frostwire.d4v.gui.views.preference.CommunityButtonsPreference
-            android:key="frostwire.prefs.community_buttons"
-            android:title="" />
-    </PreferenceCategory>
+<!--    <PreferenceCategory-->
+<!--        android:key="frostwire.prefs.community_buttons_category"-->
+<!--        android:title="@string/community">-->
+<!--        <com.frostwire.d4v.gui.views.preference.CommunityButtonsPreference-->
+<!--            android:key="frostwire.prefs.community_buttons"-->
+<!--            android:title="" />-->
+<!--    </PreferenceCategory>-->
 
     <PreferenceCategory
         android:key="frostwire.prefs.other_settings"
@@ -68,11 +68,11 @@
         <Preference
             android:fragment="com.frostwire.d4v.gui.fragments.preference.OtherFragment"
             android:title="@string/notification_other_header" />
-        <Preference android:title="@string/about">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:targetClass="com.frostwire.d4v.gui.activities.AboutActivity"
-                android:targetPackage="com.frostwire.d4v" />
-        </Preference>
+<!--        <Preference android:title="@string/about">-->
+<!--            <intent-->
+<!--                android:action="android.intent.action.VIEW"-->
+<!--                android:targetClass="com.frostwire.d4v.gui.activities.AboutActivity"-->
+<!--                android:targetPackage="com.frostwire.d4v" />-->
+<!--        </Preference>-->
     </PreferenceCategory>
 </PreferenceScreen>

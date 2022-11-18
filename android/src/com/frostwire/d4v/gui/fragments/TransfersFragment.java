@@ -115,7 +115,7 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
         setHasOptionsMenu(true);
         selectedStatus = TransferStatus.ALL;
         vpnRichToastHandler = new Handler();
-        tabPositionToTransferStatus = new TransferStatus[]{TransferStatus.ALL, TransferStatus.DOWNLOADING, TransferStatus.SEEDING, TransferStatus.COMPLETED};
+        tabPositionToTransferStatus = new TransferStatus[]{TransferStatus.ALL, TransferStatus.DOWNLOADING, TransferStatus.COMPLETED/*, TransferStatus.SEEDING*/};
     }
 
     @Override
@@ -164,7 +164,7 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
         menu.findItem(R.id.fragment_transfers_menu_clear_all).setVisible(false);
         menu.findItem(R.id.fragment_transfers_menu_resume_all).setVisible(false);
         menu.findItem(R.id.fragment_transfers_menu_seed_all).setVisible(false);
-        menu.findItem(R.id.fragment_transfers_menu_stop_seeding_all).setVisible(false);
+//        menu.findItem(R.id.fragment_transfers_menu_stop_seeding_all).setVisible(false);
         updateMenuItemVisibility(menu);
         super.onPrepareOptionsMenu(menu);
     }
@@ -193,11 +193,11 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
             }
             if (someTransfersSeeding(transfers) && someTransfersComplete(transfers)) {
                 menu.findItem(R.id.fragment_transfers_menu_seed_all).setVisible(true);
-                menu.findItem(R.id.fragment_transfers_menu_stop_seeding_all).setVisible(true);
+//                menu.findItem(R.id.fragment_transfers_menu_stop_seeding_all).setVisible(true);
             }
-            if (someTransfersSeeding(transfers)) {
-                menu.findItem(R.id.fragment_transfers_menu_stop_seeding_all).setVisible(true);
-            }
+//            if (someTransfersSeeding(transfers)) {
+//                menu.findItem(R.id.fragment_transfers_menu_stop_seeding_all).setVisible(true);
+//            }
         }
     }
 
@@ -233,9 +233,9 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
         } else if (itemId == R.id.fragment_transfers_menu_seed_all) {
             new SeedAction(getActivity()).onClick();
             return true;
-        } else if (itemId == R.id.fragment_transfers_menu_stop_seeding_all) {
-            TransferManager.instance().stopSeedingTorrents();
-            return true;
+//        } else if (itemId == R.id.fragment_transfers_menu_stop_seeding_all) {
+//            TransferManager.instance().stopSeedingTorrents();
+//            return true;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -813,7 +813,7 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
     }
 
     public enum TransferStatus {
-        ALL, DOWNLOADING, COMPLETED, SEEDING
+        ALL, DOWNLOADING, COMPLETED , SEEDING
     }
 
     public void onClick(TransfersFragment f) {

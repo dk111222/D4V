@@ -3740,7 +3740,6 @@ id fragment_transfers_menu_clear_all
 id fragment_transfers_menu_pause_stop_all
 id fragment_transfers_menu_resume_all
 id fragment_transfers_menu_seed_all
-id fragment_transfers_menu_stop_seeding_all
 id fragment_transfers_no_seeds_view
 id fragment_transfers_status_vpn_icon
 id fragment_transfers_swipe
@@ -3922,10 +3921,7 @@ id native_leader_icon_and_text_layout
 id native_media_content_view
 id native_title_text_view
 id nav_view_header_main_app_logo
-id nav_view_header_main_build
-id nav_view_header_main_comma
 id nav_view_header_main_title
-id nav_view_header_main_update
 id nav_view_header_main_version
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -4054,7 +4050,6 @@ id sin
 id size
 id skipCollapsed
 id slide
-id slidermenu_ad_menuitem
 id snackbar_action
 id snackbar_text
 id snap

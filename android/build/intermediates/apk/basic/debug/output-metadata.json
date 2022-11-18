@@ -11,9 +11,9 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 9060708,
-      "versionName": "2.6.2",
-      "outputFile": "frostwire-android-debug-2.6.2-b708-basic.apk"
+      "versionCode": 9060001,
+      "versionName": "1.0.0",
+      "outputFile": "Dhtdebug-1.0.0-b1-basic.apk"
     }
   ],
   "elementType": "File"

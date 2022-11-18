@@ -24163,7 +24163,6 @@ com.frostwire.d4v.R$id:
     public static final int fragment_transfers_menu_pause_stop_all
     public static final int fragment_transfers_menu_resume_all
     public static final int fragment_transfers_menu_seed_all
-    public static final int fragment_transfers_menu_stop_seeding_all
     public static final int fragment_transfers_no_seeds_view
     public static final int fragment_transfers_status_vpn_icon
     public static final int fragment_transfers_swipe
@@ -24223,10 +24222,7 @@ com.frostwire.d4v.R$id:
     public static final int menu_player_view_as_simple
     public static final int name
     public static final int nav_view_header_main_app_logo
-    public static final int nav_view_header_main_build
-    public static final int nav_view_header_main_comma
     public static final int nav_view_header_main_title
-    public static final int nav_view_header_main_update
     public static final int nav_view_header_main_version
     public static final int new_playlist_list_item_icon
     public static final int notification_base_collapse
@@ -24255,7 +24251,6 @@ com.frostwire.d4v.R$id:
     public static final int reward_product_tag_id
     public static final int right
     public static final int size
-    public static final int slidermenu_ad_menuitem
     public static final int subs_product_tag_id
     public static final int time
     public static final int toolbar_main
@@ -25586,6 +25581,8 @@ com.frostwire.d4v.gui.activities.SettingsActivity:
     public static final java.lang.String EXTRA_SHOW_FRAGMENT_TITLE
 com.frostwire.d4v.gui.activities.TransferDetailActivity:
     private static final int TRANSFER_DETAIL_ACTIVITY_TIMER_INTERVAL_IN_SECS
+com.frostwire.d4v.gui.activities.internal.NavigationMenu:
+    private void onUpdateButtonClicked(com.frostwire.d4v.gui.activities.MainActivity)
 com.frostwire.d4v.gui.adapters.DhtPromotionsAdapter:
     private static final int NO_SPECIAL_OFFER
     private static final double PROMO_HEIGHT_TO_WIDTH_RATIO

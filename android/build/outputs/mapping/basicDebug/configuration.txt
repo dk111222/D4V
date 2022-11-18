@@ -371,8 +371,6 @@
 
 -keep class com.frostwire.d4v.gui.fragments.TransfersFragment { <init>(); }
 
--keep class com.frostwire.d4v.gui.views.AdMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
-
 -keep class com.frostwire.d4v.gui.views.CheckableLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.frostwire.d4v.gui.views.ClearableEditTextView { <init>(android.content.Context, android.util.AttributeSet); }
@@ -410,8 +408,6 @@
 -keep class com.frostwire.d4v.gui.views.ViewFlipper { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class com.frostwire.d4v.gui.views.preference.ButtonActionPreference { <init>(...); }
-
--keep class com.frostwire.d4v.gui.views.preference.CommunityButtonsPreference { <init>(...); }
 
 -keep class com.frostwire.d4v.gui.views.preference.CustomSeekBarPreference { <init>(...); }
 

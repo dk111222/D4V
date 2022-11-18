@@ -646,7 +646,6 @@ id fragment_transfers_menu_clear_all
 id fragment_transfers_menu_pause_stop_all
 id fragment_transfers_menu_resume_all
 id fragment_transfers_menu_seed_all
-id fragment_transfers_menu_stop_seeding_all
 id fragment_transfers_no_seeds_view
 id fragment_transfers_status_vpn_icon
 id fragment_transfers_swipe
@@ -706,10 +705,7 @@ id menu_player_view_as_grid
 id menu_player_view_as_simple
 id name
 id nav_view_header_main_app_logo
-id nav_view_header_main_build
-id nav_view_header_main_comma
 id nav_view_header_main_title
-id nav_view_header_main_update
 id nav_view_header_main_version
 id new_playlist_list_item_icon
 id notification_base_collapse
@@ -738,7 +734,6 @@ id reqs
 id reward_product_tag_id
 id right
 id size
-id slidermenu_ad_menuitem
 id subs_product_tag_id
 id time
 id toolbar_main
