@@ -18,7 +18,6 @@
 
 package com.frostwire.d4v.gui.fragments;
 
-import static com.frostwire.d4v.util.Asyncs.async;
 import static com.frostwire.d4v.util.SystemUtils.HandlerThreadName.SEARCH_PERFORMER;
 import static com.frostwire.d4v.util.SystemUtils.ensureUIThreadOrCrash;
 import static com.frostwire.d4v.util.SystemUtils.postToHandler;
@@ -93,7 +92,6 @@ import com.frostwire.util.Ref;
 import com.frostwire.util.http.HttpClient;
 import com.tvc.network.interactor.DhtInteractor;
 import com.tvc.network.response.DhtData;
-import com.tvc.network.response.DhtListResponse;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -156,7 +154,12 @@ public final class SearchFragment extends AbstractFragment implements
 //            async(this, SearchFragment::loadSlidesInBackground, SearchFragment::onSlidesLoaded);
 //
 //        }
-        loadDhtSlidesInBackground(1);
+        if (searchInput.isEmpty()) {
+            Log.w(TAG, "setupPromoSlides: -> loadDhtSlidesInBackground" );
+            loadDhtSlidesInBackground(1);
+        } else {
+            Log.w(TAG, "setupPromoSlides: -> else" );
+        }
     }
 
     private List<Slide> loadSlidesInBackground() {
@@ -186,45 +189,58 @@ public final class SearchFragment extends AbstractFragment implements
                         List<Slide> slides = Slide.toSlides(dhtsData);
                         Log.w(TAG, "loadDhtSlidesInBackground: result" + slides.size() );
                         onDhtSlidesLoaded(slides);
+                        searchProgress.setProgressEnabled(false);
+                        deepSearchProgress.setVisibility(View.GONE);
                     }, throwable -> {
                         Log.w(TAG, "loadDhtSlidesInBackground: load failed" );
                         Toast.makeText(SearchFragment.this.getContext(), "加载失败", Toast.LENGTH_SHORT).show();
+                        searchProgress.setProgressEnabled(false);
+                        deepSearchProgress.setVisibility(View.GONE);
                     });
 
             dhtInteractor.addDisposable(disposable);
             // yes, these requests are done only once per session.
         } catch (Throwable e) {
+            searchProgress.setProgressEnabled(false);
+            deepSearchProgress.setVisibility(View.GONE);
             LOG.error("Error loading slides from url", e);
         }
         return sildes;
     }
 
 
-    private List<Slide> searchDhtSlidesInBackground(String key) {
+    private List<Slide> searchDhtSlidesInBackground(String queryKey) {
         List<Slide> sildes = new ArrayList<>();
         try {
             DhtInteractor dhtInteractor = DhtInteractor.getInstance();
-            Disposable disposable = dhtInteractor.search(key, 1, 500)
+            Disposable disposable = dhtInteractor.search(queryKey, 1, 500)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(result -> {
                         List<DhtData> dhtsData =  result.getData();
                         List<Slide> slides = Slide.toSlides(dhtsData);
                         onDhtSlidesLoaded(slides);
+                        searchProgress.setProgressEnabled(false);
+                        deepSearchProgress.setVisibility(View.GONE);
                     }, throwable -> {
-                        Toast.makeText(SearchFragment.this.getContext(), "加载失败", Toast.LENGTH_SHORT).show();
+                        searchProgress.setProgressEnabled(false);
+                        deepSearchProgress.setVisibility(View.GONE);
+                        Toast.makeText(SearchFragment.this.getContext(), "搜索失败", Toast.LENGTH_SHORT).show();
+                        Log.w(TAG, "searchDhtSlidesInBackground: ", throwable );
                     });
 
             dhtInteractor.addDisposable(disposable);
             // yes, these requests are done only once per session.
         } catch (Throwable e) {
+            searchProgress.setProgressEnabled(false);
+            deepSearchProgress.setVisibility(View.GONE);
             LOG.error("Error loading slides from url", e);
         }
         return sildes;
     }
 
     private void onDhtSlidesLoaded(List<Slide> result) {
-        promotions.addSlides(result);
+        promotions.setSlides(result);
         promotions.invalidate();
     }
 
@@ -511,6 +527,9 @@ public final class SearchFragment extends AbstractFragment implements
         searchProgress.setProgressEnabled(false);
         showRatingsReminder(getView());
         showSearchView(getView());
+
+        // load main host data
+        loadDhtSlidesInBackground(1);
     }
 
     private void showSearchView(View view) {
@@ -790,12 +809,18 @@ public final class SearchFragment extends AbstractFragment implements
                 // URls that are no torrents, Telluride Search
                 fragment.performTellurideSearch(query);
             } else {
-                postToHandler(SEARCH_PERFORMER, () ->
-                        {
-                            LocalSearchEngine.instance().performSearch(query);
-                            postToUIThread(() -> fragment.prepareUIForSearch(mediaTypeId));
-                        }
-                );
+//                postToHandler(SEARCH_PERFORMER, () ->
+//                        {
+//                            LocalSearchEngine.instance().performSearch(query);
+//                            postToUIThread(() -> fragment.prepareUIForSearch(mediaTypeId));
+//                        }
+//                );
+
+                SearchFragment searchFragment = fragmentRef.get();
+                searchFragment.searchProgress.setProgressEnabled(true);
+                if (searchFragment != null) {
+                    searchFragment.searchDhtSlidesInBackground(query);
+                }
             }
         }
 
@@ -912,11 +937,14 @@ public final class SearchFragment extends AbstractFragment implements
             if (LocalSearchEngine.instance().isSearchFinished()) {
                 final String query = searchInput.getText();
                 searchProgress.setProgressEnabled(true);
-                postToHandler(SEARCH_PERFORMER,
-                        () -> {
-                            LocalSearchEngine.instance().performSearch(query);
-                            postToUIThread(() -> searchFragment.prepareUIForSearch(adapter.getFileType()));
-                        });
+//                postToHandler(SEARCH_PERFORMER,
+//                        () -> {
+//                            LocalSearchEngine.instance().performSearch(query);
+//                            postToUIThread(() -> searchFragment.prepareUIForSearch(adapter.getFileType()));
+//                        });
+                if (searchFragment != null) {
+                    searchFragment.searchDhtSlidesInBackground(query);
+                }
             }
             // cancel
             else {

@@ -26,6 +26,7 @@ import android.view.View;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListAdapter;
 
 import com.frostwire.d4v.R;
 import com.frostwire.d4v.core.Constants;
@@ -64,8 +65,9 @@ public class PromotionsView extends LinearLayout {
 //        }
 //    }
 
-    public void addSlides(List<Slide> slides) {
+    public void setSlides(List<Slide> slides) {
         if (gridview != null && slides != null) {
+            this.slides.clear();
             this.slides.addAll(slides);
             updateAdapter();
         }
@@ -150,10 +152,19 @@ public class PromotionsView extends LinearLayout {
         if (gridview == null) {
             return;
         }
-        PromotionsAdapter promotionsAdapter = (PromotionsAdapter) gridview.getAdapter();
-        if (promotionsAdapter != null) {
-            promotionsAdapter.onDestroyView();
+        ListAdapter adapter = gridview.getAdapter();
+        if (adapter instanceof  PromotionsAdapter) {
+            PromotionsAdapter promotionsAdapter = (PromotionsAdapter) adapter;
+            if (promotionsAdapter != null) {
+                promotionsAdapter.onDestroyView();
+            }
+        } else if (adapter instanceof  DhtPromotionsAdapter) {
+            DhtPromotionsAdapter promotionsAdapter = (DhtPromotionsAdapter) adapter;
+            if (promotionsAdapter != null) {
+                promotionsAdapter.onDestroyView();
+            }
         }
+
     }
 
     private void unbindPromotionDrawables() {
