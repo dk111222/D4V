@@ -155,10 +155,9 @@ public final class SearchFragment extends AbstractFragment implements
 //
 //        }
         if (searchInput.isEmpty()) {
-            Log.w(TAG, "setupPromoSlides: -> loadDhtSlidesInBackground" );
             loadDhtSlidesInBackground(1);
         } else {
-            Log.w(TAG, "setupPromoSlides: -> else" );
+            Log.d(TAG, "setupPromoSlides: -> else" );
         }
     }
 
@@ -177,7 +176,6 @@ public final class SearchFragment extends AbstractFragment implements
     }
 
     private List<Slide> loadDhtSlidesInBackground(int page) {
-        Log.w(TAG, "loadDhtSlidesInBackground: ");
         List<Slide> sildes = new ArrayList<>();
         try {
             DhtInteractor dhtInteractor = DhtInteractor.getInstance();
@@ -187,13 +185,11 @@ public final class SearchFragment extends AbstractFragment implements
                     .subscribe(result -> {
                         List<DhtData> dhtsData =  result.getData();
                         List<Slide> slides = Slide.toSlides(dhtsData);
-                        Log.w(TAG, "loadDhtSlidesInBackground: result" + slides.size() );
                         onDhtSlidesLoaded(slides);
                         searchProgress.setProgressEnabled(false);
                         deepSearchProgress.setVisibility(View.GONE);
                     }, throwable -> {
-                        Log.w(TAG, "loadDhtSlidesInBackground: load failed" );
-                        Toast.makeText(SearchFragment.this.getContext(), "加载失败", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SearchFragment.this.getContext(), "Load failed.", Toast.LENGTH_SHORT).show();
                         searchProgress.setProgressEnabled(false);
                         deepSearchProgress.setVisibility(View.GONE);
                     });
@@ -225,7 +221,7 @@ public final class SearchFragment extends AbstractFragment implements
                     }, throwable -> {
                         searchProgress.setProgressEnabled(false);
                         deepSearchProgress.setVisibility(View.GONE);
-                        Toast.makeText(SearchFragment.this.getContext(), "搜索失败", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SearchFragment.this.getContext(), "Search failed.", Toast.LENGTH_SHORT).show();
                         Log.w(TAG, "searchDhtSlidesInBackground: ", throwable );
                     });
 

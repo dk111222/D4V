@@ -5,8 +5,10 @@
     </item>
     <item>
         <bitmap
-            android:src="@drawable/splash_logo"
+            android:src="@mipmap/ic_launcher"
             android:gravity="center_horizontal|center_vertical"
             />
+    </item>
+    <item>
     </item>
 </layer-list>

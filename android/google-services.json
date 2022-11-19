@@ -1,42 +1,33 @@
 {
   "project_info": {
-    "project_number": "903585601803",
-    "firebase_url": "https://frostwire-android-233c6.firebaseio.com",
-    "project_id": "frostwire-android-233c6",
-    "storage_bucket": "frostwire-android-233c6.appspot.com"
+    "project_number": "516049329428",
+    "project_id": "snapload-a6149",
+    "storage_bucket": "snapload-a6149.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:903585601803:android:f503c249a0f32eb9",
+        "mobilesdk_app_id": "1:516049329428:android:53a57f6307212083d7b601",
         "android_client_info": {
           "package_name": "com.frostwire.d4v"
         }
       },
       "oauth_client": [
         {
-          "client_id": "903585601803-oa5asa3hi6vm05o4qgfaac13ovu1pcti.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.frostwire.d4v",
-            "certificate_hash": "a51a8984a95cb7136d7c2820c565a4f497e49899"
-          }
-        },
-        {
-          "client_id": "903585601803-5a8d0oiu9ihnddbjjsulqdlff8erksi8.apps.googleusercontent.com",
+          "client_id": "516049329428-dcpji8fe29sltgnol62nqhj6q05vea0g.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAR4A2SbWTAYeU9oT-XveYSVshbryYDYH4"
+          "current_key": "AIzaSyB0Vn3qE4WcDWGGI9g765g_GD27Y2HViLc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "903585601803-5a8d0oiu9ihnddbjjsulqdlff8erksi8.apps.googleusercontent.com",
+              "client_id": "516049329428-dcpji8fe29sltgnol62nqhj6q05vea0g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
