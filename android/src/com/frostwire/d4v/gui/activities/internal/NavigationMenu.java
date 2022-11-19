@@ -115,7 +115,7 @@ public final class NavigationMenu {
             // Prep title and version
             TextView title = navViewHeader.findViewById(R.id.nav_view_header_main_title);
             TextView version = navViewHeader.findViewById(R.id.nav_view_header_main_version);
-            title.setText("D4Link ");
+            title.setText( R.string.application_label);
             version.setText("V" + Constants.FROSTWIRE_VERSION_STRING);
 //            TextView build = navViewHeader.findViewById(R.id.nav_view_header_main_build);
 //            build.setText(activity.getText(R.string.build) + " " + BuildConfig.VERSION_CODE);

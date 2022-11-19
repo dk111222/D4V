@@ -448,7 +448,7 @@ public class MainActivity extends AbstractActivity implements
         if (Engine.instance().wasShutdown()) {
             Engine.instance().startServices();
         }
-        SoftwareUpdater.getInstance().checkForUpdate(this);
+//        SoftwareUpdater.getInstance().checkForUpdate(this);
     }
 
     @Override

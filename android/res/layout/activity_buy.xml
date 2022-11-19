@@ -75,7 +75,7 @@
                    android:scaleType="fitCenter"
                    android:layout_gravity="center_horizontal"
                    android:background="@color/transparent"
-                   android:src="@drawable/app_icon"
+                   android:src="@mipmap/ic_launcher"
                    android:layout_weight="0.07"
                    android:contentDescription="@null"/>
 

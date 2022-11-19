@@ -112,7 +112,7 @@ public final class SearchFragment extends AbstractFragment implements
         MainFragment,
         OnDialogClickListener,
         SearchProgressView.CurrentQueryReporter, PromotionDownloader {
-    private static final String TAG = "SearchFragment XXX";
+    private static final String TAG = "SearchFragment";
     private static final Logger LOG = Logger.getLogger(SearchFragment.class);
     @SuppressLint("StaticFieldLeak")
     private static SearchFragment lastInstance = null;
