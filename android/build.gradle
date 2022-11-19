@@ -177,12 +177,12 @@ android {
 
     productFlavors {
         basic {
-            versionCode 9060000 + project.ext.versionCode
-            resValue "string", "application_label", "FrostWire"
+            versionCode 10 + project.ext.versionCode
+            resValue "string", "application_label", "SnapLoad"
         }
         plus1 {
-            versionCode 9070000 + project.ext.versionCode
-            resValue "string", "application_label", "FrostWire Plus"
+            versionCode 10 + project.ext.versionCode
+            resValue "string", "application_label", "SnapLoad Plus"
         }
     }
     lint {

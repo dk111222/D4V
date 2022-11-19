@@ -59,6 +59,7 @@
             android:name="com.frostwire.d4v.gui.MainApplication"
             android:allowBackup="false"
             android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
             android:label="@string/application_label"
             android:theme="@style/Theme.SnapLoad">
 
