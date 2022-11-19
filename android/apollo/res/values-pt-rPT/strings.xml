@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> foi colocada no ecrã inicial</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> não pode ser colocada no ecrã inicial</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' definida como toque</string>
-    <string name="now_listening_to">#AReproduzir <xliff:g id="title">%1$s</xliff:g> por <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#AReproduzir <xliff:g id="title">%1$s</xliff:g> por <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Partilhar música usando:</string>
     <string name="no_effects_for_you">O equalizador não pôde ser aberto.</string>
   <string name="empty_music">Para copiar música do seu computador para o seu dispositivo, use um cabo USB.</string>
   <string name="empty_last_added">As músicas que adicionou ao longo do último mês serão apresentadas aqui.</string>
   <string name="empty_search">Pesquisa sem resultados</string>
     <string name="empty_recent">Os álbuns que ouviu serão apresentados aqui. Tente ouvir alguma música.</string>
-  <string name="now_listening_to_no_artist_available">#Tocando \"<xliff:g id="title">%1$s</xliff:g>\" em #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#Tocando \"<xliff:g id="title">%1$s</xliff:g>\" em #SnapLoad </string>
   <string name="delete_files_title">Deletar arquivos</string>
   <string name="page_last_added">Último adicionado</string>
   <string name="empty_playlist">Esta lista de reprodução está vazia.\n\nClique aqui para aprender como adicionar canções.</string>
   <string name="are_you_sure_delete_files_text">Tem certeza de que deseja APAGAR PERMANENTEMENTE os arquivos selecionados do seu dispositivo?</string>
-  <string name="frostwire_player">Reprodutor de FrostWire</string>
+  <string name="frostwire_player">Reprodutor de SnapLoad</string>
 </resources>

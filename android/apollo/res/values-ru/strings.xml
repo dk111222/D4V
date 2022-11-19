@@ -82,16 +82,16 @@
   <string name="pinned_to_home_screen">Ярлык «<xliff:g id="name">%s</xliff:g>» добавлен на главный экран.</string>
   <string name="could_not_be_pinned_to_home_screen">Невозможно добавить «<xliff:g id="name">%s</xliff:g>» на главный экран.</string>
   <string name="set_as_ringtone">Трек «<xliff:g id="name" example="Alarm Bell">%s</xliff:g>» установлен как рингтон.</string>
-    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> от <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> от <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Опубликовать сведения в:</string>
     <string name="no_effects_for_you">Эквалайзер не может быть открыт</string>
   <string name="empty_music">Чтобы скопировать музыку с ПК, используйте USB-кабель.</string>
   <string name="empty_last_added">Треки, добавленные за последний месяц, будут показаны здесь.</string>
   <string name="empty_search">Поиск не дал результатов.</string>
     <string name="empty_recent">Прослушанные альбомы будут показаны здесь.</string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" в #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" в #SnapLoad </string>
   <string name="delete_files_title">Удалить файлы</string>
   <string name="empty_playlist">Этот плейлист пуст.\n\nНажмите здесь, чтобы узнать, как добавлять песни.</string>
   <string name="are_you_sure_delete_files_text">Вы уверены, что хотите ПОСТОЯННО УДАЛИТЬ выбранные файлы с вашего устройства?</string>
-  <string name="frostwire_player">Медиаплеер FrostWire</string>
+  <string name="frostwire_player">Медиаплеер SnapLoad</string>
 </resources>

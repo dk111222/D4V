@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> zum Startbildschirm hinzugefügt</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> konnte nicht zum Startbildschirm hinzugefügt werden</string>
   <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" wurde als Klingelton gesetzt</string>
-    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> von <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> von <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Titel teilen</string>
     <string name="no_effects_for_you">Der Equalizer konnte nicht geöffnet werden.</string>
   <string name="empty_music">Verwenden Sie ein USB-Kabel, um Musik von Ihrem Computer auf das Gerät zu übertragen.</string>
   <string name="empty_last_added">Hier werden Titel angezeigt, die innerhalb des letzten Monats angehört wurden.</string>
   <string name="empty_search">Keine Suchergebnisse gefunden</string>
     <string name="empty_recent">Hier werden gehörte Alben angezeigt.</string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" auf #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" auf #SnapLoad </string>
   <string name="delete_files_title">Dateien löschen</string>
   <string name="page_last_added">Zuletzt hinzugefügt</string>
   <string name="empty_playlist">Diese Playlist ist leer.\n\nKlicken Sie hier, um zu erfahren, wie Sie Songs hinzufügen können.</string>
   <string name="are_you_sure_delete_files_text">Sind Sie sicher, dass Sie die ausgewählten Dateien dauerhaft von Ihrem Gerät löschen möchten?</string>
-  <string name="frostwire_player">Frostwire-Spieler</string>
+  <string name="frostwire_player">SnapLoad-Spieler</string>
 </resources>

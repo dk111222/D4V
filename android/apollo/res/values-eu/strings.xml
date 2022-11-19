@@ -81,7 +81,7 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> mahaigainera gehituta</string>
   <string name="could_not_be_pinned_to_home_screen">Ezin izan da <xliff:g id="name">%s</xliff:g> mahaigainera gehitu</string>
   <string name="set_as_ringtone">\u00AB<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\u00BB dei doinu bezala ezarrita</string>
-    <string name="now_listening_to"><xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #Entzuten #FrostWire</string>
+    <string name="now_listening_to"><xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #Entzuten #SnapLoad</string>
   <string name="share_track_using">Abestia honela elkarbanatu:</string>
     <string name="no_effects_for_you">Ezin izan da ekualizadorea ireki.</string>
   <string name="empty_music">Musika ordenagailutik galiura kopiatzeko USB kablea erabili.</string>

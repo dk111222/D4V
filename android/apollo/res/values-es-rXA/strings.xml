@@ -81,7 +81,7 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> amestada al escritoriu</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> nun pudo amestase al escritoriu</string>
   <string name="set_as_ringtone">\u00AB<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\u00BB afitóse como tonu de llamada</string>
-    <string name="now_listening_to">#Sintiendo <xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#Sintiendo <xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Compartir canción usando:</string>
     <string name="no_effects_for_you">L\'ecualizador nun pudo abrise.</string>
   <string name="empty_music">Pa copiar música del ordenador al preséu, usa un cable USB.</string>

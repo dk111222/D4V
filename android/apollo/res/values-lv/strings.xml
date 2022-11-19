@@ -81,7 +81,7 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ir novietots mājas ekrānā</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> netika novietots mājas ekrānā</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' ir iestatīts kā zvana signāls</string>
-    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> by <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> by <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Kopīgot dziemsu ar:</string>
     <string name="no_effects_for_you">Ekvalaizers nevar tikt atvērts.</string>
   <string name="empty_music">Lai kopētu mūziku no datora uz šo iekārtu, izmantojiet USB kabeli.</string>

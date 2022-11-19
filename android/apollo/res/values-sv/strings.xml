@@ -81,7 +81,7 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> fästes vid din hemskärm</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> kunde inte fästas vid din hemskärm</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' vald som ringsignal</string>
-    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> av <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> av <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Dela låt med:</string>
     <string name="no_effects_for_you">Equalizern kan inte öppnas.</string>
   <string name="empty_music">Använd en USB-kabel för att kopiera musik från din dator till din enhet.</string>

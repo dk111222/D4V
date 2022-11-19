@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> on kinnitatud avakuvale</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ei saa kinnitada avakuvale</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' kasuta telefoni helinana</string>
-    <string name="now_listening_to">#PraeguEsitusel <xliff:g id="artist">%2$s</xliff:g> - <xliff:g id="title">%1$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#PraeguEsitusel <xliff:g id="artist">%2$s</xliff:g> - <xliff:g id="title">%1$s</xliff:g> #SnapLoad</string>
   <string name="share_track_using">Jaga lugu, kasutades:</string>
     <string name="no_effects_for_you">Ekvalaiserit ei saanud avada.</string>
   <string name="empty_music">Et kopeerida muusikat arvutist seadmesse, kasuta USB-kaablit.</string>
   <string name="empty_last_added">Viimase kuu jooksul lisatud laulud kuvatakse siin.</string>
   <string name="empty_search">Otsing ei andnud tulemusi</string>
   <string name="empty_recent">Kuulatud albumid kuvatakse siin. Proovi esitada mõnda lugu.</string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" #FrostWire\'is</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" #SnapLoad\'is</string>
   <string name="delete_files_title">Kustuta failid</string>
   <string name="page_last_added">Viimati lisatud</string>
   <string name="empty_playlist">See esitusloend on tühi.\n\nLoo lisamise kohta lisateabe saamiseks klõpsake siin.</string>
   <string name="are_you_sure_delete_files_text">Kas olete kindel, et soovite oma seadmest valitud failid püsivalt kustutada?</string>
-  <string name="frostwire_player">FrostWire meediumipleier</string>
+  <string name="frostwire_player">SnapLoad meediumipleier</string>
 </resources>

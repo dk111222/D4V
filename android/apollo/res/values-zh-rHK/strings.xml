@@ -81,7 +81,7 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> 已釘選到你的主螢幕</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> 無法被釘選到你的主螢幕</string>
   <string name="set_as_ringtone">「<xliff:g id="name" example="Alarm Bell">%s</xliff:g>」設為鈴聲</string>
-    <string name="now_listening_to">#正在播放 <xliff:g id="artist">%2$s</xliff:g> - <xliff:g id="title">%1$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#正在播放 <xliff:g id="artist">%2$s</xliff:g> - <xliff:g id="title">%1$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">曲目分享方式:</string>
     <string name="no_effects_for_you">無法打開等化器。</string>
   <string name="empty_music">使用 USB 連接綫將音樂從你的電腦複製到你的裝置中。</string>

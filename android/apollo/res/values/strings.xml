@@ -106,8 +106,8 @@
     <!-- Settings -->
 
     <!-- Share Intent -->
-    <string name="now_listening_to">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" by <xliff:g id="artist">%2$s</xliff:g> on #FrostWire</string>
-    <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" on #FrostWire</string>
+    <string name="now_listening_to">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" by <xliff:g id="artist">%2$s</xliff:g> on #SnapLoad </string>
+    <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" on #SnapLoad </string>
     <string name="share_track_using">Share track using:</string>
 
     <!-- ColorPicker -->
@@ -121,5 +121,5 @@
     <string name="empty_search">No search results found</string>
     <string name="empty_recent">Songs you have listened to will show up here. Try playing some music.</string>
     <string name="empty_playlist">This playlist is empty.\n\nClick here to learn how to add songs.</string>
-    <string name="frostwire_player">FrostWire Player</string>
+    <string name="frostwire_player">SnapLoad Player</string>
 </resources>

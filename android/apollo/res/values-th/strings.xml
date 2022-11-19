@@ -81,7 +81,7 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ปักหมุดไปยังหน้าจอหลักของคุณ</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ไม่สามารถปักหมุดไปยังหน้าจอหลักของคุณได้</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' ตั้งเป็นเสียงเรียกเข้า</string>
-    <string name="now_listening_to">#กำลังเล่น <xliff:g id="title">%1$s</xliff:g> โดย <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#กำลังเล่น <xliff:g id="title">%1$s</xliff:g> โดย <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">แบ่งปันแท็กโดย:</string>
     <string name="no_effects_for_you">ไม่สามารถเปิด equalizer ได้</string>
   <string name="empty_music">คัดลอกเพลงจากคอมพิวเตอร์ของคุณสู่อุปกรณ์ผ่านสาย USB</string>

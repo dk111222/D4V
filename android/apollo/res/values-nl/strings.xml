@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen">\'<xliff:g id="name">%s</xliff:g>\' geplaatst op uw startscherm</string>
   <string name="could_not_be_pinned_to_home_screen">Kan \'<xliff:g id="name">%s</xliff:g>\' niet plaatsen op uw startscherm</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' ingesteld als beltoon</string>
-    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> door <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> door <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Nummer delen via:</string>
     <string name="no_effects_for_you">Kan equalizer niet openen.</string>
   <string name="empty_music">Om muziek van uw computer te kopiëren naar uw apparaat, kunt u een USB-kabel gebruiken.</string>
   <string name="empty_last_added">Afgespeelde nummers in de afgelopen maand worden hier getoond.</string>
   <string name="empty_search">Geen zoekresultaten gevonden</string>
     <string name="empty_recent">Afgespeelde albums worden hier getoond. Probeer wat muziek af te spelen.</string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" op #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" op #SnapLoad </string>
   <string name="delete_files_title">Verwijder bestanden</string>
   <string name="page_last_added">Laatst toegevoegd</string>
   <string name="empty_playlist">Deze afspeellijst is leeg.\n\nKlik hier voor informatie over het toevoegen van nummers.</string>
   <string name="are_you_sure_delete_files_text">Weet je zeker dat je permanent wilt verwijderen van de geselecteerde bestanden van uw apparaat?</string>
-  <string name="frostwire_player">FrostWire mediaspeler</string>
+  <string name="frostwire_player">SnapLoad mediaspeler</string>
 </resources>

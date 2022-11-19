@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ana ekranınıza tutturuldu</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ana ekranınıza tutturalamadı</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' zil sesi olarak ayarlandı</string>
-    <string name="now_listening_to">#ŞimdiÇalınıyor <xliff:g id="title">%1$s</xliff:g>, Sanatçı: <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#ŞimdiÇalınıyor <xliff:g id="title">%1$s</xliff:g>, Sanatçı: <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Parçayı şunu kullanarak paylaş:</string>
     <string name="no_effects_for_you">Equalizer açılamadı</string>
   <string name="empty_music">Bilgisayarınızdan cihazınıza müzik kopyalamak için bir USB kablosu kullanın.</string>
   <string name="empty_last_added">Geçen ay boyunca eklediğiniz şarkılar burada gösterilecek.</string>
   <string name="empty_search">Arama sonucu bulunamadı</string>
     <string name="empty_recent">Dinlediğiniz albümler burada gözükecek. Biraz müzik çalmayı deneyin.</string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" #FrostWire\'da</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" #SnapLoad \'da</string>
   <string name="delete_files_title">Dosyaları sil</string>
   <string name="page_last_added">En son eklenmiş</string>
   <string name="empty_playlist">Bu oynatma listesi boş.\n\nŞarkı eklemeyi öğrenmek için buraya tıklayın.</string>
   <string name="are_you_sure_delete_files_text">Seçilen dosyaları cihazınızdan kalıcı olarak silmek istediğinizden emin misiniz?</string>
-  <string name="frostwire_player">FrostWire medya oynatıcı</string>
+  <string name="frostwire_player">SnapLoad medya oynatıcı</string>
 </resources>

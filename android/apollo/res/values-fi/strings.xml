@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> lisätty kotinäytölle</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> - ei voitu lisätä kotinäytölle</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' asetettu soittoääneksi</string>
-  <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> esittäjältä <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+  <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> esittäjältä <xliff:g id="artist">%2$s</xliff:g> #SnapLoad</string>
   <string name="share_track_using">Jaa kappale palvelussa:</string>
   <string name="no_effects_for_you">Taajuuskorjainta ei voitu avata.</string>
   <string name="empty_music">Kopioi musiikkia tietokoneelta laitteeseen käyttämällä USB-kaapelia.</string>
   <string name="empty_last_added">Viime kuussa lisäämäsi kappaleet näkyvät tässä.</string>
   <string name="empty_search">Hakutuloksia ei löytynyt</string>
   <string name="empty_recent">Kuuntelemasi albumit näkyvät tässä.</string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" #SnapLoad</string>
   <string name="delete_files_title">Poista tiedostot</string>
   <string name="page_last_added">Viimeksi lisätty</string>
   <string name="empty_playlist">Tämä soittolista on tyhjä.\n\nNapsauta tästä saadaksesi lisätietoja kappaleiden lisäämisestä.</string>
   <string name="are_you_sure_delete_files_text">Haluatko varmasti poistaa valitut tiedostot pysyvästi laitteestasi?</string>
-  <string name="frostwire_player">FrostWire-mediasoitin</string>
+  <string name="frostwire_player">SnapLoad-mediasoitin</string>
 </resources>

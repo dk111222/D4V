@@ -81,7 +81,7 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> fixat a la teva pantalla d\'inici</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> no s\'ha pogut fixar a la teva pantalla d\'inici</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' fixat com a to de trucada</string>
-    <string name="now_listening_to">#AraReproduint <xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#AraReproduint <xliff:g id="title">%1$s</xliff:g> de <xliff:g id="artist">%2$s</xliff:g> #SnapLoad</string>
   <string name="share_track_using">Comparteix la pista utilitzant:</string>
     <string name="no_effects_for_you">L\'equalitzador no s\'ha pogut obrir.</string>
   <string name="empty_music">Per copiar música del teu ordenador al teu dispositiu, utilitza un cable USB.</string>

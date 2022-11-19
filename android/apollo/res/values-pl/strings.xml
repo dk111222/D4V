@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen">Przypięto <xliff:g id="name">%s</xliff:g> do ekranu głównego</string>
   <string name="could_not_be_pinned_to_home_screen">Nie udało się przypiąć <xliff:g id="name">%s</xliff:g> do ekranu głównego</string>
   <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ustawiono jako dzwonek</string>
-    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> wykonawcy <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> wykonawcy <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Udostępnij utwór za pomocą:</string>
     <string name="no_effects_for_you">Equalizer nie może zostać uruchomiony.</string>
   <string name="empty_music">Aby skopiować muzykę z komputera do urządzenia, użyj kabla USB.</string>
   <string name="empty_last_added">Tutaj pojawią się utwory dodane w przeciągu ostatniego miesiąca.</string>
   <string name="empty_search">Nie znaleziono pasujących wyników</string>
     <string name="empty_recent">Ostatnio przesłuchane albumy pojawią się tutaj. Zobaczysz je po odtworzeniu kilku utworów.</string>
-  <string name="now_listening_to_no_artist_available">#TerazSłucham \"<xliff:g id="title">%1$s</xliff:g>\" na #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#TerazSłucham \"<xliff:g id="title">%1$s</xliff:g>\" na #SnapLoad </string>
   <string name="delete_files_title">Usuń Pliki</string>
   <string name="page_last_added">Ostatnio Dodane</string>
   <string name="empty_playlist">Ta playlista jest pusta.\n\nKliknij tutaj aby dowiedzieć się jak dodać piosenki.</string>
   <string name="are_you_sure_delete_files_text">Czy na pewno chcesz NA ZAWSZE USUNĄĆ wybrane pliki z urządzenia?</string>
-  <string name="frostwire_player">Odtwarzacz FrostWire</string>
+  <string name="frostwire_player">Odtwarzacz SnapLoad</string>
 </resources>

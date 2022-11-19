@@ -229,9 +229,9 @@
     <string name="saving_to_internal_memory_description">You also have an SD card (%1$s free)</string>
     <string name="device_storage">Device\'s Storage</string>
     <string name="sdcard_storage">SD\'s Storage</string>
-    <string name="storage_setting_warning">WARNING: All files saved by FrostWire onto the SD card will be deleted BY ANDROID, not SnapLoad, if you uninstall the app.</string>
+    <string name="storage_setting_warning">WARNING: All files saved by SnapLoad onto the SD card will be deleted BY ANDROID, not SnapLoad, if you uninstall the app.</string>
     <string name="storage_setting_confirm_dialog_title">SD CARD</string>
-    <string name="storage_setting_confirm_dialog_text">I understand that all files downloaded to the SD Card by SnapLoad will be deleted BY ANDROID the moment the FrostWire application is uninstalled from this device and I will not hold SnapLoad LLC liable for any files lost.</string>
+    <string name="storage_setting_confirm_dialog_text">I understand that all files downloaded to the SD Card by SnapLoad will be deleted BY ANDROID the moment the SnapLoad application is uninstalled from this device and I will not hold SnapLoad LLC liable for any files lost.</string>
     <string name="available">available</string>
     <string name="file_descriptor_sd_mounted">This file was deleted from the SD card, or the SD card you have inserted is a different one.</string>
     <string name="file_descriptor_sd_unmounted">This file belongs to an SD card, please insert it on your device.</string>
@@ -395,7 +395,7 @@
     <string name="transfer_detail_size_dummy" translatable="false">56MB</string>
     <string name="transfer_detail_speed_small_dummy" translatable="false">56Kb</string>
     <string name="transfer_detail_date_dummy" translatable="false">Sept. 2, 2017</string>
-    <string name="transfer_detail_comment_dummy" translatable="false">Torrent file created with SnapLoad http://www.frostwire.com</string>
+    <string name="transfer_detail_comment_dummy" translatable="false">Torrent file created with SnapLoad</string>
     <string name="transfer_detail_number_of_number_dummy" translatable="false">0 of 54</string>
     <string name="transfer_detail_speed_dummy" translatable="false">0.0 Kb/s</string>
     <string name="transfer_detail_download_size_dummy" translatable="false">14MB/14MB</string>
@@ -491,5 +491,5 @@
     <string name="subscriptions">Subscriptions</string>
     <string name="information">Information</string>
     <string name="ok">OK</string>
-    <string name="yt_not_supported_on_basic">YouTube downloads are not supported by SnapLoad Basic due to Google Play rules.\n\nFor a free copy of FrostWire Plus go to our official website frostwire.com</string>
+    <string name="yt_not_supported_on_basic">YouTube downloads are not supported by SnapLoad Basic due to Google Play rules.\n\nFor a free copy of SnapLoad Plus go to our official website frostwire.com</string>
 </resources>

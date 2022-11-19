@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> épinglé à votre écran d\'accueil</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> ne peut pas être épinglé à votre écran d\'accueil</string>
   <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" défini comme sonnerie</string>
-    <string name="now_listening_to">#Lecture de <xliff:g id="title">%1$s</xliff:g> par <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#Lecture de <xliff:g id="title">%1$s</xliff:g> par <xliff:g id="artist">%2$s</xliff:g> #SnapLoad</string>
   <string name="share_track_using">Partager le titre via\u00A0:</string>
     <string name="no_effects_for_you">L\'égaliseur ne peut pas être ouvert.</string>
   <string name="empty_music">Utilisez un câble USB pour copier de la musique depuis votre ordinateur vers votre appareil.</string>
   <string name="empty_last_added">Les titres ajoutés au cours du dernier mois seront affichés ici.</string>
   <string name="empty_search">Aucun résultat de recherche</string>
     <string name="empty_recent">Les albums que vous avez écoutés seront affichés ici. Essayer de lire de la musique.</string>
-  <string name="now_listening_to_no_artist_available">#Jouer \"<xliff:g id="title">%1$s</xliff:g>\" sur #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#Jouer \"<xliff:g id="title">%1$s</xliff:g>\" sur #SnapLoad</string>
   <string name="delete_files_title">Supprimer les fichiers</string>
   <string name="page_last_added">Dernier ajouté</string>
   <string name="empty_playlist">Cette liste de lecture est vide.\n\nCliquez ici pour apprendre comment ajouter des chansons.</string>
   <string name="are_you_sure_delete_files_text">Êtes-vous sûr de vouloir EFFACER DE MANIÈRE DÉFINITIVE les fichiers sélectionnés sur votre appareil?</string>
-  <string name="frostwire_player">Lecteur FrostWire</string>
+  <string name="frostwire_player">Lecteur SnapLoad</string>
 </resources>

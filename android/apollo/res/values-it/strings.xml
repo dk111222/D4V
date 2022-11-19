@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> aggiunto alla schermata home</string>
   <string name="could_not_be_pinned_to_home_screen">impossibile aggiungere alla schermata home <xliff:g id="name">%s</xliff:g></string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' impostata come suoneria</string>
-    <string name="now_listening_to">#Ascoltando <xliff:g id="title">%1$s</xliff:g> di <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#Ascoltando <xliff:g id="title">%1$s</xliff:g> di <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Condividi canzone:</string>
     <string name="no_effects_for_you">L\'equalizzatore non può essere aperto.</string>
   <string name="empty_music">Per copiare musica dal tuo computer al dispositivo, utilizzare un cavo USB.</string>
   <string name="empty_last_added">Le canzoni che hai aggiunto nel corso dell\'ultimo mese saranno indicate qui.</string>
   <string name="empty_search">La ricerca non ha prodotto risultati</string>
     <string name="empty_recent">Gli album che hai ascoltato verranno mostrati qui. Provate a sentire un po\' di musica.</string>
-  <string name="now_listening_to_no_artist_available">#Suonando \"<xliff:g id="title">%1$s</xliff:g>\" su #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#Suonando \"<xliff:g id="title">%1$s</xliff:g>\" su #SnapLoad </string>
   <string name="delete_files_title">Cancella file</string>
   <string name="page_last_added">Ultimo aggiunto</string>
   <string name="empty_playlist">Questa playlist è vuota.\n\nClicca qui per sapere come aggiungere canzoni.</string>
   <string name="are_you_sure_delete_files_text">Sei sicuro di voler CANCELLARE PERMANENTEMENTE i file selezionati dal tuo dispositivo?</string>
-  <string name="frostwire_player">Lettore FrostWire</string>
+  <string name="frostwire_player">Lettore SnapLoad</string>
 </resources>

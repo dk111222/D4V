@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen">Skladba <xliff:g id="name">%s</xliff:g> bola pripnutá na domovskú obrazovku</string>
   <string name="could_not_be_pinned_to_home_screen">Skladba <xliff:g id="name">%s</xliff:g> nemohla byť pripnutá na domovskú obrazovku</string>
   <string name="set_as_ringtone">Skladba \'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' bola nastavená ako vyzváňanie</string>
-    <string name="now_listening_to">#Právesaprehráva <xliff:g id="title">%1$s</xliff:g> od <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#Právesaprehráva <xliff:g id="title">%1$s</xliff:g> od <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Zdieľať skladbu pomocou:</string>
     <string name="no_effects_for_you">Ekvalizér nemohol byť otvorený</string>
   <string name="empty_music">Na kopírovanie hudby z počítača do zariadenia použite USB kábel.</string>
   <string name="empty_last_added">Tu budú zobrazené skladby, ktoré ste pridali za posledný mesiac.</string>
   <string name="empty_search">Žiadne výsledky hľadania</string>
     <string name="empty_recent">Tu budú zobrazené albumy, ktoré ste počúvali. Skúste prehrať nejakú hudbu.</string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" na #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" na #SnapLoad </string>
   <string name="delete_files_title">Vymazať súbory</string>
   <string name="page_last_added">Naposledy pridané</string>
   <string name="empty_playlist">Tento zoznam skladieb je prázdny.\n\nKliknutím sem získate informácie o pridávaní skladieb.</string>
   <string name="are_you_sure_delete_files_text">Naozaj chcete trvalo odstrániť vybraté súbory z vášho zariadenia?</string>
-  <string name="frostwire_player">Prehrávač médií FrostWire</string>
+  <string name="frostwire_player">Prehrávač médií SnapLoad</string>
 </resources>

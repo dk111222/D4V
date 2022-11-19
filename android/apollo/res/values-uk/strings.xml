@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> додано на робочий стіл</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> не можна додати на робочий стіл</string>
   <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' встановити мелодією</string>
-    <string name="now_listening_to">#яЗаразСлухаю <xliff:g id="title">%1$s</xliff:g> від <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#яЗаразСлухаю <xliff:g id="title">%1$s</xliff:g> від <xliff:g id="artist">%2$s</xliff:g> #SnapLoad </string>
   <string name="share_track_using">Відправити трек за допомогою:</string>
     <string name="no_effects_for_you">Неможливо відкрити еквалайзер.</string>
   <string name="empty_music">Використовуйте USB-кабель для копіювання музики з комп’ютера.</string>
   <string name="empty_last_added">Тут відображатимуться пісні, додані за останній місяць.</string>
   <string name="empty_search">Нічого не знайдено</string>
     <string name="empty_recent">Тут відображатимуться прослухані пісні. </string>
-  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" У #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#NowPlaying \"<xliff:g id="title">%1$s</xliff:g>\" У #SnapLoad </string>
   <string name="delete_files_title">Видалити файли</string>
   <string name="page_last_added">Останні додані</string>
   <string name="empty_playlist">Цей список відтворення порожній.\n\nНатисніть тут, щоб дізнатись, як додати пісні.</string>
   <string name="are_you_sure_delete_files_text">Ви впевнені, що хочете постійно видаляти обрані файли з вашого пристрою?</string>
-  <string name="frostwire_player">Медіаплеєр FrostWire</string>
+  <string name="frostwire_player">Медіаплеєр SnapLoad</string>
 </resources>

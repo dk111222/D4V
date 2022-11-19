@@ -81,17 +81,17 @@
   <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> vasgepen op tuisskerm</string>
   <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> kon nie vasgepen word op tuisskerm nie</string>
   <string name="set_as_ringtone">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" gestel as luitoon</string>
-    <string name="now_listening_to">#Speel nou <xliff:g id="title">%1$s</xliff:g> deur <xliff:g id="artist">%2$s</xliff:g> #FrostWire</string>
+    <string name="now_listening_to">#Speel nou <xliff:g id="title">%1$s</xliff:g> deur <xliff:g id="artist">%2$s</xliff:g> #SnapLoad</string>
   <string name="share_track_using">Deel liedtjie d.m.v.:</string>
     <string name="no_effects_for_you">Die equalizer kon nie oopgemaak word nie.</string>
   <string name="empty_music">Om musiek van jou rekenaar na jou toestel te kopieer, gebruik \'n USB-kabel.</string>
   <string name="empty_last_added">Liedjies wat jy die afgelope maand bygevoeg het word hier vertoon.</string>
   <string name="empty_search">Geen resultate gevind nie</string>
     <string name="empty_recent">Albums wat jy na geluister het sal hier gelys word. Speel \'n bietjie musiek.</string>
-  <string name="now_listening_to_no_artist_available">#Speel \"<xliff:g id="title">%1$s</xliff:g>\" op #FrostWire</string>
+  <string name="now_listening_to_no_artist_available">#Speel \"<xliff:g id="title">%1$s</xliff:g>\" op #SnapLoad</string>
   <string name="delete_files_title">Vee lêers uit</string>
   <string name="page_last_added">Laas bygevoeg</string>
   <string name="empty_playlist">Hierdie snitlys is leeg.\n\nKlik hier om te leer hoe om liedjies by te voeg.</string>
   <string name="are_you_sure_delete_files_text">Is jy seker jy wil die geselekteerde lêers permanent van die toestel verwyder?</string>
-  <string name="frostwire_player">FrostWire Mediaspeler</string>
+  <string name="frostwire_player">SnapLoad Mediaspeler</string>
 </resources>
