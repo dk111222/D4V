@@ -1,27 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-/*
- * Created by Angel Leon (@gubatron), Alden Torres (aldenml),
- * Marcelina Knitter (marcelinkaaa), Grzesiek Rzaca (grzesiekrzaca)
- * Copyright (c) 2011-2021, FrostWire(R). All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      https://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+<?xml version="1.0" encoding="utf-8"?>
 
- */
--->
 <resources>
     <!-- Important: Android is buggy with HTML, do not put HTML tags right next to text, leave a space, as it seems the text wrapping logic is considering HTML as visible text and you get premature wrapping. -->
-    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[<b>Disclosure:</b> Although recommended for your downloads, especially whenever downloading or exchanging sensitive information (e.g. banking) and while using public Wi-Fi or mobile data, <b>you don\'t need a VPN to use FrostWire. </b>]]></string>
-    <string name="unprotected_connections_visibility_bullet_html"><![CDATA[ <b>Your privacy is a fundamental human right</b>. An unprotected connection means everything you do online including <b>downloads, searches, messaging</b>, can be monitored and intercepted by anyone on your network, e.g. Internet Service Providers, hackers, governments.<br><br><b>We STRONGLY recommend using a VPN service</b>. <br> Here are some options that provide reliable service and work well with FrostWire:]]></string>
+    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[<b>Disclosure:</b> Although recommended for your downloads, especially whenever downloading or exchanging sensitive information (e.g. banking) and while using public Wi-Fi or mobile data, <b>you don\'t need a VPN to use SnapLoad. </b>]]></string>
+    <string name="unprotected_connections_visibility_bullet_html"><![CDATA[ <b>Your privacy is a fundamental human right</b>. An unprotected connection means everything you do online including <b>downloads, searches, messaging</b>, can be monitored and intercepted by anyone on your network, e.g. Internet Service Providers, hackers, governments.<br><br><b>We STRONGLY recommend using a VPN service</b>. <br> Here are some options that provide reliable service and work well with SnapLoad:]]></string>
     <string name="protected_connections_visibility_bullet_html"><![CDATA[ You\'re connected to the Internet using a VPN. <br><br> If you are not already, we recommend using one of the services below to encrypt your connection and <b>safeguard your privacy</b>. ]]></string>
 
 
@@ -50,15 +32,15 @@
     <string name="select_all">Select All</string>
     <string name="deselect_all">Deselect All</string>
     <string name="update_title">Update time!</string>
-    <string name="update_message">FrostWire has downloaded a new PERFORMANCE UPDATE for you, please go ahead and touch the OK button if you want to install it now.</string>
+    <string name="update_message">SnapLoad has downloaded a new PERFORMANCE UPDATE for you, please go ahead and touch the OK button if you want to install it now.</string>
     <string name="about">About</string>
     <string name="remove_ads">Remove Ads</string>
-    <string name="remove_ads_description">Enjoy the ad-free experience, support FrostWire</string>
+    <string name="remove_ads_description">Enjoy the ad-free experience, support SnapLoad</string>
     <string name="send_file_using">Send file using</string>
     <string name="downloads">Downloads</string>
     <string name="settings">Settings</string>
     <string name="files">files</string>
-    <string name="minimize_frostwire">Minimize FrostWire</string>
+    <string name="minimize_frostwire">Minimize SnapLoad</string>
     <string name="are_you_sure_you_wanna_leave">Are you sure you want to go back to the home screen?</string>
     <string name="set_as_wallpaper">Set as Wallpaper</string>
     <string name="failed_to_set_wallpaper">Failed to set Wallpaper</string>
@@ -162,12 +144,12 @@
     <string name="wizard_next">Next</string>
     <string name="wizard_finish">Finish</string>
     <string name="dummy_content_description" translatable="false">[dummy description]</string>
-    <string name="welcome_to_frostwire">Welcome to FrostWire %s</string>
+    <string name="welcome_to_frostwire">Welcome to SnapLoad %s</string>
     <string name="seeding_settings">Seeding Settings</string>
     <string name="seeding_settings_explanation">BitTorrent users on the internet will be able to download file chunks of the data your torrents seed.</string>
     <string name="seeding_wifi_settings_explanation">Seed only when using a Wi-Fi connection. Avoid extra charges from your carrier.</string>
-    <string name="intent_text">FrostWire is a peer-to-peer program for sharing authorized files only. Installing and using the program does not constitute a license for obtaining or distributing unauthorized content.</string>
-    <string name="accept_intent">I will not use FrostWire for copyright infringement</string>
+    <string name="intent_text">SnapLoad is a peer-to-peer program for sharing authorized files only. Installing and using the program does not constitute a license for obtaining or distributing unauthorized content.</string>
+    <string name="accept_intent">I will not use SnapLoad for copyright infringement</string>
     <string name="toast_on_disconnect">Disconnected from BitTorrent. All BitTorrent transfers have stopped.</string>
     <string name="seeds">Seeds</string>
     <string name="seeds_n">Seeds: %s</string>
@@ -177,7 +159,7 @@
     <string name="invalid_tracker_url">Invalid Tracker URL</string>
     <string name="http_download_status_uncompressing">Uncompressing</string>
     <string name="accept">Accept</string>
-    <string name="support_frostwire">Support FrostWire</string>
+    <string name="support_frostwire">Support SnapLoad</string>
     <string name="storage_preference_title">Select Storage Location</string>
     <string name="storage_preference_summary">The default storage location where files will be saved.</string>
     <string name="bittorrent" translatable="false">BitTorrent</string>
@@ -242,18 +224,18 @@
     <string name="are_you_sure_you_want_to_download_the_following">Are you sure you want to download the following %1$s (%2$s)?</string>
     <string name="cant_open_file_does_not_exist">I can\'t open %1$s, the file does not exist.</string>
     <string name="saving_to_sd_card">Saving to SD card.</string>
-    <string name="android_will_erase_files_if_frostwire_is_uninstalled">Android will erase downloaded files if FrostWire is uninstalled.</string>
+    <string name="android_will_erase_files_if_frostwire_is_uninstalled">Android will erase downloaded files if SnapLoad is uninstalled.</string>
     <string name="saving_to_internal_memory">Saving to Internal Memory</string>
     <string name="saving_to_internal_memory_description">You also have an SD card (%1$s free)</string>
     <string name="device_storage">Device\'s Storage</string>
     <string name="sdcard_storage">SD\'s Storage</string>
-    <string name="storage_setting_warning">WARNING: All files saved by FrostWire onto the SD card will be deleted BY ANDROID, not FrostWire, if you uninstall the app.</string>
+    <string name="storage_setting_warning">WARNING: All files saved by FrostWire onto the SD card will be deleted BY ANDROID, not SnapLoad, if you uninstall the app.</string>
     <string name="storage_setting_confirm_dialog_title">SD CARD</string>
-    <string name="storage_setting_confirm_dialog_text">I understand that all files downloaded to the SD Card by FrostWire will be deleted BY ANDROID the moment the FrostWire application is uninstalled from this device and I will not hold FrostWire LLC liable for any files lost.</string>
+    <string name="storage_setting_confirm_dialog_text">I understand that all files downloaded to the SD Card by SnapLoad will be deleted BY ANDROID the moment the FrostWire application is uninstalled from this device and I will not hold SnapLoad LLC liable for any files lost.</string>
     <string name="available">available</string>
     <string name="file_descriptor_sd_mounted">This file was deleted from the SD card, or the SD card you have inserted is a different one.</string>
     <string name="file_descriptor_sd_unmounted">This file belongs to an SD card, please insert it on your device.</string>
-    <string name="help_translate_or_proofread_frostwire">Help translate or proofread FrostWire</string>
+    <string name="help_translate_or_proofread_frostwire">Help translate or proofread SnapLoad</string>
     <string name="finishing">Finishing</string>
     <string name="scanning">Finishing - Scanning</string>
     <string name="checking_ellipsis">Checking&#8230;</string>
@@ -282,8 +264,8 @@
     <string name="try_other_keywords">Try fewer/different keywords</string>
     <string name="learn_how_to_get_more_results">Learn how to get more results</string>
     <string name="rate_our_app">Rate our App</string>
-    <string name="rating_reminder_description">If you love FrostWire please take a moment to rate us.</string>
-    <string name="love_frostwire">Love FrostWire</string>
+    <string name="rating_reminder_description">If you love SnapLoad please take a moment to rate us.</string>
+    <string name="love_frostwire">Love SnapLoad</string>
     <string name="send_feedback">Send Feedback</string>
     <string name="choose_email_app">Choose an Email App…</string>
     <string name="media_preview">%s preview</string>
@@ -291,20 +273,20 @@
     <string name="thank_you">Thank you!</string>
     <string name="keep_in_touch">Keep in touch!</string>
     <string name="why_we_need_storage_permissions">Why we need storage permissions.</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire is a file browser and downloader app, therefore it needs to be able to access your disk.\n\nWithout your permissions FrostWire cannot work.\n\nWant to try again?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad is a file browser and downloader app, therefore it needs to be able to access your disk.\n\nWithout your permissions SnapLoad cannot work.\n\nWant to try again?</string>
     <string name="request_again">Request Again</string>
-    <string name="frostwire_is_running">FrostWire is running</string>
+    <string name="frostwire_is_running">SnapLoad is running</string>
     <string name="connection_header_title">VPN Connection status:</string>
     <string name="unprotected_connection">unprotected</string>
     <string name="protected_connection">VPN-protected</string>
     <string name="vpn_off_toast_notification">Your connection may not be private.</string>
     <string name="dht_contacts">DHT contacts</string>
-    <string name="notify_frostwire_is_running">Notify if FrostWire is running</string>
+    <string name="notify_frostwire_is_running">Notify if SnapLoad is running</string>
     <string name="notify_frostwire_is_running_summary">Show a permanent Android notification with status of transfers</string>
     <string name="invalid_filename">Invalid file name</string>
     <string name="storage_picker_treeuri_null">No storage path was selected</string>
     <string name="storage_picker_treeuri_not_directory">The selected path is not a directory</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire can\'t write on the selected storage path</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad can\'t write on the selected storage path</string>
     <string name="storage_picker_treeuri_error">Unexpected error picking storage path</string>
     <string name="storage_path">Storage Path</string>
     <string name="selected">selected</string>
@@ -353,7 +335,7 @@
     <string name="terms_of_use">Terms of Use</string>
     <string name="haptic_feedback">Haptic Feedback</string>
     <string name="advertisement">Advertisement</string>
-    <string name="frostwire_features">FROSTWIRE CREATIVE COMMONS FEATURES</string>
+    <string name="frostwire_features">SnapLoad CREATIVE COMMONS FEATURES</string>
     <string name="all_free_downloads">All free downloads</string>
     <string name="distraction_free_search_results">Distraction Free Search (beta)</string>
     <string name="distraction_free_search_results_summary">Hide UI components to show more results. Needs app restart to take effect.</string>
@@ -403,9 +385,9 @@
     <string name="seed_all_finished">Seed All Finished</string>
     <string name="title_activity_transfer_detail">Transfer Detail</string>
     <string name="show_torrent_details">Show Torrent Details</string>
-    <string name="transfer_detail_title_dummy" translatable="false">Title_Dummy_collection_FrostWire_FrostClick.com_MP3_320k_Mar_9_2014</string>
-    <string name="transfer_detail_file_dummy" translatable="false">01_Wildlight_Twirl_Me_Hers_Was_As_Thunder_FROSTWIRE_FROSTCLICK_CREATIVE_COMMONS.mp3</string>
-    <string name="transfer_detail_storage_dummy" translatable="false">/storage/emulated/0/FrostWire/Downloads</string>
+    <string name="transfer_detail_title_dummy" translatable="false">Title_Dummy_collection_SnapLoad_FrostClick.com_MP3_320k_Mar_9_2014</string>
+    <string name="transfer_detail_file_dummy" translatable="false">01_Wildlight_Twirl_Me_Hers_Was_As_Thunder_SnapLoad_FROSTCLICK_CREATIVE_COMMONS.mp3</string>
+    <string name="transfer_detail_storage_dummy" translatable="false">/storage/emulated/0/SnapLoad/Downloads</string>
     <string name="transfer_detail_hash_dummy" translatable="false">d882dd01gh00ccefc1e4defee52e76f8</string>
     <string name="transfer_detail_percentage_dummy" translatable="false">100%</string>
     <string name="transfer_detail_number_dummy" translatable="false">0</string>
@@ -413,7 +395,7 @@
     <string name="transfer_detail_size_dummy" translatable="false">56MB</string>
     <string name="transfer_detail_speed_small_dummy" translatable="false">56Kb</string>
     <string name="transfer_detail_date_dummy" translatable="false">Sept. 2, 2017</string>
-    <string name="transfer_detail_comment_dummy" translatable="false">Torrent file created with FrostWire http://www.frostwire.com</string>
+    <string name="transfer_detail_comment_dummy" translatable="false">Torrent file created with SnapLoad http://www.frostwire.com</string>
     <string name="transfer_detail_number_of_number_dummy" translatable="false">0 of 54</string>
     <string name="transfer_detail_speed_dummy" translatable="false">0.0 Kb/s</string>
     <string name="transfer_detail_download_size_dummy" translatable="false">14MB/14MB</string>
@@ -423,7 +405,7 @@
     <string name="transfer_detail_files_number_dummy" translatable="false">12</string>
     <string name="transfer_detail_trackers_address_dummy" translatable="false">udp://9.rarbg.com:2710/announce</string>
     <string name="transfer_detail_peers_address_dummy" translatable="false">BT://198.50.174.100:51413</string>
-    <string name="transfer_detail_peers_address_source_dummy" translatable="false">FrostWire 2.0</string>
+    <string name="transfer_detail_peers_address_source_dummy" translatable="false">SnapLoad 1.0</string>
     <string name="transfer_detail_piece_size_dummy" translatable="false">1001/1190</string>
     <string name="infinity" translatable="false">&#8734;</string>
     <string name="transfer_detail_storage_header">Storage Path:</string>
@@ -471,7 +453,7 @@
     <string name="vpn_suggestion_expressvpn" translatable="false">ExpressVPN</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Free 7-day trial</string>
     <string name="vpn_find_out_more">Find out more</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire could not start properly due to lack of permissions. Please grant the required permissions and restart the application</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad could not start properly due to lack of permissions. Please grant the required permissions and restart the application</string>
     <string name="contact_us">Contact Us</string>
     <string name="community">Community</string>
     <string name="play_uppercase">PLAY</string>
@@ -509,5 +491,5 @@
     <string name="subscriptions">Subscriptions</string>
     <string name="information">Information</string>
     <string name="ok">OK</string>
-    <string name="yt_not_supported_on_basic">YouTube downloads are not supported by FrostWire Basic due to Google Play rules.\n\nFor a free copy of FrostWire Plus go to our official website frostwire.com</string>
+    <string name="yt_not_supported_on_basic">YouTube downloads are not supported by SnapLoad Basic due to Google Play rules.\n\nFor a free copy of FrostWire Plus go to our official website frostwire.com</string>
 </resources>

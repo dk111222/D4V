@@ -67,6 +67,22 @@
                 android:visibility="gone" />
         </LinearLayout>
 
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/nav_view"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="0dp"-->
+<!--            android:layout_marginEnd="0dp"-->
+<!--            android:background="@color/white04"-->
+<!--            app:itemBackground="@null"-->
+<!--            app:itemIconTint="@color/color_state_menu_navi"-->
+<!--            app:itemTextAppearanceActive="@style/bottom_selected_text"-->
+<!--            app:itemTextAppearanceInactive="@style/bottom_normal_text"-->
+<!--            app:labelVisibilityMode="labeled"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:menu="@menu/bottom_nav_menu" />-->
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/activity_main_nav_view"
             android:layout_width="wrap_content"

@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-/*
- * Created by Angel Leon (@gubatron), Alden Torres (aldenml), and
- * Marcelina Knitter (@marcelinkaaa)
- * Copyright (c) 2011-2017, FrostWire(R). All rights reserved.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
--->
+
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- styles for elements -->
@@ -344,7 +325,7 @@
 
     <!-- Wizard Activity -->
 
-    <style name="WizardActivity" parent="Theme.FrostWire">
+    <style name="WizardActivity" parent="Theme.SnapLoad">
         <item name="android:textColorSecondary">@color/app_text_wizard</item>
         <item name="android:windowBackground">@color/app_background</item>
     </style>
@@ -551,7 +532,7 @@
 
 
     <!-- Scrollview Style -->
-    <style name="scrollbar_default_style" parent="Theme.FrostWire">
+    <style name="scrollbar_default_style" parent="Theme.SnapLoad">
         <item name="android:overScrollHeader">@null</item>
         <item name="android:overScrollFooter">@null</item>
         <item name="android:fadeScrollbars">true</item>

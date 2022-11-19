@@ -395,7 +395,7 @@ public class MainActivity extends AbstractActivity implements
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.Theme_FrostWire);
+        setTheme(R.style.Theme_SnapLoad);
         super.onCreate(savedInstanceState);
         lastInstance = this;
     }
