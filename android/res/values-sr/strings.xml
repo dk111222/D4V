@@ -138,7 +138,7 @@
     <string name="seeding_settings">Сеединг Подешавања</string>
     <string name="seeding_settings_explanation">БитТоррент корисници на Интернету ће моћи да преузмете фајл делове података вашег семена торрентс.</string>
     <string name="seeding_wifi_settings_explanation">Семе само када се користи ВиФи везе. Избегавајте додатне трошкове од свог носиоца.</string>
-    <string name="intent_text">FrostWire је програм пеер-то-пеер за дељење само овлашћеним фајлове. Инсталирање и коришћење програма не представља дозволу за добијање или дистрибуцију неовлашћеног садржаја.</string>
+    <string name="intent_text">SnapLoad је програм пеер-то-пеер за дељење само овлашћеним фајлове. Инсталирање и коришћење програма не представља дозволу за добијање или дистрибуцију неовлашћеног садржаја.</string>
     <string name="accept_intent">Нећу користити FrostWire за кршење ауторских права</string>
     <string name="toast_on_disconnect">Искључен из БитТоррент. Све БитТоррент трансфери су престали.</string>
     <string name="seeds">Семе</string>
@@ -246,9 +246,9 @@
     <string name="thank_you">Хвала вам!</string>
     <string name="keep_in_touch">Останимо у контакту!</string>
     <string name="why_we_need_storage_permissions">Зашто нам је потребна дозвола за складиштење.</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire је апликација Филе Бровсер и Довнлоадер, тако да мора да буде у стању да приступи диску.\n\nБез своје дозволе FrostWire не може да функционише.\n\nЖелим да покушам поново?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad је апликација Филе Бровсер и Довнлоадер, тако да мора да буде у стању да приступи диску.\n\nБез своје дозволе FrostWire не може да функционише.\n\nЖелим да покушам поново?</string>
     <string name="request_again">Рекуест Опет</string>
-    <string name="frostwire_is_running">FrostWire ради</string>
+    <string name="frostwire_is_running">SnapLoad ради</string>
     <string name="connection_header_title">ВПН статус везе:</string>
     <string name="unprotected_connection">незаштићен</string>
     <string name="protected_connection">ВПН-протецтед</string>
@@ -259,7 +259,7 @@
     <string name="invalid_filename">Непостојеће име фајла</string>
     <string name="storage_picker_treeuri_null">Не пут складиштење је изабран</string>
     <string name="storage_picker_treeuri_not_directory">Је изабрана путања није директоријум</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire не може писати на изабраном путу за складиштење података</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad не може писати на изабраном путу за складиштење података</string>
     <string name="storage_picker_treeuri_error">Неочекивана грешка пут брање складиштење</string>
     <string name="storage_path">складиштење Пут</string>
     <string name="selected">одабран</string>
@@ -306,7 +306,7 @@
     <string name="terms_of_use">Услови коришћења</string>
     <string name="haptic_feedback">Haptic Feedback</string>
     <string name="advertisement">реклама</string>
-    <string name="frostwire_features">FROSTWIRE ПОКЛОНИ</string>
+    <string name="frostwire_features">SnapLoad ПОКЛОНИ</string>
     <string name="all_free_downloads">Све фрее скидања</string>
     <string name="distraction_free_search_results">Ометање Бесплатан претрага (бета)</string>
     <string name="distraction_free_search_results_summary">Хиде компоненте корисничког интерфејса да покаже више резултата. Треба апликације рестарт да ступи на снагу.</string>
@@ -369,7 +369,7 @@
     <string name="seeding_is_currently_disabled">Дељење је тренутно онемогућено</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Није могуће отворити Детаљи преноса, неважећи ИнфоХасх</string>
     <string name="invalid_tracker_url">Неважећа УРЛ адреса Трацкер</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire није могао да ради правилно због недостатка дозвола. Молимо да дате потребне дозволе и поново покрените апликацију</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad није могао да ради правилно због недостатка дозвола. Молимо да дате потребне дозволе и поново покрените апликацију</string>
     <string name="vpn_find_out_more">Откриј више</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Слободно седмодневно суђење</string>
     <string name="uploaded">Уплоадед</string>

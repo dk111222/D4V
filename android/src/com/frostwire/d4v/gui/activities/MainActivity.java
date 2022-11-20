@@ -366,6 +366,10 @@ public class MainActivity extends AbstractActivity implements
             checkExternalStoragePermissions();
         }
         async(NetworkManager.instance(), NetworkManager::queryNetworkStatusBackground);
+
+        if (!PrivacyActivity.isPrivacyAgreed(this)) {
+            PrivacyActivity.show(this.getApplicationContext());
+        }
     }
 
     @Override
@@ -399,11 +403,6 @@ public class MainActivity extends AbstractActivity implements
         setTheme(R.style.Theme_SnapLoad);
         super.onCreate(savedInstanceState);
         lastInstance = this;
-
-        if (!PrivacyActivity.isPrivacyAgreed(this)) {
-            PrivacyActivity.show(this);
-            finish();
-        }
     }
 
     private void checkExternalStoragePermissions() {

@@ -34,7 +34,7 @@
     <string name="use_zooqle">Használja Zooqle.com</string>
     <string name="clear_search_cache">Tiszta keresési gyorsítótár</string>
     <string name="drawer_close">Navigációs fiók bezárása</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire egy fájl böngésző és letöltő alkalmazás, ezért képesnek kell lennie, hogy hozzáférjen a lemezre.\n\nAnélkül, hogy a jogosultságok FrostWire nem tud dolgozni.\n\nMegpróbálod újra?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad egy fájl böngésző és letöltő alkalmazás, ezért képesnek kell lennie, hogy hozzáférjen a lemezre.\n\nAnélkül, hogy a jogosultságok FrostWire nem tud dolgozni.\n\nMegpróbálod újra?</string>
     <string name="unprotected_connection">védtelen</string>
     <string name="video">Videó</string>
     <string name="download">Letöltés</string>
@@ -120,7 +120,7 @@
     <string name="torrent_max_total_connections_summary">Maximális teljes kapcsolatok</string>
     <string name="toast_on_disconnect">Leválasztva a BitTorrent. Minden BitTorrent transzferek abbahagyta.</string>
     <string name="transfers_select_downloading">letöltését</string>
-    <string name="frostwire_features">FROSTWIRE JELLEMZÖK</string>
+    <string name="frostwire_features">SnapLoad JELLEMZÖK</string>
     <string name="support_free_software">Támogassa a szabad szoftver</string>
     <string name="i_have_read_and_agree_to_the">Elolvastam és beleegyezem a</string>
     <string name="media_type_images">Képek</string>
@@ -164,7 +164,7 @@
     <string name="dialog_new_transfer_check_text">Itt található az ezt a következő alkalommal</string>
     <string name="peers">Peers</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire nem tud írni a kiválasztott tárolási útvonalat</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad nem tud írni a kiválasztott tárolási útvonalat</string>
     <string name="clear">Tiszta</string>
     <string name="processing_payment">Feldolgozás fizetés, frissítse néhány másodperc</string>
     <string name="my_music">Én zeném</string>
@@ -216,7 +216,7 @@
     <string name="cancel_menu_action">Stop transzfer</string>
     <string name="canceling">Megszakítása</string>
     <string name="issue_with_tip_donation_uri">Valami baj van a véradás webcímet</string>
-    <string name="frostwire_is_running">FrostWire fut</string>
+    <string name="frostwire_is_running">SnapLoad fut</string>
     <string name="http_download_status_save_dir_error">Save könyvtár nem létezik vagy nem hozható létre</string>
     <string name="select_option_below">Válassza az alábbi lehetőségek közül:</string>
     <string name="device_storage">Eszköz tárolás</string>
@@ -274,7 +274,7 @@
     <string name="cheaper_than_beer">Olcsóbb, mint a sör</string>
     <string name="rating_reminder_description">Ha szeretsz FrostWire kérjük, szánjon egy kis értékeléshez minket.</string>
     <string name="includes_3_day_free_trial">Tartalmaz 3 napos próbaverzióját. Ajánlott</string>
-    <string name="intent_text">FrostWire egy peer-to-peer programok megosztása engedélyezett fájlokon. Telepítése és a program használata nem jelent engedélyt megszerzésére vagy terjesztése nem engedélyezett tartalom.</string>
+    <string name="intent_text">SnapLoad egy peer-to-peer programok megosztása engedélyezett fájlokon. Telepítése és a program használata nem jelent engedélyt megszerzésére vagy terjesztése nem engedélyezett tartalom.</string>
     <string name="seeding_has_been_turned_off">Seeding ki van kapcsolva</string>
     <string name="transfers_context_menu_copy_magnet">Másolja Magnet</string>
     <string name="torrent_max_uploads_summary">Max feltöltések</string>
@@ -294,7 +294,7 @@
     <string name="rate_our_app">Értékelje app</string>
     <string name="peers_n">Peers: %s</string>
     <string name="cheaper_than_cigarettes">Olcsóbb, mint a cigaretta</string>
-    <string name="update_message">FrostWire letöltötte egy új teljesítmény UPDATE az Ön számára, kérjük, menjen előre, és érintse meg az OK gombot, ha szeretné most telepíteni.</string>
+    <string name="update_message">SnapLoad letöltötte egy új teljesítmény UPDATE az Ön számára, kérjük, menjen előre, és érintse meg az OK gombot, ha szeretné most telepíteni.</string>
     <string name="days_left">nap van hátra</string>
     <string name="media_player_failed">Media player nem</string>
     <string name="six_months">6 hónap</string>
@@ -382,7 +382,7 @@
     <string name="speed_limits">Sebesség határok</string>
     <string name="created_on">Készült ekkor</string>
     <string name="number_of_files">A fájlok száma</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire could not start properly due to lack of permissions. Please grant the required permissions and restart the application</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad could not start properly due to lack of permissions. Please grant the required permissions and restart the application</string>
     <string name="pieces_header">Darabok:</string>
     <string name="share_ratio">Részvényarány</string>
     <string name="edit_tracker">Tracker szerkesztése</string>

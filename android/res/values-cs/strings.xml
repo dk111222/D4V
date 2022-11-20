@@ -42,7 +42,7 @@
     <string name="rename">Přejmenovat</string>
     <string name="download">Ke Stažení</string>
     <string name="update_title">Je Čas Aktualizovat!</string>
-    <string name="update_message">FrostWire stahnoul novou AKTUALIZACE VÝKONNOSTI pro tebe, Prosím, jděte do toho a stiskněte tlačítko OK, pokud chcete nyní nainstalovat.</string>
+    <string name="update_message">SnapLoad stahnoul novou AKTUALIZACE VÝKONNOSTI pro tebe, Prosím, jděte do toho a stiskněte tlačítko OK, pokud chcete nyní nainstalovat.</string>
     <string name="privacy">O tom</string>
     <string name="send_file_using">Odeslat soubor pomocí</string>
     <string name="downloads">Stahování</string>
@@ -123,7 +123,7 @@
     <string name="seeding_settings">Seeding Nastavení</string>
     <string name="seeding_settings_explanation">BitTorrent uživatelé na internetu budou moci stáhnout soubor kusů dat vašeho torrent seed.</string>
     <string name="seeding_wifi_settings_explanation">Seed pouze při použití Wi-Fi připojení. Vyhněte se dodatečných poplatků od vašeho operátora.</string>
-    <string name="intent_text">FrostWire je to program peer-to-peer pouze pro sdílení povolene souborů. Instalace a používání programu nepředstavuje pro získání licence nebo rozšiřování neoprávněného obsahu.</string>
+    <string name="intent_text">SnapLoad je to program peer-to-peer pouze pro sdílení povolene souborů. Instalace a používání programu nepředstavuje pro získání licence nebo rozšiřování neoprávněného obsahu.</string>
     <string name="accept_intent">Nebudu používat FrostWire pro porušení autorského práva</string>
     <string name="toast_on_disconnect">Odpojen od BitTorrent. Všechny transfery BitTorrent se zastavily.</string>
     <string name="seeds">Seeds</string>
@@ -143,7 +143,7 @@
     <string name="request_again">Požádat znovu</string>
     <string name="clear_search_cache">Vymazat mezipaměti vyhledávání</string>
     <string name="drawer_close">Close navigační panel</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire je prohlížeč souborů a downloader app, a proto musí být schopen získat přístup k disku.\n\nAniž by svá oprávnění FrostWire nemůže fungovat.\n\nChcete to zkusit znovu?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad je prohlížeč souborů a downloader app, a proto musí být schopen získat přístup k disku.\n\nAniž by svá oprávnění FrostWire nemůže fungovat.\n\nChcete to zkusit znovu?</string>
     <string name="unprotected_connection">nechráněný</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet zkopírovat do schránky</string>
     <string name="buy_uppercase">KOUPIT</string>
@@ -186,7 +186,7 @@
     <string name="transfers_select_completed">dokončený</string>
     <string name="transfers_context_menu_pause_stop_all_transfers">Pozastavení/Zastavit všechny převody</string>
     <string name="transfers_select_downloading">stahování</string>
-    <string name="frostwire_features">FROSTWIRE VLASTNOSTI</string>
+    <string name="frostwire_features">SnapLoad VLASTNOSTI</string>
     <string name="i_have_read_and_agree_to_the">Četl jsem a souhlasím s</string>
     <string name="scanning">Povrchová úprava - Skenování</string>
     <string name="according_to_settings_i_cant_seed_unless_wifi">V závislosti na nastavení Nemohu zahájit setí, pokud jste na Wi-Fi. Soubor bude připravena k setí automaticky, když se vrátíš k internetu povoleno síť Wi-Fi.</string>
@@ -213,7 +213,7 @@
     <string name="crawl_cache_size">Crawl cache %1$.2fMB</string>
     <string name="pausing">Pozastavení</string>
     <string name="dummy_title_bold">[Tučně Název]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire nelze zapisovat na zvolené cestě skladování</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad nelze zapisovat na zvolené cestě skladování</string>
     <string name="processing_payment">Zpracování plateb, osvěžit během několika sekund</string>
     <string name="my_music">Moje hudba</string>
     <string name="connection_header_title">Stav připojení VPN:</string>
@@ -248,7 +248,7 @@
     <string name="sd_permission_no_accessible_path">Kterou jste vybrali v SD cesta není přístupný už ne. Stisknutím tlačítka OK výběr znovu.</string>
     <string name="canceling">Zrušení</string>
     <string name="issue_with_tip_donation_uri">Je tu něco, co se na internetové adrese darování špatně</string>
-    <string name="frostwire_is_running">FrostWire běží</string>
+    <string name="frostwire_is_running">SnapLoad běží</string>
     <string name="http_download_status_save_dir_error">Uložit adresář neexistuje nebo nemůže být vytvořen</string>
     <string name="select_option_below">Možnost zvolit níže:</string>
     <string name="device_storage">Zařízení Skladování</string>
@@ -403,7 +403,7 @@
     <string name="title_activity_transfer_detail">Podrobnosti o převodu</string>
     <string name="piece_size_header">Velikost kuse:</string>
     <string name="add_tracker">Přidat trackeru</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire nemohl správně spustit kvůli nedostatku oprávnění. Udělujte potřebná oprávnění a restartujte aplikaci</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad nemohl správně spustit kvůli nedostatku oprávnění. Udělujte potřebná oprávnění a restartujte aplikaci</string>
     <string name="vpn_find_out_more">Zjistit více</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Volná 7denní zkušební verze</string>
     <string name="contact_us">Kontaktujte nás</string>

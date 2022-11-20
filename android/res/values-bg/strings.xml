@@ -34,7 +34,7 @@
     <string name="use_zooqle">Използвайте Zooqle.com</string>
     <string name="clear_search_cache">Ясно търсене кеш</string>
     <string name="drawer_close">Затваряне на панела за навигация</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire е приложение за файлов браузър и изтегляне, затова тя трябва да бъде в състояние за достъп до вашия диск.\n\nБез да ви е разрешено да FrostWire не може да работи.\n\nИскате ли да опитате отново?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad е приложение за файлов браузър и изтегляне, затова тя трябва да бъде в състояние за достъп до вашия диск.\n\nБез да ви е разрешено да FrostWire не може да работи.\n\nИскате ли да опитате отново?</string>
     <string name="unprotected_connection">беззащитен</string>
     <string name="video">Видео</string>
     <string name="download">Изтегли</string>
@@ -121,7 +121,7 @@
     <string name="torrent_max_total_connections_summary">Максимална обща връзки</string>
     <string name="toast_on_disconnect">Връзката с BitTorrent. Всички трансфери BitTorrent са спрели.</string>
     <string name="transfers_select_downloading">изтегляне</string>
-    <string name="frostwire_features">FROSTWIRE ХАРАКТЕРИСТИКИ</string>
+    <string name="frostwire_features">SnapLoad ХАРАКТЕРИСТИКИ</string>
     <string name="support_free_software">Подкрепа за свободен софтуер</string>
     <string name="i_have_read_and_agree_to_the">Прочетох и съм съгласен с</string>
     <string name="media_type_images">Снимки</string>
@@ -166,7 +166,7 @@
     <string name="dialog_new_transfer_check_text">Покажете следващия път</string>
     <string name="peers">Връстниците</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire не може да пише на избрания път за съхранение</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad не може да пише на избрания път за съхранение</string>
     <string name="clear">Ясно</string>
     <string name="processing_payment">Подготовка плащане, опресняване на няколко секунди.</string>
     <string name="my_music">Моята музика</string>
@@ -219,7 +219,7 @@
     <string name="cancel_menu_action">Стоп трансфер</string>
     <string name="canceling">Отмяна</string>
     <string name="issue_with_tip_donation_uri">Нещо не е наред с уеб адреса на дарение</string>
-    <string name="frostwire_is_running">FrostWire е стартиран</string>
+    <string name="frostwire_is_running">SnapLoad е стартиран</string>
     <string name="http_download_status_save_dir_error">Запази директория не съществува или не може да бъде създаден</string>
     <string name="select_option_below">Изберете опция по-долу:</string>
     <string name="device_storage">Съхранение на устройството</string>
@@ -281,7 +281,7 @@
     <string name="cheaper_than_beer">По-евтини, отколкото бира</string>
     <string name="rating_reminder_description">Ако обичате FrostWire моля, отделете малко време, за да ни оцените.</string>
     <string name="includes_3_day_free_trial">Включва три дни безплатно изпробване. Препоръчителна.</string>
-    <string name="intent_text">FrostWire е програма, партньорска към партньорската за споделяне само оторизирани файлове. Инсталиране и използване на програмата, не представлява лиценз за получаване или разпространяване на неразрешено съдържание.</string>
+    <string name="intent_text">SnapLoad е програма, партньорска към партньорската за споделяне само оторизирани файлове. Инсталиране и използване на програмата, не представлява лиценз за получаване или разпространяване на неразрешено съдържание.</string>
     <string name="seeding_has_been_turned_off">Сеене е изключен</string>
     <string name="transfers_context_menu_copy_magnet">Копие Магнит</string>
     <string name="torrent_max_uploads_summary">Максимални Качени</string>
@@ -301,7 +301,7 @@
     <string name="rate_our_app">Оцени нашия на приложението</string>
     <string name="peers_n">Връстниците: %s</string>
     <string name="cheaper_than_cigarettes">По-евтини от цигарите</string>
-    <string name="update_message">FrostWire е изтеглен нов ИЗПЪЛНЕНИЕ АКТУАЛИЗАЦИЯ за вас, моля, продължете напред и докоснете бутона OK, ако искате да го инсталирате сега.</string>
+    <string name="update_message">SnapLoad е изтеглен нов ИЗПЪЛНЕНИЕ АКТУАЛИЗАЦИЯ за вас, моля, продължете напред и докоснете бутона OK, ако искате да го инсталирате сега.</string>
     <string name="days_left">Оставащи дни</string>
     <string name="media_player_failed">Медия плеър провали</string>
     <string name="six_months">6 месеца</string>
@@ -402,7 +402,7 @@
     <string name="title_activity_transfer_detail">Данни за трансфера</string>
     <string name="piece_size_header">Размер на парчето:</string>
     <string name="add_tracker">Добави тракер</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire не можа да започне правилно поради липса на разрешения. Моля, дайте необходимите разрешения и рестартирайте приложението</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad не можа да започне правилно поради липса на разрешения. Моля, дайте необходимите разрешения и рестартирайте приложението</string>
     <string name="vpn_find_out_more">Открийте повече</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Безплатен 7-дневен пробен период</string>
     <string name="contact_us">Свържете се с нас</string>

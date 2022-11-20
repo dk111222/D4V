@@ -43,7 +43,7 @@
     <string name="rename">Renommer</string>
     <string name="download">Téléchargement</string>
     <string name="update_title">Actualiser l\'heure!</string>
-    <string name="update_message">FrostWire vous a téléchargé une nouvelle MISE A JOUR DE PERFORMANCE, veuillez toucher le bouton OK pour l’installer maintenant.</string>
+    <string name="update_message">SnapLoad vous a téléchargé une nouvelle MISE A JOUR DE PERFORMANCE, veuillez toucher le bouton OK pour l’installer maintenant.</string>
     <string name="privacy">À propos</string>
     <string name="send_file_using">Envoyer le ficher avec</string>
     <string name="downloads">Téléchargements</string>
@@ -124,7 +124,7 @@
     <string name="seeding_settings">Paramètres d\'ensemencement </string>
     <string name="seeding_settings_explanation">Les utilisateurs BitTorrent sur Internet pourront télécharger le fragment de fichier venant des données de vos torrents.</string>
     <string name="seeding_wifi_settings_explanation">Ensemencer seulement sur une connexion WiFi. Evitez les frais supplémentaires de votre opérateur.</string>
-    <string name="intent_text">FrostWire est un programme par pair-a-pair de distribution de fichiers autorisés uniquement. L\'installation et l\'utilisation de ce programme ne vous donne pas l\'autorisation d\'obtenir ou de distribuer des contenus illégaux.</string>
+    <string name="intent_text">SnapLoad est un programme par pair-a-pair de distribution de fichiers autorisés uniquement. L\'installation et l\'utilisation de ce programme ne vous donne pas l\'autorisation d\'obtenir ou de distribuer des contenus illégaux.</string>
     <string name="accept_intent">Je n\'utiliserai pas FrostWire pour une violation des droits d\'auteur </string>
     <string name="toast_on_disconnect">Déconnecter du BitTorrent. Tous les transferts BitTorrent se sont arrêtés.</string>
     <string name="seeds">Semences </string>
@@ -201,7 +201,7 @@
     <string name="error_connection_timed_out">Erreur: connexion a expiré. Réessayer.</string>
     <string name="torrent_max_peers">Max Peers</string>
     <string name="request_again">Demander à nouveau</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire est une application de navigateur de fichiers et downloader, donc il a besoin pour être en mesure d\'accéder à votre disque.\n\nSans vos autorisations FrostWire ne peut pas fonctionner.\n\nVoulez-vous essayer à nouveau?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad est une application de navigateur de fichiers et downloader, donc il a besoin pour être en mesure d\'accéder à votre disque.\n\nSans vos autorisations FrostWire ne peut pas fonctionner.\n\nVoulez-vous essayer à nouveau?</string>
     <string name="unprotected_connection">sans défense</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet copié dans le presse-papiers</string>
     <string name="buy_uppercase">ACHETER</string>
@@ -239,7 +239,7 @@
     <string name="remove_ads_description">Profitez de l\'expérience sans publicité, appuyer FrostWire</string>
     <string name="pausing">Pause</string>
     <string name="dummy_title_bold">[Gras Titre]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire ne peut pas écrire sur le chemin de stockage sélectionné</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad ne peut pas écrire sur le chemin de stockage sélectionné</string>
     <string name="processing_payment">Paiement en cours, rafraîchir en quelques secondes</string>
     <string name="my_music">Ma musique</string>
     <string name="connection_header_title">Statut de la connexion VPN:</string>
@@ -263,7 +263,7 @@
     <string name="sd_permission_no_accessible_path">Le chemin que vous avez sélectionné dans le SD n\'est plus accessible. Appuyez sur OK pour sélectionner à nouveau.</string>
     <string name="canceling">Annulation</string>
     <string name="issue_with_tip_donation_uri">Il y a quelque chose de mal avec l\'adresse Web pointe/Donation</string>
-    <string name="frostwire_is_running">FrostWire est en cours d\'exécution</string>
+    <string name="frostwire_is_running">SnapLoad est en cours d\'exécution</string>
     <string name="http_download_status_save_dir_error">Sauv.répertoire n\'existe pas ou ne peut pas être créé.</string>
     <string name="select_option_below">Sélectionnez l\'option ci-dessous:</string>
     <string name="use_limetorrents">Utilisez Limetorrents</string>
@@ -311,7 +311,7 @@
     <string name="advertisement">publicité</string>
     <string name="all_free_downloads">Tous les téléchargements gratuits</string>
     <string name="wifi_networks_only_summary">Enregistrer des données. Téléchargement uniquement si la connexion Wi-Fi est établie. </string>
-    <string name="frostwire_features">FROSTWIRE PRÉSENTE</string>
+    <string name="frostwire_features">SnapLoad PRÉSENTE</string>
     <string name="wifi_networks_only">Réseaux Wi-Fi uniquement</string>
     <string name="distraction_free_search_results_summary">Masquer les composants de l\'interface utilisateur pour afficher d\'autres résultats. Nécessite le redémarrage de l\'application pour prendre effet.</string>
     <string name="donate_your_time">Donnez votre temps</string>
@@ -409,7 +409,7 @@
     <string name="add_tracker">Ajouter un tracker</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Impossible d\'ouvrir les détails de transfert, InfoHash non valide</string>
     <string name="invalid_tracker_url">URL de suivi non valide</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire n\'a pas pu démarrer correctement en raison du manque d\'autorisations. Veuillez accorder les autorisations requises et redémarrer l\'application</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad n\'a pas pu démarrer correctement en raison du manque d\'autorisations. Veuillez accorder les autorisations requises et redémarrer l\'application</string>
     <string name="vpn_find_out_more">En savoir plus</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Essai gratuit de 7 jours</string>
     <string name="contact_us">Contactez nous</string>

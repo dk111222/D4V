@@ -32,7 +32,7 @@
     <string name="use_zooqle">Utilizați Zooqle.com</string>
     <string name="clear_search_cache">Goliți memoria cache căutare</string>
     <string name="drawer_close">Închide sertar de navigare</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire este o aplicație browser de fișiere și downloader, prin urmare, acesta trebuie să fie capabil de a accesa discul.\n\nFără a permisiunile dvs. FrostWire nu poate funcționa.\n\nDoriți să încercați din nou?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad este o aplicație browser de fișiere și downloader, prin urmare, acesta trebuie să fie capabil de a accesa discul.\n\nFără a permisiunile dvs. FrostWire nu poate funcționa.\n\nDoriți să încercați din nou?</string>
     <string name="unprotected_connection">neprotejat</string>
     <string name="video">Video</string>
     <string name="download">Descarca</string>
@@ -162,7 +162,7 @@
     <string name="dialog_new_transfer_check_text">Afișați acest data viitoare</string>
     <string name="peers">Peers</string>
     <string name="dummy_title_bold">[Din titlu cu caractere aldine]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire nu se poate scrie pe calea de stocare selectată</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad nu se poate scrie pe calea de stocare selectată</string>
     <string name="clear">Limpezi</string>
     <string name="processing_payment">Plată de procesare, de reîmprospătare în câteva secunde</string>
     <string name="my_music">Muzica mea</string>
@@ -214,7 +214,7 @@
     <string name="cancel_menu_action">Oprește-te prin transfer</string>
     <string name="canceling">Se anulează</string>
     <string name="issue_with_tip_donation_uri">E ceva în neregulă cu adresa de web donare</string>
-    <string name="frostwire_is_running">FrostWire se execută</string>
+    <string name="frostwire_is_running">SnapLoad se execută</string>
     <string name="http_download_status_save_dir_error">Directorul Salvați nu există sau nu pot fi create</string>
     <string name="select_option_below">Selectați opțiunea de mai jos:</string>
     <string name="device_storage">De stocare a dispozitivului</string>
@@ -272,7 +272,7 @@
     <string name="cheaper_than_beer">Mai ieftin decât bere</string>
     <string name="rating_reminder_description">Daca va place FrostWire, vă rugăm să luați un moment pentru a ne evaluați.</string>
     <string name="includes_3_day_free_trial">Include 3 zi libera-proces. Recomandat</string>
-    <string name="intent_text">FrostWire este un program peer-to-peer pentru partajarea numai fișiere autorizate. Instalarea și utilizarea programului nu constituie o licență pentru obținerea sau distribuirea de conținut neautorizat.</string>
+    <string name="intent_text">SnapLoad este un program peer-to-peer pentru partajarea numai fișiere autorizate. Instalarea și utilizarea programului nu constituie o licență pentru obținerea sau distribuirea de conținut neautorizat.</string>
     <string name="seeding_has_been_turned_off">Însămânțarea a fost oprit</string>
     <string name="transfers_context_menu_copy_magnet">Copiere Magnet</string>
     <string name="torrent_max_uploads_summary">Maxima încărcările</string>
@@ -292,7 +292,7 @@
     <string name="rate_our_app">Evaluați aplicația noastră</string>
     <string name="peers_n">Peers: %s</string>
     <string name="cheaper_than_cigarettes">Mai ieftin decât țigările</string>
-    <string name="update_message">FrostWire a descărcat un nou update de performanță pentru tine, vă rugăm să mergeți mai departe și atingeți butonul OK dacă doriți să-l instalați acum.</string>
+    <string name="update_message">SnapLoad a descărcat un nou update de performanță pentru tine, vă rugăm să mergeți mai departe și atingeți butonul OK dacă doriți să-l instalați acum.</string>
     <string name="days_left">zile de la stânga</string>
     <string name="media_player_failed">Media player nu a reușit</string>
     <string name="six_months">6 luni</string>
@@ -364,7 +364,7 @@
     <string name="seeding_keeps_the_network_healthy">Partajarea ajută la menținerea rețelei sănătoase</string>
     <string name="seeding_is_currently_disabled">Partajarea este dezactivată în prezent</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Nu s-au putut deschide detalii despre transfer, InfoHash nevalid</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire nu a putut începe corect din cauza lipsei de permisiuni. Acordați permisiunile necesare și reporniți aplicația</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad nu a putut începe corect din cauza lipsei de permisiuni. Acordați permisiunile necesare și reporniți aplicația</string>
     <string name="vpn_find_out_more">Află mai multe</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Proces gratuit de 7 zile</string>
     <string name="uploaded">Încărcat</string>

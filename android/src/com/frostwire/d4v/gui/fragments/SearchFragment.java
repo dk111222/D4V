@@ -387,8 +387,8 @@ public final class SearchFragment extends AbstractFragment implements
         if (itsYTURL && Constants.IS_GOOGLE_PLAY_DISTRIBUTION && !BuildConfig.DEBUG) {
             cancelSearch();
             searchInput.setText("");
-            NotAvailableDialog dialog = new NotAvailableDialog();
-            dialog.show(getFragmentManager());
+//            NotAvailableDialog dialog = new NotAvailableDialog();
+//            dialog.show(getFragmentManager());
             return;
         }
         searchInput.selectTabByMediaType(Constants.FILE_TYPE_VIDEOS);

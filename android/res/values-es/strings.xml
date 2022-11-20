@@ -45,7 +45,7 @@
     <string name="rename">Renombrar</string>
     <string name="download">Descargar</string>
     <string name="update_title">¡Es hora de actualizar!</string>
-    <string name="update_message">FrostWire te ha descargado una ACTUALIZACIÓN DEL RENDIMIENTO nueva. Por favor, toca el botón de OK si quieres instalarla ahora.</string>
+    <string name="update_message">SnapLoad te ha descargado una ACTUALIZACIÓN DEL RENDIMIENTO nueva. Por favor, toca el botón de OK si quieres instalarla ahora.</string>
     <string name="privacy">Acerca de</string>
     <string name="send_file_using">Enviar el archivo usando</string>
     <string name="downloads">Descargas</string>
@@ -127,7 +127,7 @@
     <string name="seeding_settings">Preferencias para Compartir</string>
     <string name="seeding_settings_explanation">Los usuarios de BitTorrent en Internet podrán descargar trozos del archivo de los datos que tus torrents comparten.</string>
     <string name="seeding_wifi_settings_explanation">Comparte únicamente cuando uses una conexión de Wi-Fi. Así evitarás más cargos de la compañía telefónica. </string>
-    <string name="intent_text">FrostWire es un programa de usuario a usuario para compartir archivos autorizados. La instalación y utilización del programa no constituye una licencia para la obtención y distribución del contenido no autorizado.</string>
+    <string name="intent_text">SnapLoad es un programa de usuario a usuario para compartir archivos autorizados. La instalación y utilización del programa no constituye una licencia para la obtención y distribución del contenido no autorizado.</string>
     <string name="accept_intent">No usaré FrostWire de manera que infrinja derechos de autor.</string>
     <string name="toast_on_disconnect">Desconectado de BitTorrent. Todas las transferencias han parado.</string>
     <string name="seeds">Semilla</string>
@@ -235,7 +235,7 @@
     <string name="your_installation_is_complete">Instalación completa.</string>
     <string name="thank_you">¡Gracias!</string>
     <string name="keep_in_touch">¡Mantente en contacto!</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire es un explorador de archivos, y aplicación de descargas, por ende necesitará acceder a los archivos en tus dispositivos de almacenamiento.</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad es un explorador de archivos, y aplicación de descargas, por ende necesitará acceder a los archivos en tus dispositivos de almacenamiento.</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet copiado al portapapeles</string>
     <string name="transfers_context_menu_copy_infohash_copied">Infohash copiado al portapeles</string>
     <string name="remove_torrent_and_data">Eliminar Torrent y Archivos Descargados</string>
@@ -247,14 +247,14 @@
     <string name="ringtone_not_set">El Ringtone no pudo ser cambiado</string>
     <string name="protected_connection">Conexión Protegida</string>
     <string name="notify_frostwire_is_running_summary">Mostrar una notificación permanente de Android con el estado de las transferencias.</string>
-    <string name="frostwire_is_running">FrostWire está corriendo</string>
+    <string name="frostwire_is_running">SnapLoad está corriendo</string>
     <string name="invalid_filename">Nombre de archivo inválido</string>
     <string name="notify_frostwire_is_running">Notificar cuándo FrostWire corre</string>
     <string name="dht_contacts">Contactos DHT</string>
     <string name="unprotected_connection">Conexión desprotegida</string>
     <string name="storage_picker_treeuri_error">Error inesperado seleccionando ruta de almacenamiento</string>
     <string name="storage_picker_treeuri_null">La ruta de almacenamiento no fue seleccionada</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire no puede escribir en la ruta de almacenamiento seleccionada</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad no puede escribir en la ruta de almacenamiento seleccionada</string>
     <string name="storage_path">Ruta de almacenamiento</string>
     <string name="selected">seleccionado</string>
     <string name="bittorrent_off">BitTorrent apagado</string>
@@ -313,7 +313,7 @@
     <string name="haptic_feedback">Retroalimentación Táctil</string>
     <string name="advertisement">publicidad</string>
     <string name="all_free_downloads">Descargas Gratuitas</string>
-    <string name="frostwire_features">FROSTWIRE PRESENTA</string>
+    <string name="frostwire_features">SnapLoad PRESENTA</string>
     <string name="wifi_networks_only_summary">Ahorra datos. Descarga solo si se establece la conexión Wi-Fi.</string>
     <string name="wifi_networks_only">Solo redes Wi-Fi</string>
     <string name="distraction_free_search_results_summary">Ocultar componentes de la interfaz de usuario para mostrar más resultados. Debes reiniciar la aplicación para que surta efecto.</string>
@@ -411,7 +411,7 @@
     <string name="add_tracker">Añadir tracker</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">No se pudo abrir Detalles de la transferencia, InfoHash no válido</string>
     <string name="invalid_tracker_url">URL del rastreador no válido</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire no pudo iniciarse correctamente por falta de permisos. Por favor ceda los permisos necesarios y reinicie la aplicación</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad no pudo iniciarse correctamente por falta de permisos. Por favor ceda los permisos necesarios y reinicie la aplicación</string>
     <string name="vpn_find_out_more">Saber más</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Prueba gratuita de 7 días</string>
     <string name="contact_us">Contáctanos</string>

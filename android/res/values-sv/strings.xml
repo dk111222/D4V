@@ -35,7 +35,7 @@
     <string name="clear_search_cache">Tydlig sökning cache</string>
     <string name="sharing_privacy_settings">Delning och sekretess</string>
     <string name="drawer_close">Stäng navigeringspanelen</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire är en filhanterare och dataöverföring app, därför måste kunna komma åt din disk.\n\nUtan dina behörigheter FrostWire inte kan arbeta.\n\nVill du försöka igen?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad är en filhanterare och dataöverföring app, därför måste kunna komma åt din disk.\n\nUtan dina behörigheter FrostWire inte kan arbeta.\n\nVill du försöka igen?</string>
     <string name="unprotected_connection">oskyddad</string>
     <string name="video">Video</string>
     <string name="download">Ladda ner</string>
@@ -125,7 +125,7 @@
     <string name="torrent_max_total_connections_summary">Max totala antalet anslutningar</string>
     <string name="toast_on_disconnect">Frånkopplad från BitTorrent. Alla BitTorrent överföringar har slutat.</string>
     <string name="transfers_select_downloading">nerladdning</string>
-    <string name="frostwire_features">FROSTWIRE INTRODUCERAR</string>
+    <string name="frostwire_features">SnapLoad INTRODUCERAR</string>
     <string name="support_free_software">Stöd fri programvara</string>
     <string name="i_have_read_and_agree_to_the">Jag har läst och håller med</string>
     <string name="media_type_images">Bilder</string>
@@ -171,7 +171,7 @@
     <string name="dialog_new_transfer_check_text">Visa detta nästa gång</string>
     <string name="peers">Peers</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire kan inte skriva på det valda lagringsbanan</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad kan inte skriva på det valda lagringsbanan</string>
     <string name="clear">Klar</string>
     <string name="processing_payment">Bearbetning betalning, uppdatera i några sekunder</string>
     <string name="my_music">Min musik</string>
@@ -224,7 +224,7 @@
     <string name="cancel_menu_action">Stoppa överföring</string>
     <string name="canceling">Inställande</string>
     <string name="issue_with_tip_donation_uri">Det är något fel med donationen webbadress</string>
-    <string name="frostwire_is_running">FrostWire är igång</string>
+    <string name="frostwire_is_running">SnapLoad är igång</string>
     <string name="http_download_status_save_dir_error">Spara katalogen finns inte eller kan inte skapas</string>
     <string name="select_option_below">Välj alternativ nedan:</string>
     <string name="device_storage">Enhetens lagring</string>
@@ -288,7 +288,7 @@
     <string name="cheaper_than_beer">Billigare än öl</string>
     <string name="rating_reminder_description">Om du älskar FrostWire ta en stund för att betygsätta oss.</string>
     <string name="includes_3_day_free_trial">Inkluderar tre dagars gratis rättegång. Rekommenderad</string>
-    <string name="intent_text">FrostWire är en peer-to-peer-program för att dela auktoriserade filer. Installera och använda programmet utgör inte en licens för att erhålla eller distribuerar otillåtet innehåll.</string>
+    <string name="intent_text">SnapLoad är en peer-to-peer-program för att dela auktoriserade filer. Installera och använda programmet utgör inte en licens för att erhålla eller distribuerar otillåtet innehåll.</string>
     <string name="seeding_has_been_turned_off">Sådd har stängts av</string>
     <string name="transfers_context_menu_copy_magnet">Kopiera magnet</string>
     <string name="torrent_max_uploads_summary">Max uppladdningar</string>
@@ -308,7 +308,7 @@
     <string name="rate_our_app">Betygsätta vår App</string>
     <string name="peers_n">Peers: %s</string>
     <string name="cheaper_than_cigarettes">Billigare än cigaretter</string>
-    <string name="update_message">FrostWire har hämtat en ny prestandauppdateringen för dig, gå vidare och tryck på OK-knappen om du vill installera det nu.</string>
+    <string name="update_message">SnapLoad har hämtat en ny prestandauppdateringen för dig, gå vidare och tryck på OK-knappen om du vill installera det nu.</string>
     <string name="days_left">dagar kvar</string>
     <string name="media_player_failed">Mediaspelare misslyckades</string>
     <string name="six_months">6 månader</string>
@@ -366,7 +366,7 @@
     <string name="seeding_keeps_the_network_healthy">Delning hjälper till att hålla nätverket hälsosamt</string>
     <string name="seeding_is_currently_disabled">Delning är för närvarande inaktiverad</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Kunde inte öppna överföringsinformation, ogiltig InfoHash</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire kunde inte starta korrekt på grund av brist på behörigheter. Vänligen ge erforderliga behörigheter och starta om programmet</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad kunde inte starta korrekt på grund av brist på behörigheter. Vänligen ge erforderliga behörigheter och starta om programmet</string>
     <string name="vpn_find_out_more">Få reda på mer</string>
     <string name="uploaded">Uppladdad</string>
     <string name="trackers">Trackers</string>

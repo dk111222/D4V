@@ -24,8 +24,6 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -40,7 +38,6 @@ import com.frostwire.d4v.offers.PlayStore;
 import com.frostwire.d4v.util.AppUtils;
 import com.frostwire.d4v.util.ImageLoader;
 import com.frostwire.frostclick.Slide;
-import com.frostwire.util.StringUtils;
 
 import java.util.List;
 

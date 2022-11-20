@@ -34,7 +34,7 @@
     <string name="use_zooqle">Gunakan Zooqle.com</string>
     <string name="clear_search_cache">Kosongkan cache</string>
     <string name="drawer_close">Tutup laci navigasi</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire adalah aplikasi pelayar fail dan Downloader, oleh itu ia perlu boleh mengakses cakera anda.\n\nTanpa keizinan anda FrostWire tidak boleh bekerja.\n\nIngin mencuba lagi?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad adalah aplikasi pelayar fail dan Downloader, oleh itu ia perlu boleh mengakses cakera anda.\n\nTanpa keizinan anda FrostWire tidak boleh bekerja.\n\nIngin mencuba lagi?</string>
     <string name="unprotected_connection">tidak dilindungi</string>
     <string name="video">Video</string>
     <string name="download">Muat turun</string>
@@ -121,7 +121,7 @@
     <string name="torrent_max_total_connections_summary">Maksimum Jumlah Dalam Sambungan</string>
     <string name="toast_on_disconnect">Dicabut dari BitTorrent. Semua pindahan BitTorrent telah berhenti.</string>
     <string name="transfers_select_downloading">muat turun</string>
-    <string name="frostwire_features">FROSTWIRE CIRI</string>
+    <string name="frostwire_features">SnapLoad CIRI</string>
     <string name="support_free_software">Menyokong Software Percuma</string>
     <string name="i_have_read_and_agree_to_the">Saya telah membaca dan bersetuju dengan</string>
     <string name="media_type_images">Imej</string>
@@ -166,7 +166,7 @@
     <string name="dialog_new_transfer_check_text">Menunjukkan masa ini akan datang</string>
     <string name="peers">Rakan-rakan</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire tidak boleh menulis di atas jalan penyimpanan yang dipilih</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad tidak boleh menulis di atas jalan penyimpanan yang dipilih</string>
     <string name="clear">Membersihkan</string>
     <string name="processing_payment">Bayaran pemprosesan, menyegarkan dalam beberapa saat</string>
     <string name="my_music">Muzik saya</string>
@@ -219,7 +219,7 @@
     <string name="cancel_menu_action">Hentikan Pemindahan</string>
     <string name="canceling">Membatalkan</string>
     <string name="issue_with_tip_donation_uri">Ada sesuatu yang tidak kena dengan alamat web derma</string>
-    <string name="frostwire_is_running">FrostWire sedang berjalan</string>
+    <string name="frostwire_is_running">SnapLoad sedang berjalan</string>
     <string name="http_download_status_save_dir_error">Simpan direktori tidak wujud atau tidak boleh dicipta</string>
     <string name="select_option_below">Pilih pilihan di bawah:</string>
     <string name="device_storage">Penyimpanan peranti</string>
@@ -281,7 +281,7 @@
     <string name="cheaper_than_beer">Lebih murah daripada bir</string>
     <string name="rating_reminder_description">Jika anda suka FrostWire sila ambil seketika untuk mengadar kami.</string>
     <string name="includes_3_day_free_trial">Termasuk 3 hari percubaan percuma. Disyorkan</string>
-    <string name="intent_text">FrostWire adalah program peer-to-rakan sebaya untuk berkongsi fail yang dibenarkan sahaja. Memasang dan menggunakan program ini bukan merupakan lesen untuk mendapatkan atau menyebarkan kandungan yang tidak dibenarkan.</string>
+    <string name="intent_text">SnapLoad adalah program peer-to-rakan sebaya untuk berkongsi fail yang dibenarkan sahaja. Memasang dan menggunakan program ini bukan merupakan lesen untuk mendapatkan atau menyebarkan kandungan yang tidak dibenarkan.</string>
     <string name="seeding_has_been_turned_off">Pembenihan telah dimatikan</string>
     <string name="transfers_context_menu_copy_magnet">Salinan Magnet</string>
     <string name="torrent_max_uploads_summary">Tambahan maksimum</string>
@@ -301,7 +301,7 @@
     <string name="rate_our_app">Menilai Permohonan kami</string>
     <string name="peers_n">Peers: %s</string>
     <string name="cheaper_than_cigarettes">Lebih murah daripada Rokok</string>
-    <string name="update_message">FrostWire telah dimuat turun yang UPDATE PRESTASI baru untuk anda, sila pergi ke depan dan sentuh butang OK jika anda ingin memasangnya sekarang.</string>
+    <string name="update_message">SnapLoad telah dimuat turun yang UPDATE PRESTASI baru untuk anda, sila pergi ke depan dan sentuh butang OK jika anda ingin memasangnya sekarang.</string>
     <string name="days_left">hari lagi</string>
     <string name="media_player_failed">Pemain media gagal</string>
     <string name="six_months">6 bulan</string>
@@ -365,7 +365,7 @@
     <string name="nothing_is_currently_seeding">Tiada sesiapa yang sedang berkongsi</string>
     <string name="seeding_keeps_the_network_healthy">Perkongsian membantu mengekalkan rangkaian yang sihat</string>
     <string name="seeding_is_currently_disabled">Perkongsian kini dilumpuhkan</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire tidak dapat dimulakan dengan betul kerana kurang mendapat kebenaran. Sila berikan kebenaran yang diperlukan dan mulakan semula aplikasi</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad tidak dapat dimulakan dengan betul kerana kurang mendapat kebenaran. Sila berikan kebenaran yang diperlukan dan mulakan semula aplikasi</string>
     <string name="vpn_find_out_more">Ketahui lebih lanjut</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Percubaan 7 hari percuma</string>
     <string name="uploaded">Dimuat naik</string>

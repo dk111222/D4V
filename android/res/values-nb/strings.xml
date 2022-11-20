@@ -33,7 +33,7 @@
     <string name="clear_search_cache">Tøm søke cache</string>
     <string name="sharing_privacy_settings">Deling og personvern</string>
     <string name="drawer_close">Lukk navigasjonsmenyen</string>
-    <string name="why_we_need_storage_permissions_summary">Frostwire er en fil nettleser og overførte app, derfor må den være i stand til å få tilgang til disken.\n\nUten tillatelsene Frostwire ikke kan arbeide.\n\nLyst til å prøve igjen?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad er en fil nettleser og overførte app, derfor må den være i stand til å få tilgang til disken.\n\nUten tillatelsene Frostwire ikke kan arbeide.\n\nLyst til å prøve igjen?</string>
     <string name="unprotected_connection">ubeskyttet</string>
     <string name="video">Video</string>
     <string name="download">Nedlasting</string>
@@ -124,7 +124,7 @@
     <string name="torrent_max_total_connections_summary">Max Totalt Tilkoblinger</string>
     <string name="toast_on_disconnect">Koblet fra BitTorrent. Alle BitTorrent overføringer har stoppet.</string>
     <string name="transfers_select_downloading">nedlasting</string>
-    <string name="frostwire_features">FROSTWIRE SøKelyS</string>
+    <string name="frostwire_features">SnapLoad SøKelyS</string>
     <string name="support_free_software">Støtte fri programvare</string>
     <string name="i_have_read_and_agree_to_the">Jeg har lest og er enig i</string>
     <string name="media_type_images">Bilder</string>
@@ -170,7 +170,7 @@
     <string name="dialog_new_transfer_check_text">Vis dette neste gang</string>
     <string name="peers">Peers</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">Frostwire kan ikke skrive på den valgte lagringsbanen</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad kan ikke skrive på den valgte lagringsbanen</string>
     <string name="clear">Klar</string>
     <string name="processing_payment">Behandlingstid betaling, oppdatere i noen få sekunder</string>
     <string name="my_music">Min musikk</string>
@@ -223,7 +223,7 @@
     <string name="cancel_menu_action">Stopp overføring</string>
     <string name="canceling">Avbryte</string>
     <string name="issue_with_tip_donation_uri">Det er noe galt med donasjon web-adresse</string>
-    <string name="frostwire_is_running">Frostwire er i gang</string>
+    <string name="frostwire_is_running">SnapLoad er i gang</string>
     <string name="http_download_status_save_dir_error">Lagre katalogen eksisterer ikke, eller kan ikke opprettes</string>
     <string name="select_option_below">Velg alternativ nedenfor:</string>
     <string name="device_storage">Enhetens lagrings</string>
@@ -287,7 +287,7 @@
     <string name="cheaper_than_beer">Billigere enn øl</string>
     <string name="rating_reminder_description">Hvis du elsker Frostwire kan du ta deg tid til å vurdere oss.</string>
     <string name="includes_3_day_free_trial">Inkluderer 3 dagers gratis prøveperiode. Anbefalt</string>
-    <string name="intent_text">Frostwire er et peer-to-peer program for deling av autoriserte filer. Installere og bruke programmet utgjør ikke en lisens for å skaffe og distribuering av uautorisert innhold.</string>
+    <string name="intent_text">SnapLoad er et peer-to-peer program for deling av autoriserte filer. Installere og bruke programmet utgjør ikke en lisens for å skaffe og distribuering av uautorisert innhold.</string>
     <string name="seeding_has_been_turned_off">Seeding er slått av</string>
     <string name="transfers_context_menu_copy_magnet">Kopier Magnet</string>
     <string name="torrent_max_uploads_summary">Maksimum opplastinger</string>
@@ -307,7 +307,7 @@
     <string name="rate_our_app">Vurdere vår app</string>
     <string name="peers_n">Peers: %s</string>
     <string name="cheaper_than_cigarettes">Billigere enn sigaretter</string>
-    <string name="update_message">Frostwire har lastet ned en ny resultatoppdateringen for deg, kan du gå videre og trykk på OK-knappen hvis du ønsker å installere det nå.</string>
+    <string name="update_message">SnapLoad har lastet ned en ny resultatoppdateringen for deg, kan du gå videre og trykk på OK-knappen hvis du ønsker å installere det nå.</string>
     <string name="days_left">dager igjen</string>
     <string name="media_player_failed">Mediespiller mislyktes</string>
     <string name="six_months">6 måneder</string>
@@ -365,7 +365,7 @@
     <string name="seeding_keeps_the_network_healthy">Deling bidrar til å holde nettverket sunt</string>
     <string name="seeding_is_currently_disabled">Deling er for øyeblikket deaktivert</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Kunne ikke åpne Overføringsdetaljer, ugyldig InfoHash</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire kunne ikke starte riktig på grunn av manglende tillatelser. Vennligst gi de nødvendige tillatelsene og start programmet på nytt</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad kunne ikke starte riktig på grunn av manglende tillatelser. Vennligst gi de nødvendige tillatelsene og start programmet på nytt</string>
     <string name="vpn_find_out_more">Finne ut mer</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Gratis 7-dagers prøveversjon</string>
     <string name="uploaded">Lastet opp</string>

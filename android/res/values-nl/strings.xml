@@ -42,7 +42,7 @@
     <string name="rename">Benoem opnieuw</string>
     <string name="download">Download</string>
     <string name="update_title">Update Tijd!</string>
-    <string name="update_message">FrostWire heeft een nieuwe PRESTATIE UPDATE voor je gedownload, ga verder en druk op de OK knop als je deze nu wilt installeren.</string>
+    <string name="update_message">SnapLoad heeft een nieuwe PRESTATIE UPDATE voor je gedownload, ga verder en druk op de OK knop als je deze nu wilt installeren.</string>
     <string name="privacy">Over</string>
     <string name="send_file_using">Verstuur file met gebruik van</string>
     <string name="downloads">Downloads</string>
@@ -123,7 +123,7 @@
     <string name="seeding_settings">Seeding Instellingen</string>
     <string name="seeding_settings_explanation">BitTorrent gebruikers op internet zullen file onderdelen kunnen downloaden van de data van jouw torrents seed.</string>
     <string name="seeding_wifi_settings_explanation">Alleen maar seeden als je een WiFi verbinding gebruikt. Vermijd extra kosten van je telefoonmaatschappij.</string>
-    <string name="intent_text">FrostWire is een peer-to-peer programma, enkel voor het delen van geautoriseerde files. Het installeren en gebruiken van het programma komt niet met een licentie voor het verkrijgen of distribueren van niet-geautoriseerde inhoud.</string>
+    <string name="intent_text">SnapLoad is een peer-to-peer programma, enkel voor het delen van geautoriseerde files. Het installeren en gebruiken van het programma komt niet met een licentie voor het verkrijgen of distribueren van niet-geautoriseerde inhoud.</string>
     <string name="accept_intent">Ik zal FrostWire niet gebruiken om het copyright te overtreden</string>
     <string name="toast_on_disconnect">Niet verbonden met BitTorrent. Alle BitTorrent transfers zijn gestopt.</string>
     <string name="seeds">Seeds</string>
@@ -143,7 +143,7 @@
     <string name="request_again">Vraag weer</string>
     <string name="clear_search_cache">Duidelijke zoeken cachegeheugen</string>
     <string name="drawer_close">Sluiten navigatielade</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire is een bestand browser en downloader app, dus het moet in staat zijn om toegang tot uw schijf.\n\nZonder uw rechten FrostWire niet kunnen werken.\n\nWil je nog eens proberen?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad is een bestand browser en downloader app, dus het moet in staat zijn om toegang tot uw schijf.\n\nZonder uw rechten FrostWire niet kunnen werken.\n\nWil je nog eens proberen?</string>
     <string name="unprotected_connection">onbeschermd</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magneet gekopieerd naar het klembord</string>
     <string name="buy_uppercase">KOPEN</string>
@@ -213,7 +213,7 @@
     <string name="crawl_cache_size">Crawl cachegeheugen %1$.2fMB</string>
     <string name="pausing">Pauzeren</string>
     <string name="dummy_title_bold">[Bold Titel]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire kan niet schrijven op de geselecteerde opslagpad</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad kan niet schrijven op de geselecteerde opslagpad</string>
     <string name="processing_payment">Verwerking van betaling, te vernieuwen in een paar seconden</string>
     <string name="my_music">Mijn muziek</string>
     <string name="connection_header_title">VPN-verbindingsstatus:</string>
@@ -247,7 +247,7 @@
     <string name="sd_permission_no_accessible_path">Het pad dat u in de SD geselecteerde is niet meer toegankelijk. Druk op OK om opnieuw te selecteren.</string>
     <string name="canceling">Annuleren</string>
     <string name="issue_with_tip_donation_uri">Er is iets mis met de donatie webadres</string>
-    <string name="frostwire_is_running">FrostWire loopt</string>
+    <string name="frostwire_is_running">SnapLoad loopt</string>
     <string name="http_download_status_save_dir_error">Directory Save bestaat niet of kan niet worden gemaakt</string>
     <string name="select_option_below">Kies hieronder een optie:</string>
     <string name="device_storage">Device\'s Storage</string>
@@ -306,7 +306,7 @@
     <string name="advertisement">advertentie</string>
     <string name="all_free_downloads">Alle gratis downloads</string>
     <string name="wifi_networks_only_summary">Gegevens opslaan. Download alleen als Wi-Fi-verbinding tot stand is gebracht. </string>
-    <string name="frostwire_features">FROSTWIRE KENMERKEN</string>
+    <string name="frostwire_features">SnapLoad KENMERKEN</string>
     <string name="wifi_networks_only">Alleen Wi-Fi-netwerken</string>
     <string name="distraction_free_search_results_summary">Verberg componenten van de gebruikersinterface om meer resultaten te laten zien. Moet app herstart door te voeren.</string>
     <string name="donate_your_time">Doneer uw tijd</string>
@@ -368,7 +368,7 @@
     <string name="seeding_is_currently_disabled">Delen is momenteel uitgeschakeld</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Kon overdrachtgegevens, ongeldige InfoHash, niet openen</string>
     <string name="invalid_tracker_url">Ongeldige Tracker-URL</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire kan niet goed starten vanwege een gebrek aan rechten. Geef de vereiste machtigingen en start de toepassing opnieuw</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad kan niet goed starten vanwege een gebrek aan rechten. Geef de vereiste machtigingen en start de toepassing opnieuw</string>
     <string name="vpn_find_out_more">Meer te weten komen</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Gratis proefperiode van 7 dagen</string>
     <string name="contact_us">Neem contact op</string>

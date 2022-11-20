@@ -43,7 +43,7 @@
     <string name="rename">Переименовать</string>
     <string name="download">Скачать</string>
     <string name="update_title">Время обновлений!</string>
-    <string name="update_message">FrostWire скачал новое ПОЛЕЗНОЕ ОБНОВЛЕНИЕ. Пожалуйста, нажмите кнопку ОК, если Вы хотите установить его прямо сейчас.</string>
+    <string name="update_message">SnapLoad скачал новое ПОЛЕЗНОЕ ОБНОВЛЕНИЕ. Пожалуйста, нажмите кнопку ОК, если Вы хотите установить его прямо сейчас.</string>
     <string name="privacy">О приложении</string>
     <string name="send_file_using">Отправить файл с помощью</string>
     <string name="downloads">Загрузки</string>
@@ -125,7 +125,7 @@
     <string name="seeding_settings">Настройки раздачи</string>
     <string name="seeding_settings_explanation">Пользователи BitTorrent в сети смогут скачивать части файла, который раздает ваш торрент.</string>
     <string name="seeding_wifi_settings_explanation">Раздавайте только при Wi-Fi подключении. Избегайте дополнительных расходов у своего сотового оператора.</string>
-    <string name="intent_text">FrostWire - это пиринговая программа для обмена только разрешенными файлами. Установка и использование программы не дает право на получение или несанкционированное распространение контента.</string>
+    <string name="intent_text">SnapLoad - это пиринговая программа для обмена только разрешенными файлами. Установка и использование программы не дает право на получение или несанкционированное распространение контента.</string>
     <string name="accept_intent">Я не буду использовать FrostWire с целью нарушения авторских прав</string>
     <string name="toast_on_disconnect">Разъединено от BitTorrent. Все передачи на BitTorrent были остановлены.</string>
     <string name="seeds">Сиды</string>
@@ -234,9 +234,9 @@
     <string name="thank_you">Спасибо!</string>
     <string name="keep_in_touch">Оставайся на связи!</string>
     <string name="why_we_need_storage_permissions">Зачем нам нужен доступ для хранения данных.</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire является файл-браузером и загрузчиком, поэтому он должен получить возможность сохранять файлы на диск.\n\nБез предоставленных прав FrostWire не может работать.\n\nХотите попробовать снова?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad является файл-браузером и загрузчиком, поэтому он должен получить возможность сохранять файлы на диск.\n\nБез предоставленных прав FrostWire не может работать.\n\nХотите попробовать снова?</string>
     <string name="request_again">Повторить запрос</string>
-    <string name="frostwire_is_running">FrostWire запущен</string>
+    <string name="frostwire_is_running">SnapLoad запущен</string>
     <string name="unprotected_connection">Незащищенное соединение</string>
     <string name="protected_connection">Защищенное соединение</string>
     <string name="error_connection_timed_out">Ошибка: тайм-аут подключения/упал. Попробуй еще раз.</string>
@@ -261,7 +261,7 @@
     <string name="thirty_days">30 дней</string>
     <string name="remove_ads_description">Наслаждайтесь опыт без рекламы, поддержки FrostWire</string>
     <string name="dummy_title_bold">[Жирный Название]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire не может писать на выбранном пути хранения</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad не может писать на выбранном пути хранения</string>
     <string name="processing_payment">Обработка платежей, обновить в течение нескольких секунд</string>
     <string name="connection_header_title">Состояние подключения VPN:</string>
     <string name="http_download_status_temp_dir_error">Временный каталог не существует или не может быть создан</string>
@@ -306,7 +306,7 @@
     <string name="advertisement">Реклама</string>
     <string name="all_free_downloads">Все свободные скачивания</string>
     <string name="wifi_networks_only_summary">Сохранить данные. Скачать только если Wi-Fi соединение установлено. </string>
-    <string name="frostwire_features">FROSTWIRE ОСОБЕННОСТИ</string>
+    <string name="frostwire_features">SnapLoad ОСОБЕННОСТИ</string>
     <string name="wifi_networks_only">Только Wi-Fi сети</string>
     <string name="distraction_free_search_results_summary">Скрыть компоненты пользовательского интерфейса для того чтобы показать больше результатов. Требуется перезагрузка приложения вступили в силу.</string>
     <string name="donate_your_time">Пожертвование времени</string>
@@ -404,7 +404,7 @@
     <string name="title_activity_transfer_detail">Сведения о передаче</string>
     <string name="piece_size_header">Размер части:</string>
     <string name="add_tracker">Добавить трекер</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire не смог запустить должным образом из-за отсутствия разрешений. Предоставьте необходимые разрешения и перезапустите приложение.</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad не смог запустить должным образом из-за отсутствия разрешений. Предоставьте необходимые разрешения и перезапустите приложение.</string>
     <string name="vpn_find_out_more">Узнать больше</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Бесплатная 7-дневная пробная версия</string>
     <string name="contact_us">Свяжитесь с нами</string>

@@ -42,13 +42,13 @@
     <string name="rename">Umbenennen</string>
     <string name="download">Download</string>
     <string name="update_title">Aktualisierungszeit!</string>
-    <string name="update_message">FrostWire hat eine neues PERFORMANCE UPDATE für dich heruntergeladen. Tippe die OK-Schaltfläche an, wenn du die Update jetzt installieren willst.</string>
+    <string name="update_message">SnapLoad hat eine neues PERFORMANCE UPDATE für dich heruntergeladen. Tippe die OK-Schaltfläche an, wenn du die Update jetzt installieren willst.</string>
     <string name="privacy">Über</string>
     <string name="send_file_using">Datei senden mit</string>
     <string name="downloads">Downloads</string>
     <string name="settings">Einstellungen</string>
     <string name="files">Dateien</string>
-    <string name="minimize_frostwire">FrostWire minimieren</string>
+    <string name="minimize_frostwire">SnapLoad minimieren</string>
     <string name="are_you_sure_you_wanna_leave">Bist du sicher, dass du zurück zum Startbildschirm willst?</string>
     <string name="set_as_wallpaper">Als Hintergrundbild einstellen</string>
     <string name="failed_to_set_wallpaper">Hintergrund-Einstellung ist fehlgeschlagen</string>
@@ -133,7 +133,7 @@
     <string name="seeding_settings">Seeden-Einstellungen</string>
     <string name="seeding_settings_explanation">Benutzer von BitTorrent im Internet können Dateiblocks der Daten herunterladen, die deine Torrents seeden.</string>
     <string name="seeding_wifi_settings_explanation">Nur dann seeden wenn du eine WLAN-Verbindung benutzt. Vermeide so extra Kosten deines Dienstleiters</string>
-    <string name="intent_text">Frostwire ist ein Pee-to-Peer-Programm, alleinig für den Austausch von autorisierten Dateien bestimmt. Installation und Benutzung des Programms stellt weder eine Lizenz für den Erhalt noch für die Verteilung von nicht autorisierten Inhalten dar.</string>
+    <string name="intent_text">SnapLoad ist ein Pee-to-Peer-Programm, alleinig für den Austausch von autorisierten Dateien bestimmt. Installation und Benutzung des Programms stellt weder eine Lizenz für den Erhalt noch für die Verteilung von nicht autorisierten Inhalten dar.</string>
     <string name="accept_intent">Ich werde FrostWire nicht dazu benutzen, Verstöße gegen das Urheberrecht zu begehen.</string>
     <string name="toast_on_disconnect">Verbindung mit BitTorrent abgebrochen. Alle BitTorrent-Übertragungen wurden gestoppt.</string>
     <string name="seeds">Seeds</string>
@@ -156,7 +156,7 @@
     <string name="request_again">Erneut anfordern</string>
     <string name="clear_search_cache">Suche löschen Cache</string>
     <string name="drawer_close">Schließen Navigationsleiste</string>
-    <string name="why_we_need_storage_permissions_summary">Frostwire ist ein Dateibrowser und Downloader App, deshalb muss es in der Lage sein, Ihre Festplatte zugreifen.\n\nOhne Ihre Berechtigungen können Frostwire nicht funktionieren.\n\nVersuch es noch einmal?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad ist ein Dateibrowser und Downloader App, deshalb muss es in der Lage sein, Ihre Festplatte zugreifen.\n\nOhne Ihre Berechtigungen können Frostwire nicht funktionieren.\n\nVersuch es noch einmal?</string>
     <string name="unprotected_connection">ungeschützt</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet die Zwischenablage kopiert</string>
     <string name="buy_uppercase">KAUFEN</string>
@@ -220,7 +220,7 @@
     <string name="crawl_cache_size">Crawl-Cache %1$.2fMB</string>
     <string name="pausing">Pausieren</string>
     <string name="dummy_title_bold">[Bold Titel]</string>
-    <string name="storage_picker_treeuri_cant_write">Frostwire kann auf dem ausgewählten Speicherpfad nicht schreiben</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad kann auf dem ausgewählten Speicherpfad nicht schreiben</string>
     <string name="processing_payment">Die Verarbeitung Zahlung, aktualisieren Sie in wenigen Sekunden</string>
     <string name="my_music">Meine Musik</string>
     <string name="connection_header_title">VPN-Verbindungsstatus:</string>
@@ -252,7 +252,7 @@
     <string name="sd_permission_no_accessible_path">Der Pfad, den Sie in der SD ausgewählt ist nicht mehr zugänglich. Drücken Sie OK erneut.</string>
     <string name="canceling">Abbrechen</string>
     <string name="issue_with_tip_donation_uri">Es ist etwas falsch mit der Spitze/Spende Web-Adresse</string>
-    <string name="frostwire_is_running">Frostwire läuft</string>
+    <string name="frostwire_is_running">SnapLoad läuft</string>
     <string name="http_download_status_save_dir_error">Speichern Verzeichnis ist nicht vorhanden oder kann nicht erstellt werden</string>
     <string name="select_option_below">Wählen Sie nachfolgend:</string>
     <string name="device_storage">Geräte-Storage</string>
@@ -310,7 +310,7 @@
     <string name="advertisement">werbung</string>
     <string name="all_free_downloads">Alle kostenlosen Downloads</string>
     <string name="wifi_networks_only_summary">Daten speichern. Download nur, wenn Wifi-Verbindung hergestellt ist. </string>
-    <string name="frostwire_features">FROSTWIRE EIGENSCHAFTEN</string>
+    <string name="frostwire_features">SnapLoad EIGENSCHAFTEN</string>
     <string name="wifi_networks_only">Wifi Netzwerke nur</string>
     <string name="distraction_free_search_results_summary">Hide UI-Komponenten, um mehr Ergebnisse zu zeigen. Neustart der App erforderlich.</string>
     <string name="donate_your_time">Spenden Sie Ihre Zeit</string>
@@ -408,7 +408,7 @@
     <string name="add_tracker">Tracker hinzufügen</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Überweisungsdetails, ungültiger InfoHash konnte nicht geöffnet werden</string>
     <string name="invalid_tracker_url">Ungültige Verfolger-URL</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire konnte aufgrund fehlender Berechtigungen nicht ordnungsgemäß gestartet werden. Bitte gewähren Sie die erforderlichen Berechtigungen und starten Sie die Anwendung neu</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad konnte aufgrund fehlender Berechtigungen nicht ordnungsgemäß gestartet werden. Bitte gewähren Sie die erforderlichen Berechtigungen und starten Sie die Anwendung neu</string>
     <string name="vpn_find_out_more">Finde mehr heraus</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Kostenlose 7-Tage-Testversion</string>
     <string name="contact_us">Kontaktiere uns</string>

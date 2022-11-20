@@ -42,7 +42,7 @@
     <string name="rename">Zmień Nazwę</string>
     <string name="download">Pobierz</string>
     <string name="update_title">Czas Aktualizacji!</string>
-    <string name="update_message">FrostWire pobrał nową AKTUALIZACJĘ WYDAJNOŚCI, proszę przejść dalej i kliknąć przycisk OK, jeśli chcesz ją teraz zainstalować.</string>
+    <string name="update_message">SnapLoad pobrał nową AKTUALIZACJĘ WYDAJNOŚCI, proszę przejść dalej i kliknąć przycisk OK, jeśli chcesz ją teraz zainstalować.</string>
     <string name="privacy">O nas</string>
     <string name="send_file_using">Wyślij plik za pomocą</string>
     <string name="downloads">Pliki do pobrania</string>
@@ -123,7 +123,7 @@
     <string name="seeding_settings">Ustawienia Seedowania</string>
     <string name="seeding_settings_explanation">Użytkownicy BitTorrent w internecie będą mogli pobrać fragmenty plików danych twoich seedowanych torrentów.</string>
     <string name="seeding_wifi_settings_explanation">Seeduj tylko przez połączenie Wi-Fi. Unikaj dodatkowych opłat od swojego operatora.</string>
-    <string name="intent_text">FrostWire jest programem peer-to-peer dla udostępniania tylko autoryzowanych plików. Instalacja i obsługa programu nie jest równoznaczna z uzyskaniem licencji na dystrybucje nieautoryzowanych treści.</string>
+    <string name="intent_text">SnapLoad jest programem peer-to-peer dla udostępniania tylko autoryzowanych plików. Instalacja i obsługa programu nie jest równoznaczna z uzyskaniem licencji na dystrybucje nieautoryzowanych treści.</string>
     <string name="accept_intent">Nie będę wykorzystywać FrostWire do naruszenia praw autorskich</string>
     <string name="toast_on_disconnect">Rozłączono z siecią BitTorrent. Wszystkie transfery BitTorrent zatrzymano.</string>
     <string name="seeds">Seedy</string>
@@ -216,7 +216,7 @@
     <string name="send_tip_donation">Wyślij Napiwek</string>
     <string name="try_other_keywords">Spróbuj innych słów kluczowych</string>
     <string name="your_installation_is_complete">Twoja instalacja jest gotowa.</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire jest przeglądarką i ściągarką plików i dlatego potrzebuje dostępu do twojego dysku.\n\nBez twoich zezwoleń, FrostWire nie może funkcjonować.\n\nCzy chcesz spróbować jeszcze raz?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad jest przeglądarką i ściągarką plików i dlatego potrzebuje dostępu do twojego dysku.\n\nBez twoich zezwoleń, FrostWire nie może funkcjonować.\n\nCzy chcesz spróbować jeszcze raz?</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet skopiowany do schowka</string>
     <string name="wifi_seeding_has_been_turned_off">Nie ma dostępu do Wi-fi, Seedowanie zostało wyłączone</string>
     <string name="send_feedback">Wyślij Opinię</string>
@@ -260,7 +260,7 @@
     <string name="thirty_days">30 dni</string>
     <string name="remove_ads_description">Sciągaj pliki i odtwarzaj muzykę bez reklam, wsparaj FrostWire</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire nie może zachować pliku na wybranej ścieżce zachowywania</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad nie może zachować pliku na wybranej ścieżce zachowywania</string>
     <string name="processing_payment">Przyjmuję płatność, odśwież za kilka sekund</string>
     <string name="connection_header_title">Status połączenia VPN:</string>
     <string name="http_download_status_temp_dir_error">Folder tymczasowy nie istnieje lub nie może być stworzony</string>
@@ -276,7 +276,7 @@
     <string name="ad_free">Bez Reklam</string>
     <string name="current_plan">Obecny Plan</string>
     <string name="sd_permission_no_accessible_path">Wybrana ścieżka na karcie SD nie jest już dostępna. Naciśnij OK, aby wybrać ponownie. </string>
-    <string name="frostwire_is_running">FrostWire jest uruchomiony</string>
+    <string name="frostwire_is_running">SnapLoad jest uruchomiony</string>
     <string name="select_option_below">Wybierz opcję poniżej:</string>
     <string name="use_limetorrents">Używaj Limetorrents</string>
     <string name="error_no_internet_connection">Błąd: Sprawdź połączenie z internetem</string>
@@ -378,7 +378,7 @@
     <string name="created_on">Utworzono</string>
     <string name="number_of_files">Ilość Plików</string>
     <string name="nothing_is_currently_seeding">Nic nie jest teraz seedowane</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire nie mógł się poprawnie  uruchomić z powodu braku uprawnień. Proszę udzielić wymaganych uprawnień i ponownie uruchomić aplikację.</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad nie mógł się poprawnie  uruchomić z powodu braku uprawnień. Proszę udzielić wymaganych uprawnień i ponownie uruchomić aplikację.</string>
     <string name="pieces_header">Fragmenty:</string>
     <string name="share_ratio">Współczynnik Dzielenia Się</string>
     <string name="edit_tracker">Edituj trackery</string>

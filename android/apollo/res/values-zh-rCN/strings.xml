@@ -93,5 +93,5 @@
   <string name="page_last_added">最后添加</string>
   <string name="empty_playlist">此播放列表为空。\n\n单击此处了解如何添加歌曲。</string>
   <string name="are_you_sure_delete_files_text">您确定要永久删除设备中的所选文件吗？</string>
-  <string name="frostwire_player">FrostWire媒体播放器</string>
+  <string name="frostwire_player">SnapLoad媒体播放器</string>
 </resources>

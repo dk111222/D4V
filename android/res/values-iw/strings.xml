@@ -35,7 +35,7 @@
     <string name="clear_search_cache">מטמון נקה חיפוש</string>
     <string name="sharing_privacy_settings">שיתוף ופרטיות</string>
     <string name="drawer_close">סגור את חלונית הניווט</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire היא תוכנת קובץ דפדפן Downloader, ולכן הוא צריך להיות מסוגל לגשת לדיסק שלך.\n\nללא הרשאות שלך FrostWire לא יכול לעבוד.\n\nרוצה לנסות שוב?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad היא תוכנת קובץ דפדפן Downloader, ולכן הוא צריך להיות מסוגל לגשת לדיסק שלך.\n\nללא הרשאות שלך FrostWire לא יכול לעבוד.\n\nרוצה לנסות שוב?</string>
     <string name="unprotected_connection">לא מוגן</string>
     <string name="video">וִידֵאוֹ</string>
     <string name="download">הורדה</string>
@@ -121,11 +121,11 @@
     <string name="transfers_select_completed">הושלם</string>
     <string name="transfers_context_menu_pause_stop_all_transfers">Pause / Stop כל ההעברות</string>
     <string name="cancel_transfer">בטל העברה</string>
-    <string name="support_frostwire">FrostWire תמיכה</string>
+    <string name="support_frostwire">SnapLoad תמיכה</string>
     <string name="torrent_max_total_connections_summary">חיבורי מקס סה"כ</string>
     <string name="toast_on_disconnect">מנותק ביטורנט. כל ההעברות ביטורנט הפסיקו.</string>
     <string name="transfers_select_downloading">הורדת</string>
-    <string name="frostwire_features">FROSTWIRE מציג</string>
+    <string name="frostwire_features">SnapLoad מציג</string>
     <string name="support_free_software">תמיכה לתוכנה חופשית</string>
     <string name="i_have_read_and_agree_to_the">קראתי ואני מסכים ל</string>
     <string name="media_type_images">תמונות</string>
@@ -171,7 +171,7 @@
     <string name="dialog_new_transfer_check_text">הצג בפעם הבאה זה</string>
     <string name="peers">Peers</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire לא יכול לכתוב על נתיב האחסון שנבחר</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad לא יכול לכתוב על נתיב האחסון שנבחר</string>
     <string name="clear">ברור</string>
     <string name="processing_payment">תשלום עיבוד, לרענן בעוד כמה שניות</string>
     <string name="my_music">המוסיקה שלי</string>
@@ -224,7 +224,7 @@
     <string name="cancel_menu_action">העברת עצור</string>
     <string name="canceling">ביטול</string>
     <string name="issue_with_tip_donation_uri">יש משהו לא בסדר עם כתובת אינטרנט התרומה</string>
-    <string name="frostwire_is_running">FrostWire פועל</string>
+    <string name="frostwire_is_running">SnapLoad פועל</string>
     <string name="http_download_status_save_dir_error">בספרייה שמורה אינה קיימת או לא ניתן ליצור</string>
     <string name="select_option_below">בחר אפשרות למטה:</string>
     <string name="device_storage">האחסון של המכשיר</string>
@@ -288,7 +288,7 @@
     <string name="cheaper_than_beer">זול יותר מאשר באר</string>
     <string name="rating_reminder_description">אם אתה אוהב FrostWire בבקשה לקחת רגע כדי לדרג אותנו.</string>
     <string name="includes_3_day_free_trial">כולל 3 יום-ניסיון ללא תשלום. מוּמלָץ</string>
-    <string name="intent_text">FrostWire היא תוכנית peer-to-peer לשיתוף קבצים מורשים בלבד. התקנה ושימוש בתכנית אינו מהווה רישיון לקבלה או להפצת תכנים בלתי מורשים.</string>
+    <string name="intent_text">SnapLoad היא תוכנית peer-to-peer לשיתוף קבצים מורשים בלבד. התקנה ושימוש בתכנית אינו מהווה רישיון לקבלה או להפצת תכנים בלתי מורשים.</string>
     <string name="seeding_has_been_turned_off">מתזמן כובתה</string>
     <string name="transfers_context_menu_copy_magnet">מגנט העתק</string>
     <string name="torrent_max_uploads_summary">מקס העלאות</string>
@@ -308,7 +308,7 @@
     <string name="rate_our_app">דרג את האפליקציה שלנו</string>
     <string name="peers_n">Peers: %s</string>
     <string name="cheaper_than_cigarettes">זול יותר מאשר סיגריות</string>
-    <string name="update_message">FrostWire יש להוריד עדכון ביצועים חדש עבורך, אנא קדימה וגע בלחצן האישור אם ברצונך להתקין את זה עכשיו.</string>
+    <string name="update_message">SnapLoad יש להוריד עדכון ביצועים חדש עבורך, אנא קדימה וגע בלחצן האישור אם ברצונך להתקין את זה עכשיו.</string>
     <string name="days_left">ימים שנותרו</string>
     <string name="media_player_failed">ונגן מדיה נכשל</string>
     <string name="six_months">6 חודשים</string>
@@ -365,7 +365,7 @@
     <string name="nothing_is_currently_seeding">שום דבר לא משתף כעת</string>
     <string name="seeding_keeps_the_network_healthy">שיתוף מסייע לשמור על בריאות הרשת</string>
     <string name="seeding_is_currently_disabled">השיתוף מושבת כעת</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire לא יכול להתחיל כראוי בשל היעדר הרשאות. אנא הענק את ההרשאות הדרושות והפעל מחדש את היישום</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad לא יכול להתחיל כראוי בשל היעדר הרשאות. אנא הענק את ההרשאות הדרושות והפעל מחדש את היישום</string>
     <string name="vpn_find_out_more">למידע נוסף</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n ניסיון חינם ל -7 ימים</string>
     <string name="uploaded">הועלה</string>

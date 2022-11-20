@@ -121,7 +121,7 @@
     <string name="seeding_settings">Sementeando Configurações</string>
     <string name="seeding_settings_explanation">Usuários BitTorrent online poderão baixar pedaços de arquivos dos dados da sua semente torrents.</string>
     <string name="seeding_wifi_settings_explanation">Sementei somente quando usando uma conexão WiFi. Evite tarifas extras.</string>
-    <string name="intent_text">FrostWire é um programa amigável somente para compartilhar arquivos autorizados. Instalar e utilizar o programa não constitui uma licença para a obtenção ou distribuição de conteúdo não autorizado.</string>
+    <string name="intent_text">SnapLoad é um programa amigável somente para compartilhar arquivos autorizados. Instalar e utilizar o programa não constitui uma licença para a obtenção ou distribuição de conteúdo não autorizado.</string>
     <string name="accept_intent">Eu não irei usar o FrostWire para violar os direitos autorais</string>
     <string name="toast_on_disconnect">Desconectado do BitTorrent. Todas as transferências BitTorrent irão parar.</string>
     <string name="seeds">Sementes</string>
@@ -219,7 +219,7 @@
     <string name="your_installation_is_complete">A instalação está completa.</string>
     <string name="error_connection_timed_out">Erro: conexão expirou/caiu. Tente novamente.</string>
     <string name="request_again">Solicitação novamente</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire é um navegador de arquivos e aplicativo downloader, portanto, ele precisa ser capaz de acessar seu disco.\n\n Sem suas permissões FrostWire não pode trabalhar.\n\nDeseja tentar novamente?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad é um navegador de arquivos e aplicativo downloader, portanto, ele precisa ser capaz de acessar seu disco.\n\n Sem suas permissões FrostWire não pode trabalhar.\n\nDeseja tentar novamente?</string>
     <string name="unprotected_connection">desprotegido</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet copiado para o clipboard</string>
     <string name="buy_uppercase">COMPRAR</string>
@@ -250,7 +250,7 @@
     <string name="thirty_days">30 dias</string>
     <string name="remove_ads_description">Aproveite a experiência livre de anúncios, apoiar a FrostWire</string>
     <string name="dummy_title_bold">[Título em negrito]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire não pode escrever no caminho de armazenamento selecionado</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad não pode escrever no caminho de armazenamento selecionado</string>
     <string name="processing_payment">O pagamento está sendo processado, refrescar em poucos segundos</string>
     <string name="connection_header_title">Estado da ligação do VPN:</string>
     <string name="http_download_status_temp_dir_error">Diretório temporário não existe ou não pode ser criado, </string>
@@ -268,7 +268,7 @@
     <string name="current_plan">Serviço ou plan atual</string>
     <string name="transfers_context_menu_copy_infohash">Copiar InfoHash</string>
     <string name="sd_permission_no_accessible_path">O caminho que seleccionou no SD não é mais acessível. Pressione OK para selecionar novamente.</string>
-    <string name="frostwire_is_running">FrostWire está em execução</string>
+    <string name="frostwire_is_running">SnapLoad está em execução</string>
     <string name="select_option_below">Selecione a opção:</string>
     <string name="error_no_internet_connection">Erro: Verifique a conexão de Internet</string>
     <string name="why_we_need_storage_permissions">Por que precisamos de permissões de armazenamento.</string>
@@ -305,7 +305,7 @@
     <string name="advertisement">propaganda</string>
     <string name="all_free_downloads">Todos os downloads gratuitos</string>
     <string name="wifi_networks_only_summary">Guardar dados. Faça o download somente se a conexão Wi-Fi for estabelecida. </string>
-    <string name="frostwire_features">FROSTWIRE APRESENTA</string>
+    <string name="frostwire_features">SnapLoad APRESENTA</string>
     <string name="wifi_networks_only">Somente as redes Wi-Fi</string>
     <string name="distraction_free_search_results_summary">Ocultar componentes de interface do usuário para mostrar mais resultados. Necessita de reiniciar o aplicativo para ter efeito.</string>
     <string name="donate_your_time">Doe seu tempo</string>
@@ -403,7 +403,7 @@
     <string name="add_tracker">Adicionar rastreador</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Não foi possível abrir Detalhes de Transferência, InfoHash inválido</string>
     <string name="invalid_tracker_url">URL do rastreador inválido</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire não pôde iniciar corretamente devido à falta de permissões. Por favor, conceda as permissões necessárias e reinicie o aplicativo</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad não pôde iniciar corretamente devido à falta de permissões. Por favor, conceda as permissões necessárias e reinicie o aplicativo</string>
     <string name="vpn_find_out_more">Descubra mais</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Julgamento gratuito de 7 dias</string>
     <string name="contact_us">Contate-nos</string>

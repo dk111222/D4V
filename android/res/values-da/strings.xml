@@ -42,7 +42,7 @@
     <string name="rename">Omdøb</string>
     <string name="download">Download</string>
     <string name="update_title">Opdater tid!</string>
-    <string name="update_message">FrostWire har hentet ny RESULTATER OPDATERING for dig, gå venligst videre og tryk på OK-knappen, hvis du ønsker at installere det nu.</string>
+    <string name="update_message">SnapLoad har hentet ny RESULTATER OPDATERING for dig, gå venligst videre og tryk på OK-knappen, hvis du ønsker at installere det nu.</string>
     <string name="privacy">Om</string>
     <string name="send_file_using">Send filen ved hjælp</string>
     <string name="downloads">Downloads</string>
@@ -123,7 +123,7 @@
     <string name="seeding_settings">Frø indstillinger</string>
     <string name="seeding_settings_explanation">BitTorrent-brugere på internettet vil være i stand til at downloade filer stykker af data dine torrents frø.</string>
     <string name="seeding_wifi_settings_explanation">Frø kun ved brug af en WiFi-forbindelse. Undgå ekstra gebyrer fra din udbyder.</string>
-    <string name="intent_text">FrostWire er et peer-to-peer program til at dele godkendte filer. Installation og brug af programmet udgør ikke tilladelse til at opnå eller distribution af uautoriseret indhold.</string>
+    <string name="intent_text">SnapLoad er et peer-to-peer program til at dele godkendte filer. Installation og brug af programmet udgør ikke tilladelse til at opnå eller distribution af uautoriseret indhold.</string>
     <string name="accept_intent">Jeg vil ikke bruge FrostWire for krænkelse af ophavsretten</string>
     <string name="toast_on_disconnect">Frakoblet fra BitTorrent. Alle BitTorrent overførsler er stoppet.</string>
     <string name="seeds">Frø</string>
@@ -143,7 +143,7 @@
     <string name="request_again">Anmod igen</string>
     <string name="clear_search_cache">Ryd søgning cache</string>
     <string name="drawer_close">Luk navigation skuffe</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire er en fil browser og downloader app, derfor er det nødvendigt at kunne få adgang til din harddisk.\n\nUden dine tilladelser FrostWire ikke kan arbejde.\n\nVil du prøve igen?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad er en fil browser og downloader app, derfor er det nødvendigt at kunne få adgang til din harddisk.\n\nUden dine tilladelser FrostWire ikke kan arbejde.\n\nVil du prøve igen?</string>
     <string name="unprotected_connection">ubeskyttet</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet kopieret til udklipsholderen</string>
     <string name="buy_uppercase">KØBE</string>
@@ -186,7 +186,7 @@
     <string name="transfers_select_completed">afsluttet</string>
     <string name="transfers_context_menu_pause_stop_all_transfers">Pause/Stop alle overførsler</string>
     <string name="transfers_select_downloading">downloading</string>
-    <string name="frostwire_features">FROSTWIRE FUNKTIONER</string>
+    <string name="frostwire_features">SnapLoad FUNKTIONER</string>
     <string name="i_have_read_and_agree_to_the">Jeg har læst og accepterer</string>
     <string name="scanning">Efterbehandling - Scanning</string>
     <string name="according_to_settings_i_cant_seed_unless_wifi">I henhold til dine indstillinger kan jeg ikke starte såning medmindre du er på Wi-Fi. Filen vil være klar til såning automatisk, når du kommer tilbage til en internet aktiveret Wi-Fi-netværk.</string>
@@ -213,7 +213,7 @@
     <string name="crawl_cache_size">Crawl cache %1$.2fMB</string>
     <string name="pausing">Pausing</string>
     <string name="dummy_title_bold">[Fed Titel]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire kan ikke skrive på den valgte opbevaring sti</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad kan ikke skrive på den valgte opbevaring sti</string>
     <string name="processing_payment">Behandling betaling, opdatere i et par sekunder</string>
     <string name="my_music">Mit musik</string>
     <string name="connection_header_title">VPN-forbindelsesstatus:</string>
@@ -248,7 +248,7 @@
     <string name="sd_permission_no_accessible_path">Stien du valgte i SD er ikke tilgængelig længere. Tryk på OK for at vælge igen.</string>
     <string name="canceling">Annullering</string>
     <string name="issue_with_tip_donation_uri">Der er noget galt med donationen webadressen</string>
-    <string name="frostwire_is_running">FrostWire kører</string>
+    <string name="frostwire_is_running">SnapLoad kører</string>
     <string name="http_download_status_save_dir_error">Gem mappe eksisterer ikke eller kan ikke oprettes</string>
     <string name="select_option_below">Vælg valgmulighed nedenfor:</string>
     <string name="device_storage">Enhedens Opbevaring</string>
@@ -367,7 +367,7 @@
     <string name="seeding_is_currently_disabled">Deling er for øjeblikket deaktiveret</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Kunne ikke åbne overførselsoplysninger, ugyldige InfoHash</string>
     <string name="invalid_tracker_url">Ugyldig Tracker-URL</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire kunne ikke starte korrekt på grund af manglende tilladelser. Giv venligst de nødvendige tilladelser og genstart ansøgningen</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad kunne ikke starte korrekt på grund af manglende tilladelser. Giv venligst de nødvendige tilladelser og genstart ansøgningen</string>
     <string name="vpn_find_out_more">Find ud af mere</string>
     <string name="uploaded">Uploaded</string>
     <string name="trackers">Trackers</string>

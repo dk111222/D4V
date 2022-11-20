@@ -40,7 +40,7 @@
     <string name="rename">Promijeni ime</string>
     <string name="download">Preuzmi</string>
     <string name="update_title">Vrijeme je za nadogradnju!</string>
-    <string name="update_message">FrostWire je preuzeo novu nadogradnju za performanse, molimo kliknite OK gumb ukoliko ga želite preuzeti sada.</string>
+    <string name="update_message">SnapLoad je preuzeo novu nadogradnju za performanse, molimo kliknite OK gumb ukoliko ga želite preuzeti sada.</string>
     <string name="privacy">O FrostWire-u</string>
     <string name="send_file_using">Poslati datoteku koristeći</string>
     <string name="downloads">Preuzimanja</string>
@@ -194,7 +194,7 @@
     <string name="seed_finished_torrents_summary">Dijeli djelove torrent preuzimanja sa svima na Internetu putem BitTorrenta</string>
     <string name="file_descriptor_sd_unmounted">Ova datoteka pripada SD kartici, molimo da umetnete SD karticu.</string>
     <string name="seeds">Dijelitelji</string>
-    <string name="intent_text">FrostWire je klijent-klijent program samo za dijeljenje ododbrenih datoteka. Instaliranje i korištenje programa ne dobavljuje licencu za dobavljanje i distribuciju neovlaštenog sadržaja.</string>
+    <string name="intent_text">SnapLoad je klijent-klijent program samo za dijeljenje ododbrenih datoteka. Instaliranje i korištenje programa ne dobavljuje licencu za dobavljanje i distribuciju neovlaštenog sadržaja.</string>
     <string name="seeding_has_been_turned_off">Dijeljenje je ugašeno</string>
     <string name="torrent_max_uploads_summary">Maksimalni broj slanja</string>
     <string name="torrent_max_upload_speed">Maksimalna brzina slanja</string>
@@ -222,7 +222,7 @@
     <string name="transfers_context_menu_copy_magnet">Kopiraj magnet poveznicu</string>
     <string name="try_other_keywords">Pokušajte manje/ostale ključne riječi</string>
     <string name="thank_you">Hvala Vam!</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire je preglednik datoteka i aplikacija za preuzimanje te treba imati pristup vašem disku.\n\nBez vaše dozvole FrostWire ne može raditi.\n\nŽelite li pokušati ponovno?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad je preglednik datoteka i aplikacija za preuzimanje te treba imati pristup vašem disku.\n\nBez vaše dozvole FrostWire ne može raditi.\n\nŽelite li pokušati ponovno?</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet kopiran u međuspremnik</string>
     <string name="wifi_seeding_has_been_turned_off">Wi-Fi nije dostupan, dijeljenje je ugašeno</string>
     <string name="enable_dht_summary">Koristi DHT za najavu/traženje torrent peerova</string>
@@ -248,7 +248,7 @@
     <string name="one_time_purchase">Jednokratne kupnje</string>
     <string name="activity_VPN">priključak</string>
     <string name="one_year">1 godina</string>
-    <string name="frostwire_features">FROSTWIRE ZNAČAJKE</string>
+    <string name="frostwire_features">SnapLoad ZNAČAJKE</string>
     <string name="i_have_read_and_agree_to_the">Pročitao sam i slažem se</string>
     <string name="scanning">Dovršavanje - Skeniranje</string>
     <string name="according_to_settings_i_cant_seed_unless_wifi">Prema postavkama ne mogu početi zasijavanja, osim ako ste na Wi-Fi. Datoteka će biti spreman za automatski zasijavanje kad se vratiš na internetu omogućena Wi-Fi mreže.</string>
@@ -261,7 +261,7 @@
     <string name="thirty_days">30 dana</string>
     <string name="remove_ads_description">Uživajte u iskustvu bez oglasa, podršku FrostWire</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire ne mogu pisati o odabranom putu za pohranu</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad ne mogu pisati o odabranom putu za pohranu</string>
     <string name="processing_payment">Obrada plaćanja, osvježiti u nekoliko sekundi</string>
     <string name="connection_header_title">Status VPN veze:</string>
     <string name="http_download_status_temp_dir_error">Privremeni katalog ne postoji ili se ne može kreirati</string>
@@ -278,7 +278,7 @@
     <string name="ad_free">Nema oglasa</string>
     <string name="current_plan">Trenutačni plan</string>
     <string name="sd_permission_no_accessible_path">Put koji ste odabrali u SD nije dostupna više. Pritisnite OK za ponovni odabir.</string>
-    <string name="frostwire_is_running">FrostWire je pokrenut</string>
+    <string name="frostwire_is_running">SnapLoad je pokrenut</string>
     <string name="select_option_below">Odaberite opciju u nastavku:</string>
     <string name="donate_your_time">Donirajte svoje vrijeme</string>
     <string name="use_limetorrents">Koristi Limetorrents</string>
@@ -365,7 +365,7 @@
     <string name="seeding_is_currently_disabled">Sjetva je trenutno onemogućena</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Nije bilo moguće otvoriti podatke o prijenosu, nevažeći InfoHash</string>
     <string name="invalid_tracker_url">Nevažeći URL za praćenje</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire nije mogao pravilno pokrenuti zbog nedostatka dozvola. Dopustite potrebnim dozvolama i ponovo pokrenite aplikaciju</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad nije mogao pravilno pokrenuti zbog nedostatka dozvola. Dopustite potrebnim dozvolama i ponovo pokrenite aplikaciju</string>
     <string name="vpn_find_out_more">Saznaj više</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Besplatno 7-dnevno probno razdoblje</string>
     <string name="uploaded">Preneseni</string>

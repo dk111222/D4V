@@ -19,7 +19,7 @@
  */
 -->
 <resources>
-    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[<b>Bilgilendirme:</b> İndirmeleriniz için önerilse de, özellikle hassas bilgileri (örneğin bankacılık) indirirken veya paylaşırken ve herkese açık Wi-Fi veya mobil veri kullanırken, <b>FrostWire\'ı kullanmak için VPN\'ye ihtiyacınız yok. </b>]]></string>
+    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[<b>Bilgilendirme:</b> İndirmeleriniz için önerilse de, özellikle hassas bilgileri (örneğin bankacılık) indirirken veya paylaşırken ve herkese açık Wi-Fi veya mobil veri kullanırken, <b>SnapLoad\'ı kullanmak için VPN\'ye ihtiyacınız yok. </b>]]></string>
     <string name="tip_touch_tags_to"><![CDATA[ <b>Bilgi:</b> Için uygulanmış etiketler\'e dokunun]]></string>
     <string name="activity_preferences_name">Ayarlar</string>
     <string name="exit">Çıkış</string>
@@ -40,13 +40,13 @@
     <string name="rename">İsmini Değiştir</string>
     <string name="download">İndir</string>
     <string name="update_title">Güncelleme Zamanı!</string>
-    <string name="update_message">FrostWire sizin için yeni bir PERFORMANS GÜNCELLEMESİ İndirdi, eğer şimdi kurmak istiyorsanız lütfen OK butonuna dokunup kuruluma devam ediniz.</string>
+    <string name="update_message">SnapLoad sizin için yeni bir PERFORMANS GÜNCELLEMESİ İndirdi, eğer şimdi kurmak istiyorsanız lütfen OK butonuna dokunup kuruluma devam ediniz.</string>
     <string name="privacy">Hakkında</string>
     <string name="send_file_using">Dosyayı şunu kullanarak gönder:</string>
     <string name="downloads">İndirilenler</string>
     <string name="settings">Tercihler</string>
     <string name="files">dosyalar</string>
-    <string name="minimize_frostwire">FrostWire\'ı Küçültün</string>
+    <string name="minimize_frostwire">SnapLoad\'ı Küçültün</string>
     <string name="are_you_sure_you_wanna_leave">Ana sayfaya geri dönmek istediğinize emin misiniz?</string>
     <string name="set_as_wallpaper">Duvar-kağıdı olarak ayarla</string>
     <string name="failed_to_set_wallpaper">Duvar-kağıdı olarak ayarlanamadı</string>
@@ -117,12 +117,12 @@
     <string name="wizard_previous">Önceki</string>
     <string name="wizard_next">Sonraki</string>
     <string name="wizard_finish">Bitir</string>
-    <string name="welcome_to_frostwire">FrostWire %s\'e Hoşgeldiniz</string>
+    <string name="welcome_to_frostwire">SnapLoad %s\'e Hoşgeldiniz</string>
     <string name="seeding_settings">Tohumlama Ayarları</string>
     <string name="seeding_settings_explanation">İnternet üzerindeki BitTorrent kullanıcıları users torrentlerinizin tohumladığı dosya parçalarını indirebileceklerdir.</string>
     <string name="seeding_wifi_settings_explanation">Sadece bir WiFi bağlantısı kullanırken tohumlandırın. Cep operatörünüzün size ekstra ücretler yüklemesinin önüne geçin.</string>
-    <string name="intent_text">FrostWire sadece izinli dosyaların uçbirimden uçbirime paylaştırıldığı bir programdır. Programın kurulması ve kullanılması izinsiz içeriğin edinilmesi ve dağıtılması için herhangi bir lisans teşkil etmez.</string>
-    <string name="accept_intent">FrostWire\'i kopya haklarına aykırı şekilde kullanmayacağım.</string>
+    <string name="intent_text">SnapLoad sadece izinli dosyaların uçbirimden uçbirime paylaştırıldığı bir programdır. Programın kurulması ve kullanılması izinsiz içeriğin edinilmesi ve dağıtılması için herhangi bir lisans teşkil etmez.</string>
+    <string name="accept_intent">SnapLoad\'i kopya haklarına aykırı şekilde kullanmayacağım.</string>
     <string name="toast_on_disconnect">BitTorrent\'ten bağlantı koparıldı. Tüm BitTorrent transferleri durdu.</string>
     <string name="seeds">Tohumlar</string>
     <string name="seeds_n">Tohumlar: %s</string>
@@ -131,7 +131,7 @@
     <string name="playing">Çalıyor</string>
     <string name="http_download_status_uncompressing">Sıkıştırılmışı açma</string>
     <string name="accept">Kabul Et</string>
-    <string name="support_frostwire">FrostWire Destek</string>
+    <string name="support_frostwire">SnapLoad Destek</string>
     <string name="storage_preference_title">Saklama Yeri Seçin</string>
     <string name="storage_preference_summary">Dosyalarının kaydedileceği varsayılan depolama konumu.</string>
     <string name="loading">Yükleniyor</string>
@@ -153,7 +153,7 @@
     <string name="torrent_max_peers">Maksimum Akranlar</string>
     <string name="request_again">Tekrar İste</string>
     <string name="drawer_close">Gezinme çekmecesini kapat</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire bir dosya tarayıcı ve downloader uygulamasıdır, bu nedenle diskinize erişebilmesi gerekir.\n\nFrostWire izinleriniz olmadan çalışamaz.\n\nTekrar denemek ister misin?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad bir dosya tarayıcı ve downloader uygulamasıdır, bu nedenle diskinize erişebilmesi gerekir.\n\nFrostWire izinleriniz olmadan çalışamaz.\n\nTekrar denemek ister misin?</string>
     <string name="unprotected_connection">korumasız</string>
     <string name="transfers_context_menu_copy_magnet_copied">Mıknatıs panoya kopyalandı</string>
     <string name="buy_uppercase">ALIN</string>
@@ -172,7 +172,7 @@
     <string name="saving_to_internal_memory">Dahili Belleğe Kaydetme</string>
     <string name="choose_email_app">Bir E-posta Uygulaması seçin…</string>
     <string name="the_file_could_not_be_seeded_bittorrent_will_remain_disconnected">Dosya eklenemedi. BitTorrent bağlantısı kesik kalacaktır.</string>
-    <string name="android_will_erase_files_if_frostwire_is_uninstalled">FrostWire kaldırılırsa Android, indirilen dosyaları silecektir.</string>
+    <string name="android_will_erase_files_if_frostwire_is_uninstalled">SnapLoad kaldırılırsa Android, indirilen dosyaları silecektir.</string>
     <string name="protected_connection">VPN korumalı</string>
     <string name="use_eztv">Eztv\'u Kullan</string>
     <string name="cheaper_than_parking">Parktan daha ucuz</string>
@@ -193,7 +193,7 @@
     <string name="transfers_select_completed">tamamlanmış</string>
     <string name="transfers_context_menu_pause_stop_all_transfers">Tüm transferleri duraklatın/durdurun</string>
     <string name="transfers_select_downloading">indirme</string>
-    <string name="frostwire_features">FROSTWIRE ÖZELLİKLERİ</string>
+    <string name="frostwire_features">SnapLoad ÖZELLİKLERİ</string>
     <string name="i_have_read_and_agree_to_the">Okudum ve onaylıyorum</string>
     <string name="scanning">Bitirme - Tarama</string>
     <string name="according_to_settings_i_cant_seed_unless_wifi">Ayarlarınıza göre, Wi-Fi olmadığı sürece tohumlamaya başlayamam. İnternet üzerinden bir Wi-Fi ağına geri döndüğünüzde dosya otomatik olarak ekim için hazır olacaktır.</string>
@@ -217,7 +217,7 @@
     <string name="remove_ads_description">Reklamsız deneyimi yaşayın, FrostWire\'ı destekleyin</string>
     <string name="pausing">Duraklatma</string>
     <string name="dummy_title_bold">[Kalın Başlık]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire seçilen saklama yolunda yazamaz</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad seçilen saklama yolunda yazamaz</string>
     <string name="processing_payment">Ödeme işleme, birkaç saniye içinde yenileme</string>
     <string name="my_music">Benim müziğim</string>
     <string name="connection_header_title">VPN bağlantısı durumu:</string>
@@ -251,7 +251,7 @@
     <string name="sd_permission_no_accessible_path">SD\'de seçtiğiniz yola artık erişilemiyor. Tekrar seçmek için Tamam düğmesine basın.</string>
     <string name="canceling">İptal</string>
     <string name="issue_with_tip_donation_uri">Bağış web adresinde bir sorun var</string>
-    <string name="frostwire_is_running">FrostWire çalışıyor</string>
+    <string name="frostwire_is_running">SnapLoad çalışıyor</string>
     <string name="http_download_status_save_dir_error">Kaydet dizini yok veya oluşturulamıyor</string>
     <string name="select_option_below">Aşağıdaki seçeneği seçin:</string>
     <string name="device_storage">Cihazın depolaması</string>
@@ -273,7 +273,7 @@
     <string name="cheaper_than_lattes">Lattes\'den daha ucuz</string>
     <string name="vpn_off_toast_notification">Bağlantınız özel olmayabilir.</string>
     <string name="downloading_metadata">Meta veriler indiriliyor</string>
-    <string name="notify_frostwire_is_running">FrostWire çalışıyorsa bildir</string>
+    <string name="notify_frostwire_is_running">SnapLoad çalışıyorsa bildir</string>
     <string name="app_shutdown_dlg_title">Kapat</string>
     <string name="dht_contacts">DHT kişileri</string>
     <string name="bittorrent_network_summary">Bağlantı durumu</string>
@@ -285,13 +285,13 @@
     <string name="send_tip_donation">Bağış gönderin</string>
     <string name="file_descriptor_sd_unmounted">Bu dosya SD karta ait, lütfen cihazınıza ekleyin.</string>
     <string name="cheaper_than_beer">Biradan Daha Ucuz</string>
-    <string name="rating_reminder_description">FrostWire\'ı seviyorsanız lütfen bize puan verin.</string>
+    <string name="rating_reminder_description">SnapLoad\'ı seviyorsanız lütfen bize puan verin.</string>
     <string name="includes_3_day_free_trial">3 gün ücretsiz deneme dahildir. Tavsiye edilen</string>
     <string name="transfers_context_menu_copy_magnet">Kopyala Magnet</string>
     <string name="try_other_keywords">Daha az/farklı anahtar kelimeler deneyin</string>
     <string name="thank_you">Sağol!</string>
     <string name="enable_seeding">Yeşillendirmeyi Etkinleştir</string>
-    <string name="storage_setting_confirm_dialog_text">FrostWire tarafından SD Karta indirilen tüm dosyaların, FrostWire uygulaması bu cihazdan kaldırıldığı andan ANDROID tarafından silineceğini ve kaybolan dosyalar için FrostWire LLC\'nin sorumluluğunu üstlenmem gerektiğini anlıyorum.</string>
+    <string name="storage_setting_confirm_dialog_text">SnapLoad tarafından SD Karta indirilen tüm dosyaların, FrostWire uygulaması bu cihazdan kaldırıldığı andan ANDROID tarafından silineceğini ve kaybolan dosyalar için FrostWire LLC\'nin sorumluluğunu üstlenmem gerektiğini anlıyorum.</string>
     <string name="cant_open_file_does_not_exist">Açamıyorum %1$s, dosya yok.</string>
     <string name="saving_to_sd_card">SD karta kaydetme.</string>
     <string name="torrent_max_peers_summary">Maksimum Akranlar</string>
@@ -308,7 +308,7 @@
     <string name="distraction_free_search_results_summary">Daha fazla sonuç görüntülemek için kullanıcı arabirimi bileşenlerini gizleyin. Etkinleştirmek için uygulamanın yeniden başlatılması gerekiyor.</string>
     <string name="donate_your_time">Zaman bağışlayın</string>
     <string name="distraction_free_search_results">Dikkat dağıtımı Ücretsiz Arama (beta)</string>
-    <string name="help_translate_or_proofread_frostwire">FrostWire\'ı tercüme etmeye veya düzeltmeye yardımcı olun</string>
+    <string name="help_translate_or_proofread_frostwire">SnapLoad\'ı tercüme etmeye veya düzeltmeye yardımcı olun</string>
     <string name="changelog">Değişiklikler</string>
     <string name="cloud_download_aborted_on_mobile_data">Geçerli ayar, Wifi şebekesinde değilken indirmeyi engeller</string>
     <string name="sharing_privacy_settings">Paylaşım ve Gizlilik</string>
@@ -363,7 +363,7 @@
     <string name="nothing_is_currently_seeding">Şu anda bir şey paylaşmıyor</string>
     <string name="seeding_keeps_the_network_healthy">Paylaşım, şebekenin sağlıklı kalmasını sağlar</string>
     <string name="seeding_is_currently_disabled">Paylaşım şu anda devre dışı</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire, izin eksikliği nedeniyle düzgün başlatılamadı. Lütfen gerekli izinleri verin ve uygulamayı tekrar başlatın.</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad, izin eksikliği nedeniyle düzgün başlatılamadı. Lütfen gerekli izinleri verin ve uygulamayı tekrar başlatın.</string>
     <string name="vpn_find_out_more">Daha fazlasını bul</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Ücretsiz 7 günlük deneme</string>
     <string name="uploaded">Yüklendi</string>

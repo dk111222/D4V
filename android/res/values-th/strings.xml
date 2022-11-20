@@ -34,7 +34,7 @@
     <string name="use_zooqle">ใช้ Zooqle.comg</string>
     <string name="clear_search_cache">แคชล้างการค้นหา</string>
     <string name="drawer_close">ปิดลิ้นชักการนำทาง</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire เป็นเบราว์เซอร์ของไฟล์และดาวน์โหลดแอพพลิเคจึงต้องการที่จะสามารถเข้าถึงดิสก์ของคุณ\n\nโดยไม่ต้องสิทธิ์ของคุณ FrostWire ไม่สามารถทำงานได้\n\nต้องการที่จะลองอีกครั้งหรือไม่</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad เป็นเบราว์เซอร์ของไฟล์และดาวน์โหลดแอพพลิเคจึงต้องการที่จะสามารถเข้าถึงดิสก์ของคุณ\n\nโดยไม่ต้องสิทธิ์ของคุณ FrostWire ไม่สามารถทำงานได้\n\nต้องการที่จะลองอีกครั้งหรือไม่</string>
     <string name="unprotected_connection">ไม่มีการป้องกัน</string>
     <string name="video">วีดีโอ</string>
     <string name="download">ดาวน์โหลด</string>
@@ -117,11 +117,11 @@
     <string name="transfers_select_completed">เสร็จ</string>
     <string name="transfers_context_menu_pause_stop_all_transfers">หยุดชั่วคราว/หยุดการถ่ายโอนทั้งหมด</string>
     <string name="cancel_transfer">ยกเลิกการโอน</string>
-    <string name="support_frostwire">FrostWire สนับสนุน</string>
+    <string name="support_frostwire">SnapLoad สนับสนุน</string>
     <string name="torrent_max_total_connections_summary">การเชื่อมต่อสูงสุดรวม</string>
     <string name="toast_on_disconnect">ตัดการเชื่อมต่อจาก BitTorrent ทั้งหมดการโอน BitTorrent ได้หยุด</string>
     <string name="transfers_select_downloading">ดาวน์โหลด</string>
-    <string name="frostwire_features">FROSTWIRE คุณสมบัติ</string>
+    <string name="frostwire_features">SnapLoad คุณสมบัติ</string>
     <string name="support_free_software">สนับสนุนซอฟต์แวร์ฟรี</string>
     <string name="i_have_read_and_agree_to_the">ฉันได้อ่านและยอมรับ</string>
     <string name="media_type_images">ภาพ</string>
@@ -166,7 +166,7 @@
     <string name="dialog_new_transfer_check_text">แสดงครั้งต่อไปนี้</string>
     <string name="peers">เพื่อนร่วมงาน</string>
     <string name="dummy_title_bold">[ชื่อตัวหนา]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire ไม่สามารถเขียนบนเส้นทางการจัดเก็บที่เลือก</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad ไม่สามารถเขียนบนเส้นทางการจัดเก็บที่เลือก</string>
     <string name="clear">ชัดเจน</string>
     <string name="processing_payment">การชำระเงินการประมวลผลการฟื้นฟูในไม่กี่วินาที</string>
     <string name="my_music">เพลงของฉัน</string>
@@ -219,7 +219,7 @@
     <string name="cancel_menu_action">หยุดการถ่ายโอน</string>
     <string name="canceling">ยกเลิก</string>
     <string name="issue_with_tip_donation_uri">มีบางอย่างผิดปกติกับที่อยู่เว็บบริจาคเป็น</string>
-    <string name="frostwire_is_running">FrostWire กำลังทำงาน</string>
+    <string name="frostwire_is_running">SnapLoad กำลังทำงาน</string>
     <string name="http_download_status_save_dir_error">บันทึกไดเรกทอรีไม่มีอยู่หรือไม่สามารถสร้าง</string>
     <string name="select_option_below">ตัวเลือกเลือกด้านล่าง:</string>
     <string name="device_storage">อุปกรณ์จัดเก็บข้อมูลของ</string>
@@ -281,7 +281,7 @@
     <string name="cheaper_than_beer">ราคาถูกกว่าเบียร์</string>
     <string name="rating_reminder_description">ถ้าคุณรัก FrostWire โปรดใช้เวลาสักครู่ให้คะแนนเรา</string>
     <string name="includes_3_day_free_trial">รวม 3 วันทดลองใช้ฟรี แนะนำ</string>
-    <string name="intent_text">FrostWire เป็นโปรแกรมแบบ peer-to-peer สำหรับการแชร์ไฟล์ได้รับอนุญาตเท่านั้น การติดตั้งและการใช้โปรแกรมไม่ก่อให้ใบอนุญาตสำหรับการได้รับหรือแจกจ่ายเนื้อหาไม่ได้รับอนุญาต</string>
+    <string name="intent_text">SnapLoad เป็นโปรแกรมแบบ peer-to-peer สำหรับการแชร์ไฟล์ได้รับอนุญาตเท่านั้น การติดตั้งและการใช้โปรแกรมไม่ก่อให้ใบอนุญาตสำหรับการได้รับหรือแจกจ่ายเนื้อหาไม่ได้รับอนุญาต</string>
     <string name="seeding_has_been_turned_off">เมล็ดถูกปิด</string>
     <string name="transfers_context_menu_copy_magnet">คัดลอกแม่เหล็ก</string>
     <string name="torrent_max_uploads_summary">แม็กซ์อัปโหลด</string>
@@ -301,7 +301,7 @@
     <string name="rate_our_app">ประเมินซอฟแวร์ของเรา</string>
     <string name="peers_n">เพื่อน: %s</string>
     <string name="cheaper_than_cigarettes">ราคาถูกกว่าบุหรี่</string>
-    <string name="update_message">FrostWire ได้ดาวน์โหลดการปรับปรุงใหม่ที่มีประสิทธิภาพสำหรับคุณโปรดไปข้างหน้าและสัมผัสปุ่ม OK ถ้าคุณต้องการที่จะติดตั้งได้ในขณะนี้</string>
+    <string name="update_message">SnapLoad ได้ดาวน์โหลดการปรับปรุงใหม่ที่มีประสิทธิภาพสำหรับคุณโปรดไปข้างหน้าและสัมผัสปุ่ม OK ถ้าคุณต้องการที่จะติดตั้งได้ในขณะนี้</string>
     <string name="days_left">วันที่เหลือ</string>
     <string name="media_player_failed">เครื่องเล่นสื่อล้มเหลว</string>
     <string name="six_months">6 เดือน</string>
@@ -367,7 +367,7 @@
     <string name="seeding_is_currently_disabled">การแบ่งปันกำลังถูกปิดใช้งานอยู่</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">ไม่สามารถเปิดรายละเอียดการโอนข้อมูล, InfoHash ที่ไม่ถูกต้อง</string>
     <string name="invalid_tracker_url">URL ของเครื่องมือติดตามไม่ถูกต้อง</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire ไม่สามารถเริ่มต้นได้อย่างถูกต้องเนื่องจากไม่มีสิทธิ์ โปรดให้สิทธิ์ที่จำเป็นและรีสตาร์ทแอ็พพลิเคชัน</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad ไม่สามารถเริ่มต้นได้อย่างถูกต้องเนื่องจากไม่มีสิทธิ์ โปรดให้สิทธิ์ที่จำเป็นและรีสตาร์ทแอ็พพลิเคชัน</string>
     <string name="vpn_find_out_more">หาข้อมูลเพิ่มเติม</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n การทดลองใช้ฟรี 7 วัน</string>
     <string name="contact_us">ติดต่อเรา</string>

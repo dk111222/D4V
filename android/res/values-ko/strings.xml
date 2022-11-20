@@ -19,7 +19,7 @@
   */
 -->
 <resources>
-    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[정보: 귀하의 다운로드에 권장되지만, <b>FrostWire를 사용하기 위해 VPN이 필요하지 않습니다. </b>]]></string>
+    <string name="you_dont_need_a_vpn_to_use_frostwire_bullet_html"><![CDATA[정보: 귀하의 다운로드에 권장되지만, <b>SnapLoad를 사용하기 위해 VPN이 필요하지 않습니다. </b>]]></string>
     <string name="tip_touch_tags_to"><![CDATA[ <b>TIP:</b> 적용 태그를 터치하여]]></string>
     <string name="unprotected_connections_visibility_bullet_html"><![CDATA[ <b>귀하의 개인 정보는 근본적인 인권입니다.</b>. 보호되지 않은 연결은 온라인을 포함한 모든 것을 의미합니다. <b>다운로드, 검색, 메시징</b> 네트워크상의 모든 사용자가 모니터링하고 차단할 수 있습니다 (예 : 인터넷 서비스 제공 업체, 해커 및 정부 기관 <br> <br> <b> VPN 서비스 사용을 강력히 권장합니다.</b>. <br> 다음은 안정적인 서비스를 제공하고 FrostWire와 잘 작동하는 몇 가지 옵션입니다.]]></string>
     <string name="protected_connections_visibility_bullet_html"><![CDATA[ VPN을 사용하여 인터넷에 연결되어 있습니다. <br><br> 아직 연결되어 있지 않은 경우 아래 서비스 중 하나를 사용하여 연결을 암호화하고 <b>사생활 보호</b>. ]]></string>
@@ -42,13 +42,13 @@
     <string name="rename">이름 바꾸기</string>
     <string name="download">다운로드</string>
     <string name="update_title">시간 업데이트</string>
-    <string name="update_message">FrostWire가 업데이트 되었습니다. 지금 새 버전을 다운로드 하시기 원하시면 “OK” 버튼을 눌러주세요.</string>
+    <string name="update_message">SnapLoad가 업데이트 되었습니다. 지금 새 버전을 다운로드 하시기 원하시면 “OK” 버튼을 눌러주세요.</string>
     <string name="privacy">어바웃</string>
     <string name="send_file_using">다음을 사용해 파일 보내기</string>
     <string name="downloads">다운로드</string>
     <string name="settings">환경설정</string>
     <string name="files">파일</string>
-    <string name="minimize_frostwire">FrostWire 최소화</string>
+    <string name="minimize_frostwire">SnapLoad 최소화</string>
     <string name="are_you_sure_you_wanna_leave">홈스크린으로 돌아가시겠습니까?</string>
     <string name="set_as_wallpaper">배경화면으로 설정</string>
     <string name="failed_to_set_wallpaper">배경화면으로 설정 실패</string>
@@ -119,11 +119,11 @@
     <string name="wizard_previous">이전</string>
     <string name="wizard_next">다음</string>
     <string name="wizard_finish">완료</string>
-    <string name="welcome_to_frostwire">FrostWire %s 에 오신 것을 환영합니다.</string>
+    <string name="welcome_to_frostwire">SnapLoad %s 에 오신 것을 환영합니다.</string>
     <string name="seeding_settings">시드 설정</string>
     <string name="seeding_settings_explanation">BitTorrent 인터넷 사용자는 당신의 토렌트 시드로부터 파일을 다운로드 할것입니다.</string>
     <string name="seeding_wifi_settings_explanation">무선인터넷 연결시에만 시드. 이동통신 추가요금을 피하기 위한 설정.</string>
-    <string name="intent_text">FrostWire는 친구를 통해 검증된 파일만 공유하는 프로그램입니다. 프로그램을 설치하고 사용하는 것은 검증되지 않은 컨텐츠를 얻거나 배포하는 것에 대한라이센스를 부여하지 않습니다.</string>
+    <string name="intent_text">SnapLoad는 친구를 통해 검증된 파일만 공유하는 프로그램입니다. 프로그램을 설치하고 사용하는 것은 검증되지 않은 컨텐츠를 얻거나 배포하는 것에 대한라이센스를 부여하지 않습니다.</string>
     <string name="accept_intent">저는 저작권 침해를 위해 FrostWire를 사용하지 않겠습니다.</string>
     <string name="toast_on_disconnect">BitTorrent로부터 연결이 끊어졌습니다. 모든 BitTorrent 트랜스퍼가 중지되었습니다.</string>
     <string name="seeds">시드</string>
@@ -131,7 +131,7 @@
     <string name="peers_n">친구: %s</string>
     <string name="size_unknown">알려지지 않은 사이즈</string>
     <string name="playing">재생중</string>
-    <string name="support_frostwire">FrostWire 지원</string>
+    <string name="support_frostwire">SnapLoad 지원</string>
     <string name="storage_preference_title">저장 위치를 선택</string>
     <string name="storage_preference_summary">파일이 저장됩니다 기본 저장 위치.</string>
     <string name="your_installation_is_complete">설치가 완료되었습니다.</string>
@@ -141,7 +141,7 @@
     <string name="request_again">다시 요청</string>
     <string name="clear_search_cache">검색 캐시 지우기</string>
     <string name="drawer_close">탐색 창 닫기</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire는 파일 브라우저 및 다운로더 앱이므로 디스크에 액세스 할 수 있어야합니다.\n\n귀하의 허락 없이는 FrostWire가 작동하지 않습니다.\n\n다시 시도하고 싶습니까?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad는 파일 브라우저 및 다운로더 앱이므로 디스크에 액세스 할 수 있어야합니다.\n\n귀하의 허락 없이는 FrostWire가 작동하지 않습니다.\n\n다시 시도하고 싶습니까?</string>
     <string name="unprotected_connection">보호되지 않은</string>
     <string name="transfers_context_menu_copy_magnet_copied">자석이 클립 보드에 복사 됨</string>
     <string name="buy_uppercase">사다</string>
@@ -186,7 +186,7 @@
     <string name="transfers_select_completed">완료된</string>
     <string name="transfers_context_menu_pause_stop_all_transfers">모든 전송 일시 중지 / 중지</string>
     <string name="transfers_select_downloading">다운로드 중</string>
-    <string name="frostwire_features">FROSTWIRE 기능</string>
+    <string name="frostwire_features">SnapLoad 기능</string>
     <string name="i_have_read_and_agree_to_the">나는이 책을 읽고 동의한다.</string>
     <string name="scanning">마무리 - 스캐닝</string>
     <string name="according_to_settings_i_cant_seed_unless_wifi">귀하의 설정에 따라 Wi-Fi를 사용하지 않는 이상 시드를 시작할 수 없습니다. 이 파일은 인터넷 가능 Wi-Fi 네트워크로 돌아 가면 자동으로 시드 할 준비가됩니다.</string>
@@ -213,7 +213,7 @@
     <string name="crawl_cache_size">크롤링 캐시 %1$.2fMB</string>
     <string name="pausing">일시 중지 중</string>
     <string name="dummy_title_bold">[굵은 글씨체]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire가 선택한 저장 경로에 쓸 수 없습니다.</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad가 선택한 저장 경로에 쓸 수 없습니다.</string>
     <string name="processing_payment">결제 처리 중, 몇 초 후에 새로 고침</string>
     <string name="my_music">내 음악</string>
     <string name="connection_header_title">VPN 연결 상태 :</string>
@@ -248,7 +248,7 @@
     <string name="sd_permission_no_accessible_path">SD에서 선택한 경로에 더 이상 액세스 할 수 없습니다. OK를 눌러 다시 선택하십시오.</string>
     <string name="canceling">취소 중</string>
     <string name="issue_with_tip_donation_uri">기부 웹 주소에 문제가 있습니다.</string>
-    <string name="frostwire_is_running">FrostWire가 실행 중입니다.</string>
+    <string name="frostwire_is_running">SnapLoad가 실행 중입니다.</string>
     <string name="http_download_status_save_dir_error">저장 디렉토리가 없거나 만들 수 없습니다.</string>
     <string name="select_option_below">아래에서 옵션을 선택하십시오.</string>
     <string name="device_storage">장치 저장소</string>
@@ -273,7 +273,7 @@
     <string name="vpn_off_toast_notification">귀하의 연결은 사적이지 않을 수 있습니다.</string>
     <string name="loading">로드 중</string>
     <string name="downloading_metadata">메타 데이터 다운로드 중</string>
-    <string name="notify_frostwire_is_running">FrostWire가 실행중인 경우 알림</string>
+    <string name="notify_frostwire_is_running">SnapLoad가 실행중인 경우 알림</string>
     <string name="torrent_scheme_download_not_supported">다운로드가 지원되지 않습니다.</string>
     <string name="app_shutdown_dlg_title">일시 휴업</string>
     <string name="dht_contacts">DHT 연락처</string>
@@ -286,14 +286,14 @@
     <string name="send_tip_donation">기부금 보내기</string>
     <string name="file_descriptor_sd_unmounted">이 파일은 SD 카드에 속하므로 장치에 삽입하십시오.</string>
     <string name="cheaper_than_beer">맥주보다 쌉니다.</string>
-    <string name="rating_reminder_description">FrostWire를 사랑한다면 잠시 시간을내어 평가 해주십시오.</string>
+    <string name="rating_reminder_description">SnapLoad를 사랑한다면 잠시 시간을내어 평가 해주십시오.</string>
     <string name="includes_3_day_free_trial">3 일 무료 평가판이 포함됩니다. 추천</string>
     <string name="transfers_context_menu_copy_magnet">자석 복사</string>
     <string name="try_other_keywords">더 적은 수의/다른 키워드 사용해보기</string>
     <string name="thank_you">고맙습니다!</string>
     <string name="use_frostclick">FrostClick사용</string>
     <string name="enable_seeding">시딩 사용</string>
-    <string name="storage_setting_confirm_dialog_text">FrostWire에서 SD 카드로 다운로드 한 모든 파일은 FrostWire 응용 프로그램이이 장치에서 제거되는 순간 ANDROID로 삭제되며 FrostWire LLC는 파일 손실에 대해 책임지지 않습니다.</string>
+    <string name="storage_setting_confirm_dialog_text">SnapLoad에서 SD 카드로 다운로드 한 모든 파일은 FrostWire 응용 프로그램이이 장치에서 제거되는 순간 ANDROID로 삭제되며 FrostWire LLC는 파일 손실에 대해 책임지지 않습니다.</string>
     <string name="cant_open_file_does_not_exist">나는 열 수 없다. %1$s, 파일이 존재하지 않습니다.</string>
     <string name="saving_to_sd_card">SD 카드에 저장 중입니다.</string>
     <string name="torrent_max_peers_summary">최대 동료</string>
@@ -310,7 +310,7 @@
     <string name="distraction_free_search_results_summary">더 많은 결과를 표시하려면 UI 구성 요소를 숨 깁니다. 앱을 다시 시작해야 적용됩니다.</string>
     <string name="donate_your_time">시간을 기부하십시오.</string>
     <string name="distraction_free_search_results">산만 무료 검색 (베타)</string>
-    <string name="help_translate_or_proofread_frostwire">FrostWire 번역 또는 교정 도움말</string>
+    <string name="help_translate_or_proofread_frostwire">SnapLoad 번역 또는 교정 도움말</string>
     <string name="changelog">변경 내역</string>
     <string name="cloud_download_aborted_on_mobile_data">Wi-Fi 네트워크가 아닌 경우 현재 설정으로 다운로드하지 못함</string>
     <string name="sharing_privacy_settings">공유 및 개인 정보</string>

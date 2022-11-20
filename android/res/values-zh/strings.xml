@@ -42,13 +42,13 @@
     <string name="rename">重命名</string>
     <string name="download">下载</string>
     <string name="update_title">更新时间!</string>
-    <string name="update_message">FrostWire已为您下载强力更新包，如想现在安装，请按确定。</string>
+    <string name="update_message">SnapLoad已为您下载强力更新包，如想现在安装，请按确定。</string>
     <string name="privacy">隐私申明</string>
     <string name="send_file_using">发送文件使用</string>
     <string name="downloads">下载</string>
     <string name="settings">下载设置</string>
     <string name="files">文件</string>
-    <string name="minimize_frostwire">FrostWire最小化</string>
+    <string name="minimize_frostwire">SnapLoad最小化</string>
     <string name="are_you_sure_you_wanna_leave">确定想回到主界面?</string>
     <string name="set_as_wallpaper">设为墙纸</string>
     <string name="failed_to_set_wallpaper">无法设为墙纸</string>
@@ -123,7 +123,7 @@
     <string name="seeding_settings">播种设置</string>
     <string name="seeding_settings_explanation">互联网的比特流用户可以下载你的种子的大量数据。</string>
     <string name="seeding_wifi_settings_explanation">只有在使用无线连接时播种。避免载波的额外费用。</string>
-    <string name="intent_text">FrostWire是一个点对点的程序，只能共享授权文件。安装和使用程序无权获取或散布未经授权的内容。</string>
+    <string name="intent_text">SnapLoad是一个点对点的程序，只能共享授权文件。安装和使用程序无权获取或散布未经授权的内容。</string>
     <string name="accept_intent">我不会使用FrostWire侵犯版权。</string>
     <string name="toast_on_disconnect">与比特流断开。所有比特流传输中断。</string>
     <string name="seeds">播种</string>
@@ -211,7 +211,7 @@
     <string name="your_installation_is_complete">您的安装完成。</string>
     <string name="error_connection_timed_out">错误：连接超时/丢弃。 再试一次。</string>
     <string name="request_again">再次请求</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire是一个文件浏览器和下载程序，因此它需要能够访问您的内部存储.\n\n没有您的权限FrostWire不能工作.\n\n想再试一次吗？</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad是一个文件浏览器和下载程序，因此它需要能够访问您的内部存储.\n\n没有您的权限FrostWire不能工作.\n\n想再试一次吗？</string>
     <string name="unprotected_connection">无保护</string>
     <string name="transfers_context_menu_copy_magnet_copied">磁力链已复制到剪贴版</string>
     <string name="buy_uppercase">购买</string>
@@ -243,7 +243,7 @@
     <string name="thirty_days">30天</string>
     <string name="remove_ads_description">享受无广告的体验，支持FrostWire</string>
     <string name="dummy_title_bold">[粗体标题]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire无法在所选的存储路径上写入</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad无法在所选的存储路径上写入</string>
     <string name="processing_payment">处理付款，在几秒钟内刷新</string>
     <string name="http_download_status_temp_dir_error">临时目录不存在或无法创建</string>
     <string name="notify_frostwire_is_running_summary">显示含有转移状态的永久Android通知</string>
@@ -263,7 +263,7 @@
     <string name="transfers_context_menu_copy_infohash">复制内容的哈希值</string>
     <string name="sd_permission_no_accessible_path">您在SD中选择的路径不再可访问。 按OK再次选择.</string>
     <string name="issue_with_tip_donation_uri">提示/捐款网址有问题</string>
-    <string name="frostwire_is_running">FrostWire正在运行</string>
+    <string name="frostwire_is_running">SnapLoad正在运行</string>
     <string name="select_option_below">选择以下选项：</string>
     <string name="use_limetorrents">使用Limetorrents</string>
     <string name="error_no_internet_connection">错误：检查Internet连接</string>
@@ -304,7 +304,7 @@
     <string name="advertisement">广告</string>
     <string name="all_free_downloads">所有免费下載</string>
     <string name="wifi_networks_only_summary">保存数据。 仅在建立Wi-Fi连接时下载。 </string>
-    <string name="frostwire_features">FROSTWIRE特色</string>
+    <string name="frostwire_features">SnapLoad特色</string>
     <string name="wifi_networks_only">仅限Wi-Fi网络</string>
     <string name="distraction_free_search_results_summary">隱藏UI組件以顯示更多結果。 需要重新啟動應用才能生效。</string>
     <string name="donate_your_time">捐贈你的時間</string>

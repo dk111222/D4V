@@ -43,7 +43,7 @@
     <string name="rename">Đổi tên</string>
     <string name="download">Tải về</string>
     <string name="update_title">Cập nhật thời gian!</string>
-    <string name="update_message">FrostWire đã tải về một bản cập nhật mới cho bạn, vui lòng tiếp tục và nhấn vào nút OK nếu bạn muốn cài đặt nó ngay bây giờ.</string>
+    <string name="update_message">SnapLoad đã tải về một bản cập nhật mới cho bạn, vui lòng tiếp tục và nhấn vào nút OK nếu bạn muốn cài đặt nó ngay bây giờ.</string>
     <string name="privacy">Giới thiệu</string>
     <string name="send_file_using">Gửi tập tin đang dùng</string>
     <string name="downloads">Tải xuống</string>
@@ -124,7 +124,7 @@
     <string name="seeding_settings">Thiết lập Seeding</string>
     <string name="seeding_settings_explanation">Người dùng BitTorrent trên Internet sẽ có thể tải về các phần tập tin dữ liệu của những torrent bạn đang seed.</string>
     <string name="seeding_wifi_settings_explanation">Chỉ Seed khi sử dụng kết nối WiFi. Tránh thêm phí từ nhà mạng.</string>
-    <string name="intent_text">FrostWire là một chương trình chia sẻ mạng ngang hàng (peer-to-peer) các tập tin hợp pháp. Việc cài đặt và sử dụng chương trình sẽ không vi phạm bản quyền liên quan đến lưu trữ và chia sẻ nội dung trái phép.</string>
+    <string name="intent_text">SnapLoad là một chương trình chia sẻ mạng ngang hàng (peer-to-peer) các tập tin hợp pháp. Việc cài đặt và sử dụng chương trình sẽ không vi phạm bản quyền liên quan đến lưu trữ và chia sẻ nội dung trái phép.</string>
     <string name="accept_intent">Tôi sẽ không dùng FrostWire cho mục đích vi phạm bản quyền</string>
     <string name="toast_on_disconnect">Đã ngắt kết nối từ BitTorrent. Tất cả quá trình BitTorrent đã dừng lại.</string>
     <string name="seeds">Seeds</string>
@@ -144,7 +144,7 @@
     <string name="request_again">Yêu cầu lần nữa</string>
     <string name="clear_search_cache">Bộ nhớ cache tìm kiếm</string>
     <string name="drawer_close">Đóng ngăn điều hướng</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire là một ứng dụng trình duyệt tập tin và downloader, do đó nó cần để có thể truy cập vào ổ đĩa của bạn.\n\nNếu không có quyền của bạn FrostWire không thể làm việc.\n\nBạn có muốn thử một lần nữa?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad là một ứng dụng trình duyệt tập tin và downloader, do đó nó cần để có thể truy cập vào ổ đĩa của bạn.\n\nNếu không có quyền của bạn FrostWire không thể làm việc.\n\nBạn có muốn thử một lần nữa?</string>
     <string name="unprotected_connection">không được bảo hộ</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet sao chép vào clipboard</string>
     <string name="buy_uppercase">MUA</string>
@@ -214,7 +214,7 @@
     <string name="crawl_cache_size">Thu thập thông tin bộ nhớ cache %1$.2fMB</string>
     <string name="pausing">Tạm dừng</string>
     <string name="dummy_title_bold">[tiêu đề đậm]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire không thể viết trên con đường lưu trữ được chọn</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad không thể viết trên con đường lưu trữ được chọn</string>
     <string name="processing_payment">Thanh toán chế biến, làm mới trong một vài giây</string>
     <string name="my_music">Nhạc của tôi</string>
     <string name="connection_header_title">Trạng thái kết nối VPN:</string>
@@ -249,7 +249,7 @@
     <string name="sd_permission_no_accessible_path">Đường dẫn bạn chọn trong SD không truy cập được nữa. Nhấn OK để chọn lại.</string>
     <string name="canceling">Hủy</string>
     <string name="issue_with_tip_donation_uri">Có điều gì đó sai trái với các địa chỉ web tặng</string>
-    <string name="frostwire_is_running">FrostWire được chạy</string>
+    <string name="frostwire_is_running">SnapLoad được chạy</string>
     <string name="http_download_status_save_dir_error">Lưu thư mục không tồn tại hoặc không thể được tạo ra</string>
     <string name="select_option_below">Chọn tùy chọn dưới đây:</string>
     <string name="device_storage">lưu trữ của thiết bị</string>
@@ -403,7 +403,7 @@
     <string name="title_activity_transfer_detail">Chuyển chi tiết</string>
     <string name="piece_size_header">Kích cỡ mảnh:</string>
     <string name="add_tracker">Thêm trình theo dõi</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire không thể bắt đầu đúng do thiếu quyền truy cập. Vui lòng cấp các quyền cần thiết và khởi động lại ứng dụng</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad không thể bắt đầu đúng do thiếu quyền truy cập. Vui lòng cấp các quyền cần thiết và khởi động lại ứng dụng</string>
     <string name="vpn_find_out_more">Tìm hiểu thêm</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Dùng thử 7 ngày miễn phí</string>
     <string name="contact_us">Liên hệ chúng tôi</string>

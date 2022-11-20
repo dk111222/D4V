@@ -33,7 +33,7 @@
     <string name="clear_search_cache">Tyhjennä haku välimuisti</string>
     <string name="sharing_privacy_settings">Jakaminen ja yksityisyys</string>
     <string name="drawer_close">Sulje navigointipaneeli</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire on tiedostoselain ja downloader app, joten se on voitava käyttää levyn.\n\nIlman käyttöoikeudet FrostWire ei voi toimia.\n\nHaluatko yrittää uudelleen?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad on tiedostoselain ja downloader app, joten se on voitava käyttää levyn.\n\nIlman käyttöoikeudet FrostWire ei voi toimia.\n\nHaluatko yrittää uudelleen?</string>
     <string name="unprotected_connection">suojaamaton</string>
     <string name="video">Video</string>
     <string name="download">Lataa</string>
@@ -123,7 +123,7 @@
     <string name="torrent_max_total_connections_summary">Maksimiteho Liitännät</string>
     <string name="toast_on_disconnect">Irrotettu BitTorrent. Kaikki BitTorrent siirrot ovat pysähtyneet.</string>
     <string name="transfers_select_downloading">lataaminen</string>
-    <string name="frostwire_features">FROSTWIRE ESITTELEE</string>
+    <string name="frostwire_features">SnapLoad ESITTELEE</string>
     <string name="support_free_software">Tukea ilmainen ohjelmisto</string>
     <string name="i_have_read_and_agree_to_the">Olen lukenut ja hyväksyn</string>
     <string name="media_type_images">Kuvat</string>
@@ -169,7 +169,7 @@
     <string name="dialog_new_transfer_check_text">Näytä tämä seuraavalla kerralla</string>
     <string name="peers">Peers</string>
     <string name="dummy_title_bold">[Bold Title]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire voi kirjoittaa valitun tallennuspolun</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad voi kirjoittaa valitun tallennuspolun</string>
     <string name="clear">Tyhjentää</string>
     <string name="processing_payment">Käsittely maksu, virkistää muutamassa sekunnissa</string>
     <string name="my_music">Musiikkini</string>
@@ -222,7 +222,7 @@
     <string name="cancel_menu_action">Pysäytä Siirto</string>
     <string name="canceling">Peruuttaminen</string>
     <string name="issue_with_tip_donation_uri">Siinä on jotain vikaa lahjoitus verkko-osoite</string>
-    <string name="frostwire_is_running">FrostWire on käynnissä</string>
+    <string name="frostwire_is_running">SnapLoad on käynnissä</string>
     <string name="http_download_status_save_dir_error">Tallenna hakemistoon ei ole tai ei voida luoda</string>
     <string name="select_option_below">Valitse vaihtoehto alla:</string>
     <string name="device_storage">Laitteen varastointi</string>
@@ -286,7 +286,7 @@
     <string name="cheaper_than_beer">Halvempi kuin olut</string>
     <string name="rating_reminder_description">Jos rakastat FrostWire Käytä hetki rate meille.</string>
     <string name="includes_3_day_free_trial">Sisältää 3 päivän maksuton oikeudenkäyntiä. Suositeltava</string>
-    <string name="intent_text">FrostWire on peer-to-peer ohjelma jakaa valtuutettujen vain tiedostot. Asennuksesta ja käytöstä ohjelma ei muodosta lisenssiä saamiseksi tai jakelevat luvatonta sisältöä.</string>
+    <string name="intent_text">SnapLoad on peer-to-peer ohjelma jakaa valtuutettujen vain tiedostot. Asennuksesta ja käytöstä ohjelma ei muodosta lisenssiä saamiseksi tai jakelevat luvatonta sisältöä.</string>
     <string name="seeding_has_been_turned_off">Kylvö on katkaistu virta.</string>
     <string name="transfers_context_menu_copy_magnet">Kopioi Magnet</string>
     <string name="torrent_max_uploads_summary">Maksimi Lähetysten</string>
@@ -306,7 +306,7 @@
     <string name="rate_our_app">Arvioi sovellus ohjelmiston</string>
     <string name="peers_n">Peers: %s</string>
     <string name="cheaper_than_cigarettes">Halvempi kuin savukkeet</string>
-    <string name="update_message">FrostWire on ladannut uuden tehokkuuspäivitys sinulle, mene eteenpäin ja kosketa OK-painiketta, jos haluat asentaa sen nyt.</string>
+    <string name="update_message">SnapLoad on ladannut uuden tehokkuuspäivitys sinulle, mene eteenpäin ja kosketa OK-painiketta, jos haluat asentaa sen nyt.</string>
     <string name="days_left">päiviä jäljellä</string>
     <string name="media_player_failed">Mediasoitin epäonnistui</string>
     <string name="six_months">6 kuukautta</string>
@@ -364,7 +364,7 @@
     <string name="seeding_keeps_the_network_healthy">Kylvö auttaa pitämään verkon terveinä</string>
     <string name="seeding_is_currently_disabled">Kylvö on tällä hetkellä poissa käytöstä</string>
     <string name="could_not_open_transfer_detail_invalid_infohash">Tiedonsiirto-tietoja ei voi avata, virheellinen InfoHash</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire ei voinut käynnistää kunnolla oikeuksien puutteen takia. Anna tarvittavat käyttöoikeudet ja käynnistä sovellus uudelleen</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad ei voinut käynnistää kunnolla oikeuksien puutteen takia. Anna tarvittavat käyttöoikeudet ja käynnistä sovellus uudelleen</string>
     <string name="vpn_find_out_more">Lue lisää</string>
     <string name="vpn_suggestion_nordvpn">NORDVPN \n Ilmainen 7 päivän kokeilu</string>
     <string name="uploaded">Lähettänyt</string>

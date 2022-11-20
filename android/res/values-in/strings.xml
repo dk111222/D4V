@@ -42,7 +42,7 @@
     <string name="rename">Ubah Nama</string>
     <string name="download">Mengunduh</string>
     <string name="update_title">Perbarui Waktu!</string>
-    <string name="update_message">FrostWire telah mengunduh PEMBARUAN PENAMPILAN baru untuk Anda, silahkan teruskan dan sentuh tombol OK bila Anda ingin menginstalnya sekarang.</string>
+    <string name="update_message">SnapLoad telah mengunduh PEMBARUAN PENAMPILAN baru untuk Anda, silahkan teruskan dan sentuh tombol OK bila Anda ingin menginstalnya sekarang.</string>
     <string name="privacy">Tentang</string>
     <string name="send_file_using">Kirim Arsip dengan Menggunakan</string>
     <string name="downloads">Muat turun</string>
@@ -122,7 +122,7 @@
     <string name="seeding_settings">Pengaturan Seeding</string>
     <string name="seeding_settings_explanation">Para pengguna BitTorrent di internet akan bisa mengunduh potongan arsip-arsip dari data seed torrent Anda.</string>
     <string name="seeding_wifi_settings_explanation">Hanya seed ketika menggunakan koneksi WiFi. Hindari biaya tambahan dari operator Anda</string>
-    <string name="intent_text">FrostWire adalah program dari peer ke peer untuk berbagi arsip-arsip sah saja. Menginstal dan menggunakan program ini bukanlah lisensi untuk mendapatkan atau mendistribusikan konten yang tidak sah.</string>
+    <string name="intent_text">SnapLoad adalah program dari peer ke peer untuk berbagi arsip-arsip sah saja. Menginstal dan menggunakan program ini bukanlah lisensi untuk mendapatkan atau mendistribusikan konten yang tidak sah.</string>
     <string name="accept_intent">Saya tidak akan menggunakan FrostWire untuk pelanggaran hak cipta.</string>
     <string name="toast_on_disconnect">Terputus dari BitTorrent. Semua pemindahan BitTorrent telah dihentikan.</string>
     <string name="seeds">Seed</string>
@@ -140,7 +140,7 @@
     <string name="request_again">Meminta lagi</string>
     <string name="clear_search_cache">Jelas search cache</string>
     <string name="drawer_close">Tutup laci navigasi</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire adalah peramban berkas dan downloader aplikasi, oleh karena itu perlu untuk dapat mengakses disk Anda.\n\nTanpa izin Anda FrostWire tidak bisa bekerja.\n\nIngin mencoba lagi?</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad adalah peramban berkas dan downloader aplikasi, oleh karena itu perlu untuk dapat mengakses disk Anda.\n\nTanpa izin Anda FrostWire tidak bisa bekerja.\n\nIngin mencoba lagi?</string>
     <string name="unprotected_connection">tak terlindung</string>
     <string name="transfers_context_menu_copy_magnet_copied">Magnet disalin ke papan klip</string>
     <string name="buy_uppercase">MEMBELI</string>
@@ -185,7 +185,7 @@
     <string name="transfers_select_completed">lengkap</string>
     <string name="transfers_context_menu_pause_stop_all_transfers">Jeda/Hentikan semua transfer</string>
     <string name="transfers_select_downloading">downloading</string>
-    <string name="frostwire_features">FROSTWIRE KARAKTERISTIK</string>
+    <string name="frostwire_features">SnapLoad KARAKTERISTIK</string>
     <string name="i_have_read_and_agree_to_the">Saya telah membaca dan setuju dengan</string>
     <string name="scanning">Finishing - Scanning</string>
     <string name="according_to_settings_i_cant_seed_unless_wifi">Sesuai dengan pengaturan saya tidak bisa memulai penyemaian kecuali Anda berada di Wi-Fi. File akan siap untuk penyemaian secara otomatis ketika Anda kembali ke internet diaktifkan jaringan Wi-Fi.</string>
@@ -212,7 +212,7 @@
     <string name="crawl_cache_size">Crawl cache %1$.2fMB</string>
     <string name="pausing">Berhenti</string>
     <string name="dummy_title_bold">[Judul Bold]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire tidak bisa menulis di jalan penyimpanan yang dipilih</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad tidak bisa menulis di jalan penyimpanan yang dipilih</string>
     <string name="processing_payment">Pembayaran pengolahan, menyegarkan dalam beberapa detik</string>
     <string name="my_music">Lagu saya</string>
     <string name="connection_header_title">Status koneksi VPN:</string>
@@ -247,7 +247,7 @@
     <string name="sd_permission_no_accessible_path">Jalan yang Anda pilih di SD tersebut tidak dapat diakses lagi. Tekan OK untuk memilih lagi.</string>
     <string name="canceling">Membatalkan</string>
     <string name="issue_with_tip_donation_uri">Ada sesuatu yang salah dengan alamat web sumbangan</string>
-    <string name="frostwire_is_running">FrostWire berjalan</string>
+    <string name="frostwire_is_running">SnapLoad berjalan</string>
     <string name="http_download_status_save_dir_error">Hemat direktori tidak ada atau tidak dapat dibuat</string>
     <string name="select_option_below">Pilih opsi di bawah ini:</string>
     <string name="device_storage">Perangkat penyimpanan</string>
@@ -383,7 +383,7 @@
     <string name="speed_limits">Batas kecepatan</string>
     <string name="created_on">Dibuat pada</string>
     <string name="number_of_files">Jumlah file</string>
-    <string name="frostwire_start_engine_service_security_exception">FrostWire tidak dapat memulai dengan benar karena kurangnya izin. Berikan izin yang diperlukan dan mulai ulang aplikasi</string>
+    <string name="frostwire_start_engine_service_security_exception">SnapLoad tidak dapat memulai dengan benar karena kurangnya izin. Berikan izin yang diperlukan dan mulai ulang aplikasi</string>
     <string name="pieces_header">Potongan:</string>
     <string name="share_ratio">Bagikan rasio</string>
     <string name="edit_tracker">Edit pelacak</string>

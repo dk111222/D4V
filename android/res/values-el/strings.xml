@@ -197,7 +197,7 @@
     <string name="all_free_downloads">Όλα τα δωρεάν downloads</string>
     <string name="torrent_max_peers">Max Peers</string>
     <string name="request_again">Ζητήστε πάλι</string>
-    <string name="why_we_need_storage_permissions_summary">FrostWire είναι ένα πρόγραμμα περιήγησης αρχείων και κατέβασα την εφαρμογή, ως εκ τούτου, πρέπει να είναι σε θέση να έχουν πρόσβαση στο δίσκο σας.\n\nΧωρίς δικαιώματα σας FrostWire δεν μπορεί να λειτουργήσει.\n\nΘέλετε να δοκιμάσετε ξανά;</string>
+    <string name="why_we_need_storage_permissions_summary">SnapLoad είναι ένα πρόγραμμα περιήγησης αρχείων και κατέβασα την εφαρμογή, ως εκ τούτου, πρέπει να είναι σε θέση να έχουν πρόσβαση στο δίσκο σας.\n\nΧωρίς δικαιώματα σας FrostWire δεν μπορεί να λειτουργήσει.\n\nΘέλετε να δοκιμάσετε ξανά;</string>
     <string name="unprotected_connection">απροστάτευτος</string>
     <string name="transfers_context_menu_copy_magnet_copied">Μαγνήτης αντιγραφεί στο πρόχειρο</string>
     <string name="buy_uppercase">ΑΓΟΡΆ</string>
@@ -237,7 +237,7 @@
     <string name="remove_ads_description">Απολαύστε το χωρίς διαφημίσεις εμπειρία, υποστηρίζουν FrostWire</string>
     <string name="pausing">Παύση</string>
     <string name="dummy_title_bold">[τολμηρό τίτλο]</string>
-    <string name="storage_picker_treeuri_cant_write">FrostWire δεν μπορεί να γράψει για την επιλεγμένη διαδρομή αποθήκευσης</string>
+    <string name="storage_picker_treeuri_cant_write">SnapLoad δεν μπορεί να γράψει για την επιλεγμένη διαδρομή αποθήκευσης</string>
     <string name="processing_payment">την επεξεργασία των πληρωμών, να ανανεώσετε σε λίγα δευτερόλεπτα</string>
     <string name="my_music">Η μουσική μου</string>
     <string name="connection_header_title">Κατάσταση σύνδεσης VPN:</string>
@@ -262,7 +262,7 @@
     <string name="sd_permission_no_accessible_path">Η διαδρομή που έχετε επιλέξει στην SD δεν είναι προσβάσιμη πια. Πατήστε OK για να επιλέξετε και πάλι.</string>
     <string name="canceling">ακύρωση</string>
     <string name="issue_with_tip_donation_uri">Υπάρχει κάποιο πρόβλημα με τη διεύθυνση web δωρεά</string>
-    <string name="frostwire_is_running">FrostWire είναι σε λειτουργία</string>
+    <string name="frostwire_is_running">SnapLoad είναι σε λειτουργία</string>
     <string name="http_download_status_save_dir_error">Αποθήκευση κατάλογος δεν υπάρχει ή δεν μπορεί να δημιουργηθεί</string>
     <string name="select_option_below">Επιλέξτε από τις παρακάτω επιλογές:</string>
     <string name="use_limetorrents">Χρήση Limetorrents</string>

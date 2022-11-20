@@ -117,7 +117,7 @@
     <string name="wizard_previous">السابق</string>
     <string name="wizard_next">التالي</string>
     <string name="wizard_finish">انهاء</string>
-    <string name="welcome_to_frostwire">FrostWire %s مرحباً بك في </string>
+    <string name="welcome_to_frostwire">SnapLoad %s مرحباً بك في </string>
     <string name="seeding_settings">إعدادات المشاركة</string>
     <string name="seeding_settings_explanation">.سوف يتمكن مستخدمي بت تورينت على الإنترنت من تنزيل أجزاء بيانات ملف التورنت المشارك الخاص بك</string>
     <string name="seeding_wifi_settings_explanation">.شارك فقط عند استخدام شبكة الواي فاي. وتجنب أي رسوم إضافية من شركة الاتصال</string>
@@ -131,7 +131,7 @@
     <string name="playing">جاري التشغيل</string>
     <string name="http_download_status_uncompressing">جاري فك الضغط</string>
     <string name="accept">قبول</string>
-    <string name="support_frostwire">FrostWire ادعم </string>
+    <string name="support_frostwire">SnapLoad ادعم </string>
     <string name="storage_preference_title">اختر مكان التخزين</string>
     <string name="storage_preference_summary">مكان التخزين الافتراضي حيث تحفظ ملفات التنزيل</string>
     <string name="loading">جاري العرض</string>
