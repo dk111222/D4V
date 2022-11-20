@@ -116,6 +116,10 @@ public class PromotionsView extends LinearLayout {
             if (gridview == null || gridview.getAdapter() == null) {
                 return;
             }
+            if (!(gridview.getAdapter() instanceof  PromotionsAdapter)) {
+                return;
+            }
+
             PromotionsAdapter promoAdapter = (PromotionsAdapter) gridview.getAdapter();
             if ((Constants.IS_GOOGLE_PLAY_DISTRIBUTION || PlayStore.available()) && position == 0) {
                 promoAdapter.onSpecialOfferClick();
