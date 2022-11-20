@@ -156,7 +156,7 @@
         </activity>
         <activity
                 android:name="com.frostwire.d4v.gui.activities.AboutActivity"
-                android:label="@string/about" />
+                android:label="@string/privacy" />
         <activity
                 android:name="com.frostwire.d4v.gui.activities.PreviewPlayerActivity"
                 android:configChanges="screenSize"
@@ -169,6 +169,10 @@
         <activity
                 android:name="com.frostwire.d4v.gui.activities.TransferDetailActivity"
                 android:label="@string/title_activity_transfer_detail" />
+
+        <activity
+            android:name="com.frostwire.d4v.gui.activities.PrivacyActivity"
+            android:label="@string/title_activity_transfer_detail" />
 
         <!-- apollo activities -->
         <activity

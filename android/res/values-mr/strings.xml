@@ -354,7 +354,7 @@
     <string name="show_torrent_details">टॉरेंट तपशील दर्शवा</string>
     <string name="type_to_filter_results">परिणाम फिल्टर करण्यासाठी टाइप करा</string>
     <string name="file_descriptor_sd_unmounted">ही फाईल SD कार्डच्या मालकीची आहे, कृपया ती आपल्या डिव्हाइसवर घाला.</string>
-    <string name="about">विषयी</string>
+    <string name="privacy">विषयी</string>
     <string name="seeds">बियाणे</string>
     <string name="according_to_settings_i_cant_seed_due_to_data_savings">आपल्या सेटिंग्ज नुसार मी डेटा बचत मुळे Wi-Fi वर नाही तोपर्यंत मी बीजन सुरू करू शकत नाही. जेव्हा आपण इंटरनेट सक्षम Wi-Fi नेटवर्कवर परत येता तेव्हा फाइल आपोआप बीजारोपण करण्यास तयार होईल.</string>
     <string name="or">किंवा</string>

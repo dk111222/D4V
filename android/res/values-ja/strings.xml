@@ -43,7 +43,7 @@
     <string name="download">ダウンロード</string>
     <string name="update_title">アップデートの時間!</string>
     <string name="update_message">FrostWireが新しいパフォーマンスアップデートをダウンロードしました。今すぐインストールする場合は、OKボタンを押して下さい。</string>
-    <string name="about">FrostWireについて</string>
+    <string name="privacy">FrostWireについて</string>
     <string name="send_file_using">以下を使用してファイルを送信する</string>
     <string name="downloads">ダウンロード</string>
     <string name="settings">設定</string>

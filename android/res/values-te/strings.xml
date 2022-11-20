@@ -351,7 +351,7 @@
     <string name="show_torrent_details">టొరెంట్ వివరాలు చూపించు</string>
     <string name="type_to_filter_results">ఫిల్టర్ ఫలితాల కోసం టైప్ చేయండి.</string>
     <string name="file_descriptor_sd_unmounted">ఈ ఫైల్ SD కార్డుకు చెందినది, దయచేసి మీ పరికరంలో దాన్ని చొప్పించండి.</string>
-    <string name="about">గురించి</string>
+    <string name="privacy">గురించి</string>
     <string name="seeds">విత్తనాలు</string>
     <string name="according_to_settings_i_cant_seed_due_to_data_savings">మీ సెట్టింగుల ప్రకారం మీరు డేటా పొదుపు వలన Wi-Fi లో ఉన్నట్లయితే నేను నాటడం ప్రారంభించలేను. మీరు ఇంటర్నెట్ ఎనేబుల్ చేయబడిన Wi-Fi నెట్వర్క్కు తిరిగి వచ్చినప్పుడు స్వయంచాలకంగా సీడింగ్ కోసం ఫైల్ సిద్ధంగా ఉంటుంది.</string>
     <string name="or">లేదా</string>

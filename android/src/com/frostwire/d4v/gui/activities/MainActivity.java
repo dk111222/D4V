@@ -124,6 +124,7 @@ public class MainActivity extends AbstractActivity implements
 
     public MainActivity() {
         super(R.layout.activity_main);
+
         controller = new MainController(this);
         fragmentsStack = new Stack<>();
         permissionsCheckers = initPermissionsCheckers();
@@ -398,6 +399,11 @@ public class MainActivity extends AbstractActivity implements
         setTheme(R.style.Theme_SnapLoad);
         super.onCreate(savedInstanceState);
         lastInstance = this;
+
+        if (!PrivacyActivity.isPrivacyAgreed(this)) {
+            PrivacyActivity.show(this);
+            finish();
+        }
     }
 
     private void checkExternalStoragePermissions() {

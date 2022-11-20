@@ -33,7 +33,7 @@
     <string name="deselect_all">Deselect All</string>
     <string name="update_title">Update time!</string>
     <string name="update_message">SnapLoad has downloaded a new PERFORMANCE UPDATE for you, please go ahead and touch the OK button if you want to install it now.</string>
-    <string name="about">About</string>
+    <string name="privacy">Privacy agreement</string>
     <string name="remove_ads">Remove Ads</string>
     <string name="remove_ads_description">Enjoy the ad-free experience, support SnapLoad</string>
     <string name="send_file_using">Send file using</string>

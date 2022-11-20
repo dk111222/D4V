@@ -283,7 +283,7 @@
     <string name="send_tip_donation">שלח תרומה</string>
     <string name="type_to_filter_results">סוג לסינון תוצאות.</string>
     <string name="file_descriptor_sd_unmounted">קובץ זה שייך לכרטיס SD, הכנס אותו במכשיר שלך.</string>
-    <string name="about">על אודות</string>
+    <string name="privacy">על אודות</string>
     <string name="seeds">Seeds</string>
     <string name="cheaper_than_beer">זול יותר מאשר באר</string>
     <string name="rating_reminder_description">אם אתה אוהב FrostWire בבקשה לקחת רגע כדי לדרג אותנו.</string>

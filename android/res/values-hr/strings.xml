@@ -41,7 +41,7 @@
     <string name="download">Preuzmi</string>
     <string name="update_title">Vrijeme je za nadogradnju!</string>
     <string name="update_message">FrostWire je preuzeo novu nadogradnju za performanse, molimo kliknite OK gumb ukoliko ga želite preuzeti sada.</string>
-    <string name="about">O FrostWire-u</string>
+    <string name="privacy">O FrostWire-u</string>
     <string name="send_file_using">Poslati datoteku koristeći</string>
     <string name="downloads">Preuzimanja</string>
     <string name="settings">Postavke</string>

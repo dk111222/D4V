@@ -283,7 +283,7 @@
     <string name="send_tip_donation">Skicka donation</string>
     <string name="type_to_filter_results">Skriv för att filtrera resultaten.</string>
     <string name="file_descriptor_sd_unmounted">Denna fil tillhör ett SD-kort, för in den på enheten.</string>
-    <string name="about">Handla om</string>
+    <string name="privacy">Handla om</string>
     <string name="seeds">Seeds</string>
     <string name="cheaper_than_beer">Billigare än öl</string>
     <string name="rating_reminder_description">Om du älskar FrostWire ta en stund för att betygsätta oss.</string>

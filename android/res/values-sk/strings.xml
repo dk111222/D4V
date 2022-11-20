@@ -276,7 +276,7 @@
     <string name="send_tip_donation">Nahrávanie požiadavku</string>
     <string name="type_to_filter_results">Napíšte filtrovať výsledky.</string>
     <string name="file_descriptor_sd_unmounted">Tento súbor patrí na SD kartu, vložte ju prosím vo svojom zariadení.</string>
-    <string name="about">O aplikácii</string>
+    <string name="privacy">O aplikácii</string>
     <string name="seeds">Semená</string>
     <string name="cheaper_than_beer">Lacnejšie ako pivo</string>
     <string name="rating_reminder_description">Ak máte radi FrostWire prosím, chvíľku nám sadzby.</string>

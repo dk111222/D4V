@@ -281,7 +281,7 @@
     <string name="send_tip_donation">Lähetä lahjoitus</string>
     <string name="type_to_filter_results">Kirjoita suodattaa tuloksia.</string>
     <string name="file_descriptor_sd_unmounted">Tämä tiedosto kuuluu SD-kortille, laita sen laitteeseen.</string>
-    <string name="about">Tietoja</string>
+    <string name="privacy">Tietoja</string>
     <string name="seeds">Seeds</string>
     <string name="cheaper_than_beer">Halvempi kuin olut</string>
     <string name="rating_reminder_description">Jos rakastat FrostWire Käytä hetki rate meille.</string>

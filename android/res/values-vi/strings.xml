@@ -44,7 +44,7 @@
     <string name="download">Tải về</string>
     <string name="update_title">Cập nhật thời gian!</string>
     <string name="update_message">FrostWire đã tải về một bản cập nhật mới cho bạn, vui lòng tiếp tục và nhấn vào nút OK nếu bạn muốn cài đặt nó ngay bây giờ.</string>
-    <string name="about">Giới thiệu</string>
+    <string name="privacy">Giới thiệu</string>
     <string name="send_file_using">Gửi tập tin đang dùng</string>
     <string name="downloads">Tải xuống</string>
     <string name="settings">Tùy chọn</string>

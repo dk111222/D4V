@@ -68,11 +68,12 @@
         <Preference
             android:fragment="com.frostwire.d4v.gui.fragments.preference.OtherFragment"
             android:title="@string/notification_other_header" />
-<!--        <Preference android:title="@string/about">-->
-<!--            <intent-->
-<!--                android:action="android.intent.action.VIEW"-->
-<!--                android:targetClass="com.frostwire.d4v.gui.activities.AboutActivity"-->
-<!--                android:targetPackage="com.frostwire.d4v" />-->
-<!--        </Preference>-->
+        <Preference android:title="@string/privacy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.frostwire.d4v.gui.activities.PrivacyActivity"
+                android:targetPackage="com.frostwire.d4v" />
+        </Preference>
+
     </PreferenceCategory>
 </PreferenceScreen>

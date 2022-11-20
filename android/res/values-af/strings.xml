@@ -322,7 +322,7 @@
     <string name="unprotected_connection">onbeskermde</string>
     <string name="type_to_filter_results">Tik om resultate te filter.</string>
     <string name="file_descriptor_sd_unmounted">Hierdie lêer behoort aan \'n SD-kaart, plaas dit asseblief op u toestel.</string>
-    <string name="about">Oor</string>
+    <string name="privacy">Privacy agreement</string>
     <string name="seeds">Sade</string>
     <string name="according_to_settings_i_cant_seed_due_to_data_savings">Volgens jou instellings kan ek nie saai nie, tensy jy op Wi-Fi is as gevolg van data besparing. Die lêer sal gereed wees om outomaties te saai wanneer u terugkom na \'n internet-geaktiveerde Wi-Fi-netwerk.</string>
     <string name="or">of</string>

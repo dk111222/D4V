@@ -269,7 +269,7 @@
     <string name="send_tip_donation">Надіслати пожертвування</string>
     <string name="type_to_filter_results">Введіть текст для фільтрації результатів.</string>
     <string name="file_descriptor_sd_unmounted">Цей файл належить до SD-карті, будь ласка, вставте його на пристрої.</string>
-    <string name="about">Про програму</string>
+    <string name="privacy">Про програму</string>
     <string name="seeds">Насіння</string>
     <string name="cheaper_than_beer">Дешевше, ніж пиво</string>
     <string name="rating_reminder_description">Якщо ви любите FrostWire ласка, знайдіть час, щоб оцінити нас.</string>

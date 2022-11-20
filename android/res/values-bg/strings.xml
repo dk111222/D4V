@@ -276,7 +276,7 @@
     <string name="send_tip_donation">Изпратете дарение</string>
     <string name="type_to_filter_results">Тип да филтрирате резултатите.</string>
     <string name="file_descriptor_sd_unmounted">Този файл принадлежи на SD карта, моля въведете го в устройството си.</string>
-    <string name="about">Относно</string>
+    <string name="privacy">Относно</string>
     <string name="seeds">Семена</string>
     <string name="cheaper_than_beer">По-евтини, отколкото бира</string>
     <string name="rating_reminder_description">Ако обичате FrostWire моля, отделете малко време, за да ни оцените.</string>

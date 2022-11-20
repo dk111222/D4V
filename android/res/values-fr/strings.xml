@@ -44,7 +44,7 @@
     <string name="download">Téléchargement</string>
     <string name="update_title">Actualiser l\'heure!</string>
     <string name="update_message">FrostWire vous a téléchargé une nouvelle MISE A JOUR DE PERFORMANCE, veuillez toucher le bouton OK pour l’installer maintenant.</string>
-    <string name="about">À propos</string>
+    <string name="privacy">À propos</string>
     <string name="send_file_using">Envoyer le ficher avec</string>
     <string name="downloads">Téléchargements</string>
     <string name="settings">Préférences</string>

@@ -43,7 +43,7 @@
     <string name="download">Κατέβασε</string>
     <string name="update_title">Ώρα για ενημέρωση!</string>
     <string name="update_message">Το FrostWire κατέβασε για σένα μία ΠΙΟ ΓΡΗΓΟΡΗ ΕΝΗΜΕΡΩΣΗ. Άγγιξε το OK για να την εγκαταστήσεις τώρα.</string>
-    <string name="about">Πληροφορίες</string>
+    <string name="privacy">Πληροφορίες</string>
     <string name="send_file_using">Αποστολή αρχείου χρησιμοποιώντας</string>
     <string name="downloads">Λήψεις</string>
     <string name="settings">Προτιμήσεις</string>

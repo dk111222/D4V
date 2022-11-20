@@ -43,7 +43,7 @@
     <string name="download">Pobierz</string>
     <string name="update_title">Czas Aktualizacji!</string>
     <string name="update_message">FrostWire pobrał nową AKTUALIZACJĘ WYDAJNOŚCI, proszę przejść dalej i kliknąć przycisk OK, jeśli chcesz ją teraz zainstalować.</string>
-    <string name="about">O nas</string>
+    <string name="privacy">O nas</string>
     <string name="send_file_using">Wyślij plik za pomocą</string>
     <string name="downloads">Pliki do pobrania</string>
     <string name="settings">Ustawienia</string>

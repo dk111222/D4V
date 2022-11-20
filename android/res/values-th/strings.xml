@@ -276,7 +276,7 @@
     <string name="send_tip_donation">ส่งเงินบริจาค</string>
     <string name="type_to_filter_results">พิมพ์เพื่อกรองผลการค้นหา</string>
     <string name="file_descriptor_sd_unmounted">ไฟล์นี้เป็นการ์ด SD โปรดใส่บนอุปกรณ์ของคุณ</string>
-    <string name="about">เกี่ยวกับ</string>
+    <string name="privacy">เกี่ยวกับ</string>
     <string name="seeds">เมล็ดพันธุ์พืช</string>
     <string name="cheaper_than_beer">ราคาถูกกว่าเบียร์</string>
     <string name="rating_reminder_description">ถ้าคุณรัก FrostWire โปรดใช้เวลาสักครู่ให้คะแนนเรา</string>
