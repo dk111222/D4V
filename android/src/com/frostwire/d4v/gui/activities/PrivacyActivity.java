@@ -5,14 +5,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceManager;
 
 import com.frostwire.d4v.R;
 import com.frostwire.d4v.gui.fragments.PrivacyFragment;
-import com.tvc.network.utils.NetworkUtils;
 
 /**
  * 搜索界面
