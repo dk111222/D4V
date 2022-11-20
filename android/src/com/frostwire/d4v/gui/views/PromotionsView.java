@@ -81,7 +81,11 @@ public class PromotionsView extends LinearLayout {
                 removeAds(slides);
             }
             destroyPromotionsBanner();
-            gridview.setAdapter(new DhtPromotionsAdapter(gridview.getContext(), slides, promotionDownloader));
+            if (!slides.isEmpty() && slides.get(0).method == Slide.DOWNLOAD_METHOD_DHT_TORRENT) {
+                gridview.setAdapter(new DhtPromotionsAdapter(gridview.getContext(), slides, promotionDownloader));
+            } else {
+                gridview.setAdapter(new PromotionsAdapter(gridview.getContext(), slides, promotionDownloader));
+            }
             gridview.invalidate();
         }
     }

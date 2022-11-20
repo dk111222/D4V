@@ -78,8 +78,16 @@ public class DhtPromotionsAdapter extends AbstractAdapter<Slide> {
         TextView size = findView(convertView, R.id.size);
         name.setText(viewItem.dhtData.getName());
         time.setText(viewItem.dhtData.getAtime());
-        reqs.setText("Hot:" +viewItem.dhtData.getRegs());
+        reqs.setText("Hot: " +viewItem.dhtData.getRegs());
         size.setText(AppUtils.toConvertSize(viewItem.dhtData.getSize()));
+
+        TextView position = findView(convertView, R.id.position);
+        int posIdx = slides.indexOf(viewItem);
+        if (posIdx > 999)  {
+            position.setText("- 1000+ -");
+        } else {
+            position.setText("- " + (slides.indexOf(viewItem) +1) +" -");
+        }
 
         TextView download = findView(convertView, R.id.view_promotions_item_download_textview);
         final Slide theSlide = viewItem;

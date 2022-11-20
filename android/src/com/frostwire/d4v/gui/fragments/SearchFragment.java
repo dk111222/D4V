@@ -179,7 +179,7 @@ public final class SearchFragment extends AbstractFragment implements
         List<Slide> sildes = new ArrayList<>();
         try {
             DhtInteractor dhtInteractor = DhtInteractor.getInstance();
-            Disposable disposable = dhtInteractor.btHashList( page, 800)
+            Disposable disposable = dhtInteractor.btHashList( page, 1200)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(result -> {
@@ -209,7 +209,7 @@ public final class SearchFragment extends AbstractFragment implements
         List<Slide> sildes = new ArrayList<>();
         try {
             DhtInteractor dhtInteractor = DhtInteractor.getInstance();
-            Disposable disposable = dhtInteractor.search(queryKey, 1, 500)
+            Disposable disposable = dhtInteractor.search(queryKey, 1, 600)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(result -> {

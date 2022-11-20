@@ -24,6 +24,7 @@
             android:id="@+id/name"
             style="@style/TextViewStyle.white15sp"
             android:singleLine="true"
+            android:layout_marginTop="4dp"
             android:text="She-Hulk.Attorney.at.Law.S01E06.WEB.x264-TORRENTGALAXY[TGx]"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -40,7 +41,7 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/reqs"
             style="@style/TextViewStyle.white12sp60"
-            android:layout_marginStart="12dp"
+            android:layout_marginStart="15dp"
             android:text="热度：12"
             app:layout_constraintStart_toEndOf="@+id/time"
             app:layout_constraintTop_toTopOf="@+id/time" />
@@ -48,22 +49,31 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/size"
             style="@style/TextViewStyle.white12sp60"
-            android:layout_marginStart="12dp"
+            android:layout_marginStart="15dp"
             android:text="10G"
             app:layout_constraintStart_toEndOf="@+id/reqs"
             app:layout_constraintTop_toTopOf="@+id/reqs" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/position"
+        style="@style/TextViewStyle.white10sp60"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_promotions_item_download_textview"
+        app:layout_constraintEnd_toStartOf="@+id/view_promotions_item_download_textview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view_promotions_item_download_textview" />
+
     <TextView
         android:id="@+id/view_promotions_item_download_textview"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="@color/basic_blue_highlight"
+        android:background="@drawable/bg_btn_conner15"
         android:clickable="false"
         android:drawablePadding="6dp"
-        android:paddingStart="4dp"
-        android:paddingEnd="6dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="16dp"
         android:gravity="center_vertical"
         android:layout_marginEnd="15dp"
         android:text="@string/download"
@@ -81,7 +91,7 @@
         android:layout_height="1dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="6dp"
         android:background="#21000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_promotions_item_download_textview"
