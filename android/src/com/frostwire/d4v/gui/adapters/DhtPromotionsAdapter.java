@@ -76,7 +76,7 @@ public class DhtPromotionsAdapter extends AbstractAdapter<Slide> {
         name.setText(viewItem.dhtData.getName());
         time.setText(viewItem.dhtData.getAtime());
         reqs.setText("Hot: " +viewItem.dhtData.getRegs());
-        size.setText(AppUtils.toConvertSize(viewItem.dhtData.getSize()));
+        size.setText(AppUtils.toConvertSize(viewItem.dhtData.getSize()/1024));
 
         TextView position = findView(convertView, R.id.position);
         int posIdx = slides.indexOf(viewItem);
