@@ -52,13 +52,6 @@ def manifestVersionName() {
 }
 
 def changeApkOutput(variant) {
-//    def flavor = 'unknown'
-//    if (variant.productFlavors[0].name == "basic") {
-//        flavor = 'basic'
-//    } else if (variant.productFlavors[0].name == "plus1") {
-//        flavor = 'plus'
-//    }
-    // dht.keystore - dht123456
     def suffix = project.ext.versionName + '-b' + project.ext.versionCode
     def name = "SnapLoad" + variant.buildType.name + '-' + suffix
 
@@ -78,8 +71,6 @@ def changeApkOutput(variant) {
 
 project.ext.versionCode = manifestVersionCode()
 project.ext.versionName = manifestVersionName()
-
-boolean isAssembleRelease = gradle.startParameter.taskNames.contains("assembleRelease") || gradle.startParameter.taskNames.contains("assemblePlus1Release")
 
 android {
 
@@ -152,16 +143,12 @@ android {
 
     flavorDimensions "classicApp"
 
-    productFlavors {
-        basic {
-            versionCode 10 + project.ext.versionCode
-            resValue "string", "application_label", "SnapLoad"
-        }
-        plus1 {
-            versionCode 10 + project.ext.versionCode
-            resValue "string", "application_label", "SnapLoad Plus"
-        }
-    }
+//    productFlavors {
+//        plus {
+//            versionCode 10 + project.ext.versionCode
+//            resValue "string", "application_label", "SnapLoad Plus"
+//        }
+//    }
     lint {
         abortOnError false
     }
@@ -324,11 +311,7 @@ class SignatureRequester {
         this.myKeyPassword
     }
 }
-
-task deployBasic(type: DeployRelease) {
-    flavor = 'basic'
-}
-
-task deployPlus(type: DeployRelease) {
-    flavor = 'plus'
-}
+//
+//task deployPlus(type: DeployRelease) {
+//    flavor = 'plus'
+//}

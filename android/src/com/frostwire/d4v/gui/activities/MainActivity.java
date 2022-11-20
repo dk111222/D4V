@@ -362,9 +362,9 @@ public class MainActivity extends AbstractActivity implements
         updateNavigationMenu();
         //uncomment to test social links dialog
         //UIUtils.showSocialLinksDialog(this, true, null, "");
-        if (CM.getBoolean(Constants.PREF_KEY_GUI_TOS_ACCEPTED)) {
+//        if (CM.getBoolean(Constants.PREF_KEY_GUI_TOS_ACCEPTED)) {
             checkExternalStoragePermissions();
-        }
+//        }
         async(NetworkManager.instance(), NetworkManager::queryNetworkStatusBackground);
 
         if (!PrivacyActivity.isPrivacyAgreed(this)) {

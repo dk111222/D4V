@@ -43,6 +43,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
 import com.frostwire.d4v.BuildConfig;
 import com.frostwire.d4v.R;
 import com.frostwire.d4v.core.ConfigurationManager;
@@ -511,6 +513,11 @@ public final class SearchFragment extends AbstractFragment implements
         searchInput.updateFileTypeCounter(Constants.FILE_TYPE_VIDEOS, fsr.numVideo);
     }
 
+    @Override
+    public boolean shouldShowRequestPermissionRationale(@NonNull String permission) {
+        return super.shouldShowRequestPermissionRationale(permission);
+    }
+
     private void cancelSearch() {
         SystemUtils.ensureUIThreadOrCrash("SearchFragment::cancelSearch");
         postToHandler(SEARCH_PERFORMER, () -> LocalSearchEngine.instance().cancelSearch());
@@ -521,7 +528,7 @@ public final class SearchFragment extends AbstractFragment implements
         refreshFileTypeCounters(false, fileTypeCounter.fsr);
         currentQuery = null;
         searchProgress.setProgressEnabled(false);
-        showRatingsReminder(getView());
+//        showRatingsReminder(getView());
         showSearchView(getView());
 
         // load main host data

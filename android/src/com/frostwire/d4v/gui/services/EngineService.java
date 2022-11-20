@@ -29,6 +29,7 @@ import android.content.SharedPreferences;
 import android.os.Binder;
 import android.os.Build;
 import android.os.IBinder;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -161,11 +162,13 @@ public class EngineService extends JobIntentService implements IEngineService {
     public synchronized void startServices(boolean wasShutdown) {
         LOG.info("startServices(wasShutdown=" + wasShutdown + ")", true);
         // hard check for TOS
-        if (!ConfigurationManager.instance().getBoolean(Constants.PREF_KEY_GUI_TOS_ACCEPTED)) {
-            return;
-        }
+//        if (!ConfigurationManager.instance().getBoolean(Constants.PREF_KEY_GUI_TOS_ACCEPTED)) {
+//            LOG.info("startServices() - aborting, !PREF_KEY_GUI_TOS_ACCEPTED");
+//            return;
+//        }
 
         if (!SystemUtils.isPrimaryExternalStorageMounted()) {
+            LOG.info("startServices() - aborting, !isPrimaryExternalStorageMounted");
             return;
         }
 

@@ -22,6 +22,7 @@ import static com.frostwire.d4v.util.Asyncs.async;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.util.Log;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -57,7 +58,7 @@ import java.util.Collection;
  * @author aldenml
  */
 public final class ApplicationPreferencesFragment extends AbstractPreferenceFragment implements AbstractDialog.OnDialogClickListener {
-
+    private static final String TAG = "ApplicationPreferencesF";
     private static final Logger LOG = Logger.getLogger(ApplicationPreferencesFragment.class);
 
     private static final boolean INTERNAL_BUILD = BuildConfig.DEBUG;
@@ -209,6 +210,7 @@ public final class ApplicationPreferencesFragment extends AbstractPreferenceFrag
     }
 
     private void connect() {
+        Log.w(TAG, "connect: ");
         Engine.instance().startServices(); // internally this is an async call in libtorrent
         updateConnectSwitchStatus();
     }

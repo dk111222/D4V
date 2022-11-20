@@ -17,8 +17,6 @@
 
 package com.frostwire.d4v.core;
 
-import com.frostwire.d4v.BuildConfig;
-
 /**
  * Static class containing all constants in one place.
  *
@@ -29,8 +27,8 @@ import com.frostwire.d4v.BuildConfig;
 public final class Constants {
 
     /** isDevelopment */
-    public static final boolean IS_BASIC_AND_DEBUG = BuildConfig.FLAVOR.equals("basic") && BuildConfig.DEBUG;
-    public static final boolean IS_GOOGLE_PLAY_DISTRIBUTION = BuildConfig.FLAVOR.equals("basic");
+    public static final boolean IS_BASIC_AND_DEBUG = false;
+    public static final boolean IS_GOOGLE_PLAY_DISTRIBUTION = true;
 
     private static final String BUILD_PREFIX = !IS_GOOGLE_PLAY_DISTRIBUTION ? "1000" : "";
 
@@ -38,11 +36,11 @@ public final class Constants {
      * should manually match the manifest, here for convenience so we can ask for it from static contexts without
      * needing to pass the Android app context to obtain the PackageManager instance.
      */
-    public static final String FROSTWIRE_BUILD = BUILD_PREFIX + (BuildConfig.VERSION_CODE % 1000);
+    public static final String FROSTWIRE_BUILD = BUILD_PREFIX + 1;
 
     public static final String APP_PACKAGE_NAME = "com.frostwire.d4v";
 
-    public static final String FROSTWIRE_VERSION_STRING = BuildConfig.VERSION_NAME;
+    public static final String FROSTWIRE_VERSION_STRING = "1.0.0";
 
     public static final int JOB_ID_ENGINE_SERVICE = 10001;
     public static final int JOB_ID_MUSIC_PLAYBACK_SERVICE = 20001;

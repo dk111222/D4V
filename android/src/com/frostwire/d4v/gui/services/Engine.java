@@ -31,6 +31,7 @@ import android.net.ConnectivityManager;
 import android.os.Build;
 import android.os.IBinder;
 import android.telephony.TelephonyManager;
+import android.util.Log;
 
 import androidx.annotation.RequiresApi;
 import androidx.core.app.JobIntentService;
@@ -58,6 +59,7 @@ import java.util.concurrent.ExecutorService;
  */
 public final class Engine implements IEngineService {
 
+    private static final String TAG = "Engine";
     private static final Logger LOG = Logger.getLogger(Engine.class);
 
     private static final ExecutorService MAIN_THREAD_POOL = new EngineThreadPool();
@@ -197,6 +199,7 @@ public final class Engine implements IEngineService {
 
     @Override
     public void shutdown() {
+        Log.w(TAG, "shutdown: ");
         if (service != null) {
             if (connection != null) {
                 try {
@@ -222,12 +225,14 @@ public final class Engine implements IEngineService {
      * @param context This must be the application context, otherwise there will be a leak.
      */
     private void startEngineService(final Context context) {
+        Log.w(TAG, "startEngineService: " );
         Intent i = new Intent();
         i.setClass(context, EngineService.class);
         try {
             Engine.enqueueServiceJob(context, i);
             context.bindService(i, connection = new ServiceConnection() {
                 public void onServiceDisconnected(ComponentName name) {
+                    Log.w(TAG, "onServiceDisconnected");
                 }
 
                 public void onServiceConnected(ComponentName name, IBinder service) {
