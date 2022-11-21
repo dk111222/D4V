@@ -52,8 +52,8 @@ def manifestVersionName() {
 }
 
 def changeApkOutput(variant) {
-    def suffix = project.ext.versionName + '-b' + project.ext.versionCode
-    def name = "SnapLoad" + variant.buildType.name + '-' + suffix
+//    def suffix = project.ext.versionName + '-b' + project.ext.versionCode
+    def name = "SnapLoad-" + variant.buildType.name + '-' + project.ext.versionName
 
     variant.outputs.all { output ->
         outputFileName = name + '.apk'
