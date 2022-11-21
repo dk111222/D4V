@@ -130,16 +130,16 @@ public final class ApplicationPreferencesFragment extends AbstractPreferenceFrag
     }
 
     private void setupVPNRequirementOption() {
-        SwitchPreference preference = findPreference(Constants.PREF_KEY_NETWORK_BITTORRENT_ON_VPN_ONLY);
-        preference.setOnPreferenceChangeListener((preference1, newValue) -> {
-            boolean newVal = (boolean) newValue;
-            if (newVal && !NetworkManager.instance().isTunnelUp()) {
-                disconnect();
-                setChecked(findPreference("frostwire.prefs.internal.connect_disconnect"), false, false);
-                UIUtils.showShortMessage(getView(), R.string.switch_off_engine_without_vpn);
-            }
-            return true;
-        });
+//        SwitchPreference preference = findPreference(Constants.PREF_KEY_NETWORK_BITTORRENT_ON_VPN_ONLY);
+//        preference.setOnPreferenceChangeListener((preference1, newValue) -> {
+//            boolean newVal = (boolean) newValue;
+//            if (newVal && !NetworkManager.instance().isTunnelUp()) {
+//                disconnect();
+//                setChecked(findPreference("frostwire.prefs.internal.connect_disconnect"), false, false);
+//                UIUtils.showShortMessage(getView(), R.string.switch_off_engine_without_vpn);
+//            }
+//            return true;
+//        });
     }
 
     private void setupConnectSwitch() {
@@ -152,11 +152,12 @@ public final class ApplicationPreferencesFragment extends AbstractPreferenceFrag
                 UIUtils.showShortMessage(getView(), R.string.toast_on_disconnect);
             } else if (newStatus && (e.isStopped() || e.isDisconnected())) {
                 NetworkManager networkManager = NetworkManager.instance();
-                if (getPreferenceManager().getSharedPreferences().getBoolean(Constants.PREF_KEY_NETWORK_BITTORRENT_ON_VPN_ONLY, false) &&
-                        !networkManager.isTunnelUp()) {
-                    UIUtils.showShortMessage(getView(), R.string.cannot_start_engine_without_vpn);
-                    return false;
-                } else if (getPreferenceManager().getSharedPreferences().getBoolean(Constants.PREF_KEY_NETWORK_USE_WIFI_ONLY, false) &&
+//                if (getPreferenceManager().getSharedPreferences().getBoolean(Constants.PREF_KEY_NETWORK_BITTORRENT_ON_VPN_ONLY, false) &&
+//                        !networkManager.isTunnelUp()) {
+//                    UIUtils.showShortMessage(getView(), R.string.cannot_start_engine_without_vpn);
+//                    return false;
+//                } else
+                if (getPreferenceManager().getSharedPreferences().getBoolean(Constants.PREF_KEY_NETWORK_USE_WIFI_ONLY, false) &&
                         networkManager.isDataMobileUp()) {
                     UIUtils.showShortMessage(getView(), R.string.wifi_network_unavailable);
                     return false;

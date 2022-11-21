@@ -77,15 +77,16 @@ final class OnBittorrentConnectRunnable implements Runnable {
     }
 
     void onBittorrentConnect(Context context) {
-        if (ConfigurationManager.instance().getBoolean(Constants.PREF_KEY_NETWORK_BITTORRENT_ON_VPN_ONLY) &&
-                !NetworkManager.instance().isTunnelUp()) {
-            if (context instanceof Activity) {
-                UIUtils.showShortMessage(((Activity) context).getWindow().getDecorView().getRootView(), R.string.cannot_start_engine_without_vpn);
-            } else {
-                UIUtils.showShortMessage(context, R.string.cannot_start_engine_without_vpn);
-            }
-        } else {
-            Engine.instance().getThreadPool().execute(this);
-        }
+//        if (ConfigurationManager.instance().getBoolean(Constants.PREF_KEY_NETWORK_BITTORRENT_ON_VPN_ONLY) &&
+//                !NetworkManager.instance().isTunnelUp()) {
+//            if (context instanceof Activity) {
+//                UIUtils.showShortMessage(((Activity) context).getWindow().getDecorView().getRootView(), R.string.cannot_start_engine_without_vpn);
+//            } else {
+//                UIUtils.showShortMessage(context, R.string.cannot_start_engine_without_vpn);
+//            }
+//        } else {
+//            Engine.instance().getThreadPool().execute(this);
+//        }
+        Engine.instance().getThreadPool().execute(this);
     }
 }

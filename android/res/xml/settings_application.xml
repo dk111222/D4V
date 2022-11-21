@@ -39,10 +39,10 @@
             android:key="frostwire.prefs.network.use_wifi_only"
             android:summary="@string/wifi_networks_only_summary"
             android:title="@string/wifi_networks_only" />
-        <SwitchPreference
-            android:key="frostwire.prefs.network.bittorrent_on_vpn_only"
-            android:summary="@string/vpn_drop_protection_summary"
-            android:title="@string/vpn_drop_protection_title" />
+<!--        <SwitchPreference-->
+<!--            android:key="frostwire.prefs.network.bittorrent_on_vpn_only"-->
+<!--            android:summary="@string/vpn_drop_protection_summary"-->
+<!--            android:title="@string/vpn_drop_protection_title" />-->
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/search_torrent_settings">

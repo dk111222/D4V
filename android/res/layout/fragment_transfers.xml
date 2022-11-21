@@ -153,16 +153,16 @@
         android:background="@drawable/transfers_indicators_background">
 
         <!-- VPN status icon -->
-        <ImageView
-            android:id="@+id/fragment_transfers_status_vpn_icon"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_gravity="start|center_vertical"
-            android:layout_margin="10dp"
-            android:background="@color/transparent"
-            android:contentDescription="@null"
-            android:scaleType="fitXY"
-            android:src="@drawable/notification_vpn_off" />
+<!--        <ImageView-->
+<!--            android:id="@+id/fragment_transfers_status_vpn_icon"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_gravity="start|center_vertical"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="@color/transparent"-->
+<!--            android:contentDescription="@null"-->
+<!--            android:scaleType="fitXY"-->
+<!--            android:src="@drawable/notification_vpn_off" />-->
 
         <View
             android:layout_width="1px"
@@ -175,7 +175,7 @@
             style="@style/TransfersIndicator"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="5dp"
+            android:paddingStart="10dp"
             android:layout_weight="1.0"
             android:text="@string/dht_contacts"
             android:textStyle="bold" />

@@ -98,7 +98,7 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
     private TextView textDHTPeers;
     private TextView textDownloads;
     private TextView textUploads;
-    private ImageView vpnStatusIcon;
+//    private ImageView vpnStatusIcon;
     private TextView vpnRichToast;
     private ClearableEditTextView addTransferUrlTextView;
     private TransferStatus selectedStatus;
@@ -427,9 +427,9 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
     private void updateVPNButtonIfStatusChanged(boolean vpnActive) {
         boolean wasActiveBefore = isVPNactive && !vpnActive;
         isVPNactive = vpnActive;
-        if (vpnStatusIcon != null) {
-            vpnStatusIcon.setImageResource(vpnActive ? R.drawable.notification_vpn_on : R.drawable.notification_vpn_off);
-        }
+//        if (vpnStatusIcon != null) {
+//            vpnStatusIcon.setImageResource(vpnActive ? R.drawable.notification_vpn_on : R.drawable.notification_vpn_off);
+//        }
         if (wasActiveBefore) {
             showVPNRichToast();
         }
@@ -592,17 +592,17 @@ public class TransfersFragment extends AbstractFragment implements TimerObserver
     }
 
     private void initVPNStatusButton(View v) {
-        vpnStatusIcon = findView(v, R.id.fragment_transfers_status_vpn_icon);
-        vpnStatusIcon.setOnClickListener(v1 -> {
-            Context ctx = v1.getContext();
-            Intent i = new Intent(ctx, VPNStatusDetailActivity.class);
-            i.setAction(isVPNactive ?
-                            Constants.ACTION_SHOW_VPN_STATUS_PROTECTED :
-                            Constants.ACTION_SHOW_VPN_STATUS_UNPROTECTED).
-                    addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            i.putExtra("from", "transfers");
-            ctx.startActivity(i);
-        });
+//        vpnStatusIcon = findView(v, R.id.fragment_transfers_status_vpn_icon);
+//        vpnStatusIcon.setOnClickListener(v1 -> {
+//            Context ctx = v1.getContext();
+//            Intent i = new Intent(ctx, VPNStatusDetailActivity.class);
+//            i.setAction(isVPNactive ?
+//                            Constants.ACTION_SHOW_VPN_STATUS_PROTECTED :
+//                            Constants.ACTION_SHOW_VPN_STATUS_UNPROTECTED).
+//                    addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//            i.putExtra("from", "transfers");
+//            ctx.startActivity(i);
+//        });
     }
 
     private void setupAdapter(Context context) {
